@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Mechanic Legends Wiki - Cars, Tuning & Codes",
+  "short_name": "Mechanic Legends",
+  "description": "Mechanic Legends Wiki covers car builds, tuning guides, repair tips, parts, races, jobs, updates, codes, and Roblox gameplay help for every garage project.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#f77316",
   "background_color": "#0a0a0a",
   "icons": [
     {
