@@ -1,0 +1,177 @@
+import { Map, Target, Trophy, Wrench, Sparkles, ListChecks } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Trabalhos de Clientes em Mechanic Legends: Guia Completo e Dicas de Ganhos",
+  description: "Aprenda como funcionam os trabalhos de clientes em Mechanic Legends: aceite pedidos, diagnostique falhas, compre peças, conclua reparos e maximize os lucros da sua oficina.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/b45309/fff?text=Customer+Jobs+Guide",
+  date: "2026-10-30",
+  author: "Equipe Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Trabalhos de clientes** são o ciclo principal de renda em Mechanic Legends — aceite, diagnostique, repare, entregue.
+- **Diagnóstico primeiro**: inspecione o veículo e marque as peças com defeito antes de comprar qualquer coisa.
+- **A escolha do pedido importa**: no início, escolha trabalhos simples (freios, fluidos, velas) para acumular dinheiro rápido.
+- **Pontos de habilidade** aceleram o exame de peças e reduzem os preços da loja, aumentando o lucro por trabalho.
+- **Complete todos os trabalhos**: pedidos finalizados concedem dinheiro, XP e desbloqueios de reputação da oficina.
+</Callout>
+
+<Section icon={Wrench} title="Como Funcionam os Trabalhos de Clientes em Mechanic Legends">
+
+Os trabalhos de clientes são a espinha dorsal da sua oficina em Mechanic Legends. Um cliente chega com um problema — um motor batendo, freios gastos ou um barulho misterioso — e sua tarefa é deixar o veículo funcionando novamente em troca de um pagamento. Cada pedido informa de forma geral o que precisa de atenção, mas conforme você progride, o jogo te dá menos ajuda e espera que você faça seu próprio diagnóstico.
+
+O ciclo básico segue quatro etapas:
+
+| Etapa | O que Acontece | Ação Principal |
+|---|---|---|
+| 1. Aceitar | Escolha um pedido no quadro de trabalhos | Confirme que o veículo entra na sua oficina |
+| 2. Diagnosticar | Inspecione a tela de status do carro | Identifique e marque as peças com defeito |
+| 3. Reparar | Desmonte, substitua, remonte | Instale as novas peças corretamente |
+| 4. Entregar | Finalize o pedido | Receba dinheiro, XP e reputação |
+
+<Callout type="tip" title="Marque Cada Defeito">
+Antes de tocar em um único parafuso, abra a tela de status do carro e sinalize cada peça com defeito. O rastreamento destaca os componentes quebrados em azul durante a visão de reparo, então você nunca perde tempo caçando o último defeito escondido antes de finalizar um trabalho.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tipos de Trabalho e o Que Pagam">
+
+Nem todos os trabalhos de clientes são iguais. Os pedidos iniciais são trocas simples; trabalhos posteriores acumulam vários sistemas e exigem pedidos de peças cuidadosos. Entender as categorias ajuda você a escolher serviços que combinam com seu nível de habilidade e sua carteira.
+
+| Tipo de Trabalho | Dificuldade | Serviço Típico | Potencial de Lucro |
+|---|---|---|---|
+| Serviço de freios | Fácil | Pastilhas, discos, pinças | Baixo-Médio |
+| Trocas de fluidos e filtros | Fácil | Óleo, filtro de ar, velas | Baixo |
+| Serviço de suspensão | Médio | Molas, amortecedores, buchas | Médio |
+| Reparos de motor | Difícil | Juntas, tempo, componentes internos | Alto |
+| Trabalhos de câmbio | Difícil | Desmontagem e reconstrução completa | Alto |
+| Defeitos misteriosos | Variável | Exige diagnóstico de verdade | Médio-Alto |
+
+<CardGrid cols={3}>
+  <Card title="Trabalhos para Iniciantes">
+    - **Freios e fluidos**
+    - Entrega rápida
+    - Estoque de peças barato
+    - Ótimo para XP inicial
+  </Card>
+  <Card title="Trabalhos de Nível Intermediário">
+    - **Suspensão e direção**
+    - Várias peças por pedido
+    - Custos de peças moderados
+    - Crescimento de lucro constante
+  </Card>
+  <Card title="Trabalhos para Especialistas">
+    - **Reconstruções de motor e câmbio**
+    - Cadeias longas de reparo
+    - Pagamentos mais altos
+    - Exige investimento em pontos de habilidade
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Cuidado com os Defeitos Misteriosos">
+Alguns trabalhos de clientes posteriores não listam todos os problemas logo de início. Se o cliente relatar apenas "direção frouxa" ou "barulho estranho", faça uma inspeção completa primeiro — perder um defeito escondido significa que o pedido não pode ser concluído até você encontrá-lo.
+</Callout>
+
+</Section>
+
+<Section icon={ListChecks} title="Passo a Passo: Concluindo um Trabalho de Cliente">
+
+Siga este fluxo de trabalho todas as vezes e os trabalhos se tornarão uma segunda natureza.
+
+<Steps>
+  <Step num="1" title="Aceite o Pedido Certo">
+    Abra o menu de pedidos e revise a visão geral de cada trabalho. No início da sua jornada, escolha pedidos com listas de defeitos curtas e claramente listadas para aprender as mecânicas sem queimar dinheiro em erros caros.
+  </Step>
+  <Step num="2" title="Leve o Carro até o Elevador">
+    Destaque o veículo, abra o menu de interação e envie-o para o elevador automotivo. Colocar o carro na rampa dá acesso total para inspecionar a parte inferior e marcar cada peça com defeito.
+  </Step>
+  <Step num="3" title="Marque os Defeitos e Desmonte">
+    Sinalize cada componente quebrado na tela de status. Peças com defeito brilham em azul na visão de reparo; peças removíveis são destacadas em verde. Desmonte em camadas — muitas vezes você precisa remover uma roda ou painel antes de alcançar a peça-alvo.
+  </Step>
+  <Step num="4" title="Peça e Instale as Peças">
+    Use seu computador para comprar substituições, pesquisando pelo nome da peça para evitar rolagens. Adicione todas as peças necessárias à sua lista de anotações durante a inspeção para comprar tudo em uma única ida às compras, depois mude para o modo de montagem e instale.
+  </Step>
+  <Step num="5" title="Finalize e Receba">
+    Confirme que todos os defeitos rastreados aparecem como concluídos, revise o total de custos acumulados e os bônus, então finalize o pedido. O carro sai automaticamente e sua recompensa chega.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Lembrete do Modo de Montagem">
+Toda vez que você se afasta de um veículo e volta, o menu de interação volta para o modo de desmontagem por padrão. Antes de segurar o botão de ação, confirme se você está no modo de montagem de peças para instalar em vez de retirar peças que você acabou de substituir.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Maximizando o Lucro por Trabalho">
+
+Ganhar mais com os trabalhos de clientes é uma questão de eficiência, não apenas de volume. Pequenos hábitos se acumulam em uma renda séria para a oficina.
+
+| Tática de Lucro | Como Ajuda | Impacto |
+|---|---|---|
+| Compras de peças em lote | Menos idas às compras, menos tempo parado | ★★★★ |
+| Vender peças removidas | Componentes velhos ainda rendem valor de sucata | ★★ |
+| Ponto de habilidade: desconto na loja | 5%+ de desconto em cada peça comprada | ★★★★ |
+| Ponto de habilidade: exame mais rápido | Diagnóstico mais rápido em cada pedido | ★★★★ |
+| Expandir estoque de peças | Peças comuns à mão = reparos instantâneos | ★★★ |
+
+**Recomendações de habilidades iniciais:**
+
+- **Exame de peças mais rápido** — acelera todos os trabalhos pelo resto do jogo.
+- **Desconto na loja** — aumenta diretamente sua margem em cada pedido.
+- **Expansão de estoque** — mantenha itens de alto giro como discos de freio e filtros de óleo em estoque.
+
+<Callout type="warning" title="Não Venda Peças que Você Ainda Precisa">
+Peças quebradas servem como referência visual ao pedir substituições, e revender uma peça que você deveria reinstalar custa o preço cheio para comprar de volta. Só descarte componentes velhos depois que o pedido for finalizado.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Rotina Diária de Trabalhos">
+
+Execute este checklist em cada sessão de jogo para manter sua oficina funcionando e sua renda crescendo.
+
+<Checklist
+  id="daily-job-routine"
+  title="Rotina da Sessão:"
+  items={[
+    "Aceite 2-3 trabalhos de clientes adequados ao seu nível de habilidade",
+    "Inspecione e marque todos os defeitos antes de desmontar",
+    "Peça todas as peças de reposição em uma única compra",
+    "Complete todos os reparos rastreados e finalize os pedidos",
+    "Venda peças de sucata restantes e reabasteça o estoque comum",
+    "Gaste novos pontos de habilidade em descontos e velocidade"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "O que são trabalhos de clientes em Mechanic Legends?",
+    answer: "Trabalhos de clientes são pedidos de reparo feitos por clientes dentro do jogo. Você aceita um pedido, diagnostica as falhas do veículo, compra peças de reposição, conclui o reparo e devolve o carro em troca de dinheiro, XP e reputação."
+  },
+  {
+    question: "Por que não consigo finalizar um trabalho de cliente?",
+    answer: "A causa mais comum é um defeito não rastreado ou escondido. Reabra a tela de status do carro e compare a lista de defeitos com seus reparos concluídos. Trabalhos posteriores podem exigir etapas extras de diagnóstico além da lista inicial."
+  },
+  {
+    question: "Devo vender as peças velhas que removo?",
+    answer: "Sim, mas apenas depois que o pedido estiver concluído. Peças velhas vendem por muito pouco, mas servem como referência visual útil ao pedir substituições, e vender uma peça que você ainda precisa significa recomprá-la pelo preço cheio."
+  },
+  {
+    question: "Quais trabalhos de clientes são os melhores para iniciantes?",
+    answer: "Comece com serviços de freios, trocas de fluidos e substituições de componentes únicos. Esses trabalhos têm listas de defeitos curtas, peças baratas e entrega rápida, sendo ideais para aprender o ciclo de reparos enquanto constrói capital."
+  }
+]} />
+
+</Section>

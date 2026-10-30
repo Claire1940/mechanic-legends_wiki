@@ -1,0 +1,157 @@
+import { Wrench, Gauge, Coins, Target, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Améliorations des performances : Guide des meilleures pièces et du tuning",
+  description: "Maîtrisez les améliorations de performances dans Mechanic Legends : meilleurs moteurs, mods de tuning, bonnes affaires à la casse et stratégies pour gagner de l'argent avec des voitures plus rapides.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Performance+Upgrades",
+  date: "2026-10-30",
+  author: "Équipe Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guide rapide">
+- Les **améliorations de performances** au magasin de pièces augmentent la vitesse, la valeur et le prix de revente de chaque voiture.
+- Les **échanges de moteur** sont le gain de vitesse le plus important ; achetez-les avant les travaux esthétiques.
+- **Revente de la casse** : comparez **valeur de marché vs prix** pour trouver les meilleures affaires.
+- **Réparer d'abord, vendre ensuite** : les voitures réparées se vendent bien plus cher que le coût d'achat plus les pièces.
+- **Système de missions** : réparer les voitures d'autres joueurs est la méthode la plus rapide pour gagner de l'argent au début.
+</Callout>
+
+<Section icon={Wrench} title="Aperçu des améliorations de performances">
+
+Les améliorations de performances constituent le cœur de la progression dans Mechanic Legends. Chaque voiture achetée à la casse ou chez le concessionnaire peut être équipée de meilleurs composants au magasin de pièces, y compris de nouveaux moteurs, des modifications de tuning et des pièces de rechange. Les voitures améliorées roulent plus vite, tiennent mieux la route et — surtout — se revendent nettement plus cher chez le concessionnaire.
+
+**Points forts de la vidéo :**
+- Présentation complète du magasin de pièces et des options d'amélioration
+- Comment acheter et installer différents moteurs pour une vitesse maximale plus élevée
+- Stratégie de revente à la casse basée sur la valeur de marché vs le prix
+- Recharge de batterie, nettoyage des pièces et processus de réparation complet
+- Comment les missions permettent de réparer les voitures d'autres joueurs pour gagner de l'argent rapidement
+
+<YouTubeEmbed videoId="lxcN_uBXgJg" title="Mechanic Legends Guide! (Codes, Tips & Tricks, Money Fast, Best Upgrades & MORE) ROBLOX" />
+
+<Callout type="tip" title="L'ordre des améliorations compte">
+Achetez les pièces de performance avant les travaux esthétiques comme la peinture. Un bloc moteur neuf augmente bien plus la valeur de marché d'une voiture qu'une nouvelle peinture, donc investissez d'abord dans les améliorations mécaniques.
+</Callout>
+
+</Section>
+
+<Section icon={Gauge} title="Types d'améliorations et où les trouver">
+
+Tous les composants de performance proviennent du magasin de pièces. Savoir ce que fait chaque catégorie vous aide à dépenser votre argent limité efficacement.
+
+| Type d'amélioration | Effet | Priorité |
+|---|---|---|
+| Moteur | Vitesse maximale plus élevée, plus de puissance | ★★★★★ |
+| Transmission | Meilleure accélération, passages de rapport plus fluides | ★★★★ |
+| Mods de tuning | Réglage global des performances | ★★★★ |
+| Faisceau électrique | Nécessaire pour l'alimentation, corrige les pannes de démarrage | ★★★ |
+| Collecteur d'échappement | Restaure l'état du moteur | ★★★ |
+| Peinture de carrosserie | Esthétique, légère hausse de la revente | ★★ |
+
+<Callout type="warning" title="Ne négligez pas les pièces cassées">
+Une voiture ne démarre pas si des pièces critiques comme le **faisceau électrique** sont manquantes ou hors d'usage. Aucune amélioration du moteur ne sert tant que la voiture ne roule pas — vérifiez d'abord la liste des dommages.
+</Callout>
+
+</Section>
+
+<Section icon={Coins} title="Revente à la casse : financer vos améliorations">
+
+La casse est la meilleure économie d'amélioration du jeu. Les voitures y sont bon marché mais affichent deux statistiques clés : leur **prix** et leur **valeur de marché** après réparation.
+
+<CardGrid cols={3}>
+  <Card title="Chasseur de bonnes affaires">
+  - Comparez **valeur de marché vs prix**
+  - Achetez des voitures nécessitant seulement **1 à 3 pièces**
+  - Profit le plus rapide par réparation
+  </Card>
+  <Card title="Année et modèle">
+  - Les voitures plus récentes se **revendent généralement plus cher**
+  - Vérifiez l'année avant d'acheter
+  - Les modèles plus anciens peuvent aussi être de bonnes affaires
+  </Card>
+  <Card title="Nombre de dommages">
+  - Indiqué sous la forme X pièces endommagées sur 7
+  - Moins de pièces endommagées = réparation moins chère
+  - Les pièces hors d'usage doivent être **remplacées**, pas réparées
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Gardez ce que vous réparez">
+Vous n'êtes pas obligé de vendre chaque voiture que vous réparez. Revendez les épaves bon marché pour faire du profit, puis gardez la meilleure comme voiture quotidienne améliorée.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Processus d'amélioration étape par étape">
+
+<Steps>
+  <Step num="1" title="Diagnostiquer la voiture">
+    Soulevez la voiture, ouvrez le capot et examinez la liste des dommages. Notez quelles pièces sont sales (nettoyables), endommagées (réparables) ou hors d'usage (à remplacer).
+  </Step>
+  <Step num="2" title="Nettoyer et recharger">
+    Retirez la batterie et rechargez-la au chargeur. Nettoyez le radiateur et polit les pièces entretenables pendant que vous attendez — des pièces en meilleur état signifient une valeur finale plus élevée.
+  </Step>
+  <Step num="3" title="Commander les pièces de rechange">
+    Rendez-vous au magasin de pièces et commandez ce qui est hors d'usage, comme un bloc moteur ou un collecteur d'échappement. Achetez vos améliorations de performance — moteur et mods de tuning — dans le même déplacement.
+  </Step>
+  <Step num="4" title="Réinstaller et améliorer">
+    Installez les nouvelles pièces, le faisceau électrique et les composants moteur améliorés. Fermez le capot et descendez la voiture, puis confirmez qu'elle démarre.
+  </Step>
+  <Step num="5" title="Vendre ou garder">
+    Conduisez jusqu'au concessionnaire pour vendre à la valeur de marché, ou gardez la voiture. Réinvestissez le profit dans une meilleure affaire à la casse avec plus de potentiel d'amélioration.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Regroupez vos déplacements">
+Commandez toutes les pièces en une fois. La livraison prend du temps — profitez de l'attente pour polir d'autres composants ou accepter une mission de réparation pour un revenu supplémentaire.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste des objectifs d'amélioration">
+
+<Checklist
+  id="upgrade-goals"
+  title="Étapes clés de l'amélioration des performances :"
+  items={[
+    "Terminer le tutoriel et obtenir votre voiture de départ",
+    "Acheter une voiture à la casse nécessitant 3 pièces ou moins",
+    "Effectuer votre premier échange de moteur au magasin de pièces",
+    "Réparer une pièce hors d'usage avec un remplacement neuf",
+    "Revendre une voiture avec un profit supérieur au prix d'achat du marché",
+    "Accepter une mission de réparation client pour un revenu bonus"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Où acheter des améliorations de performances dans Mechanic Legends ?",
+    answer: "Toutes les améliorations proviennent du magasin de pièces. Il vend des pièces de rechange, différents moteurs qui augmentent la vitesse maximale et des modifications de tuning qui améliorent les performances globales."
+  },
+  {
+    question: "Dois-je acheter la voiture la plus chère de la casse ?",
+    answer: "Non. Comparez la valeur de marché affichée avec le prix. Une voiture moins chère et plus ancienne qui n'a besoin que d'une ou deux pièces offre souvent une marge de profit plus importante qu'un modèle cher avec sept pièces endommagées."
+  },
+  {
+    question: "Peut-on réparer une pièce hors d'usage au lieu de la remplacer ?",
+    answer: "Les pièces hors d'usage ne peuvent pas être réparées — elles doivent être retirées et remplacées par une neuve commandée au magasin de pièces. Les pièces endommagées mais fonctionnelles peuvent être réparées ou polies."
+  },
+  {
+    question: "Les améliorations de performances augmentent-elles la valeur de revente ?",
+    answer: "Oui. De meilleurs moteurs et composants rendent les voitures plus rapides et plus valorisées chez le concessionnaire, ce qui est le principal moyen de faire croître votre argent et d'acheter progressivement de meilleurs véhicules."
+  }
+]} />
+
+</Section>

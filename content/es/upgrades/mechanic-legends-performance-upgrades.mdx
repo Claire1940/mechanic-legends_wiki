@@ -1,0 +1,157 @@
+import { Wrench, Gauge, Coins, Target, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mejoras de Rendimiento: Guía de las Mejores Modificaciones y Ajustes de Autos",
+  description: "Domina las mejoras de rendimiento en Mechanic Legends: los mejores motores, modificaciones de ajuste, gangas del desguace y estrategias para ganar dinero con autos más rápidos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b45309/fff?text=Performance+Upgrades",
+  date: "2026-10-30",
+  author: "Equipo de Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Las **mejoras de rendimiento** en la Tienda de Piezas aumentan la velocidad, el valor y el precio de reventa de cada auto.
+- Los **cambios de motor** son la mayor ganancia de velocidad; cómpralos antes del trabajo cosmético.
+- **Reventa desde el desguace**: compara el **valor de mercado vs el precio** para encontrar los autos con mejor ganga.
+- **Primero reparar, luego vender**: los autos reparados se venden por mucho más que el costo de compra más las piezas.
+- **Sistema de trabajos**: reparar los autos de otros jugadores es el método más rápido para ganar dinero al principio.
+</Callout>
+
+<Section icon={Wrench} title="Descripción General de las Mejoras de Rendimiento">
+
+Las mejoras de rendimiento son el ciclo de progresión central en Mechanic Legends. Cada auto que compres en el desguace o en el concesionario puede equiparse con mejores componentes en la Tienda de Piezas, incluyendo motores nuevos, modificaciones de ajuste y piezas de repuesto. Los autos mejorados conducen más rápido, manejan mejor y —lo más importante— se venden por significativamente más en el concesionario.
+
+**Lo Destacado del Video:**
+- Recorrido completo de la Tienda de Piezas y las opciones de mejora
+- Cómo comprar e instalar diferentes motores para mayor velocidad máxima
+- Estrategia de reventa desde el desguace basada en el valor de mercado vs el precio
+- Carga de batería, limpieza de piezas y flujo de reparación completo
+- Cómo los trabajos te permiten reparar autos de otros jugadores para ganar dinero rápido
+
+<YouTubeEmbed videoId="lxcN_uBXgJg" title="Mechanic Legends Guide! (Codes, Tips & Tricks, Money Fast, Best Upgrades & MORE) ROBLOX" />
+
+<Callout type="tip" title="El Orden de las Mejoras Importa">
+Compra las piezas de rendimiento antes del trabajo cosmético como la pintura. Un bloque de motor nuevo aumenta el valor de mercado de un auto mucho más que un trabajo de pintura, así que invierte primero en mejoras mecánicas.
+</Callout>
+
+</Section>
+
+<Section icon={Gauge} title="Tipos de Mejoras y Dónde Conseguirlas">
+
+Todos los componentes de rendimiento vienen de la Tienda de Piezas. Saber qué hace cada categoría te ayuda a gastar tu dinero limitado de manera eficiente.
+
+| Tipo de Mejora | Qué Hace | Prioridad |
+|---|---|---|
+| Motor | Mayor velocidad máxima, más potencia | ★★★★★ |
+| Transmisión | Mejor aceleración, cambios más suaves | ★★★★ |
+| Mods de Ajuste | Ajuste de rendimiento general | ★★★★ |
+| Arnés de Cables | Necesario para la entrega de energía, soluciona el no arranque | ★★★ |
+| Colector de Escape | Restaura el estado del motor | ★★★ |
+| Pintura de Carrocería | Cosmética, aumento modesto de reventa | ★★ |
+
+<Callout type="warning" title="No Omitas las Piezas Dañadas">
+Un auto no arrancará si piezas críticas como el **arnés de cables** faltan o están desechadas. Ninguna cantidad de mejoras de motor ayudará hasta que el auto realmente funcione — revisa primero la lista de daños.
+</Callout>
+
+</Section>
+
+<Section icon={Coins} title="Reventa desde el Desguace: Financiando tus Mejoras">
+
+El desguace es la mejor economía de mejoras del juego. Los autos allí son baratos pero se muestran con dos estadísticas clave: su **precio** y su **valor de mercado** después de repararlos.
+
+<CardGrid cols={3}>
+  <Card title="Cazador de Gangas">
+  - Compara el **valor de mercado vs el precio**
+  - Compra autos que necesiten solo **1-3 piezas**
+  - Ganancia más rápida por reparación
+  </Card>
+  <Card title="Año y Modelo">
+  - Los autos más nuevos generalmente **se venden por más**
+  - Revisa el año antes de comprar
+  - Los modelos más antiguos aún pueden ser gangas
+  </Card>
+  <Card title="Conteo de Daños">
+  - Mostrado como X de 7 piezas dañadas
+  - Menos piezas dañadas = reparación más barata
+  - Las piezas desechadas deben ser **reemplazadas**, no reparadas
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Quédate con lo que Reparas">
+No tienes que vender cada auto que reparas. Revende los chatarras baratos para obtener ganancias, y luego quédate con el mejor como tu auto diario mejorado.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Flujo de Trabajo de Mejoras Paso a Paso">
+
+<Steps>
+  <Step num="1" title="Diagnostica el Auto">
+    Eleva el auto, abre el capó y revisa la lista de daños. Anota qué piezas están sucias (limpiables), dañadas (reparables) o desechadas (deben reemplazarse).
+  </Step>
+  <Step num="2" title="Limpia y Carga">
+    Retira la batería y cárgala en el cargador. Limpia el radiador y pule las piezas reparables mientras esperas — las piezas en mejor estado significan un valor final más alto.
+  </Step>
+  <Step num="3" title="Ordena las Piezas de Repuesto">
+    Ve a la Tienda de Piezas y ordena lo que esté desechado, como un bloque de motor o un colector de escape. Compra tus mejoras de rendimiento — motor y mods de ajuste — en el mismo viaje.
+  </Step>
+  <Step num="4" title="Reinstala y Mejora">
+    Instala las piezas nuevas, el arnés de cables y los componentes del motor mejorados. Cierra el capó y baja el auto, luego confirma que arranca.
+  </Step>
+  <Step num="5" title="Vende o Quédatelo">
+    Conduce al concesionario para venderlo por su valor de mercado, o quédate el auto. Reinvierte la ganancia en una ganga más grande del desguace con mayor potencial de mejora.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Agrupa tus Viajes">
+Ordena todas las piezas de una vez. La entrega toma tiempo — usa la espera para pulir otros componentes o aceptar un trabajo de reparación para obtener ingresos extra.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Objetivos de Mejoras">
+
+<Checklist
+  id="upgrade-goals"
+  title="Hitos de Mejoras de Rendimiento:"
+  items={[
+    "Completa el tutorial y gana tu auto inicial",
+    "Compra un auto del desguace que necesite 3 piezas o menos",
+    "Realiza tu primer cambio de motor en la Tienda de Piezas",
+    "Repara una pieza desechada con un reemplazo completamente nuevo",
+    "Revende un auto con ganancia superior al precio de compra de mercado",
+    "Acepta un trabajo de reparación de un cliente para obtener ingresos extra"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde compro mejoras de rendimiento en Mechanic Legends?",
+    answer: "Todas las mejoras vienen de la Tienda de Piezas. Vende piezas de repuesto, diferentes motores que aumentan la velocidad máxima y modificaciones de ajuste que mejoran el rendimiento general."
+  },
+  {
+    question: "¿Debo comprar el auto más caro del desguace?",
+    answer: "No. Compara el valor de mercado indicado contra el precio. Un auto más barato y antiguo que necesita solo una o dos piezas a menudo ofrece un margen de ganancia mayor que un modelo caro con siete piezas dañadas."
+  },
+  {
+    question: "¿Puedo reparar una pieza desechada en lugar de reemplazarla?",
+    answer: "Las piezas desechadas no se pueden reparar — deben retirarse y reemplazarse con una nueva ordenada en la Tienda de Piezas. Las piezas dañadas pero funcionales se pueden reparar o pulir."
+  },
+  {
+    question: "¿Las mejoras de rendimiento aumentan el valor de reventa?",
+    answer: "Sí. Los mejores motores y componentes hacen que los autos sean más rápidos y valgan más en el concesionario, lo cual es la principal forma de hacer crecer tu dinero y comprar vehículos progresivamente mejores."
+  }
+]} />
+
+</Section>

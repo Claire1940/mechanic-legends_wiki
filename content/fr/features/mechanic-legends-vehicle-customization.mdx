@@ -1,0 +1,186 @@
+import { Map, Wrench, Trophy, Target, Sparkles, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Personnalisation des véhicules dans Mechanic Legends : Guide de configuration et meilleures configurations",
+  description: "Découvrez comment fonctionne la personnalisation des véhicules dans Mechanic Legends : améliorations de pièces, priorités de réglage, parcours de configuration et conseils pour maximiser les performances.",
+  category: "guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Vehicle+Customization+Guide",
+  date: "2026-10-30",
+  author: "Équipe Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guide rapide">
+- **La personnalisation des véhicules dans Mechanic Legends** vous permet de reconstruire des voitures avec des pièces améliorées, des réglages et un style visuel.
+- **Les niveaux de qualité des pièces** déterminent les gains de performance — privilégiez d'abord le moteur et la transmission.
+- **Les configurations équilibrées** surpassent les configurations mono-statistique dans la plupart des événements et défis.
+- **Gérez votre budget intelligemment** : les dépenses précoces en pièces essentielles sont plus rentables que les cosmétiques.
+- **Restaurez avant d'améliorer** : une restauration complète débloque le véritable potentiel de personnalisation du véhicule.
+</Callout>
+
+<Section icon={Wrench} title="Les bases de la personnalisation des véhicules dans Mechanic Legends">
+
+La personnalisation des véhicules est le cœur de Mechanic Legends. Chaque voiture que vous acquérez peut être démontée, restaurée, reconstruite et réglée pour correspondre à votre style de jeu. Le système de personnalisation est divisé en trois couches : **les pièces mécaniques**, **le réglage des performances** et **le style visuel**. Comprendre comment ces couches interagissent fait la différence entre un garage rempli de vitrines et une collection de véritables performeuses.
+
+<Callout type="tip" title="Commencez par le châssis">
+Avant de dépenser votre monnaie en pièces haut de gamme, effectuez un démontage et une inspection complets. Les dégâts cachés sur le châssis ou la transmission réduisent l'efficacité de chaque amélioration que vous installerez par la suite.
+</Callout>
+
+Les catégories principales de personnalisation sont résumées ci-dessous :
+
+| Catégorie | Ce qu'elle couvre | Niveau d'impact |
+| --- | --- | --- |
+| Moteur et transmission | Échanges de moteur, pistons, turbo, boîte de vitesses | ★★★★★ |
+| Suspension et freins | Ressorts, amortisseurs, disques de frein, pneus | ★★★★ |
+| Carrosserie et panneaux | Ailes, pare-chocs, capots, arceaux de sécurité | ★★★ |
+| Peinture et livrée | Peinture, autocollants, jantes, finitions intérieures | ★★ |
+| Électronique | Réglage ECU, éclairage, audio | ★★★ |
+
+<CardGrid cols={3}>
+  <Card title="Configuration Performance">
+    - **Améliorations maximales du moteur et du turbo**
+    - Idéal pour les courses et les défis de vitesse
+    - Coût en ressources élevé, rendement au sommet
+  </Card>
+  <Card title="Configuration Restauration">
+    - **Focus sur les pièces de qualité OEM**
+    - Idéal pour la valeur de revente et les objectifs de collection
+    - Progression stable et à faible risque
+  </Card>
+  <Card title="Configuration Exposition">
+    - **Priorité à la personnalisation visuelle**
+    - Peinture, jantes, intérieur, autocollants
+    - Parfait pour les vitrines communautaires
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Settings} title="Priorités d'amélioration des pièces : quoi acheter en premier">
+
+Toutes les pièces n'offrent pas la même valeur pour votre monnaie. Tester différentes configurations révèle un ordre de priorité clair pour les joueurs qui veulent gagner des événements sans dépenser excessivement.
+
+<Callout type="warning" title="Évitez les dépenses cosmétiques précoces">
+Les options de peinture et de livrée sont tentantes, mais elles n'apportent aucune performance. Acheter des cosmétiques avant d'avoir terminé les améliorations mécaniques vous laisse généralement sous-puissant pour les événements qui financent votre garage.
+</Callout>
+
+**Ordre d'amélioration recommandé :**
+
+| Priorité | Groupe de pièces | Pourquoi en premier | Gain de performance estimé |
+| --- | --- | --- | --- |
+| 1 | Internes du moteur | La puissance de base influence toutes les autres statistiques | **Élevé** |
+| 2 | Turbo / admission | Multiplie la puissance existante du moteur | Élevé |
+| 3 | Boîte de vitesses | Convertit la puissance en vitesse utilisable | Élevé |
+| 4 | Pneus et freins | Virage et contrôle | Moyen |
+| 5 | Suspension | Stabilité à haute vitesse | Moyen |
+| 6 | Réduction du poids | Améliore légèrement toutes les statistiques | Moyen |
+| 7 | Cosmétiques | Points de style uniquement | Faible |
+
+<Callout type="success" title="La règle 60/30/10">
+Une répartition budgétaire fiable pour tout projet de voiture : **60 % moteur et transmission**, **30 % pièces de tenue de route**, **10 % style**. Cela garde vos configurations compétitives tout en ayant belle allure.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Flux de travail de personnalisation étape par étape">
+
+Suivez ce flux de travail pour chaque projet de véhicule afin d'éviter le gaspillage de pièces et de monnaie :
+
+<Steps>
+  <Step num="1" title="Démontage et inspection complets">
+    Démontez entièrement le véhicule et inspectez chaque composant. Cataloguez les pièces endommagées ou usées pour ne rien oublier lors de la reconstruction.
+  </Step>
+  <Step num="2" title="Définissez votre objectif de configuration">
+    Décidez de l'objectif avant d'acheter : performance de course, restauration pour la revente ou style d'exposition. Cette décision dicte chaque achat qui suit.
+  </Step>
+  <Step num="3" title="Installez les pièces mécaniques essentielles">
+    Commencez par le moteur, la boîte de vitesses et la transmission. Harmonisez la qualité des pièces du groupe afin qu'aucun composant faible ne plafonne la configuration.
+  </Step>
+  <Step num="4" title="Réglez la suspension et les freins">
+    Adaptez les pneus, les freins et la suspension à la puissance du moteur. Un moteur puissant avec des freins d'origine perd du temps dans chaque virage.
+  </Step>
+  <Step num="5" title="Terminez par le style visuel">
+    Appliquez la peinture, les jantes et les finitions intérieures en dernier, une fois la couche de performance verrouillée et testée.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Testez entre les étapes">
+Participez à un événement test après chaque grande étape. Cela permet d'isoler quelles améliorations ont réellement fait baisser vos temps et vous aide à affiner votre prochain achat.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Meilleures configurations par type de véhicule">
+
+Différentes classes de véhicules récompensent différentes philosophies de personnalisation. Utilisez cette référence lors de la planification de votre prochain projet :
+
+| Type de véhicule | Focus de la meilleure configuration | Améliorations clés | Faiblesse à couvrir |
+| --- | --- | --- | --- |
+| Coupé sportif | Vitesse et accélération | Turbo, boîte de vitesses de course | Fade des freins |
+| Muscle car | Puissance brute | Internes du moteur, pneus arrière | Tenue de route |
+| Camion tout-terrain | Durabilité et adhérence | Élévation de suspension, pneus tout-terrain | Vitesse de pointe |
+| Berline | Polyvalent équilibré | Moteur de milieu de gamme, kit de freins complet | Aucune statistique marquante |
+| Restauration classique | Précision OEM | Pièces de qualité d'origine, finitions originales | Coût des pièces rares |
+
+<CardGrid cols={2}>
+  <Card title="Coupé prêt pour la course">
+    - **Kit turbo complet** avec échangeur amélioré
+    - Boîte de vitesses de course et volant allégé
+    - Freins sport et pneus semi-slicks
+  </Card>
+  <Card title="Classique de concours">
+    - **Reconstruction du moteur aux spécifications OEM**
+    - Panneaux de carrosserie et chrome de qualité d'origine
+    - Restauration intérieure fidèle à l'époque
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Spécialisez votre garage">
+Maintenez au moins un véhicule par classe majeure. Les rotations d'événements favorisent souvent différents types de véhicules, et un garage diversifié vous garantit toujours une participation compétitive.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Liste de contrôle des objectifs de personnalisation">
+
+<Checklist
+  id="customization-goals"
+  title="Jalons d'achèvement du projet :"
+  items={[
+    "Effectuer un démontage et une inspection complets sur votre projet actuel",
+    "Terminer une configuration de performance complète (du moteur aux pneus)",
+    "Réaliser une restauration OEM complète pour une valeur de revente maximale",
+    "Construire un véhicule compétitif pour chaque classe majeure de véhicules",
+    "Créer une configuration d'exposition avec une personnalisation visuelle complète"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Quelle est la meilleure première amélioration dans la personnalisation des véhicules de Mechanic Legends ?",
+    answer: "Les internes du moteur constituent le meilleur premier investissement. Toutes les autres statistiques de performance reposent sur la puissance de base du moteur, donc améliorer d'abord les pistons, les collecteurs et le système d'admission offre le gain global le plus important par unité de monnaie dépensée."
+  },
+  {
+    question: "Devrais-je personnaliser d'abord pour l'apparence ou pour la performance ?",
+    answer: "La performance d'abord, toujours. La personnalisation visuelle n'a aucun effet sur les résultats des événements, tandis que les améliorations mécaniques font gagner des courses et génèrent la monnaie qui finance les achats cosmétiques plus tard. La règle budgétaire 60/30/10 garde les deux objectifs sur la bonne voie."
+  },
+  {
+    question: "Puis-je modifier la personnalisation d'un véhicule après avoir terminé une configuration ?",
+    answer: "Oui. Les pièces peuvent être remplacées à tout moment, même si une certaine perte de monnaie est généralement à prévoir lors du remplacement de composants récemment installés. Planifiez votre objectif de configuration avant d'acheter pour minimiser les dépenses gaspillées."
+  },
+  {
+    question: "Quel type de véhicule est le meilleur à personnaliser pour les débutants ?",
+    answer: "Les berlines et les coupés sportifs sont les plus indulgents. Ils disposent de pièces de milieu de gamme abordables, de statistiques équilibrées et d'assez d'événements disponibles pour rentabiliser rapidement votre investissement pendant que vous apprenez le système de personnalisation."
+  }
+]} />
+
+</Section>

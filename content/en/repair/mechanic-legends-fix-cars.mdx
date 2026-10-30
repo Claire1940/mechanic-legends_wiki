@@ -1,0 +1,163 @@
+import { Map, Wrench, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mechanic Legends Fix Cars: Job & Repair Guide for Fast Cash",
+  description: "Learn how to fix cars in Mechanic Legends efficiently: customer jobs, auto repair loops, junkyard flips, and auction selling strategies.",
+  category: "guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Mechanic+Legends+Fix+Cars",
+  date: "2026-10-30",
+  author: "mechanic legends Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Mechanic Legends fix cars** gameplay revolves around customer jobs, repairs, and reselling.
+- **Customer jobs** are the main income source but hit a 3-minute cooldown when the queue empties.
+- **Junkyard flips** let you buy, repair, and sell cars to fill cooldown gaps.
+- **Auto auction + auto sell** maximizes profit while you wait for new jobs.
+- **Performance settings** like reduced rendering and 30 FPS cap help long farming sessions.
+</Callout>
+
+<Section icon={Wrench} title="How You Fix Cars in Mechanic Legends">
+
+In Mechanic Legends, your core gameplay loop is simple: take customer jobs, repair their vehicles, collect payment, and reinvest your earnings into more cars. Jobs appear in a queue, and each one walks you through the repair process from start to finish. Completing a job fully is what pays out — partial work earns nothing, so always finish the job before moving on.
+
+**Video Highlights:**
+- Customer jobs run automatically through full repair sequences
+- Job queue can drop to zero with a roughly 3-minute cooldown
+- Auto auction, auto sell, and junkyard flip fill the downtime
+- Auto drive earns passive cash by driving cars around town
+
+<YouTubeEmbed videoId="wHBH_wL6WCk" title="Mechanic Legends Script - Auto Customer - Auto Repair - Auto Auction - Working" />
+
+<Callout type="tip" title="Job First, Everything Second">
+Always prioritize active customer jobs over side activities. Jobs are your highest and most reliable income per minute — junkyard flips and auctions exist to cover the cooldown windows, not replace jobs.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Income Streams Compared">
+
+Every money-making method in Mechanic Legends trades your time differently. Matching the right activity to the right moment is what separates a slow garage from a profitable one.
+
+| Method | Income Speed | Effort | Best Used When |
+| --- | --- | --- | --- |
+| Customer jobs | ★★★★★ | Medium | Jobs available in queue |
+| Auto repair loop | ★★★★ | Low | Back-to-back vehicle repairs |
+| Junkyard flip | ★★★ | Medium | During job cooldowns |
+| Auction resell | ★★★ | Low | After flipping junkyard cars |
+| Auto drive | ★★ | Very low | Idle background income |
+
+<CardGrid cols={3}>
+  <Card title="Customer Jobs">
+    - **Highest pay per repair**
+    - Full completion required
+    - Queue can run dry
+  </Card>
+  <Card title="Junkyard Flip">
+    - **Buy low, repair, sell high**
+    - Great cooldown filler
+    - Scales with repair speed
+  </Card>
+  <Card title="Auction Selling">
+    - **Automated listing and sales**
+    - Pairs with junkyard flips
+    - Passive while waiting
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Cooldown Discipline">
+When the job queue hits zero, you face roughly 3 minutes of downtime. Have junkyard flips and auction sales already running so that not a single minute of that window is wasted.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Repair Routine">
+
+Follow this routine every session to keep your garage running at maximum efficiency from the moment you log in.
+
+<Steps>
+  <Step num="1" title="Prep Your Client">
+    Lower rendering and cap the game at 30 FPS before long farming sessions. This keeps performance stable while you grind repairs for extended periods.
+  </Step>
+  <Step num="2" title="Clear the Job Queue">
+    Accept customer jobs and complete each repair fully, start to finish. Never abandon a job halfway — only completed jobs pay out.
+  </Step>
+  <Step num="3" title="Fill the Cooldown">
+    When jobs run out, switch immediately to junkyard flips: buy cheap cars, repair them, and prepare them for sale.
+  </Step>
+  <Step num="4" title="Sell at Auction">
+    List your repaired junkyard cars at the auction and let auto sell handle the transactions while the job queue refills.
+  </Step>
+  <Step num="5" title="Scale Up">
+    Reinvest profits into better inventory and keep the loop running. More capital means more junkyard flips and bigger auction margins.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Optimal Rotation">
+The most profitable pattern observed in practice: auto customer jobs as the base, auto repair for back-to-back work, junkyard flip plus auction selling during every cooldown. This stacks all income streams with minimal idle time.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Repair Priorities & Vehicle Value">
+
+Not every car deserves your wrench time. Use this quick reference to decide where your effort goes.
+
+| Vehicle Source | Repair Cost | Resale Value | Priority |
+| --- | --- | --- | --- |
+| Customer job cars | N/A (paid job) | Fixed job payout | **Always first** |
+| Junkyard junkers | Low buy price | Medium after repair | High during cooldown |
+| Auction bargains | Varies | Market-dependent | Only with spare cash |
+| Damaged personal cars | Your parts | Low return | Skip unless needed |
+
+<Callout type="info" title="Repair Fully Before Selling">
+A fully repaired car consistently sells for more than a partially fixed one. Always complete every repair stage before listing a vehicle — the margin difference is worth the extra minutes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Session Goals Checklist">
+
+<Checklist
+  id="fix-cars-goals"
+  title="Every Session Should Include:"
+  items={[
+    "Complete every customer job in the queue",
+    "Run junkyard flips during job cooldowns",
+    "List repaired cars at the auction before idling",
+    "Keep repair tools and inventory stocked",
+    "Reinvest at least half of session profits"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the fastest way to make money when you fix cars in Mechanic Legends?",
+    answer: "Customer jobs pay the most per minute, so clear the queue first. When jobs run dry during the roughly 3-minute cooldown, switch to junkyard flips and auction sales to keep income flowing without interruption."
+  },
+  {
+    question: "Why did my customer jobs stop appearing?",
+    answer: "The job queue periodically drops to zero and enters a cooldown of around 3 minutes. This is normal — use that window for junkyard flips, auction listings, or auto drive income instead of waiting idle."
+  },
+  {
+    question: "Should I sell junkyard cars immediately after buying them?",
+    answer: "No. Repair them fully first. A completed repair significantly raises the resale price at auction, and the extra time cost is small compared to the margin gain."
+  },
+  {
+    question: "Do I need to lower my graphics settings?",
+    answer: "For long farming sessions, yes. Turning off rendering and capping the game at 30 FPS keeps performance stable during extended repair and flip loops, which is especially useful if you run the game for hours."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,186 @@
+import { Map, Wrench, Trophy, Target, Sparkles, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Personalização de Veículos em Mechanic Legends: Guia de Configuração e Melhores Builds",
+  description: "Aprenda como funciona a personalização de veículos em Mechanic Legends: melhorias de peças, prioridades de ajuste, caminhos de build e dicas para maximizar o desempenho.",
+  category: "guia",
+  image: "https://placehold.co/800x400/b45309/fff?text=Vehicle+Customization+Guide",
+  date: "2026-10-30",
+  author: "Equipe da Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **personalização de veículos em Mechanic Legends** permite reconstruir carros com peças melhoradas, ajustes de desempenho e estilo visual.
+- Os **níveis de qualidade das peças** determinam os ganhos de desempenho — priorize primeiro o motor e a transmissão.
+- **Builds equilibradas** superam builds de um único atributo na maioria dos eventos e desafios.
+- **Use o orçamento com sabedoria**: a moeda gasta no início em peças essenciais dá retorno mais rápido do que cosméticos.
+- **Restaure antes de melhorar**: uma restauração completa desbloqueia o verdadeiro potencial de personalização do veículo.
+</Callout>
+
+<Section icon={Wrench} title="Noções Básicas de Personalização de Veículos em Mechanic Legends">
+
+A personalização de veículos é o coração de Mechanic Legends. Cada carro que você adquire pode ser desmontado, restaurado, reconstruído e ajustado para combinar com seu estilo de jogo. O sistema de personalização é dividido em três camadas: **peças mecânicas**, **ajuste de desempenho** e **estilo visual**. Entender como essas camadas interagem é a diferença entre uma garagem cheia de enfeites e uma coleção de verdadeiros campeões.
+
+<Callout type="tip" title="Comece pelo Chassi">
+Antes de gastar moeda em peças premium, faça uma desmontagem e inspeção completas. Danos ocultos no chassi ou na transmissão reduzem a eficácia de cada melhoria que você instalar depois.
+</Callout>
+
+As categorias principais de personalização estão resumidas abaixo:
+
+| Categoria | O Que Abrange | Nível de Impacto |
+| --- | --- | --- |
+| Motor e Transmissão | Trocas de motor, pistões, turbo, câmbio | ★★★★★ |
+| Suspensão e Freios | Molas, amortecedores, discos de freio, pneus | ★★★★ |
+| Carroceria e Painéis | Para-lamas, para-choques, capôs, gaiolas de proteção | ★★★ |
+| Pintura e Adesivos | Pintura, adesivos, rodas, acabamento interno | ★★ |
+| Eletrônica | Ajuste de ECU, iluminação, áudio | ★★★ |
+
+<CardGrid cols={3}>
+  <Card title="Build de Desempenho">
+    - **Melhorias máximas de motor e turbo**
+    - Ideal para corridas e desafios de velocidade
+    - Alto custo de recursos, melhor recompensa
+  </Card>
+  <Card title="Build de Restauração">
+    - **Foco em peças de qualidade OEM**
+    - Ideal para valor de revenda e metas de coleção
+    - Progressão estável e de baixo risco
+  </Card>
+  <Card title="Build de Exposição">
+    - **Prioridade em personalização visual**
+    - Pintura, rodas, interior, adesivos
+    - Ótima para vitrines da comunidade
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Settings} title="Prioridades de Melhoria de Peças: O Que Comprar Primeiro">
+
+Nem toda peça oferece o mesmo valor pela sua moeda. Testar diferentes combinações revela uma ordem de prioridade clara para jogadores que querem vencer eventos sem gastar demais.
+
+<Callout type="warning" title="Evite Gastos Cosméticos no Início">
+As opções de pintura e adesivos são tentadoras, mas não adicionam desempenho. Comprar cosméticos antes de concluir as melhorias mecânicas geralmente deixa seu veículo fraco demais para os eventos que financiam sua garagem.
+</Callout>
+
+**Ordem de melhorias recomendada:**
+
+| Prioridade | Grupo de Peças | Por Que Vem Primeiro | Ganho Estimado de Desempenho |
+| --- | --- | --- | --- |
+| 1 | Componentes internos do motor | A potência base impulsiona todos os outros atributos | **Alto** |
+| 2 | Turbo / admissão | Multiplica a potência existente do motor | Alto |
+| 3 | Câmbio | Converte potência em velocidade utilizável | Alto |
+| 4 | Pneus e freios | Curvas e controle | Médio |
+| 5 | Suspensão | Estabilidade em alta velocidade | Médio |
+| 6 | Redução de peso | Melhora todos os atributos levemente | Médio |
+| 7 | Cosméticos | Apenas pontos de estilo | Baixo |
+
+<Callout type="success" title="A Regra 60/30/10">
+Uma divisão de orçamento confiável para qualquer projeto de carro: **60% motor e transmissão**, **30% peças de dirigibilidade**, **10% estilo**. Isso mantém as builds competitivas sem perder a boa aparência.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Fluxo de Trabalho de Personalização Passo a Passo">
+
+Siga este fluxo de trabalho em cada projeto de veículo para evitar desperdiçar peças e moeda:
+
+<Steps>
+  <Step num="1" title="Desmontagem e Inspeção Completas">
+    Desmonte o veículo por completo e inspecione cada componente. Catalogue as peças danificadas ou desgastadas para que nada seja esquecido durante a reconstrução.
+  </Step>
+  <Step num="2" title="Defina o Objetivo da Build">
+    Decida o propósito antes de comprar: desempenho de corrida, restauração para revenda ou estilo de exposição. Essa decisão orienta cada compra seguinte.
+  </Step>
+  <Step num="3" title="Instale as Peças Mecânicas Principais">
+    Comece pelo motor, câmbio e transmissão. Iguale a qualidade das peças do grupo para que nenhum componente fraco se torne o gargalo da build.
+  </Step>
+  <Step num="4" title="Ajuste Suspensão e Freios">
+    Combine pneus, freios e suspensão à potência do motor. Um motor potente com freios de fábrica perde tempo em cada curva.
+  </Step>
+  <Step num="5" title="Finalize com o Estilo Visual">
+    Aplique pintura, rodas e detalhes de interior por último, depois que a camada de desempenho estiver consolidada e testada.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Teste Entre as Etapas">
+Faça um evento de teste após cada etapa importante. Isso isola quais melhorias realmente reduziram seus tempos e ajuda a ajustar a próxima compra.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Melhores Builds por Tipo de Veículo">
+
+Diferentes classes de veículos recompensam diferentes filosofias de personalização. Use esta referência ao planejar seu próximo projeto:
+
+| Tipo de Veículo | Foco da Melhor Build | Melhorias-Chave | Ponto Fraco a Corrigir |
+| --- | --- | --- | --- |
+| Cupê Esportivo | Velocidade e aceleração | Turbo, câmbio de corrida | Perda de freios |
+| Muscle Car | Potência bruta | Componentes internos do motor, pneus traseiros | Dirigibilidade |
+| Caminhão Off-Road | Durabilidade e aderência | Elevação de suspensão, pneus todo-terreno | Velocidade máxima |
+| Sedan | Equilibrado e versátil | Motor de nível médio, kit de freio completo | Nenhum destaque |
+| Restauração Clássica | Fidelidade OEM | Peças de qualidade original, acabamento original | Custo das peças raras |
+
+<CardGrid cols={2}>
+  <Card title="Cupê Pronto para Corrida">
+    - **Kit turbo completo** com intercooler melhorado
+    - Câmbio de corrida e volante de motor leve
+    - Freios esportivos e pneus semi-slick
+  </Card>
+  <Card title="Clássico de Concurso">
+    - **Reconstrução do motor em especificação OEM**
+    - Painéis de carroceria e cromo de qualidade original
+    - Restauração de interior fiel à época
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Especialize Sua Garagem">
+Mantenha pelo menos um veículo de cada classe principal. As rotações de eventos costumam favorecer diferentes tipos de veículos, e uma garagem diversificada garante que você sempre tenha uma opção competitiva.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Checklist de Metas de Personalização">
+
+<Checklist
+  id="customization-goals"
+  title="Marcos de Conclusão do Projeto:"
+  items={[
+    "Complete uma desmontagem e inspeção totais no seu projeto atual",
+    "Finalize uma build de desempenho completa (do motor aos pneus)",
+    "Complete uma restauração OEM inteira para valor máximo de revenda",
+    "Construa um veículo competitivo para cada classe principal de veículos",
+    "Crie uma build de exposição com personalização visual completa"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor primeira melhoria na personalização de veículos de Mechanic Legends?",
+    answer: "Os componentes internos do motor são o melhor primeiro investimento. Todos os outros atributos de desempenho se baseiam na potência bruta do motor, então melhorar pistões, coletores e o sistema de admissão primeiro proporciona o maior ganho geral por unidade de moeda gasta."
+  },
+  {
+    question: "Devo personalizar primeiro a aparência ou o desempenho?",
+    answer: "Desempenho primeiro, sempre. A personalização visual não afeta os resultados dos eventos, enquanto as melhorias mecânicas vencem corridas e geram a moeda que financia compras cosméticas depois. A regra de orçamento 60/30/10 mantém as duas metas em ordem."
+  },
+  {
+    question: "Posso mudar a personalização de um veículo depois de concluir uma build?",
+    answer: "Sim. As peças podem ser trocadas a qualquer momento, embora normalmente haja alguma perda de moeda ao substituir componentes instalados recentemente. Planeje o objetivo da build antes de comprar para minimizar gastos desperdiçados."
+  },
+  {
+    question: "Qual tipo de veículo é o melhor para iniciantes personalizarem?",
+    answer: "Sedans e cupês esportivos são os mais tolerantes. Eles têm peças de nível médio acessíveis, distribuições de atributos equilibradas e eventos suficientes para recuperar seu investimento rapidamente enquanto você aprende o sistema de personalização."
+  }
+]} />
+
+</Section>

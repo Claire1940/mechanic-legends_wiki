@@ -1,0 +1,178 @@
+import { Map, Trophy, Target, Shield, Sparkles, Coins } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Subastas de Coches en Mechanic Legends: Guía de Estrategia y Beneficios",
+  description: "Aprende cómo funcionan las subastas de coches en Mechanic Legends. Compara las subastas, las compras en el desguace y los trabajos de reparación para maximizar tu beneficio en el juego.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b45309/fff?text=Car+Auction+Guide",
+  date: "2026-10-30",
+  author: "Equipo de Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **subasta de coches de Mechanic Legends** es tu principal fuente de ingresos pasivos mientras los trabajos de reparación están en enfriamiento.
+- La **compraventa en subastas** funciona mejor junto con las compras en el desguace: compra, repara y luego vende con margen.
+- Los **enfriamientos de trabajos** duran unos 3 minutos — llena esa ventana con actividad en la subasta.
+- **Subasta Automática + Venta Automática** te permiten seguir ganando sin hacer clic constantemente.
+- **Combina tus fuentes de ingresos** para obtener el mayor beneficio total por hora.
+</Callout>
+
+<Section icon={Coins} title="Conceptos Básicos de la Subasta de Coches en Mechanic Legends">
+
+La subasta de coches es uno de los principales sistemas para ganar dinero en Mechanic Legends. En lugar de depender únicamente de los trabajos de reparación de clientes, puedes comprar vehículos en subasta, arreglarlos y revenderlos con beneficio. Esto es especialmente valioso porque los trabajos de clientes se agotan y activan un enfriamiento de aproximadamente tres minutos, dejándote inactivo a menos que tengas otra fuente de ingresos en marcha.
+
+**Puntos destacados del video:**
+- La Subasta Automática y la Venta Automática te permiten revender coches automáticamente
+- La compraventa en el desguace compra, repara y revende coches en bucle
+- La subasta llena la ventana de enfriamiento de 3 minutos con beneficio extra
+- Combinar trabajos automáticos, subasta y desguace maximiza los ingresos por hora
+
+<YouTubeEmbed videoId="wHBH_wL6WCk" title="Mechanic Legends Script - Auto Customer - Auto Repair - Auto Auction - Working" />
+
+<Callout type="tip" title="Principio Fundamental">
+La subasta no es un reemplazo de los trabajos de reparación — es un complemento. Los jugadores que usan ambos sistemas a la vez siempre ganan más que quienes solo repiten trabajos de clientes.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Comparación de Fuentes de Ingresos">
+
+Hay varias formas de ganar dinero en Mechanic Legends, y cada una se adapta a una situación distinta. La siguiente tabla muestra cómo se compara la subasta de coches con los otros métodos.
+
+| Método | Velocidad | Esfuerzo | Mejor Caso de Uso |
+| --- | --- | --- | --- |
+| Trabajos de Reparación de Clientes | Rápida | Medio | Ingreso principal cuando hay trabajos disponibles |
+| Reparación Automática | Media | Bajo | Ganancias en segundo plano mientras haces otras cosas |
+| Compraventa en Subasta | Media | Bajo | Llenar el enfriamiento de 3 minutos de los trabajos |
+| Compraventa en el Desguace | Lenta pero constante | Bajo | Coches baratos para reparar y revender |
+| Conducción Automática | Lenta | Muy bajo | Ingreso pasivo adicional |
+
+<CardGrid cols={3}>
+  <Card title="Primero los Trabajos de Reparación">
+    - **Mayor pago por tarea**
+    - Limitado por la disponibilidad de trabajos
+    - Enfriamiento de 3 minutos cuando la cola se vacía
+  </Card>
+  <Card title="Subasta + Desguace">
+    - **Llena cada hueco de enfriamiento**
+    - Compra barato, repara, vende caro
+    - Escala con tu velocidad de reparación
+  </Card>
+  <Card title="Combinación Completa">
+    - **Trabajos + Subasta + Desguace**
+    - Beneficio máximo por hora
+    - Requiere el menor tiempo de inactividad
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Mejor Combinación">
+Ejecuta trabajos automáticos de clientes, subasta automática con venta automática y compraventa en el desguace al mismo tiempo. Esta es la configuración más rentable porque no se desperdicia ni un minuto de juego durante los enfriamientos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Flujo de Trabajo Paso a Paso para la Compraventa en Subasta">
+
+Sigue este flujo de trabajo en cada sesión para mantener el dinero fluyendo incluso cuando los trabajos de reparación se agotan.
+
+<Steps>
+  <Step num="1" title="Acumula Trabajos">
+    Empieza con los trabajos de reparación de clientes, ya que pagan más rápido. Sigue trabajando hasta que la cola llegue a cero y comience el enfriamiento.
+  </Step>
+  <Step num="2" title="Cambia a la Subasta">
+    Durante el enfriamiento de aproximadamente 3 minutos, ve a la subasta. Busca coches infravalorados que puedas comprar por debajo de su precio de reventa una vez reparados.
+  </Step>
+  <Step num="3" title="Repara y Revende">
+    Arregla cada coche comprado antes de venderlo. El margen entre el precio de subasta y el precio de venta tras la reparación es tu beneficio, así que la calidad de la reparación importa.
+  </Step>
+  <Step num="4" title="Añade Compras en el Desguace">
+    Entre subastas, revende coches del desguace. Son baratos de conseguir y, tras repararlos, aún se venden con un buen margen.
+  </Step>
+  <Step num="5" title="Vuelve a los Trabajos">
+    Cuando termine el enfriamiento, regresa a los trabajos de clientes y repite el ciclo. El bucle mantiene activas todas las fuentes de ingresos.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Evita Este Error">
+No vendas coches sin reparar. El margen de reventa tras la reparación es todo el objetivo de la compraventa en subasta — saltarte las reparaciones destruye tu beneficio.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Ajustes de Automatización y Eficiencia">
+
+Los jugadores experimentados usan funciones de automatización para ejecutar la combinación completa con un esfuerzo mínimo. Los ajustes a continuación reflejan la configuración más usada para farmear en modo AFK.
+
+| Ajuste | Propósito | Recomendación |
+| --- | --- | --- |
+| Renderizado Desactivado | Reduce el lag en sesiones largas | Actívalo para farmeo AFK |
+| Límite de 30 FPS | Reduce el uso de recursos | Actívalo junto con el renderizado desactivado |
+| Trabajos Automáticos de Clientes | Completa reparaciones automáticamente | Mantenlo siempre activado |
+| Subasta Automática + Venta Automática | Reventa coches de subasta sin intervención | Actívalo durante los enfriamientos |
+| Compraventa en Desguace | Compra, repara y revende coches de desguace | Actívalo como tercera fuente |
+| Conducción Automática | Conduce coches para dinero pasivo | Ingreso adicional opcional |
+
+<Callout type="info" title="Nota de Rendimiento">
+Desactivar el renderizado y limitar el juego a 30 FPS reduce notablemente la carga del sistema durante sesiones largas de farmeo, lo que ayuda a que la automatización funcione de forma más fiable.
+</Callout>
+
+<Checklist
+  id="auction-session-goals"
+  title="Checklist de Sesión:"
+  items={[
+    "Completa todos los trabajos de reparación de clientes disponibles",
+    "Llena cada ventana de enfriamiento con compraventa en subasta",
+    "Repara todos los coches antes de revenderlos",
+    "Ejecuta compras en el desguace como fuente de respaldo",
+    "Registra tu beneficio por hora y ajústalo"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Expectativas de Beneficio y Errores Comunes">
+
+Los beneficios de la subasta dependen de dos factores: lo barato que compres y lo rápido que repares. Los jugadores nuevos suelen pagar de más por los coches de subasta, quedándose sin margen tras las reparaciones. Establece un límite personal de compra — si el precio de subasta de un coche está cerca de su valor de venta reparado, sáltalo y revisa el desguace en su lugar.
+
+| Error | Consecuencia | Solución |
+| --- | --- | --- |
+| Pujar en exceso en la subasta | Sin margen de beneficio | Compara precios antes de pujar |
+| Vender coches sin reparar | Pérdida del valor de reparación | Repara siempre primero |
+| Estar inactivo durante los enfriamientos | Tiempo de ganancia desperdiciado | Ejecuta subasta o compras en desguace |
+| Ignorar el desguace | Perder inventario barato | Revisa el desguace entre subastas |
+
+<Callout type="tip" title="Registra tus Márgenes">
+Ten presente a grandes rasgos cuánto se vende cada tipo de coche una vez reparado. Conocer estos números te permite detectar al instante lotes de subasta infravalorados.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué es la subasta de coches en Mechanic Legends?",
+    answer: "La subasta de coches es un mercado dentro del juego donde puedes comprar vehículos, repararlos y revenderlos con beneficio. Funciona mejor como fuente de ingresos secundaria mientras los trabajos de reparación de clientes están en enfriamiento."
+  },
+  {
+    question: "¿Cuándo debo usar la subasta de coches en lugar de trabajos de reparación?",
+    answer: "Usa la subasta cada vez que la cola de trabajos de clientes se vacíe. Los trabajos tienen un enfriamiento de aproximadamente tres minutos, y la compraventa en subasta mantiene el dinero fluyendo durante ese hueco."
+  },
+  {
+    question: "¿Es mejor la compraventa en el desguace que en la subasta?",
+    answer: "Se complementan entre sí. Los coches del desguace suelen ser más baratos de conseguir, mientras que los de subasta pueden ofrecer márgenes más altos. Ejecutar ambos junto con los trabajos de reparación produce el mayor beneficio total."
+  },
+  {
+    question: "¿Debo reparar los coches antes de venderlos en la subasta?",
+    answer: "Sí. El beneficio de la compraventa proviene de la diferencia entre el precio de compra y el valor de reventa reparado. Vender coches sin reparar elimina la mayor parte de ese margen."
+  }
+]} />
+
+</Section>

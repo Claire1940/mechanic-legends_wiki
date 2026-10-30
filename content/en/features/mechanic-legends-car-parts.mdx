@@ -1,0 +1,175 @@
+import { Map, Wrench, Cog, Gauge, Trophy, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mechanic Legends Car Parts: Types, Uses & Upgrade Guide",
+  description: "Learn how Mechanic Legends car parts work: engine components, racing upgrades, tires, suspension, and the best tuning priorities for every build.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1c1917/f97316?text=Car+Parts+Guide",
+  date: "2026-10-30",
+  author: "mechanic legends Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Mechanic Legends car parts** cover engine components, racing upgrades, tires, wheels, and suspension
+- **Engine work** is done component by component: remove a part, install the replacement, repeat
+- **Performance parts** work best as a complete setup, not as isolated upgrades
+- **Match parts to your activity**: drag racing, drifting, deliveries, and exploration favor different builds
+- **Test after every change** so you know exactly which part improved your vehicle
+</Callout>
+
+<Section icon={Cog} title="Car Parts Overview: What Each Category Does">
+
+Mechanic Legends car parts fall into distinct categories, and each one affects your vehicle differently. Engine components determine acceleration and top speed, suspension and wheels shape handling, and racing-oriented parts push the car toward competitive driving. Understanding the role of each category is the first step toward building a vehicle that fits your gameplay.
+
+The game features **50+ vehicles** with full engine disassembly, part replacement, tuning, and customization systems, giving you extensive freedom to mix and match components across your garage.
+
+| Part Category | Primary Effect | Best For | Priority |
+| --- | --- | --- | --- |
+| Engine components | Acceleration, top speed | Drag racing, general upgrades | ★★★★★ |
+| Racing parts | Competitive performance | Races, events | ★★★★★ |
+| Suspension | Handling, ride height, stance | Drifting, cornering | ★★★★ |
+| Wheels and tires | Grip, control, appearance | All activities | ★★★★ |
+| Body and paint | Visual customization | Style builds, collection | ★★★ |
+
+<Callout type="tip" title="Start With Inspection">
+Before changing any part, inspect the vehicle and identify damaged, missing, or lower-performance components. A complete inspection separates repair work from performance upgrades and prevents unnecessary part changes.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Engine Parts: Disassembly and Replacement Workflow">
+
+Engine work in Mechanic Legends is handled component by component. You select the engine part that needs service, remove it through the workshop interaction, and install the replacement, then continue checking the remaining components until the engine is restored or upgraded.
+
+<Steps>
+  <Step num="1" title="Bring the vehicle into the workshop">
+    Enter the workshop area with the vehicle you want to improve and open the engine and vehicle component menus.
+  </Step>
+  <Step num="2" title="Inspect every engine component">
+    Identify damaged, missing, or lower-performance parts before touching anything. This baseline makes later comparisons meaningful.
+  </Step>
+  <Step num="3" title="Remove the selected component">
+    Choose the engine part requiring service and use the workshop interaction to remove it.
+  </Step>
+  <Step num="4" title="Install the replacement part">
+    Fit the new component, then continue checking the remaining engine parts one by one.
+  </Step>
+  <Step num="5" title="Test and refine">
+    Take the car onto the road and test launch response, acceleration, and top speed. Change one group of parts at a time so each adjustment is easy to understand.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Common Mistake">
+Work through the vehicle systematically instead of switching between unrelated components. Jumping around the engine wastes time and makes it harder to tell which part fixed the problem.
+</Callout>
+
+</Section>
+
+<Section icon={Gauge} title="Racing Parts: Matching Upgrades to Race Type">
+
+Racing-oriented car parts are most effective when selected as a complete setup rather than as isolated upgrades. A drag build, a drift build, and a multiplayer race build each ask different things from your components.
+
+<CardGrid cols={3}>
+  <Card title="Drag Racing Build">
+    - **Prioritize engine performance and acceleration**
+    - Stable vehicle that stays straight on launch
+    - Few handling compromises on straight courses
+  </Card>
+  <Card title="Drift Build">
+    - **Predictable handling over top speed**
+    - Clear response to steering and throttle
+    - Setup that recovers easily when the rear steps out
+  </Card>
+  <Card title="Balanced Build">
+    - **Balanced acceleration and handling**
+    - Reliable for exploration and mixed roads
+    - Easier to control during jobs and travel
+  </Card>
+</CardGrid>
+
+| Setup Focus | Key Parts | Strength | Weakness |
+| --- | --- | --- | --- |
+| Speed-focused | Engine upgrades, racing components | Long straights, drag racing | Weak in corners |
+| Acceleration-focused | Launch-oriented parts | Quick launches, repeated starts | Lower top speed |
+| Handling-focused | Suspension, tires, wheels | Drifting, corners, correction-heavy roads | Slower on straights |
+
+<Callout type="success" title="Build Tip">
+For multiplayer races, prepare both a speed-focused build and a balanced handling build. Routes mix straights and turns, and testing both setups before competing tells you which reacts better under pressure.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Parts and Money: Upgrading on a Budget">
+
+Parts cost Cash, and early spending mistakes slow your progression. Repair the vehicle to a usable condition before investing in performance parts, and put your first earnings into reliability and control rather than maximum speed.
+
+| Stage | Part Spending Priority | Recommended Focus |
+| --- | --- | --- |
+| Early game | Condition, basic functionality | Repair work, standard jobs |
+| Early-mid game | Handling, basic acceleration | Deliveries, taxi tasks |
+| Mid game | Durability, travel performance | Reliable work vehicles |
+| Mid-late game | Acceleration, top speed | Races and events |
+
+<Callout type="tip" title="Reinvest Rule">
+Use early rewards to improve reliability and control before chasing maximum speed. A dependable vehicle earns consistently; an underpowered race build loses more than it wins.
+</Callout>
+
+<Checklist
+  id="parts-upgrade-goals"
+  title="Parts Upgrade Checklist:"
+  items={[
+    "Inspect all engine components before any upgrade",
+    "Repair the vehicle to full working condition",
+    "Match racing parts to your main activity",
+    "Test launch, acceleration, and handling after each change",
+    "Keep enough Cash reserved for repairs"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Part Selection FAQ">
+
+<FAQ items={[
+  {
+    question: "What are the main car part categories in Mechanic Legends?",
+    answer: "Mechanic Legends car parts include engine components, racing-oriented performance parts, suspension, wheels and tires, and body or paint customization items. Each category affects a different aspect of acceleration, top speed, handling, or appearance."
+  },
+  {
+    question: "Should I repair or upgrade parts first?",
+    answer: "Always restore the vehicle to a usable condition first. A damaged vehicle reduces efficiency, makes early jobs harder, and wastes money spent on performance parts that cannot perform properly."
+  },
+  {
+    question: "Which parts matter most for drag racing?",
+    answer: "Engine performance and acceleration parts are the top priority, along with a stable setup that keeps the car pointed straight during launch. Handling compromises matter less on mostly straight courses."
+  },
+  {
+    question: "How do I know if a parts upgrade actually worked?",
+    answer: "Change one group of parts at a time and test the vehicle on the road after each change. Compare launch response, acceleration, top speed, and steering stability against your inspection baseline."
+  }
+]} />
+
+</Section>
+
+<Section icon={Map} title="Where to Track New Parts and Updates">
+
+Updates can change how parts work, add new components, and shift the balance between acceleration, speed, and handling. When a new version appears, check the [official Roblox game page](https://www.roblox.com/games/9265443535/Car-Mechanic-Simulator), compare the current description with your previous setup, and retest established race builds.
+
+| Update Area | What to Check | Player Impact |
+| --- | --- | --- |
+| New parts and tuning features | Engine work, part replacement, racing components | Balance between speed, acceleration, handling may shift |
+| Vehicle additions | Newly available vehicles | New options for racing, drifting, or jobs |
+| Jobs and rewards | Repair, delivery, taxi rewards | Your best farming route may change |
+| Racing activities | New race types, drift content | Different builds may become optimal |
+
+<Callout type="warning" title="Retest After Updates">
+Review your existing vehicles after any update. Parts and tuning changes can silently alter how an old setup performs, so repeat the basic workshop and road test flow before your next race.
+</Callout>
+
+</Section>

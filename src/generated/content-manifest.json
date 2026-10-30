@@ -1,1 +1,594 @@
-{}
+{
+  "en": {
+    "cars": [
+      {
+        "slug": "mechanic-legends-best-car",
+        "file": "mechanic-legends-best-car"
+      },
+      {
+        "slug": "mechanic-legends-buy-a-car",
+        "file": "mechanic-legends-buy-a-car"
+      },
+      {
+        "slug": "mechanic-legends-car-auction",
+        "file": "mechanic-legends-car-auction"
+      },
+      {
+        "slug": "mechanic-legends-car-customization",
+        "file": "mechanic-legends-car-customization"
+      },
+      {
+        "slug": "mechanic-legends-car-dealership",
+        "file": "mechanic-legends-car-dealership"
+      },
+      {
+        "slug": "mechanic-legends-first-car",
+        "file": "mechanic-legends-first-car"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "mechanic-legends-codes",
+        "file": "mechanic-legends-codes"
+      }
+    ],
+    "features": [
+      {
+        "slug": "mechanic-legends-car-parts",
+        "file": "mechanic-legends-car-parts"
+      },
+      {
+        "slug": "mechanic-legends-car-simulator",
+        "file": "mechanic-legends-car-simulator"
+      },
+      {
+        "slug": "mechanic-legends-customer-jobs",
+        "file": "mechanic-legends-customer-jobs"
+      },
+      {
+        "slug": "mechanic-legends-final-lap",
+        "file": "mechanic-legends-final-lap"
+      },
+      {
+        "slug": "mechanic-legends-repair-shop",
+        "file": "mechanic-legends-repair-shop"
+      },
+      {
+        "slug": "mechanic-legends-vehicle-customization",
+        "file": "mechanic-legends-vehicle-customization"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "mechanic-legends-beginner-guide",
+        "file": "mechanic-legends-beginner-guide"
+      },
+      {
+        "slug": "mechanic-legends-best-cars",
+        "file": "mechanic-legends-best-cars"
+      },
+      {
+        "slug": "mechanic-legends-guide",
+        "file": "mechanic-legends-guide"
+      },
+      {
+        "slug": "mechanic-legends-how-to-play",
+        "file": "mechanic-legends-how-to-play"
+      },
+      {
+        "slug": "mechanic-legends-tips-and-tricks",
+        "file": "mechanic-legends-tips-and-tricks"
+      }
+    ],
+    "money": [
+      {
+        "slug": "mechanic-legends-cash-fast",
+        "file": "mechanic-legends-cash-fast"
+      },
+      {
+        "slug": "mechanic-legends-earn-100k",
+        "file": "mechanic-legends-earn-100k"
+      },
+      {
+        "slug": "mechanic-legends-earn-money",
+        "file": "mechanic-legends-earn-money"
+      },
+      {
+        "slug": "mechanic-legends-get-rich-fast",
+        "file": "mechanic-legends-get-rich-fast"
+      },
+      {
+        "slug": "mechanic-legends-money-fast",
+        "file": "mechanic-legends-money-fast"
+      }
+    ],
+    "repair": [
+      {
+        "slug": "mechanic-legends-auto-repair",
+        "file": "mechanic-legends-auto-repair"
+      },
+      {
+        "slug": "mechanic-legends-car-repair",
+        "file": "mechanic-legends-car-repair"
+      },
+      {
+        "slug": "mechanic-legends-fix-cars",
+        "file": "mechanic-legends-fix-cars"
+      },
+      {
+        "slug": "mechanic-legends-repair-body-parts",
+        "file": "mechanic-legends-repair-body-parts"
+      },
+      {
+        "slug": "mechanic-legends-repair-cars",
+        "file": "mechanic-legends-repair-cars"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "mechanic-legends-best-upgrades",
+        "file": "mechanic-legends-best-upgrades"
+      },
+      {
+        "slug": "mechanic-legends-car-upgrades",
+        "file": "mechanic-legends-car-upgrades"
+      },
+      {
+        "slug": "mechanic-legends-engine-upgrades",
+        "file": "mechanic-legends-engine-upgrades"
+      },
+      {
+        "slug": "mechanic-legends-how-to-buy-an-ecu",
+        "file": "mechanic-legends-how-to-buy-an-ecu"
+      },
+      {
+        "slug": "mechanic-legends-performance-upgrades",
+        "file": "mechanic-legends-performance-upgrades"
+      }
+    ]
+  },
+  "es": {
+    "cars": [
+      {
+        "slug": "mechanic-legends-best-car",
+        "file": "mechanic-legends-best-car"
+      },
+      {
+        "slug": "mechanic-legends-buy-a-car",
+        "file": "mechanic-legends-buy-a-car"
+      },
+      {
+        "slug": "mechanic-legends-car-auction",
+        "file": "mechanic-legends-car-auction"
+      },
+      {
+        "slug": "mechanic-legends-car-customization",
+        "file": "mechanic-legends-car-customization"
+      },
+      {
+        "slug": "mechanic-legends-car-dealership",
+        "file": "mechanic-legends-car-dealership"
+      },
+      {
+        "slug": "mechanic-legends-first-car",
+        "file": "mechanic-legends-first-car"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "mechanic-legends-codes",
+        "file": "mechanic-legends-codes"
+      }
+    ],
+    "features": [
+      {
+        "slug": "mechanic-legends-car-parts",
+        "file": "mechanic-legends-car-parts"
+      },
+      {
+        "slug": "mechanic-legends-car-simulator",
+        "file": "mechanic-legends-car-simulator"
+      },
+      {
+        "slug": "mechanic-legends-customer-jobs",
+        "file": "mechanic-legends-customer-jobs"
+      },
+      {
+        "slug": "mechanic-legends-final-lap",
+        "file": "mechanic-legends-final-lap"
+      },
+      {
+        "slug": "mechanic-legends-repair-shop",
+        "file": "mechanic-legends-repair-shop"
+      },
+      {
+        "slug": "mechanic-legends-vehicle-customization",
+        "file": "mechanic-legends-vehicle-customization"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "mechanic-legends-beginner-guide",
+        "file": "mechanic-legends-beginner-guide"
+      },
+      {
+        "slug": "mechanic-legends-best-cars",
+        "file": "mechanic-legends-best-cars"
+      },
+      {
+        "slug": "mechanic-legends-guide",
+        "file": "mechanic-legends-guide"
+      },
+      {
+        "slug": "mechanic-legends-how-to-play",
+        "file": "mechanic-legends-how-to-play"
+      },
+      {
+        "slug": "mechanic-legends-tips-and-tricks",
+        "file": "mechanic-legends-tips-and-tricks"
+      }
+    ],
+    "money": [
+      {
+        "slug": "mechanic-legends-cash-fast",
+        "file": "mechanic-legends-cash-fast"
+      },
+      {
+        "slug": "mechanic-legends-earn-100k",
+        "file": "mechanic-legends-earn-100k"
+      },
+      {
+        "slug": "mechanic-legends-earn-money",
+        "file": "mechanic-legends-earn-money"
+      },
+      {
+        "slug": "mechanic-legends-get-rich-fast",
+        "file": "mechanic-legends-get-rich-fast"
+      },
+      {
+        "slug": "mechanic-legends-money-fast",
+        "file": "mechanic-legends-money-fast"
+      }
+    ],
+    "repair": [
+      {
+        "slug": "mechanic-legends-auto-repair",
+        "file": "mechanic-legends-auto-repair"
+      },
+      {
+        "slug": "mechanic-legends-car-repair",
+        "file": "mechanic-legends-car-repair"
+      },
+      {
+        "slug": "mechanic-legends-fix-cars",
+        "file": "mechanic-legends-fix-cars"
+      },
+      {
+        "slug": "mechanic-legends-repair-body-parts",
+        "file": "mechanic-legends-repair-body-parts"
+      },
+      {
+        "slug": "mechanic-legends-repair-cars",
+        "file": "mechanic-legends-repair-cars"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "mechanic-legends-best-upgrades",
+        "file": "mechanic-legends-best-upgrades"
+      },
+      {
+        "slug": "mechanic-legends-car-upgrades",
+        "file": "mechanic-legends-car-upgrades"
+      },
+      {
+        "slug": "mechanic-legends-engine-upgrades",
+        "file": "mechanic-legends-engine-upgrades"
+      },
+      {
+        "slug": "mechanic-legends-how-to-buy-an-ecu",
+        "file": "mechanic-legends-how-to-buy-an-ecu"
+      },
+      {
+        "slug": "mechanic-legends-performance-upgrades",
+        "file": "mechanic-legends-performance-upgrades"
+      }
+    ]
+  },
+  "fr": {
+    "cars": [
+      {
+        "slug": "mechanic-legends-best-car",
+        "file": "mechanic-legends-best-car"
+      },
+      {
+        "slug": "mechanic-legends-buy-a-car",
+        "file": "mechanic-legends-buy-a-car"
+      },
+      {
+        "slug": "mechanic-legends-car-auction",
+        "file": "mechanic-legends-car-auction"
+      },
+      {
+        "slug": "mechanic-legends-car-customization",
+        "file": "mechanic-legends-car-customization"
+      },
+      {
+        "slug": "mechanic-legends-car-dealership",
+        "file": "mechanic-legends-car-dealership"
+      },
+      {
+        "slug": "mechanic-legends-first-car",
+        "file": "mechanic-legends-first-car"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "mechanic-legends-codes",
+        "file": "mechanic-legends-codes"
+      }
+    ],
+    "features": [
+      {
+        "slug": "mechanic-legends-car-parts",
+        "file": "mechanic-legends-car-parts"
+      },
+      {
+        "slug": "mechanic-legends-car-simulator",
+        "file": "mechanic-legends-car-simulator"
+      },
+      {
+        "slug": "mechanic-legends-customer-jobs",
+        "file": "mechanic-legends-customer-jobs"
+      },
+      {
+        "slug": "mechanic-legends-final-lap",
+        "file": "mechanic-legends-final-lap"
+      },
+      {
+        "slug": "mechanic-legends-repair-shop",
+        "file": "mechanic-legends-repair-shop"
+      },
+      {
+        "slug": "mechanic-legends-vehicle-customization",
+        "file": "mechanic-legends-vehicle-customization"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "mechanic-legends-beginner-guide",
+        "file": "mechanic-legends-beginner-guide"
+      },
+      {
+        "slug": "mechanic-legends-best-cars",
+        "file": "mechanic-legends-best-cars"
+      },
+      {
+        "slug": "mechanic-legends-guide",
+        "file": "mechanic-legends-guide"
+      },
+      {
+        "slug": "mechanic-legends-how-to-play",
+        "file": "mechanic-legends-how-to-play"
+      },
+      {
+        "slug": "mechanic-legends-tips-and-tricks",
+        "file": "mechanic-legends-tips-and-tricks"
+      }
+    ],
+    "money": [
+      {
+        "slug": "mechanic-legends-cash-fast",
+        "file": "mechanic-legends-cash-fast"
+      },
+      {
+        "slug": "mechanic-legends-earn-100k",
+        "file": "mechanic-legends-earn-100k"
+      },
+      {
+        "slug": "mechanic-legends-earn-money",
+        "file": "mechanic-legends-earn-money"
+      },
+      {
+        "slug": "mechanic-legends-get-rich-fast",
+        "file": "mechanic-legends-get-rich-fast"
+      },
+      {
+        "slug": "mechanic-legends-money-fast",
+        "file": "mechanic-legends-money-fast"
+      }
+    ],
+    "repair": [
+      {
+        "slug": "mechanic-legends-auto-repair",
+        "file": "mechanic-legends-auto-repair"
+      },
+      {
+        "slug": "mechanic-legends-car-repair",
+        "file": "mechanic-legends-car-repair"
+      },
+      {
+        "slug": "mechanic-legends-fix-cars",
+        "file": "mechanic-legends-fix-cars"
+      },
+      {
+        "slug": "mechanic-legends-repair-body-parts",
+        "file": "mechanic-legends-repair-body-parts"
+      },
+      {
+        "slug": "mechanic-legends-repair-cars",
+        "file": "mechanic-legends-repair-cars"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "mechanic-legends-best-upgrades",
+        "file": "mechanic-legends-best-upgrades"
+      },
+      {
+        "slug": "mechanic-legends-car-upgrades",
+        "file": "mechanic-legends-car-upgrades"
+      },
+      {
+        "slug": "mechanic-legends-engine-upgrades",
+        "file": "mechanic-legends-engine-upgrades"
+      },
+      {
+        "slug": "mechanic-legends-how-to-buy-an-ecu",
+        "file": "mechanic-legends-how-to-buy-an-ecu"
+      },
+      {
+        "slug": "mechanic-legends-performance-upgrades",
+        "file": "mechanic-legends-performance-upgrades"
+      }
+    ]
+  },
+  "pt": {
+    "cars": [
+      {
+        "slug": "mechanic-legends-best-car",
+        "file": "mechanic-legends-best-car"
+      },
+      {
+        "slug": "mechanic-legends-buy-a-car",
+        "file": "mechanic-legends-buy-a-car"
+      },
+      {
+        "slug": "mechanic-legends-car-auction",
+        "file": "mechanic-legends-car-auction"
+      },
+      {
+        "slug": "mechanic-legends-car-customization",
+        "file": "mechanic-legends-car-customization"
+      },
+      {
+        "slug": "mechanic-legends-car-dealership",
+        "file": "mechanic-legends-car-dealership"
+      },
+      {
+        "slug": "mechanic-legends-first-car",
+        "file": "mechanic-legends-first-car"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "mechanic-legends-codes",
+        "file": "mechanic-legends-codes"
+      }
+    ],
+    "features": [
+      {
+        "slug": "mechanic-legends-car-parts",
+        "file": "mechanic-legends-car-parts"
+      },
+      {
+        "slug": "mechanic-legends-car-simulator",
+        "file": "mechanic-legends-car-simulator"
+      },
+      {
+        "slug": "mechanic-legends-customer-jobs",
+        "file": "mechanic-legends-customer-jobs"
+      },
+      {
+        "slug": "mechanic-legends-final-lap",
+        "file": "mechanic-legends-final-lap"
+      },
+      {
+        "slug": "mechanic-legends-repair-shop",
+        "file": "mechanic-legends-repair-shop"
+      },
+      {
+        "slug": "mechanic-legends-vehicle-customization",
+        "file": "mechanic-legends-vehicle-customization"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "mechanic-legends-beginner-guide",
+        "file": "mechanic-legends-beginner-guide"
+      },
+      {
+        "slug": "mechanic-legends-best-cars",
+        "file": "mechanic-legends-best-cars"
+      },
+      {
+        "slug": "mechanic-legends-guide",
+        "file": "mechanic-legends-guide"
+      },
+      {
+        "slug": "mechanic-legends-how-to-play",
+        "file": "mechanic-legends-how-to-play"
+      },
+      {
+        "slug": "mechanic-legends-tips-and-tricks",
+        "file": "mechanic-legends-tips-and-tricks"
+      }
+    ],
+    "money": [
+      {
+        "slug": "mechanic-legends-cash-fast",
+        "file": "mechanic-legends-cash-fast"
+      },
+      {
+        "slug": "mechanic-legends-earn-100k",
+        "file": "mechanic-legends-earn-100k"
+      },
+      {
+        "slug": "mechanic-legends-earn-money",
+        "file": "mechanic-legends-earn-money"
+      },
+      {
+        "slug": "mechanic-legends-get-rich-fast",
+        "file": "mechanic-legends-get-rich-fast"
+      },
+      {
+        "slug": "mechanic-legends-money-fast",
+        "file": "mechanic-legends-money-fast"
+      }
+    ],
+    "repair": [
+      {
+        "slug": "mechanic-legends-auto-repair",
+        "file": "mechanic-legends-auto-repair"
+      },
+      {
+        "slug": "mechanic-legends-car-repair",
+        "file": "mechanic-legends-car-repair"
+      },
+      {
+        "slug": "mechanic-legends-fix-cars",
+        "file": "mechanic-legends-fix-cars"
+      },
+      {
+        "slug": "mechanic-legends-repair-body-parts",
+        "file": "mechanic-legends-repair-body-parts"
+      },
+      {
+        "slug": "mechanic-legends-repair-cars",
+        "file": "mechanic-legends-repair-cars"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "mechanic-legends-best-upgrades",
+        "file": "mechanic-legends-best-upgrades"
+      },
+      {
+        "slug": "mechanic-legends-car-upgrades",
+        "file": "mechanic-legends-car-upgrades"
+      },
+      {
+        "slug": "mechanic-legends-engine-upgrades",
+        "file": "mechanic-legends-engine-upgrades"
+      },
+      {
+        "slug": "mechanic-legends-how-to-buy-an-ecu",
+        "file": "mechanic-legends-how-to-buy-an-ecu"
+      },
+      {
+        "slug": "mechanic-legends-performance-upgrades",
+        "file": "mechanic-legends-performance-upgrades"
+      }
+    ]
+  }
+}

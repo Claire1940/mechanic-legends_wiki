@@ -1,0 +1,163 @@
+import { Map, Wrench, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mechanic Legends Fix Cars: Guia de Trabalhos e Reparos para Ganhar Dinheiro Rápido",
+  description: "Aprenda a consertar carros em Mechanic Legends com eficiência: trabalhos de clientes, loops de reparo automático, revenda de ferro-velho e estratégias de venda em leilão.",
+  category: "guia",
+  image: "https://placehold.co/800x400/b45309/fff?text=Mechanic+Legends+Fix+Cars",
+  date: "2026-10-30",
+  author: "Equipe do Wiki Mechanic Legends"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A jogabilidade de **Mechanic Legends fix cars** gira em torno de trabalhos de clientes, reparos e revenda.
+- **Trabalhos de clientes** são a principal fonte de renda, mas têm um cooldown de 3 minutos quando a fila esvazia.
+- **Revenda de ferro-velho** permite comprar, reparar e vender carros para preencher os intervalos de cooldown.
+- **Auto leilão + auto venda** maximiza o lucro enquanto você espera por novos trabalhos.
+- **Configurações de desempenho** como renderização reduzida e limite de 30 FPS ajudam em sessões longas de farm.
+</Callout>
+
+<Section icon={Wrench} title="Como Consertar Carros em Mechanic Legends">
+
+Em Mechanic Legends, seu loop principal de jogabilidade é simples: aceite trabalhos de clientes, repare os veículos, receba o pagamento e reinvesta seus ganhos em mais carros. Os trabalhos aparecem em uma fila, e cada um guia você pelo processo de reparo do início ao fim. Completar um trabalho integralmente é o que gera pagamento — trabalho parcial não rende nada, então sempre termine o trabalho antes de seguir em frente.
+
+**Destaques do Vídeo:**
+- Trabalhos de clientes rodam automaticamente por sequências completas de reparo
+- A fila de trabalhos pode zerar com um cooldown de aproximadamente 3 minutos
+- Auto leilão, auto venda e revenda de ferro-velho preenchem o tempo morto
+- Auto dirige gera dinheiro passivo dirigindo carros pela cidade
+
+<YouTubeEmbed videoId="wHBH_wL6WCk" title="Mechanic Legends Script - Auto Customer - Auto Repair - Auto Auction - Working" />
+
+<Callout type="tip" title="Trabalho Primeiro, Todo o Resto Depois">
+Sempre priorize trabalhos de clientes ativos em vez de atividades secundárias. Os trabalhos são sua renda mais alta e confiável por minuto — revenda de ferro-velho e leilões existem para cobrir as janelas de cooldown, não para substituir os trabalhos.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Comparação de Fontes de Renda">
+
+Cada método de ganhar dinheiro em Mechanic Legends troca seu tempo de forma diferente. Combinar a atividade certa com o momento certo é o que separa uma oficina lenta de uma lucrativa.
+
+| Método | Velocidade de Renda | Esforço | Melhor Uso |
+| --- | --- | --- | --- |
+| Trabalhos de clientes | ★★★★★ | Médio | Com trabalhos disponíveis na fila |
+| Loop de reparo automático | ★★★★ | Baixo | Reparos de veículos em sequência |
+| Revenda de ferro-velho | ★★★ | Médio | Durante cooldowns de trabalho |
+| Revenda em leilão | ★★★ | Baixo | Após revender carros do ferro-velho |
+| Auto dirige | ★★ | Muito baixo | Renda passiva em segundo plano |
+
+<CardGrid cols={3}>
+  <Card title="Trabalhos de Clientes">
+    - **Maior pagamento por reparo**
+    - Conclusão completa obrigatória
+    - A fila pode esvaziar
+  </Card>
+  <Card title="Revenda de Ferro-Velho">
+    - **Compre barato, repare, venda caro**
+    - Ótimo para preencher cooldowns
+    - Escala com a velocidade de reparo
+  </Card>
+  <Card title="Venda em Leilão">
+    - **Anúncios e vendas automatizados**
+    - Combina com revenda de ferro-velho
+    - Passivo enquanto espera
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Disciplina de Cooldown">
+Quando a fila de trabalhos zera, você enfrenta cerca de 3 minutos de tempo morto. Tenha revendas de ferro-velho e vendas em leilão já rodando para que nem um minuto dessa janela seja desperdiçado.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rotina de Reparo Passo a Passo">
+
+Siga esta rotina em toda sessão para manter sua oficina funcionando com eficiência máxima desde o momento em que você faz login.
+
+<Steps>
+  <Step num="1" title="Prepare Seu Cliente">
+    Reduza a renderização e limite o jogo a 30 FPS antes de sessões longas de farm. Isso mantém o desempenho estável enquanto você grinda reparos por períodos prolongados.
+  </Step>
+  <Step num="2" title="Esvazie a Fila de Trabalhos">
+    Aceite trabalhos de clientes e complete cada reparo integralmente, do início ao fim. Nunca abandone um trabalho pela metade — apenas trabalhos concluídos geram pagamento.
+  </Step>
+  <Step num="3" title="Preencha o Cooldown">
+    Quando os trabalhos acabarem, mude imediatamente para revenda de ferro-velho: compre carros baratos, repare-os e prepare-os para venda.
+  </Step>
+  <Step num="4" title="Venda em Leilão">
+    Anuncie seus carros do ferro-velho reparados no leilão e deixe a auto venda cuidar das transações enquanto a fila de trabalhos é reabastecida.
+  </Step>
+  <Step num="5" title="Escale">
+    Reinvista os lucros em um inventário melhor e mantenha o loop rodando. Mais capital significa mais revendas de ferro-velho e margens maiores no leilão.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Rotação Ideal">
+O padrão mais lucrativo observado na prática: trabalhos de clientes automáticos como base, reparo automático para trabalho contínuo, revenda de ferro-velho mais venda em leilão durante cada cooldown. Isso empilha todas as fontes de renda com tempo ocioso mínimo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Prioridades de Reparo e Valor dos Veículos">
+
+Nem todo carro merece seu tempo de chave inglesa. Use esta referência rápida para decidir onde direcionar seu esforço.
+
+| Origem do Veículo | Custo de Reparo | Valor de Revenda | Prioridade |
+| --- | --- | --- | --- |
+| Carros de trabalhos de clientes | N/A (trabalho pago) | Pagamento fixo do trabalho | **Sempre primeiro** |
+| Sucata do ferro-velho | Baixo preço de compra | Médio após reparo | Alta durante cooldown |
+| Pechinchas de leilão | Varia | Depende do mercado | Apenas com dinheiro sobrando |
+| Carros pessoais danificados | Suas peças | Retorno baixo | Pule, a menos que precise |
+
+<Callout type="info" title="Repare Completamente Antes de Vender">
+Um carro totalmente reparado consistentemente vende por mais do que um parcialmente consertado. Sempre complete todos os estágios de reparo antes de anunciar um veículo — a diferença na margem vale os minutos extras.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Metas por Sessão">
+
+<Checklist
+  id="fix-cars-goals"
+  title="Toda Sessão Deve Incluir:"
+  items={[
+    "Completar todos os trabalhos de clientes na fila",
+    "Fazer revendas de ferro-velho durante cooldowns de trabalho",
+    "Anunciar carros reparados no leilão antes de ficar ocioso",
+    "Manter ferramentas de reparo e inventário abastecidos",
+    "Reinvestir pelo menos metade dos lucros da sessão"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Qual é a forma mais rápida de ganhar dinheiro consertando carros em Mechanic Legends?",
+    answer: "Trabalhos de clientes pagam mais por minuto, então esvazie a fila primeiro. Quando os trabalhos acabarem durante o cooldown de aproximadamente 3 minutos, mude para revenda de ferro-velho e vendas em leilão para manter a renda fluindo sem interrupção."
+  },
+  {
+    question: "Por que meus trabalhos de clientes pararam de aparecer?",
+    answer: "A fila de trabalhos periodicamente zera e entra em um cooldown de cerca de 3 minutos. Isso é normal — use essa janela para revendas de ferro-velho, anúncios em leilão ou renda de auto dirigir em vez de esperar ocioso."
+  },
+  {
+    question: "Devo vender carros do ferro-velho imediatamente após comprá-los?",
+    answer: "Não. Repare-os completamente primeiro. Um reparo concluído aumenta significativamente o preço de revenda no leilão, e o custo extra de tempo é pequeno comparado ao ganho na margem."
+  },
+  {
+    question: "Preciso reduzir minhas configurações gráficas?",
+    answer: "Para sessões longas de farm, sim. Desligar a renderização e limitar o jogo a 30 FPS mantém o desempenho estável durante loops estendidos de reparo e revenda, o que é especialmente útil se você rodar o jogo por horas."
+  }
+]} />
+
+</Section>

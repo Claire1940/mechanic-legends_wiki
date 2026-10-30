@@ -1,0 +1,178 @@
+import { Map, Trophy, Target, Shield, Sparkles, Coins } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mechanic Legends Car Auction: Flip Strategy & Profit Guide",
+  description: "Learn how the Mechanic Legends car auction works. Compare auction flipping, junkyard flips, and repair jobs to maximize your in-game profit.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Car+Auction+Guide",
+  date: "2026-10-30",
+  author: "mechanic legends Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Mechanic Legends car auction** is your top passive income source while repair jobs are on cooldown.
+- **Auction flipping** pairs best with junkyard flips: buy, repair, then sell for margin.
+- **Job cooldowns** last about 3 minutes — fill that window with auction activity.
+- **Auto Auction + Auto Sell** lets you keep earning without constant clicking.
+- **Combine income streams** for the highest total profit per hour.
+</Callout>
+
+<Section icon={Coins} title="Car Auction Basics in Mechanic Legends">
+
+The car auction is one of the main money-making systems in Mechanic Legends. Instead of relying purely on customer repair jobs, you can purchase vehicles at auction, fix them up, and resell them for a profit. This becomes especially valuable because customer jobs run out and trigger a cooldown of roughly three minutes, leaving you idle unless you have another income source running.
+
+**Video Highlights:**
+- Auto Auction and Auto Sell let you flip cars automatically
+- Junkyard flipping buys, repairs, and resells cars in a loop
+- Auction fills the 3-minute job cooldown window with extra profit
+- Combining auto jobs, auction, and junkyard flip maximizes hourly income
+
+<YouTubeEmbed videoId="wHBH_wL6WCk" title="Mechanic Legends Script - Auto Customer - Auto Repair - Auto Auction - Working" />
+
+<Callout type="tip" title="Core Principle">
+The auction is not a replacement for repair jobs — it is a supplement. Players who run both systems at once consistently out-earn players who only grind customer jobs.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Income Streams Compared">
+
+There are several ways to earn in Mechanic Legends, and each fits a different situation. The table below breaks down how the car auction stacks up against the other methods.
+
+| Method | Speed | Effort | Best Use Case |
+| --- | --- | --- | --- |
+| Customer Repair Jobs | Fast | Medium | Primary income when jobs are available |
+| Auto Repair | Medium | Low | Background earning while multitasking |
+| Car Auction Flips | Medium | Low | Filling the 3-minute job cooldown |
+| Junkyard Flips | Slow but steady | Low | Cheap cars to repair and resell |
+| Auto Drive | Slow | Very low | Passive trickle income |
+
+<CardGrid cols={3}>
+  <Card title="Repair Jobs First">
+    - **Highest per-task pay**
+    - Limited by job availability
+    - 3-minute cooldown when queue empties
+  </Card>
+  <Card title="Auction + Junkyard">
+    - **Fills every cooldown gap**
+    - Buy low, repair, sell high
+    - Scales with your repair speed
+  </Card>
+  <Card title="Full Combo">
+    - **Jobs + Auction + Junkyard**
+    - Maximum profit per hour
+    - Requires the least idle time
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Best Combo">
+Run auto customer jobs, auto auction with auto sell, and junkyard flipping together. This is the highest-profit setup because no minute of gameplay goes to waste during cooldowns.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Auction Flip Workflow">
+
+Follow this workflow every session to keep your cash flowing even when repair jobs dry up.
+
+<Steps>
+  <Step num="1" title="Stock Up on Jobs">
+    Start with customer repair jobs, since they pay the fastest. Keep working them until the queue hits zero and the cooldown begins.
+  </Step>
+  <Step num="2" title="Switch to the Auction">
+    During the roughly 3-minute cooldown, head to the auction. Look for undervalued cars you can buy below their repaired resale price.
+  </Step>
+  <Step num="3" title="Repair and Resell">
+    Fix every purchased car before selling. The margin between auction price and repaired sale price is your profit, so repair quality matters.
+  </Step>
+  <Step num="4" title="Add Junkyard Flips">
+    Between auctions, flip junkyard cars. They are cheap to acquire, and after repairs they still sell for a solid margin.
+  </Step>
+  <Step num="5" title="Return to Jobs">
+    Once the cooldown ends, jump back to customer jobs and repeat the cycle. The loop keeps every income stream active.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Avoid This Mistake">
+Do not sell cars unrepaired. The resale margin after repair is the entire point of auction flipping — skipping repairs destroys your profit.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Automation and Efficiency Settings">
+
+Experienced players use automation features to run the full combo with minimal input. The settings below reflect the commonly used configuration for AFK-style farming.
+
+| Setting | Purpose | Recommendation |
+| --- | --- | --- |
+| Rendering Off | Reduces lag during long sessions | Enable for AFK farming |
+| 30 FPS Cap | Lowers resource usage | Enable alongside rendering off |
+| Auto Customer Jobs | Completes repair jobs automatically | Keep on at all times |
+| Auto Auction + Auto Sell | Flips auction cars hands-free | Enable during cooldowns |
+| Junkyard Flip | Buys, repairs, resells junk cars | Enable as a third stream |
+| Auto Drive | Drives cars for passive cash | Optional trickle income |
+
+<Callout type="info" title="Performance Note">
+Turning off rendering and capping the game at 30 FPS noticeably reduces system load during long farming sessions, which helps automation run more reliably.
+</Callout>
+
+<Checklist
+  id="auction-session-goals"
+  title="Session Checklist:"
+  items={[
+    "Complete all available customer repair jobs",
+    "Fill every cooldown window with auction flips",
+    "Repair all cars before reselling",
+    "Run junkyard flips as a backup stream",
+    "Log your profit per hour and adjust"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Profit Expectations and Pitfalls">
+
+Auction profits scale with two factors: how cheaply you buy and how quickly you repair. New players often overpay for auction cars, leaving no margin after repairs. Set a personal buy ceiling — if a car's auction price is close to its repaired sale value, skip it and check the junkyard instead.
+
+| Pitfall | Consequence | Fix |
+| --- | --- | --- |
+| Overbidding at auction | No profit margin | Compare prices before bidding |
+| Selling unrepaired cars | Lost repair value | Always repair first |
+| Idling during cooldowns | Wasted earning time | Run auction or junkyard flips |
+| Ignoring junkyard | Missing cheap inventory | Check junkyard between auctions |
+
+<Callout type="tip" title="Track Your Margins">
+Keep a simple mental note of what each car type sells for once repaired. Knowing these numbers lets you spot underpriced auction lots instantly.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the car auction in Mechanic Legends?",
+    answer: "The car auction is an in-game marketplace where you can buy vehicles, repair them, and resell them for a profit. It works best as a secondary income stream while customer repair jobs are on cooldown."
+  },
+  {
+    question: "When should I use the car auction instead of repair jobs?",
+    answer: "Use the auction whenever the customer job queue empties. Jobs have a cooldown of roughly three minutes, and auction flipping keeps money coming in during that gap."
+  },
+  {
+    question: "Is junkyard flipping better than auction flipping?",
+    answer: "They complement each other. Junkyard cars are usually cheaper to acquire, while auction cars can offer higher margins. Running both together with repair jobs produces the highest overall profit."
+  },
+  {
+    question: "Should I repair cars before selling them at auction?",
+    answer: "Yes. The profit from flipping comes from the difference between the purchase price and the repaired resale value. Selling unrepaired cars removes most of that margin."
+  }
+]} />
+
+</Section>

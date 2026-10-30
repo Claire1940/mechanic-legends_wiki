@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guide du débutant de Mechanic Legends : Configuration du premier jour et conseils",
+  description: "Commencez Mechanic Legends du bon pied : progression précoce, gestion des ressources, construction d'équipe et erreurs de débutant courantes à éviter.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Mechanic+Legends+Beginner+Guide",
+  date: "2026-10-30",
+  author: "Équipe Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Guide du débutant de Mechanic Legends** : couvre votre premier jour, du tutoriel aux boucles de progression principales.
+- **Discipline des ressources** : gardez la monnaie premium et les matériaux d'amélioration jusqu'à ce que vous compreniez le méta.
+- **Fondamentaux d'équipe** : construisez autour d'un noyau équilibré plutôt que de courir après une seule unité surpuissante.
+- **Routine quotidienne** : une courte liste de contrôle répétable génère l'essentiel de votre croissance initiale.
+- **Évitez les pièges du reroll** : comprenez quand le reroll est utile et quand il ne fait que gaspiller votre temps de jeu.
+</Callout>
+
+<Section icon={Wrench} title="Pour bien commencer : de quoi il s'agit dans Mechanic Legends">
+
+Mechanic Legends est un jeu centré sur les héros où vous assemblez une équipe, investissez des ressources dans vos personnages préférés et avancez dans des contenus de plus en plus difficiles. La boucle centrale est simple : terminez des étapes, gagnez des matériaux d'amélioration, renforcez votre équipe, répétez. Ce qui sépare un bon départ d'un démarrage lent, ce n'est pas la chance — c'est la délibération avec laquelle vous dépensez vos premières sessions de jeu.
+
+Les nouveaux joueurs tombent généralement dans les mêmes pièges : disperser leurs ressources sur trop d'unités, ignorer les récompenses du tutoriel, ou dépenser la monnaie premium dès qu'elle apparaît. Ce guide vous fait traverser une première semaine propre et efficace afin d'éviter entièrement ces erreurs.
+
+<Callout type="tip" title="Avant de commencer">
+Terminez le tutoriel en entier avant de prendre toute décision. De nombreux systèmes — équipement, compétences et emplacements d'équipe — se débloquent à mesure que vous progressez, et les choix précoces semblent très différents une fois que vous voyez l'ensemble du tableau.
+</Callout>
+
+La première chose à assimiler est que Mechanic Legends récompense la **concentration**. Une unité de niveau intermédiaire montée à un haut niveau surpassera un banc hétérogène de personnages à moitié développés dans presque tous les modes de jeu. Engagez-vous tôt dans une équipe principale, et ne vous développez qu'une fois que ce noyau peut franchir votre mur de progression actuel.
+
+</Section>
+
+<Section icon={Target} title="Progression précoce : première semaine étape par étape">
+
+Votre première semaine donne le rythme pour tout ce qui suit. Suivez cet ordre et vous atteindrez le mid-game avec des ressources en réserve.
+
+<Steps>
+  <Step num="1" title="Terminez le tutoriel et récupérez tout">
+    Terminez les missions de campagne initiales et récupérez chaque récompense unique que le jeu distribue. Ces premières dotations de monnaie et de matériaux constituent la base de vos premières vraies améliorations.
+  </Step>
+  <Step num="2" title="Identifiez votre équipe principale">
+    Choisissez un principal dégât, un support et un troisième emplacement flexible selon les unités que le jeu vous donne. Ne vous inquiétez pas encore des tier lists — le contenu précoce se termine avec presque n'importe quel trio concentré.
+  </Step>
+  <Step num="3" title="Poussez la campagne jusqu'au blocage">
+    Progressez dans la campagne jusqu'à rencontrer un mur. L'étape où vous êtes bloqué est votre cible de farm des prochains jours. Répétez-la pour les matériaux au lieu de farmer au hasard d'anciennes étapes.
+  </Step>
+  <Step num="4" title="Débloquez et comprenez les systèmes quotidiens">
+    Les missions quotidiennes, récompenses de connexion et mécaniques d'idle ou de sweep deviennent disponibles à mesure que vous avancez. Activez-les toutes et construisez une courte routine quotidienne autour d'elles — c'est là que se trouve l'essentiel de la progression gratuite.
+  </Step>
+  <Step num="5" title="Rejoignez une guilde ou une équipe tôt">
+    Les systèmes sociaux offrent généralement une monnaie bonus, des buffs partagés ou un accès boutique supplémentaire. Rejoindre tôt ne coûte rien et accumule les récompenses au fil du temps.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Ne vous précipitez pas sur le reroll">
+Le reroll n'a de sens que si le jeu propose très peu d'unités haut niveau au lancement. Les heures passées à reroller sont des heures non passées à apprendre les systèmes. Un départ jouable avec une progression précoce bat un départ « parfait » sans progression.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fondamentaux de la construction d'équipe">
+
+Une équipe équilibrée dans Mechanic Legends couvre trois rôles. Les débutants empilent souvent trois dealers de dégâts et se demandent pourquoi ils perdent les combats longs — la survie et l'utilité gagnent les batailles prolongées.
+
+<CardGrid cols={3}>
+  <Card title="Dealer de dégâts">
+    - **Source principale d'élimination**
+    - Priorité d'amélioration la plus élevée
+    - Bénéficie généralement le plus de l'investissement en équipement
+  </Card>
+  <Card title="Support / Soigneur">
+    - Prolonge la durée des combats
+    - Permet un jeu agressif
+    - Évolue bien avec un investissement modeste
+  </Card>
+  <Card title="Troisième flexible">
+    - Tank, buffer ou deuxième DPS
+    - Adaptez-vous au contenu qui vous bloque
+    - Faites tourner selon la composition ennemie
+  </Card>
+</CardGrid>
+
+Pour évaluer quelles unités élever, utilisez ce cadre de comparaison :
+
+| Critère | Ce qu'il faut rechercher | Priorité |
+| --- | --- | --- |
+| Couverture des rôles | Comble un manque de votre équipe | Haute |
+| Scaling des compétences | Reste utile en fin de jeu | Haute |
+| Farmabilité | Obtensible sans monnaie premium | Moyenne |
+| Flexibilité d'équipement | Compatible avec l'équipement que vous possédez déjà | Moyenne |
+| Préférence personnelle | Vous prenez plaisir à y jouer | Haute |
+
+<Callout type="success" title="La règle de la préférence">
+Une unité que vous aimez jouer sera plus jouée, et le temps investi bat les différences de statistiques marginales en début et milieu de jeu. Les tier lists comptent au plus haut niveau — pas pendant la première semaine.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gestion des ressources pour les nouveaux joueurs">
+
+Les ressources sont la véritable monnaie de la progression dans Mechanic Legends. Les mal gérer la première semaine peut vous retarder de plusieurs semaines.
+
+| Ressource | Utilisation intelligente | Erreur courante |
+| --- | --- | --- |
+| Monnaie premium | Économisez pour des offres limitées à forte valeur ou des invocations garanties | Dépenser sur des actualisations aléatoires de faible valeur |
+| Matériaux d'amélioration | Concentrez-vous sur votre équipe principale | Répartir sur tout le roster |
+| Équipement | Équipez d'abord votre DPS principal, puis le support | Améliorer un équipement bientôt remplacé |
+| Énergie / stamina | Dépensez chaque jour, ciblez votre étape de blocage actuelle | Thésauriser au-delà du plafond et gaspiller la régénération |
+| Points d'amitié / sociaux | Récupérez et dépensez chaque jour | Ignorer complètement les systèmes sociaux |
+
+La règle la plus importante : **ne répartissez jamais les améliorations de manière égale**. Une équipe concentrée de trois unités fortes termine un contenu qu'un banc de six unités moyennes ne peut pas.
+
+<Callout type="tip" title="Fixez une règle de dépense">
+Avant de toucher à la monnaie premium, décidez d'une règle — par exemple, « ne dépenser que pour des résultats garantis ». Écrivez-la. Les invocations impulsives sont le regret numéro un rapporté par les joueurs qui recommencent.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Routine quotidienne et objectifs du premier mois">
+
+La régularité bat l'intensité. Une routine quotidienne de quinze minutes surpasse une seule session marathon par semaine.
+
+<Callout type="info" title="Exemple de routine quotidienne">
+1. Récupérez les récompenses de connexion et d'idle. 2. Dépensez toute votre énergie sur votre étape de farm actuelle. 3. Terminez les missions quotidiennes pour la monnaie bonus. 4. Faites une série d'essais en arène ou PvP. 5. Vérifiez la boutique pour les objets gratuits ou achetables avec la monnaie. Temps total : environ 10 à 15 minutes.
+</Callout>
+
+<Checklist
+  id="first-month-goals"
+  title="Étapes clés du premier mois :"
+  items={[
+    "Construire une équipe principale concentrée de trois unités",
+    "Franchir le mur de campagne où vous étiez bloqué",
+    "Établir une série de connexions quotidiennes ininterrompue",
+    "Rejoindre une guilde ou une équipe active",
+    "Garder une réserve de monnaie premium pour un événement à forte valeur",
+    "Équiper entièrement votre principal dealer de dégâts"
+  ]}
+/>
+
+Suivez ces étapes plutôt que les chiffres bruts de puissance. Les joueurs qui atteignent les six de manière constante entrent dans le mid-game en avance sur ceux qui ont couru après les statistiques du classement dès le premier jour.
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Dois-je reroll mon compte au début de Mechanic Legends ?",
+    answer: "Uniquement si vous avez du temps à perdre et si le pool de lancement inclut une unité clairement dominante. Dans la plupart des cas, une progression concentrée avec votre roster de départ bat des heures de reroll, car les récompenses précoces et les systèmes débloqués s'accumulent rapidement."
+  },
+  {
+    question: "Combien d'unités dois-je améliorer en tant que débutant ?",
+    answer: "Concentrez-vous sur un noyau de trois : un dealer de dégâts, un support et un emplacement flexible. N'ajoutez une quatrième que lorsque votre noyau rencontre un mur que la couverture des rôles peut résoudre."
+  },
+  {
+    question: "Quelle est la plus grande erreur des nouveaux joueurs selon ce guide du débutant ?",
+    answer: "Répartir les ressources de manière égale sur tout le roster. Une équipe principale concentrée et bien équipée termine bien plus de contenu qu'un large banc d'unités à moitié améliorées."
+  },
+  {
+    question: "Dois-je dépenser la monnaie premium immédiatement ?",
+    answer: "Non. Fixez une règle pour les achats à forte valeur — idéalement des résultats garantis ou une valeur limitée dans le temps — et économisez jusqu'à ce qu'un événement ou une offre corresponde à cette règle. Les dépenses impulsives sont le regret le plus courant parmi les joueurs qui recommencent."
+  }
+]} />
+
+</Section>

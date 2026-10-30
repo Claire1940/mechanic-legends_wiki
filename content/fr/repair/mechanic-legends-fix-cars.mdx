@@ -1,0 +1,163 @@
+import { Map, Wrench, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mechanic Legends Réparer les Voitures : Guide des Missions et Réparations pour Gagner Rapidement",
+  description: "Apprenez à réparer les voitures efficacement dans Mechanic Legends : missions clients, boucles de réparation automatique, reventes de la casse et stratégies de vente aux enchères.",
+  category: "guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Mechanic+Legends+Fix+Cars",
+  date: "2026-10-30",
+  author: "Équipe Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guide Rapide">
+- Le gameplay de **réparation de voitures dans Mechanic Legends** tourne autour des missions clients, des réparations et de la revente.
+- Les **missions clients** sont la principale source de revenus, mais elles subissent un temps de recharge de 3 minutes lorsque la file d'attente se vide.
+- Les **retournements de la casse** vous permettent d'acheter, réparer et revendre des voitures pour combler les temps de recharge.
+- L'**enchère automatique + vente automatique** maximise les profits pendant que vous attendez de nouvelles missions.
+- Les **paramètres de performance** comme la réduction du rendu et la limite à 30 FPS aident lors des longues sessions de farm.
+</Callout>
+
+<Section icon={Wrench} title="Comment Réparer les Voitures dans Mechanic Legends">
+
+Dans Mechanic Legends, votre boucle de gameplay principale est simple : acceptez des missions clients, réparez leurs véhicules, encaissez le paiement et réinvestissez vos gains dans plus de voitures. Les missions apparaissent dans une file d'attente, et chacune vous guide tout au long du processus de réparation, du début à la fin. C'est l'achèvement complet d'une mission qui rapporte — un travail partiel ne rapporte rien, donc terminez toujours la mission avant de passer à autre chose.
+
+**Points forts de la vidéo :**
+- Les missions clients s'exécutent automatiquement à travers des séquences de réparation complètes
+- La file de missions peut tomber à zéro avec un temps de recharge d'environ 3 minutes
+- L'enchère automatique, la vente automatique et le retournement de la casse remplissent les temps morts
+- La conduite automatique génère de l'argent passif en conduisant des voitures en ville
+
+<YouTubeEmbed videoId="wHBH_wL6WCk" title="Mechanic Legends Script - Auto Customer - Auto Repair - Auto Auction - Working" />
+
+<Callout type="tip" title="Missions d'Abord, Tout le Reste Ensuite">
+Priorisez toujours les missions clients actives plutôt que les activités secondaires. Les missions constituent votre revenu par minute le plus élevé et le plus fiable — les retournements de la casse et les enchères servent à couvrir les fenêtres de recharge, pas à remplacer les missions.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Comparaison des Sources de Revenus">
+
+Chaque méthode de gain d'argent dans Mechanic Legends utilise votre temps différemment. Associer la bonne activité au bon moment est ce qui distingue un garage lent d'un garage rentable.
+
+| Méthode | Vitesse de revenu | Effort | Meilleur moment |
+| --- | --- | --- | --- |
+| Missions clients | ★★★★★ | Moyen | Missions disponibles dans la file |
+| Boucle de réparation auto | ★★★★ | Faible | Réparations de véhicules enchaînées |
+| Retournement de la casse | ★★★ | Moyen | Pendant les temps de recharge |
+| Revente aux enchères | ★★★ | Faible | Après avoir retourné des voitures de la casse |
+| Conduite automatique | ★★ | Très faible | Revenu passif en arrière-plan |
+
+<CardGrid cols={3}>
+  <Card title="Missions clients">
+    - **Meilleur paiement par réparation**
+    - Achèvement complet requis
+    - La file peut se vider
+  </Card>
+  <Card title="Retournement de la casse">
+    - **Acheter bas, réparer, vendre haut**
+    - Excellent pour combler les recharges
+    - Évolue avec la vitesse de réparation
+  </Card>
+  <Card title="Vente aux enchères">
+    - **Mises en vente et ventes automatisées**
+    - Se combine avec les retournements de la casse
+    - Passif pendant l'attente
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Discipline des temps de recharge">
+Quand la file de missions atteint zéro, vous faites face à environ 3 minutes de temps mort. Ayez des retournements de la casse et des ventes aux enchères déjà en cours pour qu'aucune minute de cette fenêtre ne soit gaspillée.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Routine de Réparation Étape par Étape">
+
+Suivez cette routine à chaque session pour que votre garage fonctionne à efficacité maximale dès votre connexion.
+
+<Steps>
+  <Step num="1" title="Préparez votre client">
+    Réduisez le rendu et limitez le jeu à 30 FPS avant les longues sessions de farm. Cela garde les performances stables pendant que vous enchaînez les réparations sur de longues périodes.
+  </Step>
+  <Step num="2" title="Videz la file de missions">
+    Acceptez les missions clients et terminez chaque réparation entièrement, du début à la fin. N'abandonnez jamais une mission à moitié — seules les missions terminées sont payées.
+  </Step>
+  <Step num="3" title="Combler le temps de recharge">
+    Quand les missions s'épuisent, passez immédiatement aux retournements de la casse : achetez des voitures pas chères, réparez-les et préparez-les à la vente.
+  </Step>
+  <Step num="4" title="Vendre aux enchères">
+    Mettez en vente vos voitures de la casse réparées à l'enchère et laissez la vente automatique gérer les transactions pendant que la file de missions se remplit.
+  </Step>
+  <Step num="5" title="Passer à l'échelle">
+    Réinvestissez les profits dans un meilleur inventaire et maintenez la boucle en marche. Plus de capital signifie plus de retournements de la casse et de plus grandes marges aux enchères.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Rotation optimale">
+Le schéma le plus rentable observé en pratique : les missions clients automatiques comme base, la réparation automatique pour les travaux enchaînés, le retournement de la casse plus la vente aux enchères pendant chaque temps de recharge. Cela empile toutes les sources de revenus avec un temps d'inactivité minimal.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Priorités de Réparation et Valeur des Véhicules">
+
+Toutes les voitures ne méritent pas votre temps de clé. Utilisez cette référence rapide pour décider où concentrer vos efforts.
+
+| Source du véhicule | Coût de réparation | Valeur de revente | Priorité |
+| --- | --- | --- | --- |
+| Voitures des missions clients | N/A (mission payée) | Paiement fixe de la mission | **Toujours en premier** |
+| Épaves de la casse | Prix d'achat bas | Moyenne après réparation | Élevée pendant les recharges |
+| Bonnes affaires aux enchères | Variable | Dépend du marché | Uniquement avec de l'argent de réserve |
+| Voitures personnelles endommagées | Vos pièces | Faible retour | À éviter sauf nécessité |
+
+<Callout type="info" title="Réparer entièrement avant de vendre">
+Une voiture entièrement réparée se vend systématiquement plus cher qu'une voiture partiellement réparée. Terminez toujours chaque étape de réparation avant de mettre un véhicule en vente — la différence de marge vaut les quelques minutes supplémentaires.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste des Objectifs de Session">
+
+<Checklist
+  id="fix-cars-goals"
+  title="Chaque session devrait inclure :"
+  items={[
+    "Terminer toutes les missions clients dans la file",
+    "Effectuer des retournements de la casse pendant les temps de recharge",
+    "Mettre en vente les voitures réparées aux enchères avant de rester inactif",
+    "Garder les outils de réparation et l'inventaire bien approvisionnés",
+    "Réinvestir au moins la moitié des profits de la session"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Quelle est la façon la plus rapide de gagner de l'argent en réparant des voitures dans Mechanic Legends ?",
+    answer: "Les missions clients paient le plus par minute, donc videz la file d'abord. Quand les missions s'épuisent pendant le temps de recharge d'environ 3 minutes, passez aux retournements de la casse et aux ventes aux enchères pour maintenir un revenu ininterrompu."
+  },
+  {
+    question: "Pourquoi mes missions clients ont-elles cessé d'apparaître ?",
+    answer: "La file de missions tombe périodiquement à zéro et entre dans un temps de recharge d'environ 3 minutes. C'est normal — utilisez cette fenêtre pour les retournements de la casse, les mises en vente aux enchères ou le revenu de conduite automatique au lieu d'attendre sans rien faire."
+  },
+  {
+    question: "Dois-je vendre les voitures de la casse immédiatement après les avoir achetées ?",
+    answer: "Non. Réparez-les entièrement d'abord. Une réparation complète augmente considérablement le prix de revente aux enchères, et le coût en temps supplémentaire est faible comparé au gain de marge."
+  },
+  {
+    question: "Dois-je baisser mes paramètres graphiques ?",
+    answer: "Pour les longues sessions de farm, oui. Désactiver le rendu et limiter le jeu à 30 FPS garde les performances stables pendant les longues boucles de réparation et de retournement, ce qui est particulièrement utile si vous laissez le jeu tourner pendant des heures."
+  }
+]} />
+
+</Section>

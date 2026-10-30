@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench, DollarSign } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía del Concesionario: Renueva Coches de Desguace para Obtener Beneficios",
+  description: "Aprende cómo funciona el concesionario de Mechanic Legends: compra coches de desguace, repara motores, evita el sobrecalentamiento y vende vehículos para maximizar tus beneficios.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b45309/fff?text=Car+Dealership+Guide",
+  date: "2026-10-30",
+  author: "Equipo de Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Concesionario de Mechanic Legends**: Vende coches renovados a Roberto en el puerto a cambio de dinero.
+- **Ciclo principal**: Compra coches de desguace baratos, repara las piezas del motor y revende con beneficios.
+- **Peligro de sobrecalentamiento**: Los coches sin radiador explotan a **160 grados**.
+- **Regla de presupuesto**: Controla los costes de piezas y pintura antes de vender, o podrías perder dinero.
+- **Precios clave**: Coches de desguace ~5.000; radiador 20.000; motor nuevo 9.000; pintura ~9.000.
+</Callout>
+
+<Section icon={Map} title="Cómo Funciona el Ciclo del Concesionario">
+
+El sistema de concesionario de Mechanic Legends te convierte en un negocio de coches de segunda mano de una sola persona. Empiezas en el desguace, compras coches abandonados por unos 5.000 pavos, los remolcas hasta tu garaje, reparas cada componente mecánico y luego conduces el vehículo terminado hasta el puerto, donde Roberto lo compra. Tu margen de beneficio depende enteramente de lo barato que consigas el coche y de las pocas piezas de repuesto que necesite.
+
+**Lo Destacado del Vídeo:**
+- Comprar un Corsa de desguace por 5.000 y reparar completamente su motor
+- Por qué la falta de un radiador hace que la temperatura supere los 160 grados y cause explosiones
+- Reparar piezas del motor a media vida, baterías e inyectores en la máquina del taller
+- Vender el coche terminado a Roberto en el puerto por 9.600 pavos
+- Pintar un Peugeot 206 e instalar un radiador para proteger la inversión
+
+<YouTubeEmbed videoId="FEV1n_7qUj4" title="Fui Mecánico por 1 Día para Reparar Coches Abandonados en Mechanic Legends" />
+
+El concesionario en sí es simple: conduce el coche hasta el puerto, habla con Roberto y acepta o rechaza su oferta. La habilidad está en la economía antes de llegar allí.
+
+| Paso | Ubicación | Acción |
+| --- | --- | --- |
+| 1 | Desguace | Inspecciona los coches, compra uno en buen estado (~5.000) |
+| 2 | Tu garaje | Desmonta y repara todas las piezas del motor y la batería |
+| 3 | Tienda de piezas | Compra las piezas que falten si el presupuesto lo permite |
+| 4 | Puerto | Vende a Roberto por el precio que ofrezca |
+
+<Callout type="tip" title="Inspecciona Antes de Comprar">
+Comprueba si el coche tiene bloque de motor, radiador y qué temperatura alcanza antes de comprarlo. Un coche barato al que le falte un radiador de 20.000 puede eliminar todo tu margen.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Reparación de Coches: Piezas, Máquina y Temperatura">
+
+Cada componente mecánico en Mechanic Legends tiene un porcentaje de estado. Las piezas a media vida funcionan mal — un coche con el motor al 50% apenas alcanza los 70 km/h. Usa la máquina de reparación de tu garaje para restaurar las piezas al 100% y luego reinstálalas una por una.
+
+| Componente | Estado Inicial (Típico) | ¿Reparable? | Notas |
+| --- | --- | --- | --- |
+| Bloque de motor | 50% | Sí (o comprar nuevo, 9.000) | Puede incendiarse y destruirse |
+| Batería | 50% | Sí, mediante máquina de carga | Barata de restaurar |
+| Radiador | Ausente | No, hay que comprarlo (20.000) | Mantiene la temperatura cerca de 90 grados |
+| Inyectores/toberas | Variable | Algunos sí | Prueba antes de desmontar |
+| Aceite | Bajo | Comprar relleno (caro) | Afecta a la salud del motor |
+
+<Steps>
+  <Step num="1" title="Abre el Capó y Desmonta las Piezas">
+    Usa tu llave para retirar el motor, la batería y los inyectores. Coloca cada pieza por separado para que no se pierda bajo otros componentes.
+  </Step>
+  <Step num="2" title="Repara Cada Pieza">
+    Lleva cada pieza a la máquina de reparación. Cada ciclo restaura un componente al 100%. Carga la batería en su cargador dedicado.
+  </Step>
+  <Step num="3" title="Reensambla con Cuidado">
+    Reinstala todo y revisa dos veces el suelo buscando piezas olvidadas. Si falta el bloque de motor, el coche no arrancará en absoluto.
+  </Step>
+  <Step num="4" title="Vigila la Temperatura">
+    Observa el indicador. Sin radiador, el coche supera los 130 grados rápidamente y explota a los 160.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Los Incendios de Motor Son Reales">
+Si la temperatura alcanza los 160 grados, el motor se incendia. Actúa rápido: ve a tu garaje, abre el capó y desmonta las piezas en llamas. Si el bloque de motor se quema, desaparece y tendrás que comprar uno nuevo por 9.000 pavos.
+</Callout>
+
+</Section>
+
+<Section icon={DollarSign} title="Economía del Concesionario: Cuándo Vender y Cuándo Quedártelo">
+
+El mayor error de los mecánicos novatos es ignorar los costes totales. Un coche de desguace de 5.000 más 9.000 de pintura y 9.000 de motor suma 23.000 — si Roberto solo ofrece 14.000, vender significa una pérdida.
+
+| Concepto de Coste | Precio (Pavos) | ¿Necesario? |
+| --- | --- | --- |
+| Coche de desguace | ~5.000 | Sí |
+| Pintura completa | ~9.000 | Opcional, aumenta el valor |
+| Motor nuevo de 4 cilindros | 9.000 | Solo si el bloque se destruye |
+| Radiador | 20.000 | Muy recomendado |
+| Relleno de aceite de motor | ~10.000 | Opcional |
+| Bloque de motor V8 | 35.000 | Mejora de lujo |
+| Turbo/admisión | ~100.000 | Afinación de endgame |
+
+<Callout type="info" title="La Regla de Quedarlo-o-Venderlo">
+Antes de conducir al puerto, suma tu compra más todas las piezas y la pintura. Si la oferta probable de Roberto está por debajo de ese total, quédate el coche en tu colección del garaje y vende solo las renovaciones limpias y de bajo coste.
+</Callout>
+
+En la práctica, una restauración mecánica sencilla sin radiador y sin pintura es la renovación más rentable: compra a 5.000, repara todo en tu propio taller y vende cerca de 9.600. Los coches muy personalizados, como un Peugeot 206 pintado, a menudo cuestan más de construir de lo que se obtiene por ellos.
+
+</Section>
+
+<Section icon={Sparkles} title="Personalización y Mejoras">
+
+Más allá de las reparaciones, la ciudad ofrece varios puntos de personalización que conviene conocer:
+
+<CardGrid cols={3}>
+  <Card title="Tienda de Pintura">
+    - Repintado completo por ~**9.000 pavos**
+    - Mezcla colores (gris, verde, azul)
+    - Hace que un coche oxidado parezca nuevo
+  </Card>
+  <Card title="Luces de Neón">
+    - Opciones verde, morado, rosa y rojo
+    - Cuestan hasta **10.000 pavos**
+    - Puramente estético
+  </Card>
+  <Card title="Mejoras de Motor">
+    - Bloques de 4 cilindros, **V6** y **V8**
+    - El bloque V8 cuesta 35.000
+    - Turbo/admisión hasta 100.000
+  </Card>
+</CardGrid>
+
+La afinación de la suspensión no tiene coste de piezas — puedes bajar la parte trasera del coche en tu garaje para un aspecto más deportivo. Solo recuerda que las mejoras de apariencia rara vez se pagan solas en el concesionario; considéralas un gasto de estilo personal.
+
+<Callout type="tip" title="Primero el Radiador, Después el Estilo">
+Instala un radiador antes de cualquier trabajo estético. Un radiador de 20.000 protege motores que valen mucho más, y un coche que explota en plena conducción destruye toda tu inversión en pintura y piezas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Beneficios para Cada Renovación">
+
+<Checklist
+  id="dealership-flip"
+  title="Antes de Vender a Roberto:"
+  items={[
+    "Todas las piezas del motor reparadas al 100%",
+    "Batería cargada e instalada",
+    "Temperatura estable cerca de 90 grados",
+    "Sin piezas olvidadas en el suelo del garaje",
+    "Costes totales calculados frente a la oferta esperada"
+  ]}
+}
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "¿Dónde vendo coches en Mechanic Legends?",
+    answer: "Conduce tu coche terminado hasta la zona del puerto donde están apilados los contenedores y habla con Roberto. Él cotiza un precio según el estado del coche, y puedes aceptar o rechazar la oferta."
+  },
+  {
+    question: "¿Por qué mi coche sigue explotando?",
+    answer: "Los coches sin radiador se sobrecalientan rápidamente. Cuando el indicador de temperatura alcanza los 160 grados, el motor se incendia y puede destruirse. Compra un radiador por 20.000 pavos para mantener la temperatura cerca de los 90 grados."
+  },
+  {
+    question: "¿Vale la pena pintar un coche antes de venderlo?",
+    answer: "Normalmente no. Una pintura completa cuesta unos 9.000 pavos, y los concesionarios suelen ofrecer menos que tu inversión total. Pinta los coches que planeas conservar en tu colección personal."
+  },
+  {
+    question: "¿Qué pasa si mi bloque de motor se quema?",
+    answer: "El bloque destruido desaparece del coche. Debes visitar la tienda de piezas y comprar un reemplazo — un motor nuevo de 4 cilindros cuesta 9.000 pavos, mientras que los bloques V6 y V8 cuestan bastante más."
+  }
+]} />
+
+</Section>

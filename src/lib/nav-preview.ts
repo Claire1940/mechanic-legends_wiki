@@ -19,7 +19,10 @@ export async function getNavPreviewData(locale: Language): Promise<NavPreviewDat
 				if (fm.date) return new Date(fm.date).getTime()
 				return 0
 			}
-			return getTime(a) - getTime(b)
+			const cmp = getTime(a) - getTime(b)
+			// 同时间按 slug 升序 tie-break，保证排序确定性
+			if (cmp !== 0) return cmp
+			return a.slug.localeCompare(b.slug)
 		})
 		data[type] = sorted.map((i) => ({
 			slug: i.slug,

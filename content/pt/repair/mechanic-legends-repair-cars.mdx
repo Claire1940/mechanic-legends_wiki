@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench, DollarSign, Car, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mechanic Legends Reparar Carros: Guia de Ganho de Dinheiro e Fluxo de Trabalho",
+  description: "Aprenda a reparar carros em Mechanic Legends com eficiência. Compare trabalhos de reparo, leilões e revenda de ferro-velho para maximizar seu dinheiro no jogo.",
+  category: "guia",
+  image: "https://placehold.co/800x400/b45309/fff?text=Repair+Cars+Guide",
+  date: "2026-10-30",
+  author: "Equipe de Wiki do Mechanic Legends"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Em **Mechanic Legends, reparar carros** acontece por meio de trabalhos de clientes, o principal ciclo de ganho de dinheiro do jogo.
+- **Trabalhos automáticos de clientes** enviam um fluxo constante de veículos quebrados para sua oficina, gerando pagamentos regulares.
+- **Revenda de ferro-velho** — compre carros destruídos baratos, repare-os e revenda com lucro.
+- **Leilões automáticos** ajudam você a ganhar dinheiro durante intervalos de trabalho de cerca de 3 minutos.
+- **A qualidade do reparo importa**: reparos mais rápidos e limpos elevam muito sua renda por hora.
+</Callout>
+
+<Section icon={Wrench} title="Como Funciona o Reparo de Carros em Mechanic Legends">
+
+Em Mechanic Legends, reparar carros é o coração do seu progresso. Os clientes chegam à sua oficina com veículos danificados, e cada reparo concluído converte o tempo de chave inglesa em dinheiro. O ciclo é simples: aceite um trabalho, conserte o dano, devolva o carro e receba o pagamento. O que separa jogadores casuais dos que mais ganham é o quão bem eles encadeiam esses trabalhos e o que fazem durante os intervalos.
+
+Os jogadores mais eficientes em Mechanic Legends reparam carros em rotação constante — primeiro os trabalhos de clientes, revenda de ferro-velho durante os intervalos e vendas em leilão para liquidar o estoque extra.
+
+**Destaques do Vídeo:**
+- Demonstração completa do fluxo de reparo automático e trabalhos automáticos de clientes
+- Como a revenda de ferro-velho e os leilões automáticos preenchem as lacunas entre trabalhos
+- Recurso de direção automática para renda passiva enquanto estiver inativo
+- Configurações de desempenho como modo de 30 FPS e alternância de renderização para farm suave
+
+<YouTubeEmbed videoId="wHBH_wL6WCk" title="Mechanic Legends Script - Auto Customer - Auto Repair - Auto Auction" />
+
+<Callout type="tip" title="Dica de Fluxo de Trabalhos">
+Os trabalhos de clientes às vezes caem para zero com um intervalo de cerca de 3 minutos. Em vez de ficar parado, use essa janela para revender carros do ferro-velho ou listar veículos em leilão — é aí que mora o verdadeiro lucro por hora.
+</Callout>
+
+</Section>
+
+<Section icon={Car} title="Métodos de Renda com Reparo Comparados">
+
+Existem várias maneiras distintas de transformar chave inglesa em dinheiro em Mechanic Legends. Cada uma se adapta a um estilo de jogo e compromisso de tempo diferente.
+
+| Método | Custo Inicial | Velocidade de Renda | Nível de Esforço | Ideal Para |
+|---|---|---|---|---|
+| Trabalhos de reparo de clientes | Nenhum | Médio-Estável | Médio | Progressão principal, todos os jogadores |
+| Revenda de ferro-velho | Baixo (compra do carro) | Médio | Médio | Intervalos entre trabalhos |
+| Revenda em leilão | Varia | Rajadas rápidas | Baixo-Médio | Vender carros revendidos reparados |
+| Direção automática | Requer veículo | Lento, porém passivo | Mínimo | Renda de fundo no modo AFK |
+
+<CardGrid cols={3}>
+  <Card title="Trabalhos de Clientes">
+    - **Nenhum investimento inicial** necessário
+    - Fluxo de renda confiável e recorrente
+    - Sujeito a intervalos de trabalho de ~3 minutos
+  </Card>
+  <Card title="Revenda de Ferro-Velho">
+    - Compre carros destruídos por preços baixos
+    - **Repare e depois revenda** pela margem
+    - Preenche as lacunas entre trabalhos de clientes
+  </Card>
+  <Card title="Vendas em Leilão">
+    - Converta carros reparados em dinheiro rápido
+    - Combina naturalmente com a revenda de ferro-velho
+    - Ótimo durante escassez de trabalhos
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Evite o Tempo Ocioso">
+Ficar parado durante um intervalo de trabalho é o maior destruidor de renda. Jogadores que acumulam revendas de ferro-velho e vendas em leilão nessas janelas ganham consistentemente mais do que aqueles que apenas esperam.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Passo a Passo: Construindo uma Rotina de Reparo de Alto Lucro">
+
+<Steps>
+  <Step num="1" title="Configure o Fluxo da Sua Oficina">
+    Antes de farmar, otimize sua configuração. Se você fizer sessões longas, reduza a carga gráfica — limites de quadros mais baixos e desativar efeitos de renderização mantêm as sessões fluidas em dispositivos mais fracos e permitem que os reparos continuem sem interrupções.
+  </Step>
+  <Step num="2" title="Priorize os Trabalhos de Reparo de Clientes">
+    Os trabalhos de clientes são sua renda básica. Aceite todos os trabalhos disponíveis, conclua os reparos por completo e verifique imediatamente o próximo. Concluir os trabalhos do início ao fim, em vez de abandonar carros pela metade, mantém os pagamentos consistentes.
+  </Step>
+  <Step num="3" title="Preencha os Intervalos com Revendas de Ferro-Velho">
+    Quando os trabalhos chegarem a zero e o intervalo de ~3 minutos começar, vá ao ferro-velho. Compre um carro destruído, repare-o e prepare-o para venda em vez de esperar ocioso.
+  </Step>
+  <Step num="4" title="Venda Através do Leilão">
+    Liste carros do ferro-velho reparados em leilão para convertê-los em dinheiro rapidamente. Encadear revendas com trabalhos de clientes maximiza o dinheiro total ganho por hora.
+  </Step>
+  <Step num="5" title="Adicione Renda Passiva com a Direção Automática">
+    Quando você precisar de uma pausa, a direção automática permite que seu personagem leve um carro para a estrada e gere renda em segundo plano. É mais lento do que o trabalho ativo, mas muito melhor do que nada.
+  </Step>
+</Steps>
+
+<Callout type="success" title="O Ciclo Completo">
+Trabalhos ativos? Repare. Trabalhos em intervalo? Revenda carros do ferro-velho e leiloie-os. Cansado? Direção automática. Seguir essa rotação é o cronograma mais denso em lucro disponível para os mecânicos.
+</Callout>
+
+</Section>
+
+<Section icon={DollarSign} title="Tabela de Priorização de Trabalhos de Reparo">
+
+Nem todo trabalho vale o mesmo investimento de tempo. Use esta estrutura de prioridade quando várias opções competirem pela sua atenção.
+
+| Prioridade | Atividade | Por Que Está Nesta Posição | Faça Isto Quando |
+|---|---|---|---|
+| 1 | Trabalho de cliente ativo | **Pagamento garantido**, sem capital necessário | Um trabalho está disponível |
+| 2 | Revenda de ferro-velho + reparo | Margem forte, usa o tempo de intervalo | O quadro de trabalhos está vazio |
+| 3 | Listagem em leilão | Converte estoque em dinheiro | Você tem carros reparados |
+| 4 | Direção automática | Renda passiva gota a gota | Você vai se ausentar |
+
+<Callout type="info" title="Observação sobre Fluxo de Caixa">
+Reinvista os lucros iniciais em melhor capacidade de reparo e um veículo decente. Uma taxa de reparo mais rápida gera efeito composto — cada minuto economizado em um trabalho é um minuto disponível para revenda.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist do Magnata do Reparo">
+
+Acompanhe seu progresso para se tornar o mecânico que mais ganha em Mechanic Legends.
+
+<Checklist
+  id="repair-goals"
+  title="Marcos do Magnata do Reparo:"
+  items={[
+    "Concluir 10 trabalhos de reparo de clientes completos sem abandonar nenhum",
+    "Encadear uma revenda de ferro-velho durante cada intervalo de trabalho",
+    "Vender seu primeiro carro reparado em leilão com lucro",
+    "Construir uma rotina repetível de reparar-revender-vender",
+    "Usar a direção automática para ganhar dinheiro em pelo menos uma sessão estilo offline"
+  ]}
+/>
+
+<Callout type="warning" title="Lembrete de Jogo Justo">
+Alguns scripts de terceiros anunciam reparos automatizados, farming e exploits de veículos. Usar scripts não oficiais arrisca a moderação da sua conta na plataforma. As estratégias acima funcionam igualmente bem quando jogadas legitimamente — a automação apenas acelera o que uma rotina disciplinada já alcança.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Como eu reparo carros em Mechanic Legends?",
+    answer: "Aceite um trabalho de reparo de cliente na sua oficina, conserte o veículo danificado por completo e devolva-o para receber o pagamento. Reparar carros do ferro-velho e revendê-los é um caminho secundário que usa a mesma mecânica."
+  },
+  {
+    question: "O que devo fazer quando não há trabalhos de clientes?",
+    answer: "Os trabalhos de clientes periodicamente caem para zero com um intervalo de aproximadamente 3 minutos. Use essa janela para comprar carros do ferro-velho, repará-los e listá-los em leilão, para continuar ganhando em vez de esperar."
+  },
+  {
+    question: "A revenda de ferro-velho é melhor do que os trabalhos de clientes?",
+    answer: "Não necessariamente melhor — eles se complementam. Os trabalhos de clientes são a base confiável sem custo inicial, enquanto a revenda de ferro-velho gera lucro extra durante as janelas de intervalo. Os que mais ganham fazem os dois."
+  },
+  {
+    question: "Posso ganhar dinheiro em Mechanic Legends enquanto estou AFK?",
+    answer: "Sim, de forma limitada. O recurso de direção automática permite que seu personagem dirija um carro por aí para obter renda passiva. É mais lento do que o trabalho de reparo ativo, mas é útil quando você precisa se afastar do teclado."
+  }
+]} />
+
+</Section>

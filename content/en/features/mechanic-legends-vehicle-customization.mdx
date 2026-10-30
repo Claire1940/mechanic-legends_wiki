@@ -1,0 +1,186 @@
+import { Map, Wrench, Trophy, Target, Sparkles, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mechanic Legends Vehicle Customization: Setup Guide & Best Builds",
+  description: "Learn how Mechanic Legends vehicle customization works: part upgrades, tuning priorities, build paths, and tips to maximize performance.",
+  category: "guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Vehicle+Customization+Guide",
+  date: "2026-10-30",
+  author: "mechanic legends Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Mechanic Legends vehicle customization** lets you rebuild cars with upgraded parts, tuning, and visual styling.
+- **Part quality tiers** determine performance gains — prioritize engine and drivetrain first.
+- **Balanced builds** outperform single-stat builds in most events and challenges.
+- **Budget wisely**: early currency spent on core parts pays off faster than cosmetics.
+- **Restore before upgrading**: a full restoration unlocks the vehicle's true customization potential.
+</Callout>
+
+<Section icon={Wrench} title="Vehicle Customization Basics in Mechanic Legends">
+
+Vehicle customization is the heart of Mechanic Legends. Every car you acquire can be stripped down, restored, rebuilt, and tuned to match your playstyle. The customization system is divided into three layers: **mechanical parts**, **performance tuning**, and **visual styling**. Understanding how these layers interact is the difference between a garage full of showpieces and a lineup of true performers.
+
+<Callout type="tip" title="Start With the Frame">
+Before spending currency on premium parts, complete a full teardown and inspection. Hidden damage on the frame or drivetrain reduces the effectiveness of every upgrade you install afterward.
+</Callout>
+
+The core customization categories are summarized below:
+
+| Category | What It Covers | Impact Level |
+| --- | --- | --- |
+| Engine & Drivetrain | Engine swaps, pistons, turbo, gearbox | ★★★★★ |
+| Suspension & Brakes | Springs, shocks, brake discs, tires | ★★★★ |
+| Body & Panels | Fenders, bumpers, hoods, roll cages | ★★★ |
+| Paint & Livery | Paint, decals, rims, interior trim | ★★ |
+| Electronics | ECU tuning, lighting, audio | ★★★ |
+
+<CardGrid cols={3}>
+  <Card title="Performance Build">
+    - **Max engine and turbo upgrades**
+    - Best for races and speed challenges
+    - High resource cost, top payout
+  </Card>
+  <Card title="Restoration Build">
+    - **Focus on OEM-quality parts**
+    - Best for resale value and collection goals
+    - Steady, low-risk progression
+  </Card>
+  <Card title="Show Build">
+    - **Visual customization priority**
+    - Paint, rims, interior, decals
+    - Great for community showcases
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Settings} title="Part Upgrade Priorities: What to Buy First">
+
+Not every part gives equal value for your currency. Testing different loadouts shows a clear priority order for players who want to win events without overspending.
+
+<Callout type="warning" title="Avoid Early Cosmetic Spending">
+Paint and livery options are tempting, but they add no performance. Buying cosmetics before completing mechanical upgrades usually leaves you underpowered for the events that fund your garage.
+</Callout>
+
+**Recommended upgrade order:**
+
+| Priority | Part Group | Why It Comes First | Est. Performance Gain |
+| --- | --- | --- | --- |
+| 1 | Engine internals | Base power drives all other stats | **High** |
+| 2 | Turbo / intake | Multiplies existing engine power | High |
+| 3 | Gearbox | Converts power into usable speed | High |
+| 4 | Tires & brakes | Cornering and control | Medium |
+| 5 | Suspension | Stability at high speed | Medium |
+| 6 | Weight reduction | Improves every stat slightly | Medium |
+| 7 | Cosmetics | Style points only | Low |
+
+<Callout type="success" title="The 60/30/10 Rule">
+A reliable budget split for any project car: **60% engine and drivetrain**, **30% handling parts**, **10% styling**. This keeps builds competitive while still looking the part.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Customization Workflow">
+
+Follow this workflow for every vehicle project to avoid wasted parts and currency:
+
+<Steps>
+  <Step num="1" title="Full Teardown & Inspection">
+    Strip the vehicle completely and inspect every component. Catalog damaged or worn parts so nothing gets missed during the rebuild.
+  </Step>
+  <Step num="2" title="Set Your Build Goal">
+    Decide the purpose before buying: race performance, resale restoration, or show styling. This decision dictates every purchase that follows.
+  </Step>
+  <Step num="3" title="Install Core Mechanical Parts">
+    Start with the engine, gearbox, and drivetrain. Match part quality across the group so no single weak component bottlenecks the build.
+  </Step>
+  <Step num="4" title="Tune Suspension & Brakes">
+    Match tires, brakes, and suspension to the engine output. A powerful engine with stock brakes loses time in every corner.
+  </Step>
+  <Step num="5" title="Finish With Visual Styling">
+    Apply paint, rims, and interior touches last, once the performance layer is locked in and tested.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Test Between Stages">
+Run a test event after each major stage. This isolates which upgrades actually improved your times and helps you fine-tune the next purchase.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Best Builds by Vehicle Type">
+
+Different vehicle classes reward different customization philosophies. Use this reference when planning your next project:
+
+| Vehicle Type | Best Build Focus | Key Upgrades | Weakness to Cover |
+| --- | --- | --- | --- |
+| Sports Coupe | Speed & acceleration | Turbo, racing gearbox | Brake fade |
+| Muscle Car | Raw power | Engine internals, rear tires | Handling |
+| Off-Road Truck | Durability & grip | Suspension lift, all-terrain tires | Top speed |
+| Sedan | Balanced all-rounder | Mid-tier engine, full brake kit | No standout stat |
+| Classic Restoration | OEM accuracy | Stock-quality parts, original trim | Cost of rare parts |
+
+<CardGrid cols={2}>
+  <Card title="Race-Ready Coupe">
+    - **Full turbo kit** with upgraded intercooler
+    - Racing gearbox and lightweight flywheel
+    - Sport brakes and semi-slick tires
+  </Card>
+  <Card title="Concours Classic">
+    - **OEM-spec engine rebuild**
+    - Original-quality body panels and chrome
+    - Period-correct interior restoration
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Specialize Your Garage">
+Maintain at least one vehicle per major class. Event rotations often favor different vehicle types, and a diversified garage means you always have a competitive entry.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Customization Goals Checklist">
+
+<Checklist
+  id="customization-goals"
+  title="Project Completion Milestones:"
+  items={[
+    "Complete a full teardown and inspection on your current project",
+    "Finish one complete performance build (engine to tires)",
+    "Complete one full OEM restoration for maximum resale value",
+    "Build a competitive vehicle for each major vehicle class",
+    "Create one show build with full visual customization"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the best first upgrade in Mechanic Legends vehicle customization?",
+    answer: "Engine internals are the strongest first investment. Every other performance stat builds on base engine power, so upgrading pistons, headers, and the intake system first gives the largest overall gain per unit of currency spent."
+  },
+  {
+    question: "Should I customize for looks or performance first?",
+    answer: "Performance first, always. Visual customization has no effect on event results, while mechanical upgrades win races and generate the currency that funds cosmetic purchases later. The 60/30/10 budget rule keeps both goals on track."
+  },
+  {
+    question: "Can I change a vehicle's customization after finishing a build?",
+    answer: "Yes. Parts can be swapped at any time, though some currency is typically lost when replacing recently installed components. Plan your build goal before purchasing to minimize wasted spending."
+  },
+  {
+    question: "Which vehicle type is best for beginners to customize?",
+    answer: "Sedans and sports coupes are the most forgiving. They have affordable mid-tier parts, balanced stat spreads, and enough event availability to recoup your investment quickly while you learn the customization system."
+  }
+]} />
+
+</Section>

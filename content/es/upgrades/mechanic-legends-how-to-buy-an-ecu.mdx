@@ -1,0 +1,161 @@
+import { Map, Wrench, Target, Trophy, ShoppingCart, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mechanic Legends: Cómo comprar una ECU - Guía paso a paso",
+  description: "Aprende a comprar una ECU en Mechanic Legends, dónde encontrar la tienda de repuestos, consejos de compatibilidad de motores y cómo instalarla correctamente.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b45309/fff?text=Buy+an+ECU+Guide",
+  date: "2026-10-30",
+  author: "Equipo de Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Cómo comprar una ECU**: Visita la tienda de repuestos automotrices, explora la sección de electrónica de motores y asegúrate de que la pieza coincida con tu código de motor.
+- **La compatibilidad importa**: Lee siempre la descripción de la pieza antes de hacer clic en comprar; las ECUs son específicas de cada motor.
+- **Instalación**: Abre el compartimiento del motor, retira la unidad antigua, instala la ECU nueva y verifica que el motor funcione.
+- **Control de costos**: Mantén al menos $500 en reserva para que una compra errónea no te lleve a la bancarrota.
+- **Nota sobre reventa**: Reemplazar una ECU rota suele valer la pena; un motor funcionando aumenta drásticamente el precio de venta.
+</Callout>
+
+<Section icon={Map} title="El papel de la ECU en Mechanic Legends">
+
+En Mechanic Legends, tu bucle de juego principal consiste en comprar chatarra de autos del depósito de chatarra, repararlos y revenderlos para obtener ganancias. La ECU (Unidad de Control del Motor) es uno de los componentes electrónicos que puede fallar en un auto de chatarra, impidiendo que el motor funcione correctamente. Entender cómo comprar una ECU es esencial, porque un auto con la ECU muerta no arrancará, y Alfredo, el comprador, paga mucho menos por vehículos que no funcionan.
+
+La cadena de suministro de repuestos del juego pasa por la tienda de repuestos automotrices (la gran tienda repleta de líquidos, piezas de motor y consumibles). Todo lo que necesitas para una reparación —desde refrigerante y aceite de motor hasta cables de bujías y electrónica— se compra allí con dinero del juego.
+
+<Callout type="warning" title="Lee Antes de Comprar">
+Cada botón de compra en la tienda de repuestos es definitivo. Varios jugadores han gastado por accidente grandes sumas en el componente equivocado al hacer clic sin leer primero la descripción de la pieza. Confirma siempre que el código del motor coincida antes de comprar una ECU.
+</Callout>
+
+</Section>
+
+<Section icon={ShoppingCart} title="Paso a Paso: Cómo Comprar una ECU">
+
+Sigue esta secuencia cada vez que necesites una ECU de reemplazo para un proyecto de reparación. El proceso es igual al de comprar cualquier pieza de motor en Mechanic Legends.
+
+<Steps>
+  <Step num="1" title="Diagnostica la Falla">
+    Abre el compartimiento del motor en un taller mecánico e inspecciona los componentes. Identifica si la ECU falta, está desgastada o dañada. Revisar primero el estado de las piezas te indica exactamente qué debes comprar.
+  </Step>
+  <Step num="2" title="Verifica tu Código de Motor">
+    Toma nota de tu familia de motores (por ejemplo, la serie S50 para una construcción estilo E36 M3). Las piezas en la tienda están organizadas por serie de motor, y comprar la serie equivocada es tirar el dinero.
+  </Step>
+  <Step num="3" title="Ve a la Tienda de Repuestos">
+    Camina o conduce hasta la tienda de repuestos. Si conduces un auto con el motor sobrecalentado, mantén la temperatura por debajo de los 120 °C, o apaga el motor y deja que el auto ruede por inercia para evitar destruirlo.
+  </Step>
+  <Step num="4" title="Encuentra la Sección Correcta y Lee la Etiqueta">
+    Localiza la sección que corresponde a tu familia de motores y lee cuidadosamente la descripción del artículo. Confirma que incluya tu código de motor y que el precio se ajuste a tu presupuesto antes de hacer clic en comprar.
+  </Step>
+  <Step num="5" title="Recoge e Instala">
+    Las piezas compradas aparecen en la zona de recogida (excepto los líquidos como el aceite y el refrigerante, que se dispensan por separado). Lleva la ECU de vuelta a tu auto, instálala y arranca el motor para verificar la reparación.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Regla de Presupuesto">
+Nunca gastes tu último dólar en repuestos. Mantén un colchón de efectivo de al menos $500 después de cualquier viaje de compras de piezas. Si vacías tu cuenta, el subsidio semanal de emergencia será tu único salvavidas hasta que se restablezca.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Costos y Consideraciones al Comprar una ECU">
+
+Los precios en Mechanic Legends escalan según la familia de motores. Las piezas genéricas de cuatro cilindros son baratas, mientras que los componentes de motores de alto rendimiento cuestan bastante más. La tabla siguiente resume lo que debes tener en cuenta antes de cada compra de ECU.
+
+| Factor | Qué Verificar | Por qué Importa |
+| --- | --- | --- |
+| Código de motor | Coincidir la etiqueta de la pieza con la familia de motores | Una pieza incorrecta no se puede instalar y es dinero desperdiciado |
+| Estado de la pieza | Comparar nueva vs. desgaste actual | Las piezas nuevas ayudan a que los motores funcionen "perfecto" |
+| Colchón de presupuesto | Mantener $500+ después de la compra | Evita la bancarrota a mitad del proyecto |
+| Impacto en la reventa | Un motor funcionando aumenta el precio de venta | Una ECU rota hunde la oferta de Alfredo |
+| Valor de mejora | Piezas de rendimiento vs. originales | Las mejoras generalmente no aumentan el valor de reventa |
+
+<CardGrid cols={3}>
+  <Card title="Construcciones de Chatarra Económica">
+    - Piezas de motor genéricas
+    - Bajo costo inicial
+    - Ideal para reventa temprana
+  </Card>
+  <Card title="Motores de Alto Rendimiento">
+    - Componentes específicos del motor
+    - Precios de piezas más altos
+    - Adecuados para autos personales
+  </Card>
+  <Card title="Reventas por Reparación">
+    - Compra solo lo que está roto
+    - Las piezas originales son suficientes
+    - Maximiza el margen de ganancia
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Perspectiva de Ganancia">
+Los autos de chatarra de alto valor se venden con los mayores márgenes. Si restaurar una ECU barata devuelve a la vida un auto caro, el costo de la reparación casi siempre se recupera muchas veces en la venta.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Consejos de Instalación y Errores Comunes">
+
+Instalar la ECU es sencillo, pero el flujo de trabajo de reparación que la rodea es donde los jugadores pierden dinero. Estas prácticas mantienen tu reparación sin problemas:
+
+- **Limpia las piezas primero**: Los bloques, las culatas y los colectores de escape van en la amoladora; la mayoría de los demás componentes van al fregadero. Las piezas limpias vuelven al 0% de desgaste.
+- **Reemplaza los elementos de desgaste**: Cables de bujías nuevos y componentes eléctricos relacionados ayudan a llevar el motor hacia una condición de funcionamiento "perfecta".
+- **Vigila el indicador de temperatura**: Por encima de unos 120 °C, apaga el auto de inmediato. El sobrecalentamiento puede destruir el motor y borrar tu inversión.
+- **Evita la gasolina en las reventas**: Si un auto solo se va a reparar y vender, no llenes el tanque. El combustible es caro y no aporta nada al precio de reventa.
+- **No pierdas piezas**: Transportar componentes sueltos entre ubicaciones arriesga que se te caigan. Instala las piezas de inmediato en lugar de apilarlas en techos o bancos de trabajo.
+
+<Callout type="warning" title="Matemática del Motor Reventado">
+Si el motor de un proyecto explota, evalúa el costo de reemplazo frente a simplemente vender el auto tal cual. Alfredo acepta autos incompletos, y un bloque de motor nuevo a menudo cuesta más que el valor restante del auto.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación para Comprar la ECU">
+
+Repasa esta lista de verificación en cada reparación antes de salir de la tienda de repuestos:
+
+<Checklist
+  id="ecu-shopping"
+  title="Antes de Salir de la Tienda:"
+  items={[
+    "Confirmado que la ECU coincide con el código de motor",
+    "Leído el precio y la descripción antes de comprar",
+    "Comprado refrigerante y aceite de motor si los líquidos están bajos",
+    "Mantenida una reserva de al menos $500 en efectivo",
+    "Recogidas todas las piezas generadas en el punto de recolección"
+  ]}
+/>
+
+</Section>
+
+<Section icon={HelpCircle} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo comprar una ECU en el concesionario?",
+    answer: "No. El concesionario vende autos completos, no componentes individuales. Todas las compras de piezas, incluida la ECU, se realizan en la tienda de repuestos automotrices, organizada por familia de motores."
+  },
+  {
+    question: "¿Necesito una ECU para cada auto del depósito de chatarra?",
+    answer: "Solo si la unidad original falta, está rota o excesivamente desgastada. Inspecciona primero el compartimiento del motor y compra solo lo que realmente esté dañado para proteger tu margen de ganancia."
+  },
+  {
+    question: "¿Mejorar la ECU aumentará mi precio de reventa?",
+    answer: "Las mejoras generalmente no aumentan el valor de reventa en Mechanic Legends. Para construcciones de reventa, las piezas de reemplazo originales son la opción más rentable. Guarda las piezas de rendimiento para tus vehículos personales."
+  },
+  {
+    question: "¿Qué pasa si compro la ECU equivocada?",
+    answer: "Las compras son definitivas, así que el dinero ya está gastado. Una pieza incompatible no se puede instalar en el motor equivocado. Lee siempre la etiqueta y verifica el código de motor antes de hacer clic en comprar."
+  },
+  {
+    question: "¿Cómo recupero dinero si me quedo en bancarrota comprando piezas?",
+    answer: "El sistema de dinero de emergencia proporciona un subsidio de $3,000 cada semana si tu cuenta se queda sin fondos. Planifica tus compras con cuidado para no tener que depender de él."
+  }
+]} />
+
+</Section>

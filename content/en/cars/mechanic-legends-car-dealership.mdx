@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench, DollarSign } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Car Dealership Guide: Flip Junkyard Cars for Profit",
+  description: "Learn how the Mechanic Legends car dealership works: buy junkyard cars, repair engines, avoid overheating, and flip vehicles for maximum profit.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Car+Dealership+Guide",
+  date: "2026-10-30",
+  author: "mechanic legends Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Mechanic Legends car dealership**: Sell renovated cars to Roberto at the port for cash.
+- **Core loop**: Buy junkyard cars cheap, repair engine parts, resell for profit.
+- **Overheating danger**: Cars without a radiator explode at **160 degrees**.
+- **Budget rule**: Track parts and paint costs before selling, or you may lose money.
+- **Key prices**: Junkyard cars ~5,000; radiator 20,000; new engine 9,000; paint ~9,000.
+</Callout>
+
+<Section icon={Map} title="How the Car Dealership Loop Works">
+
+The Mechanic Legends car dealership system turns you into a one-person used-car business. You start at the junkyard, buy abandoned cars for around 5,000 bucks, tow them to your garage, repair every mechanical component, and then drive the finished vehicle to the port where Roberto buys it. Your profit margin depends entirely on how cheaply you source the car and how few replacement parts it needs.
+
+**Video Highlights:**
+- Buying a junkyard Corsa for 5,000 and fully repairing its engine
+- Why a missing radiator pushes temperature past 160 degrees and causes explosions
+- Repairing half-life engine parts, batteries, and injectors on the workshop machine
+- Selling the finished car to Roberto at the port for 9,600 bucks
+- Painting a Peugeot 206 and installing a radiator to protect the investment
+
+<YouTubeEmbed videoId="FEV1n_7qUj4" title="I Became a Mechanic for 1 Day to Fix Abandoned Cars in Mechanic Legends" />
+
+The dealership itself is simple: drive the car to the port, talk to Roberto, and accept or reject his offer. The skill is in the economics before you get there.
+
+| Step | Location | Action |
+| --- | --- | --- |
+| 1 | Junkyard | Inspect cars, buy one in decent condition (~5,000) |
+| 2 | Your garage | Strip and repair all engine parts and battery |
+| 3 | Parts store | Buy missing parts if budget allows |
+| 4 | Port | Sell to Roberto for his quoted price |
+
+<Callout type="tip" title="Inspect Before Buying">
+Check whether the car has an engine block, a radiator, and how hot it runs before purchasing. A cheap car missing a 20,000 radiator can wipe out your entire margin.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Repairing Cars: Parts, Machine, and Temperature">
+
+Every mechanical component in Mechanic Legends has a condition percentage. Half-life parts perform poorly — a car with a 50% engine can barely reach 70 km/h. Use the repair machine in your garage to restore parts to 100%, then reinstall them one by one.
+
+| Component | Base Condition (Typical) | Repairable? | Notes |
+| --- | --- | --- | --- |
+| Engine block | 50% | Yes (or buy new, 9,000) | Can catch fire and be destroyed |
+| Battery | 50% | Yes, via charging machine | Cheap to restore |
+| Radiator | Missing | No, must buy (20,000) | Keeps temp locked near 90 degrees |
+| Injectors/nozzles | Varies | Some yes | Test before removing |
+| Oil | Low | Buy refill (expensive) | Affects engine health |
+
+<Steps>
+  <Step num="1" title="Open the Hood and Strip Parts">
+    Use your key to remove the engine, battery, and injectors. Lay each part out so nothing gets lost under other components.
+  </Step>
+  <Step num="2" title="Repair Each Part">
+    Move every part to the repair machine. Each cycle restores a component to 100%. Charge the battery on its dedicated charger.
+  </Step>
+  <Step num="3" title="Reassemble Carefully">
+    Reinstall everything and double-check the floor for leftover parts. A missing engine block means the car will not start at all.
+  </Step>
+  <Step num="4" title="Monitor Temperature">
+    Watch the gauge. Without a radiator, the car climbs past 130 degrees quickly and explodes at 160.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Engine Fires Are Real">
+If the temperature hits 160 degrees, the engine catches fire. Act fast: get to your garage, open the hood, and strip the burning parts. If the engine block burns up, it disappears and you must buy a brand-new one for 9,000 bucks.
+</Callout>
+
+</Section>
+
+<Section icon={DollarSign} title="Dealership Economics: When to Sell and When to Keep">
+
+The biggest mistake new mechanics make is ignoring total costs. A 5,000 junkyard car plus 9,000 paint and a 9,000 engine totals 23,000 — if Roberto only offers 14,000, selling means a loss.
+
+| Cost Item | Price (Bucks) | Required? |
+| --- | --- | --- |
+| Junkyard car | ~5,000 | Yes |
+| Full paint job | ~9,000 | Optional, boosts value |
+| New 4-cylinder engine | 9,000 | Only if block destroyed |
+| Radiator | 20,000 | Strongly recommended |
+| Engine oil refill | ~10,000 | Optional |
+| V8 engine block | 35,000 | Luxury upgrade |
+| Turbo/intake | ~100,000 | Endgame tuning |
+
+<Callout type="info" title="The Keep-or-Sell Rule">
+Before driving to the port, add up your purchase plus all parts and paint. If Roberto's likely offer is below that total, keep the car in your garage collection and only sell clean, low-cost flips.
+</Callout>
+
+In practice, a simple mechanical restoration with no radiator and no paint is the most profitable flip: buy at 5,000, repair everything in-house, and sell near 9,600. Heavily customized cars like a painted Peugeot 206 often cost more to build than they fetch.
+
+</Section>
+
+<Section icon={Sparkles} title="Customization and Upgrades">
+
+Beyond repairs, the city offers several customization stops worth knowing:
+
+<CardGrid cols={3}>
+  <Card title="Paint Shop">
+    - Full respray for ~**9,000 bucks**
+    - Mix colors (gray, green, blue)
+    - Makes a rusty car look new
+  </Card>
+  <Card title="Neon Lights">
+    - Green, purple, pink, red options
+    - Costs up to **10,000 bucks**
+    - Purely cosmetic
+  </Card>
+  <Card title="Engine Upgrades">
+    - 4-cylinder, **V6**, and **V8** blocks
+    - V8 block costs 35,000
+    - Turbo/intake up to 100,000
+  </Card>
+</CardGrid>
+
+Suspension tuning is free of parts costs — you can lower the rear of the car in your garage for a sportier stance. Just remember that appearance upgrades rarely pay for themselves at the dealership; treat them as personal style spending.
+
+<Callout type="tip" title="Radiator First, Style Second">
+Install a radiator before any cosmetic work. A 20,000 radiator protects engines worth far more, and a car that explodes mid-drive destroys your entire investment in paint and parts.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Profit Checklist for Every Flip">
+
+<Checklist
+  id="dealership-flip"
+  title="Before You Sell to Roberto:"
+  items={[
+    "All engine parts repaired to 100%",
+    "Battery charged and installed",
+    "Temperature stable near 90 degrees",
+    "No leftover parts on the garage floor",
+    "Total costs calculated against expected offer"
+  ]}
+}
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Where do I sell cars in Mechanic Legends?",
+    answer: "Drive your finished car to the port area where the containers are stacked and talk to Roberto. He quotes a price based on the car's condition, and you can accept or refuse the offer."
+  },
+  {
+    question: "Why does my car keep exploding?",
+    answer: "Cars without a radiator overheat rapidly. Once the temperature gauge reaches 160 degrees, the engine catches fire and can be destroyed. Buy a radiator for 20,000 bucks to lock the temperature near 90 degrees."
+  },
+  {
+    question: "Is painting a car worth it before selling?",
+    answer: "Usually not. A full paint job costs around 9,000 bucks, and dealers often quote less than your total investment. Paint cars you plan to keep in your personal collection."
+  },
+  {
+    question: "What happens if my engine block burns up?",
+    answer: "The destroyed block disappears from the car. You must visit the parts store and buy a replacement — a new 4-cylinder engine costs 9,000 bucks, while V6 and V8 blocks cost considerably more."
+  }
+]} />
+
+</Section>

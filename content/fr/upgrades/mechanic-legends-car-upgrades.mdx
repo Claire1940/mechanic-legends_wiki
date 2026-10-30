@@ -1,0 +1,186 @@
+import { Map, Wrench, Flame, DollarSign, Zap, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Améliorations des voitures : Turbos, moteurs et guide des profits",
+  description: "Découvrez comment fonctionnent les améliorations de voitures dans Mechanic Legends : turbos, échanges de moteurs V6, radiateurs, gestion de la température et stratégies rentables de revente de voitures.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Car+Upgrades+Guide",
+  date: "2026-10-30",
+  author: "Équipe Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Les améliorations de voitures** dans Mechanic Legends incluent les turbos, les échanges de moteurs, les radiateurs et les réglages de suspension
+- **La turbine coûte 100 000 pièces** et améliore l'accélération, mais n'augmente pas forcément la vitesse maximale seule
+- **Les radiateurs (20 000 pièces)** sont obligatoires pour conduire en sécurité ; les voitures surchauffent et explosent à 160°
+- **Les échanges de moteurs réinitialisent les pièces** : remplacer un 4 cylindres par un V6 efface vos améliorations installées
+- **La revente de voitures de la casse** est le moyen le plus rapide de financer votre build de rêve
+</Callout>
+
+<Section icon={Wrench} title="Aperçu des améliorations : ce que vous pouvez modifier">
+
+Les améliorations de voitures sont au cœur de la progression dans Mechanic Legends. Chaque véhicule récupéré à la casse peut être désassemblé, réparé, repeint et optimisé dans votre garage personnel. Le parcours d'amélioration détermine si une voiture reste une épave lente ou devient une fusée de rue.
+
+**Points forts de la vidéo :**
+- Travail vers une turbine de 100 000 pièces pour une Pojo 206 sauvée
+- Les voitures de la casse n'ont souvent pas de radiateur et surchauffent dangereusement
+- L'état du moteur passe de 50 % à 92 % après des réparations complètes
+- Une turbine a amélioré l'accélération mais la vitesse maximale est restée à 196 km/h
+- Passer à un moteur V6 a supprimé toutes les pièces précédemment installées
+
+<YouTubeEmbed videoId="QwSXLQ4MqOE" title="I UPGRADED MY CAR TO MAKE IT SUPER FAST IN ROBLOX!! (Mechanic Legends)" />
+
+Les principales catégories d'amélioration se répartissent comme suit :
+
+| Amélioration | Coût approximatif | Effet | Priorité |
+| --- | --- | --- | --- |
+| Réparation moteur | Variable | Restaure la puissance, augmente l'état du moteur en % | ★★★★★ |
+| Charge de batterie | Faible | Nécessaire pour démarrer la voiture | ★★★★★ |
+| Radiateur | 20 000 pièces | Prévient la surchauffe et l'explosion | ★★★★★ |
+| Turbine/turbo | 100 000 pièces | Accélération bien plus forte | ★★★★ |
+| Échange de moteur (V6) | Élevé | Plus de puissance, réinitialise les pièces installées | ★★★ |
+| Peinture/carrosserie | 10 000 pièces | Purement cosmétique, ajoute rarement de la valeur de revente | ★★ |
+| Abaissement de suspension | Faible | Changement cosmétique de stance | ★ |
+
+<Callout type="warning" title="La surchauffe détruit les builds">
+Les voitures sans radiateur dépassent 120° en quelques instants d'accélération intense. À **160°, le moteur prend feu et la voiture explose**, détruisant chaque pièce que vous avez investie. Conduisez doucement et surveillez constamment la jauge de température.
+</Callout>
+
+</Section>
+
+<Section icon={DollarSign} title="Financer vos améliorations : la boucle de revente de voitures">
+
+Les pièces de performance sont chères, et la turbine seule coûte 100 000 pièces. La boucle rentable éprouvée consiste à acheter des voitures accidentées à la casse, restaurer leurs moteurs et les revendre au concessionnaire.
+
+L'économie observée lors de reventes réelles :
+
+| Voiture | Coût d'achat | Coûts supplémentaires | Prix de vente | Profit |
+| --- | --- | --- | --- | --- |
+| Corsa (moteur uniquement) | 5 000 | Batterie + réparations | 9 600 | **+4 600** |
+| Gol (peinte en rose) | 5 000 | 10 000 peinture + réparations | 14 600 | **-400** |
+| Troisième voiture (moteur uniquement) | 5 000 | Batterie + réparations | 34 000 | **+29 000** |
+
+Les chiffres racontent une histoire claire : les travaux cosmétiques coûteux engloutissent souvent votre marge, tandis que certains modèles atteignent des prix de revente étonnamment élevés basés uniquement sur l'état du moteur.
+
+<Callout type="tip" title="Évitez l'atelier de peinture">
+Les peintures coûtent 10 000 pièces et n'ont presque rien ajouté à la valeur de revente lors des tests. Concentrez votre budget sur l'état du moteur et la batterie, puis vendez. Laissez l'acheteur se soucier de l'esthétique.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Reventes moteur uniquement">
+  - **Meilleur ratio profit-coût**
+  - Réparez la culasse et la batterie
+  - La revente double souvent votre dépense
+  </Card>
+  <Card title="Restaurations complètes">
+  - Plafond de vente le plus élevé
+  - Nécessite 15 000+ pièces d'investissement
+  - Risqué : les marges se réduisent
+  </Card>
+  <Card title="Épargne pour le build de rêve">
+  - Mettez les profits de côté pour la turbine
+  - Objectif : 100 000 pièces
+  - Évitez de dépenser en cosmétique
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Étape par étape : construire une voiture rapide à partir de la ferraille">
+
+<Steps>
+  <Step num="1" title="Chassez à la casse">
+  Parcourez la casse à la recherche d'un châssis bon marché. Les modèles Corsa et Gol coûtent environ 5 000 pièces. Vérifiez l'état du moteur avant d'acheter ; 50 % de vie signifie que des réparations sont nécessaires.
+  </Step>
+  <Step num="2" title="Conduisez prudemment jusqu'à la maison">
+  La plupart des voitures de la casse n'ont pas de radiateur. Gardez des vitesses basses, évitez les longues montées et surveillez la température. Tout ce qui approche 140° signifie de lâcher immédiatement l'accélérateur.
+  </Step>
+  <Step num="3" title="Démontez et réparez">
+  Retirez toutes les pièces du moteur et la batterie. Chargez la batterie, rectifiez la culasse et réparez chaque composant pour pousser l'état du moteur vers 90 %+.
+  </Step>
+  <Step num="4" title="Réassemblez et testez">
+  Réinstallez tout, fermez le capot et faites un essai en douceur. Un moteur entièrement réparé atteint 80-100 km/h rapidement sans pics de température extrêmes.
+  </Step>
+  <Step num="5" title="Vendez et réinvestissez">
+  Livrez la voiture au concessionnaire. Réinvestissez les profits soit dans d'autres reventes, soit dans la turbine de 100 000 pièces pour votre voiture personnelle à garder.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Les prix du concessionnaire varient selon le modèle">
+Des achats identiques à 5 000 pièces se sont vendus à des montants très différents : 9 600 pour une voiture et 34 000 pour une autre. Le concessionnaire semble favoriser certains modèles, alors expérimentez pour découvrir quelles voitures atteignent des prix premium sur votre serveur.
+</Callout>
+
+</Section>
+
+<Section icon={Flame} title="Gestion de la température : la règle des 160°">
+
+La surchauffe est la plus grande menace pour tout build dans Mechanic Legends. Chaque trajet risqué est un pari avec votre investissement total.
+
+| Plage de température | Statut | Action recommandée |
+| --- | --- | --- |
+| 90° et moins | Sûr | Conduite normale |
+| 100-130° | Avertissement | Relâchez l'accélérateur, évitez les côtes |
+| 130-155° | Critique | Arrêtez-vous et laissez refroidir |
+| 160° | **Explosion** | La voiture prend feu, perte totale |
+
+Sans radiateur, même une accélération modérée fait s'envoler la température. En installer un coûte 20 000 pièces, ce qui n'en vaut la peine que pour les voitures que vous prévoyez de conduire à fond, pas pour les reventes immédiates.
+
+<Callout type="warning" title="L'accélération en montée est un piège">
+Grimper des côtes à fond sans radiateur fait grimper la température plus vite que la conduite sur plat. Si vous devez franchir un pont ou une pente, effleurez l'accélérateur et acceptez la vitesse réduite.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Turbines et échanges de moteurs : leçons coûteuses">
+
+La turbine est l'amélioration de performance phare, mais son comportement surprend de nombreux joueurs. Lors des tests, une Pojo 4 cylindres turbochargée s'élançait bien plus violemment au départ, mais sa vitesse maximale est restée à **196 km/h**, juste en dessous de la barre des 200.
+
+L'échange de moteur est encore plus conséquent. Remplacer le 4 cylindres par un V6 **a supprimé toutes les pièces installées sur le moteur précédent**, y compris la turbine, forçant un rachat complet des composants. Prévoyez votre budget en conséquence avant de vous engager dans un échange de moteur.
+
+<Checklist
+  id="turbo-build-goals"
+  title="Avant d'acheter une turbine :"
+  items={[
+    "Économisez 100 000 pièces grâce aux reventes de voitures",
+    "Installez d'abord un radiateur (20 000 pièces)",
+    "Vérifiez que l'état du moteur dépasse 90 %",
+    "Acceptez que la turbine améliore l'accélération, pas la vitesse maximale",
+    "N'échangez jamais le moteur après avoir installé une turbine, sauf si vous pouvez racheter les pièces"
+  ]}
+/>
+
+<Callout type="success" title="Ordre d'amélioration intelligent">
+Le radiateur d'abord, les réparations du moteur ensuite, la turbine en dernier. Cet ordre protège votre investissement à chaque étape et évite la peine de voir une voiture surchauffée et turbochargée exploser avant même que vous puissiez en profiter.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Les améliorations comme les turbines augmentent-elles la vitesse maximale dans Mechanic Legends ?",
+    answer: "Pas nécessairement. Lors des tests, une turbine a considérablement amélioré l'accélération et la sensation de départ, mais la vitesse maximale est restée à 196 km/h. Combiner une turbine avec un moteur plus puissant comme un V6 est la voie vers des vitesses supérieures."
+  },
+  {
+    question: "Pourquoi mes pièces ont-elles disparu après un échange de moteur ?",
+    answer: "Échanger un moteur (par exemple d'un 4 cylindres à un V6) supprime tous les composants installés sur l'ancien moteur, y compris les turbines et autres améliorations. Vous devez racheter et réinstaller tout pour le nouveau moteur."
+  },
+  {
+    question: "Installer un radiateur vaut-il 20 000 pièces ?",
+    answer: "Oui pour les voitures que vous prévoyez de conduire agressivement, car il prévient l'explosion à 160°. Pour les reventes rapides de voitures de casse, ignorez-le et laissez l'acheteur assumer le coût."
+  },
+  {
+    question: "Quel est le moyen le plus rapide de gagner 100 000 pièces pour une turbine ?",
+    answer: "Revendez des voitures de casse : achetez des châssis bon marché autour de 5 000 pièces, réparez uniquement le moteur et la batterie, puis vendez au concessionnaire. Les reventes moteur uniquement peuvent rapporter plusieurs milliers de pièces chacune, et certains modèles se revendent bien plus cher."
+  }
+]} />
+
+</Section>

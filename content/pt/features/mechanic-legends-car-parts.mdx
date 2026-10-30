@@ -1,0 +1,175 @@
+import { Map, Wrench, Cog, Gauge, Trophy, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Peças de Carro no Mechanic Legends: Tipos, Usos e Guia de Upgrades",
+  description: "Aprenda como funcionam as peças de carro do Mechanic Legends: componentes de motor, upgrades de corrida, pneus, suspensão e as melhores prioridades de tuning para cada build.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1c1917/f97316?text=Car+Parts+Guide",
+  date: "2026-10-30",
+  author: "Equipe da Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **As peças de carro do Mechanic Legends** incluem componentes de motor, upgrades de corrida, pneus, rodas e suspensão
+- **O trabalho no motor** é feito componente por componente: remova uma peça, instale a substituta, repita
+- **As peças de performance** funcionam melhor como um conjunto completo, não como upgrades isolados
+- **Combine as peças com sua atividade**: drag racing, drift, entregas e exploração favorecem builds diferentes
+- **Teste após cada mudança** para saber exatamente qual peça melhorou seu veículo
+</Callout>
+
+<Section icon={Cog} title="Visão Geral das Peças: O Que Cada Categoria Faz">
+
+As peças de carro do Mechanic Legends se dividem em categorias distintas, e cada uma afeta seu veículo de forma diferente. Os componentes de motor determinam a aceleração e a velocidade máxima, a suspensão e as rodas moldam o comportamento, e as peças voltadas para corrida empurram o carro para uma direção mais competitiva. Entender o papel de cada categoria é o primeiro passo para construir um veículo que se encaixe no seu estilo de jogo.
+
+O jogo possui **mais de 50 veículos** com desmontagem completa do motor, substituição de peças, sistemas de tuning e personalização, dando a você ampla liberdade para misturar e combinar componentes na sua garagem.
+
+| Categoria de Peça | Efeito Principal | Melhor Para | Prioridade |
+| --- | --- | --- | --- |
+| Componentes de motor | Aceleração, velocidade máxima | Drag racing, upgrades gerais | ★★★★★ |
+| Peças de corrida | Performance competitiva | Corridas, eventos | ★★★★★ |
+| Suspensão | Comportamento, altura, postura | Drift, curvas | ★★★★ |
+| Rodas e pneus | Aderência, controle, aparência | Todas as atividades | ★★★★ |
+| Carroceria e pintura | Personalização visual | Builds de estilo, coleção | ★★★ |
+
+<Callout type="tip" title="Comece pela Inspeção">
+Antes de trocar qualquer peça, inspecione o veículo e identifique componentes danificados, ausentes ou de menor desempenho. Uma inspeção completa separa o trabalho de reparo dos upgrades de performance e evita trocas de peças desnecessárias.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Peças de Motor: Fluxo de Desmontagem e Substituição">
+
+O trabalho no motor no Mechanic Legends é feito componente por componente. Você seleciona a peça do motor que precisa de manutenção, remove-a através da interação da oficina e instala a substituta, depois continua verificando os componentes restantes até que o motor esteja restaurado ou melhorado.
+
+<Steps>
+  <Step num="1" title="Leve o veículo para a oficina">
+    Entre na área da oficina com o veículo que deseja melhorar e abra os menus de motor e componentes do veículo.
+  </Step>
+  <Step num="2" title="Inspecione todos os componentes do motor">
+    Identifique peças danificadas, ausentes ou de menor desempenho antes de mexer em qualquer coisa. Essa linha de base torna as comparações futuras significativas.
+  </Step>
+  <Step num="3" title="Remova o componente selecionado">
+    Escolha a peça do motor que precisa de manutenção e use a interação da oficina para removê-la.
+  </Step>
+  <Step num="4" title="Instale a peça substituta">
+    Encaixe o novo componente e continue verificando as peças restantes do motor, uma por uma.
+  </Step>
+  <Step num="5" title="Teste e refine">
+    Leve o carro para a estrada e teste a resposta de arrancada, a aceleração e a velocidade máxima. Troque um grupo de peças por vez para que cada ajuste seja fácil de entender.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Erro Comum">
+Trabalhe no veículo de forma sistemática em vez de alternar entre componentes não relacionados. Pular de um lado para outro no motor desperdiça tempo e dificulta saber qual peça resolveu o problema.
+</Callout>
+
+</Section>
+
+<Section icon={Gauge} title="Peças de Corrida: Combinando Upgrades com o Tipo de Corrida">
+
+As peças de carro voltadas para corrida são mais eficazes quando selecionadas como um conjunto completo, e não como upgrades isolados. Uma build de drag, uma build de drift e uma build de corrida multiplayer exigem coisas diferentes dos seus componentes.
+
+<CardGrid cols={3}>
+  <Card title="Build de Drag Racing">
+    - **Priorize performance do motor e aceleração**
+    - Veículo estável que mantém a linha reta na arrancada
+    - Poucas concessões de comportamento em pistas retas
+  </Card>
+  <Card title="Build de Drift">
+    - **Comportamento previsível acima da velocidade máxima**
+    - Resposta clara à direção e ao acelerador
+    - Configuração que se recupera facilmente quando a traseira escapa
+  </Card>
+  <Card title="Build Equilibrada">
+    - **Aceleração e comportamento equilibrados**
+    - Confiável para exploração e estradas mistas
+    - Mais fácil de controlar durante trabalhos e viagens
+  </Card>
+</CardGrid>
+
+| Foco da Configuração | Peças Principais | Pontos Fortes | Fraqueza |
+| --- | --- | --- | --- |
+| Focada em velocidade | Upgrades de motor, componentes de corrida | Retas longas, drag racing | Fraca em curvas |
+| Focada em aceleração | Peças voltadas à arrancada | Arrancadas rápidas, partidas repetidas | Menor velocidade máxima |
+| Focada em comportamento | Suspensão, pneus, rodas | Drift, curvas, estradas que exigem correções | Mais lenta nas retas |
+
+<Callout type="success" title="Dica de Build">
+Para corridas multiplayer, prepare tanto uma build focada em velocidade quanto uma build equilibrada de comportamento. Os percursos misturam retas e curvas, e testar as duas configurações antes de competir mostra qual reage melhor sob pressão.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Peças e Dinheiro: Upgrades com Orçamento Limitado">
+
+As peças custam Dinheiro (Cash), e erros de gasto no início atrasam seu progresso. Repare o veículo até uma condição utilizável antes de investir em peças de performance, e aplique seus primeiros ganhos em confiabilidade e controle em vez de velocidade máxima.
+
+| Etapa | Prioridade de Gasto com Peças | Foco Recomendado |
+| --- | --- | --- |
+| Início do jogo | Condição, funcionalidade básica | Trabalhos de reparo, empregos padrão |
+| Início-meio do jogo | Comportamento, aceleração básica | Entregas, tarefas de táxi |
+| Meio do jogo | Durabilidade, performance de viagem | Veículos de trabalho confiáveis |
+| Meio-final do jogo | Aceleração, velocidade máxima | Corridas e eventos |
+
+<Callout type="tip" title="Regra de Reinvestimento">
+Use as recompensas iniciais para melhorar a confiabilidade e o controle antes de buscar a velocidade máxima. Um veículo confiável ganha dinheiro de forma consistente; uma build de corrida fraca perde mais do que vence.
+</Callout>
+
+<Checklist
+  id="parts-upgrade-goals"
+  title="Checklist de Upgrades de Peças:"
+  items={[
+    "Inspecione todos os componentes do motor antes de qualquer upgrade",
+    "Repare o veículo até a condição de funcionamento total",
+    "Combine as peças de corrida com sua atividade principal",
+    "Teste arrancada, aceleração e comportamento após cada mudança",
+    "Mantenha Dinheiro (Cash) suficiente reservado para reparos"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes sobre Seleção de Peças">
+
+<FAQ items={[
+  {
+    question: "Quais são as principais categorias de peças de carro no Mechanic Legends?",
+    answer: "As peças de carro do Mechanic Legends incluem componentes de motor, peças de performance voltadas para corrida, suspensão, rodas e pneus, além de itens de personalização de carroceria e pintura. Cada categoria afeta um aspecto diferente da aceleração, velocidade máxima, comportamento ou aparência."
+  },
+  {
+    question: "Devo reparar ou fazer upgrade das peças primeiro?",
+    answer: "Sempre restaure o veículo a uma condição utilizável primeiro. Um veículo danificado reduz a eficiência, dificulta os trabalhos iniciais e desperdiça o dinheiro gasto em peças de performance que não conseguem funcionar adequadamente."
+  },
+  {
+    question: "Quais peças são mais importantes para drag racing?",
+    answer: "Peças de performance do motor e de aceleração são a principal prioridade, junto com uma configuração estável que mantém o carro apontado em linha reta durante a arrancada. Concessões de comportamento importam menos em percursos majoritariamente retos."
+  },
+  {
+    question: "Como sei se um upgrade de peças realmente funcionou?",
+    answer: "Troque um grupo de peças por vez e teste o veículo na estrada após cada mudança. Compare a resposta de arrancada, aceleração, velocidade máxima e estabilidade da direção com a sua linha de base da inspeção."
+  }
+]} />
+
+</Section>
+
+<Section icon={Map} title="Onde Acompanhar Novas Peças e Atualizações">
+
+Atualizações podem mudar o funcionamento das peças, adicionar novos componentes e alterar o equilíbrio entre aceleração, velocidade e comportamento. Quando uma nova versão surgir, confira a [página oficial do jogo no Roblox](https://www.roblox.com/games/9265443535/Car-Mechanic-Simulator), compare a descrição atual com sua configuração anterior e teste novamente as builds de corrida estabelecidas.
+
+| Área da Atualização | O Que Verificar | Impacto no Jogador |
+| --- | --- | --- |
+| Novas peças e recursos de tuning | Trabalho no motor, substituição de peças, componentes de corrida | O equilíbrio entre velocidade, aceleração e comportamento pode mudar |
+| Adições de veículos | Veículos recém-disponíveis | Novas opções para corrida, drift ou trabalhos |
+| Trabalhos e recompensas | Recompensas de reparo, entrega e táxi | Sua melhor rota de farm pode mudar |
+| Atividades de corrida | Novos tipos de corrida, conteúdo de drift | Diferentes builds podem se tornar ideais |
+
+<Callout type="warning" title="Teste Novamente Após Atualizações">
+Revise seus veículos existentes após qualquer atualização. Mudanças em peças e tuning podem alterar silenciosamente o desempenho de uma configuração antiga, então repita o fluxo básico de oficina e teste na estrada antes da sua próxima corrida.
+</Callout>
+
+</Section>

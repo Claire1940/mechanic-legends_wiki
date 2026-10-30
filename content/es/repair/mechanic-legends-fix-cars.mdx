@@ -1,0 +1,163 @@
+import { Map, Wrench, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mechanic Legends Fix Cars: Guía de Trabajos y Reparaciones para Ganar Dinero Rápido",
+  description: "Aprende a reparar autos en Mechanic Legends de forma eficiente: trabajos de clientes, bucles de reparación automática, reventa de chatarra y estrategias de venta en subasta.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b45309/fff?text=Mechanic+Legends+Fix+Cars",
+  date: "2026-10-30",
+  author: "Equipo de Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La jugabilidad de **Mechanic Legends fix cars** gira en torno a los trabajos de clientes, las reparaciones y la reventa.
+- Los **trabajos de clientes** son la principal fuente de ingresos, pero sufren un enfriamiento de 3 minutos cuando la cola se vacía.
+- Los **flips de chatarrería** te permiten comprar, reparar y vender autos para llenar los huecos de enfriamiento.
+- La **subasta automática + venta automática** maximiza las ganancias mientras esperas nuevos trabajos.
+- Las **configuraciones de rendimiento**, como la reducción del renderizado y el límite de 30 FPS, ayudan en las sesiones largas de farming.
+</Callout>
+
+<Section icon={Wrench} title="Cómo Reparas Autos en Mechanic Legends">
+
+En Mechanic Legends, tu bucle de juego principal es simple: acepta trabajos de clientes, repara sus vehículos, cobra el pago y reinvierte tus ganancias en más autos. Los trabajos aparecen en una cola, y cada uno te guía por el proceso de reparación de principio a fin. Completar un trabajo en su totalidad es lo que paga — el trabajo parcial no genera nada, así que siempre termina el trabajo antes de continuar.
+
+**Lo Destacado del Video:**
+- Los trabajos de clientes se ejecutan automáticamente a través de secuencias completas de reparación
+- La cola de trabajos puede llegar a cero con un enfriamiento de aproximadamente 3 minutos
+- La subasta automática, la venta automática y el flip de chatarrería llenan el tiempo muerto
+- El auto drive genera dinero pasivo manejando autos por la ciudad
+
+<YouTubeEmbed videoId="wHBH_wL6WCk" title="Mechanic Legends Script - Auto Customer - Auto Repair - Auto Auction - Working" />
+
+<Callout type="tip" title="Primero los Trabajos, Todo lo Demás Después">
+Prioriza siempre los trabajos de clientes activos sobre las actividades secundarias. Los trabajos son tu ingreso más alto y confiable por minuto — los flips de chatarrería y las subastas existen para cubrir las ventanas de enfriamiento, no para reemplazar los trabajos.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Comparación de Fuentes de Ingresos">
+
+Cada método para ganar dinero en Mechanic Legends intercambia tu tiempo de manera diferente. Combinar la actividad correcta con el momento adecuado es lo que separa un taller lento de uno rentable.
+
+| Método | Velocidad de Ingreso | Esfuerzo | Mejor Usado Cuando |
+| --- | --- | --- | --- |
+| Trabajos de clientes | ★★★★★ | Medio | Hay trabajos disponibles en la cola |
+| Bucle de reparación automática | ★★★★ | Bajo | Reparaciones de vehículos consecutivas |
+| Flip de chatarrería | ★★★ | Medio | Durante los enfriamientos de trabajos |
+| Reventa en subasta | ★★★ | Bajo | Después de hacer flips de chatarrería |
+| Auto drive | ★★ | Muy bajo | Ingreso pasivo en segundo plano |
+
+<CardGrid cols={3}>
+  <Card title="Trabajos de Clientes">
+    - **Mayor pago por reparación**
+    - Se requiere finalización completa
+    - La cola puede agotarse
+  </Card>
+  <Card title="Flip de Chatarrería">
+    - **Compra barato, repara, vende caro**
+    - Excelente para llenar enfriamientos
+    - Escala con la velocidad de reparación
+  </Card>
+  <Card title="Venta en Subasta">
+    - **Publicación y ventas automatizadas**
+    - Combina con los flips de chatarrería
+    - Pasivo mientras esperas
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Disciplina de Enfriamiento">
+Cuando la cola de trabajos llega a cero, enfrentas aproximadamente 3 minutos de inactividad. Ten flips de chatarrería y ventas en subasta ya en marcha para que ni un solo minuto de esa ventana se desperdicie.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rutina de Reparación Paso a Paso">
+
+Sigue esta rutina en cada sesión para mantener tu taller funcionando con máxima eficiencia desde el momento en que inicias sesión.
+
+<Steps>
+  <Step num="1" title="Prepara Tu Cliente">
+    Reduce el renderizado y limita el juego a 30 FPS antes de las sesiones largas de farming. Esto mantiene el rendimiento estable mientras trabajas en reparaciones durante períodos prolongados.
+  </Step>
+  <Step num="2" title="Vacía la Cola de Trabajos">
+    Acepta trabajos de clientes y completa cada reparación por completo, de principio a fin. Nunca abandones un trabajo a medias — solo los trabajos completados pagan.
+  </Step>
+  <Step num="3" title="Llena el Enfriamiento">
+    Cuando se acaben los trabajos, cambia inmediatamente a los flips de chatarrería: compra autos baratos, repáralos y prepáralos para la venta.
+  </Step>
+  <Step num="4" title="Vende en la Subasta">
+    Publica tus autos de chatarrería reparados en la subasta y deja que la venta automática maneje las transacciones mientras la cola de trabajos se llena de nuevo.
+  </Step>
+  <Step num="5" title="Escala">
+    Reinvierte las ganancias en mejor inventario y mantiene el bucle en marcha. Más capital significa más flips de chatarrería y mayores márgenes en subasta.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Rotación Óptima">
+El patrón más rentable observado en la práctica: trabajos de clientes automáticos como base, reparación automática para trabajo consecutivo, flip de chatarrería más venta en subasta durante cada enfriamiento. Esto acumula todas las fuentes de ingresos con un tiempo de inactividad mínimo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Prioridades de Reparación y Valor del Vehículo">
+
+No todos los autos merecen tu tiempo de llave inglesa. Usa esta referencia rápida para decidir dónde va tu esfuerzo.
+
+| Origen del Vehículo | Costo de Reparación | Valor de Reventa | Prioridad |
+| --- | --- | --- | --- |
+| Autos de trabajos de clientes | N/A (trabajo pagado) | Pago fijo del trabajo | **Siempre primero** |
+| Chatarras de desguace | Precio de compra bajo | Medio después de reparar | Alto durante el enfriamiento |
+| Gangas de subasta | Varía | Depende del mercado | Solo con dinero de sobra |
+| Autos personales dañados | Tus piezas | Bajo retorno | Omitir a menos que sea necesario |
+
+<Callout type="info" title="Repara por Completo Antes de Vender">
+Un auto completamente reparado se vende consistentemente por más que uno parcialmente arreglado. Completa siempre cada etapa de reparación antes de publicar un vehículo — la diferencia de margen vale los minutos extra.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Objetivos por Sesión">
+
+<Checklist
+  id="fix-cars-goals"
+  title="Cada Sesión Debe Incluir:"
+  items={[
+    "Completar todos los trabajos de clientes en la cola",
+    "Hacer flips de chatarrería durante los enfriamientos de trabajos",
+    "Publicar los autos reparados en la subasta antes de quedar inactivo",
+    "Mantener las herramientas de reparación y el inventario abastecidos",
+    "Reinvertir al menos la mitad de las ganancias de la sesión"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más rápida de ganar dinero al reparar autos en Mechanic Legends?",
+    answer: "Los trabajos de clientes pagan más por minuto, así que vacía la cola primero. Cuando se acaben los trabajos durante el enfriamiento de aproximadamente 3 minutos, cambia a los flips de chatarrería y las ventas en subasta para mantener el ingreso fluyendo sin interrupciones."
+  },
+  {
+    question: "¿Por qué dejaron de aparecer mis trabajos de clientes?",
+    answer: "La cola de trabajos periódicamente baja a cero y entra en un enfriamiento de unos 3 minutos. Esto es normal — usa esa ventana para flips de chatarrería, publicaciones en subasta o ingresos de auto drive en lugar de esperar inactivo."
+  },
+  {
+    question: "¿Debo vender los autos de la chatarrería inmediatamente después de comprarlos?",
+    answer: "No. Repáralos por completo primero. Una reparación completada aumenta significativamente el precio de reventa en la subasta, y el costo de tiempo extra es pequeño en comparación con la ganancia de margen."
+  },
+  {
+    question: "¿Necesito bajar la configuración de gráficos?",
+    answer: "Para sesiones largas de farming, sí. Desactivar el renderizado y limitar el juego a 30 FPS mantiene el rendimiento estable durante bucles extendidos de reparación y flip, lo cual es especialmente útil si ejecutas el juego durante horas."
+  }
+]} />
+
+</Section>

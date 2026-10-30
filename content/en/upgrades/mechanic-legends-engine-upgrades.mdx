@@ -1,0 +1,188 @@
+import { Map, Wrench, Target, Trophy, Gauge, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mechanic Legends Engine Upgrades: Tuning & Parts Setup Guide",
+  description: "Learn how engine upgrades work in Mechanic Legends: component removal, racing parts, tuning balance, and the best upgrade order for drag races and drifting.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/ea580c/fff?text=Engine+Upgrades+Guide",
+  date: "2026-10-30",
+  author: "mechanic legends Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Mechanic Legends engine upgrades** are handled part by part in the workshop, not as a single purchase.
+- **Repair first, upgrade second**: a damaged engine undermines every performance part you install.
+- **Match parts to the activity**: drag racing favors acceleration, drifting favors predictable handling.
+- **Test after every change** so you know exactly which upgrade improved your build.
+- **Complete setups beat isolated parts**: racing components work best as a coordinated package.
+</Callout>
+
+<Section icon={Wrench} title="How Engine Upgrades Work in Mechanic Legends">
+
+Mechanic Legends treats engine work as a hands-on workshop process. You inspect the vehicle, remove the existing component, install a replacement, and repeat until the engine is either restored or upgraded. Every performance characteristic of your car — acceleration, top speed, and how it behaves in races — is shaped by the parts you choose and how they work together.
+
+The workshop system separates two different tasks that many new players confuse:
+
+| Task | Goal | When to Do It |
+| --- | --- | --- |
+| Engine repair | Restore damaged or missing components | Before any performance upgrades |
+| Engine upgrade | Replace stock parts with higher-performance components | After the vehicle is fully functional |
+| Racing parts | Specialize the car toward drag, drift, or competition | Once income is stable |
+
+<Callout type="warning" title="Repair Before You Upgrade">
+Installing racing components on a damaged engine wastes money. A vehicle in poor condition reduces efficiency and makes early activities harder to complete. Restore full functionality first, then invest in performance.
+</Callout>
+
+You can confirm current gameplay systems on the official [Roblox game page](https://www.roblox.com/games/9265443535/Car-Mechanic-Simulator), where the developer describes engine dismantling, tuning, and racing features across the 50+ vehicle roster.
+
+</Section>
+
+<Section icon={Gauge} title="Engine Upgrade Order: Step-by-Step Workshop Flow">
+
+Follow this workshop sequence for any vehicle you plan to upgrade. The order matters — skipping inspection leads to unnecessary part changes, and skipping testing leaves you guessing which upgrade actually helped.
+
+<Steps>
+  <Step num="1" title="Inspect Before Changing Parts">
+    Bring the vehicle into the workshop and review the available engine and vehicle components. Identify damaged, missing, or lower-performance parts before touching anything. This baseline makes every later comparison meaningful.
+  </Step>
+  <Step num="2" title="Remove and Replace Engine Components">
+    Select the component that needs service, remove the existing part through the workshop interaction, and install the replacement. Work component by component through the engine until it is fully restored.
+  </Step>
+  <Step num="3" title="Install Racing-Oriented Parts">
+    With the engine healthy, install performance parts that match your intended activity. Prioritize engine upgrades for straight-line speed and acceleration, and avoid sacrificing too much control on routes with turns.
+  </Step>
+  <Step num="4" title="Balance Speed, Acceleration, and Handling">
+    Tune the setup for the environment: speed-focused for long straights, acceleration-focused for launches and repeated starts, handling-focused for drifting and corners.
+  </Step>
+  <Step num="5" title="Test and Refine">
+    Take the car onto the road after each major change. Test launch response, acceleration, and steering stability. Change one group of parts at a time so the effect of each adjustment stays readable.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Pro Tip: One Change at a Time">
+If you swap the intake, exhaust, and tires simultaneously and the car feels worse, you cannot tell which part caused it. Group related changes, test, then adjust — this habit turns trial and error into a reliable tuning method.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Tuning Setups by Activity Type">
+
+No single upgrade path wins everywhere. The right engine and tuning configuration depends on what you actually drive.
+
+| Setup | Prioritize | Best For | Trade-Off |
+| --- | --- | --- | --- |
+| Speed-focused | Top speed, sustained power | Long straights, drag racing | Weaker launches and cornering |
+| Acceleration-focused | Launch response, quick starts | Drag launches, stop-and-go routes | Lower top-end speed |
+| Handling-focused | Predictable steering, control | Drifting, technical corners | Reduced peak speed |
+| Balanced | Even spread of all attributes | Exploration, mixed roads, taxi work | No single standout strength |
+
+<CardGrid cols={2}>
+  <Card title="Drag Racing Build">
+    - **Engine performance and acceleration first**
+    - Stable platform that stays straight on launch
+    - Minimal handling compromise — the route has few turns
+    - Test launch response repeatedly before racing
+  </Card>
+  <Card title="Drift Build">
+    - **Predictable handling over top speed**
+    - Clear response to steering and throttle input
+    - Recovery control when the rear steps out
+    - Enter corners with enough speed to hold the slide
+  </Card>
+  <Card title="Work Vehicle Build">
+    - **Durability and reliability first**
+    - Handling for repeated delivery and taxi trips
+    - Fewer repair interruptions between jobs
+    - Comfortable control beats raw speed
+  </Card>
+  <Card title="Multiplayer Race Build">
+    - **Balanced acceleration and handling**
+    - Tested under pressure before competing
+    - Early braking and clean exits around other players
+    - Adapt the setup after observing the race format
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Build for the Route, Not the Stat Sheet">
+A fast vehicle is not always the quickest vehicle on every route. Match your upgrade direction to the driving environment and your own ability to control the car.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Upgrade Priority by Progression Stage">
+
+Engine upgrades compete with vehicle purchases, repairs, and job income for your Cash. Spend in the order that keeps your garage economy healthy.
+
+| Stage | Upgrade Priority | Reason |
+| --- | --- | --- |
+| Early game | Condition, basic handling, basic acceleration | Reliability matters more than peak performance |
+| Mid game | Durability, travel performance, targeted engine parts | Supports deliveries, taxi work, and consistent income |
+| Mid-late game | Acceleration, top speed, racing components | Racing upside unlocks once income is stable |
+| Late game | Role specialization per vehicle | Each car gets a defined purpose in your collection |
+
+<Callout type="warning" title="Do Not Exhaust Your Budget">
+Buy performance parts only after establishing a stable income source. Racing potential is most useful when the vehicle can still be repaired and upgraded without draining your garage budget.
+</Callout>
+
+<Checklist
+  id="engine-upgrade-goals"
+  title="Engine Upgrade Milestones:"
+  items={[
+    "Fully repair one starter vehicle before upgrading it",
+    "Complete a baseline road test and note weak points",
+    "Install a first full racing setup on one dedicated car",
+    "Build a separate handling-focused car for drifting",
+    "Re-test all existing builds after each game update"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Common Engine Upgrade Mistakes">
+
+Most tuning regrets in Mechanic Legends come from a handful of repeated errors. Avoid these and your Cash goes much further.
+
+| Mistake | Consequence | Fix |
+| --- | --- | --- |
+| Upgrading before repairing | Reduced efficiency, wasted parts | Restore condition first |
+| Isolated part swaps | Confusing, inconsistent results | Plan complete setups |
+| Max speed on every build | Uncontrollable in corners | Match parts to the route |
+| Spending the full Cash balance | No funds left for repairs | Keep a repair reserve |
+| Skipping road tests | Unknown effect of each upgrade | Test after each change group |
+| Ignoring updates | Old setups may shift in balance | Re-test builds after patches |
+
+<Callout type="info" title="Updates Change the Balance">
+Workshop and tuning features can change between versions. When an update lands, review your existing vehicles and retest their previous race setups before assuming a build is still optimal. Check the [official Roblox game page](https://www.roblox.com/games/9265443535/Car-Mechanic-Simulator) for the latest developer announcements.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "How do engine upgrades work in Mechanic Legends?",
+    answer: "Engine work is handled component by component in the workshop. You inspect the vehicle, remove the selected part through the workshop interaction, install a replacement, and continue until the engine is restored or upgraded. Racing parts are installed the same way after the base engine is functional."
+  },
+  {
+    question: "Should I repair or upgrade my engine first?",
+    answer: "Always repair first. A damaged vehicle reduces efficiency and makes early activities harder, and performance parts cannot compensate for poor condition. Restore full functionality, then invest in upgrades."
+  },
+  {
+    question: "What is the best engine setup for drag racing?",
+    answer: "Prioritize engine performance and acceleration, use a stable vehicle that stays straight during launch, and avoid handling compromises since drag routes contain few turns. Test launch response repeatedly before entering a race."
+  },
+  {
+    question: "Do engine upgrade meta builds change after updates?",
+    answer: "Yes. Updates can alter parts, tuning, and the balance between acceleration, speed, and handling. After any update, repeat the basic workshop flow and retest your existing race setups before relying on them."
+  }
+]} />
+
+</Section>

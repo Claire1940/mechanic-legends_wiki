@@ -1,0 +1,186 @@
+import { Map, Wrench, Flame, DollarSign, Zap, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Melhorias de Carros: Turbos, Motores e Guia de Lucro",
+  description: "Aprenda como funcionam as melhorias de carros em Mechanic Legends: turbinas, troca de motor V6, radiadores, gerenciamento de temperatura e estratégias lucrativas de revenda de carros.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/b45309/fff?text=Car+Upgrades+Guide",
+  date: "2026-10-30",
+  author: "Equipe do Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Melhorias de carros** em Mechanic Legends incluem turbinas, trocas de motor, radiadores e ajustes de suspensão
+- **A turbina custa 100.000 moedas** e melhora a aceleração, mas sozinha pode não aumentar a velocidade máxima
+- **Radiadores (20.000 moedas)** são obrigatórios para dirigir com segurança; carros superaquecem e explodem a 160°
+- **Trocas de motor resetam as peças**: trocar um 4-cilindros por um V6 apaga todas as melhorias instaladas
+- **Revender carros do ferro-velho** é a forma mais rápida de financiar o projeto dos seus sonhos
+</Callout>
+
+<Section icon={Wrench} title="Visão Geral das Melhorias: O Que Você Pode Modificar">
+
+As melhorias de carros são o coração da progressão em Mechanic Legends. Todo veículo que você resgata do ferro-velho pode ser desmontado, reparado, repintado e ajustado para desempenho na sua garagem pessoal. O caminho de melhorias determina se um carro continua sendo um caco lento ou se torna um foguete de rua.
+
+**Destaques do Vídeo:**
+- Trabalhando para juntar uma turbina de 100.000 moedas para um Pojo 206 resgatado
+- Carros do ferro-velho geralmente não têm radiadores e superaquecem perigosamente
+- A condição do motor sobe de 50% para 92% após reparos completos
+- Uma turbina melhorou a aceleração, mas a velocidade máxima permaneceu em 196 km/h
+- Trocar para um motor V6 removeu todas as peças instaladas anteriormente
+
+<YouTubeEmbed videoId="QwSXLQ4MqOE" title="I UPGRADED MY CAR TO MAKE IT SUPER FAST IN ROBLOX!! (Mechanic Legends)" />
+
+As categorias principais de melhorias se dividem da seguinte forma:
+
+| Melhoria | Custo Aprox. | Efeito | Prioridade |
+| --- | --- | --- | --- |
+| Reparo do motor | Variável | Restaura potência, aumenta a condição do motor em % | ★★★★★ |
+| Carga da bateria | Baixo | Necessário para ligar o carro | ★★★★★ |
+| Radiador | 20.000 moedas | Evita superaquecimento e explosão | ★★★★★ |
+| Turbina/turbo | 100.000 moedas | Aceleração muito mais forte | ★★★★ |
+| Troca de motor (V6) | Alto | Mais potência, reseta as peças instaladas | ★★★ |
+| Pintura/lataria | 10.000 moedas | Apenas estético, raramente agrega valor de revenda | ★★ |
+| Abaixamento da suspensão | Baixo | Mudança estética de postura | ★ |
+
+<Callout type="warning" title="Superaquecimento Destroi Projetos">
+Carros sem radiador passam de 120° em poucos instantes de aceleração forte. Aos **160° o motor pega fogo e o carro explode**, destruindo cada moeda que você investiu. Dirija com calma e monitore o medidor de temperatura a todo momento.
+</Callout>
+
+</Section>
+
+<Section icon={DollarSign} title="Financiando Suas Melhorias: O Ciclo de Revenda de Carros">
+
+Peças de desempenho são caras, e só a turbina custa 100.000 moedas. O ciclo comprovado de ganhar dinheiro é comprar carros batidos no ferro-velho, restaurar os motores e revendê-los ao concessionário.
+
+A economia observada em revendas reais:
+
+| Carro | Custo de Compra | Custos Extras | Preço de Venda | Lucro |
+| --- | --- | --- | --- | --- |
+| Corsa (só motor) | 5.000 | Bateria + reparos | 9.600 | **+4.600** |
+| Gol (pintado de rosa) | 5.000 | 10.000 pintura + reparos | 14.600 | **-400** |
+| Terceiro carro (só motor) | 5.000 | Bateria + reparos | 34.000 | **+29.000** |
+
+Os números contam uma história clara: trabalhos cosméticos caros frequentemente devoram sua margem, enquanto certos modelos atingem preços de revenda surpreendentemente altos baseados puramente na condição do motor.
+
+<Callout type="tip" title="Pule a Pintura">
+Pinturas custam 10.000 moedas e quase não agregaram nada ao valor de revenda nos testes. Concentre seu orçamento na condição do motor e no trabalho da bateria, depois venda. Deixe o comprador se preocupar com a estética.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Revendas Somente de Motor">
+  - **Melhor relação lucro-custo**
+  - Repare o cabeçote e a bateria
+  - A revenda frequentemente dobra seu gasto
+  </Card>
+  <Card title="Restaurações Completas">
+  - Maior teto de venda
+  - Exige investimento de 15.000+ moedas
+  - Arriscado: as margens de lucro encolhem
+  </Card>
+  <Card title="Poupança para o Projeto dos Sonhos">
+  - Guarde os lucros para a turbina
+  - Meta de 100.000 moedas
+  - Evite gastar com cosméticos
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Passo a Passo: Construa um Carro Rápido a partir do Sucata">
+
+<Steps>
+  <Step num="1" title="Explore o Ferro-Velho">
+  Procure no pátio por um chassi barato. Modelos Corsa e Gol custam cerca de 5.000 moedas. Verifique a condição do motor antes de comprar; 50% de vida significa que reparos são necessários.
+  </Step>
+  <Step num="2" title="Dirija para Casa com Cuidado">
+  A maioria dos carros do ferro-velho não tem radiadores. Mantenha velocidades baixas, evite longas subidas e fique de olho na temperatura. Qualquer coisa se aproximando de 140° significa tirar o pé do acelerador imediatamente.
+  </Step>
+  <Step num="3" title="Desmonte e Repare">
+  Remova todas as peças do motor e a bateria. Carregue a bateria, retifique o cabeçote e repare cada componente para levar a condição do motor a 90%+.
+  </Step>
+  <Step num="4" title="Remonte e Teste">
+  Reinstale tudo, feche o capô e faça um teste suave. Um motor totalmente reparado atinge 80-100 km/h rapidamente sem picos extremos de temperatura.
+  </Step>
+  <Step num="5" title="Venda e Reinvista">
+  Entregue o carro ao concessionário. Reinvista os lucros em mais revendas ou na turbina de 100.000 moedas para o seu carro pessoal.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Preços do Concessionário Variam por Modelo">
+Compras idênticas de 5.000 moedas foram vendidas por valores completamente diferentes: 9.600 para um carro e 34.000 para outro. O concessionário parece favorecer certos modelos, então experimente para descobrir quais carros alcançam prêmios no seu servidor.
+</Callout>
+
+</Section>
+
+<Section icon={Flame} title="Gerenciamento de Temperatura: A Regra dos 160°">
+
+O superaquecimento é a maior ameaça a qualquer projeto em Mechanic Legends. Cada viagem arriscada é uma aposta com todo o seu investimento.
+
+| Faixa de Temperatura | Status | Ação Recomendada |
+| --- | --- | --- |
+| 90° ou menos | Seguro | Direção normal |
+| 100-130° | Alerta | Alivie o acelerador, evite subidas |
+| 130-155° | Crítico | Pare e deixe esfriar |
+| 160° | **Explosão** | O carro pega fogo, perda total |
+
+Sem radiador, até mesmo aceleração moderada dispara a temperatura. Instalar um custa 20.000 moedas, o que só vale a pena em carros que você planeja dirigir com força, não em revendas que você venderá imediatamente.
+
+<Callout type="warning" title="Aceleração em Subida É uma Armadilha">
+Subir ladeiras com o acelerador no talo sem radiador eleva a temperatura mais rápido do que dirigir em terreno plano. Se precisar subir uma ponte ou rampa, dosifique o acelerador e aceite a velocidade menor.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Turbinas e Trocas de Motor: Lições Caras">
+
+A turbina é a melhoria de desempenho mais badalada, mas seu comportamento surpreende muitos jogadores. Nos testes, um Pojo 4-cilindros turboalimentado arrancou dramaticamente mais forte na largada, mas sua velocidade máxima permaneceu em **196 km/h**, logo abaixo da marca dos 200.
+
+Trocar o motor é ainda mais impactante. Substituir o 4-cilindros por um V6 **removeu todas as peças instaladas no motor anterior**, incluindo a turbina, forçando uma recompra completa de componentes. Planeje o orçamento antes de fazer uma troca de motor.
+
+<Checklist
+  id="turbo-build-goals"
+  title="Antes de Comprar uma Turbina:"
+  items={[
+    "Junte 100.000 moedas com revendas de carros",
+    "Instale primeiro um radiador (20.000 moedas)",
+    "Verifique se a condição do motor está acima de 90%",
+    "Aceite que a turbina melhora a aceleração, não a velocidade máxima",
+    "Nunca troque o motor depois de instalar uma turbina, a menos que possa recomprar as peças"
+  ]}
+/>
+
+<Callout type="success" title="Ordem Inteligente de Melhorias">
+Primeiro o radiador, segundo os reparos do motor, por último a turbina. Essa ordem protege seu investimento em cada etapa e evita a dor de ver um carro turboalimentado e superaquecido explodir antes de você poder aproveitá-lo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Melhorias como turbinas aumentam a velocidade máxima em Mechanic Legends?",
+    answer: "Não necessariamente. Nos testes, uma turbina melhorou drasticamente a aceleração e a sensação de largada, mas a velocidade máxima permaneceu em 196 km/h. Combinar uma turbina com um motor mais forte, como um V6, é o caminho para velocidades maiores."
+  },
+  {
+    question: "Por que minhas peças desapareceram depois de trocar o motor?",
+    answer: "Trocar motores (por exemplo, 4-cilindros para V6) remove todos os componentes instalados no motor antigo, incluindo turbinas e outras melhorias. Você precisa recomprar e reinstalar tudo para o novo motor."
+  },
+  {
+    question: "Vale a pena instalar um radiador por 20.000 moedas?",
+    answer: "Sim, para carros que você planeja dirigir agressivamente, já que evita a explosão aos 160°. Para revendas rápidas de carros do ferro-velho, pule e deixe o comprador arcar com o custo."
+  },
+  {
+    question: "Qual é a forma mais rápida de ganhar 100.000 moedas para uma turbina?",
+    answer: "Revenda carros do ferro-velho: compre chassis baratos por cerca de 5.000 moedas, repare apenas o motor e a bateria, e venda ao concessionário. Revendas somente de motor podem render vários milhares de moedas cada, e certos modelos são revendidos por muito mais."
+  }
+]} />
+
+</Section>

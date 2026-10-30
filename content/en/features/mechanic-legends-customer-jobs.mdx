@@ -1,0 +1,177 @@
+import { Map, Target, Trophy, Wrench, Sparkles, ListChecks } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mechanic Legends Customer Jobs: Walkthrough & Earnings Tips",
+  description: "Learn how customer jobs work in Mechanic Legends: accept orders, diagnose faults, buy parts, complete repairs, and maximize your garage profits.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Customer+Jobs+Guide",
+  date: "2026-10-30",
+  author: "mechanic legends Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Customer jobs** are the core income loop in Mechanic Legends — accept, diagnose, repair, deliver.
+- **Diagnosis first**: inspect the vehicle and track faulty parts before buying anything.
+- **Order selection matters**: early on, pick simple jobs (brakes, fluids, plugs) to build cash fast.
+- **Skill points** speed up part examination and lower shop prices, boosting per-job profit.
+- **Complete every job**: finished orders grant cash, XP, and garage reputation unlocks.
+</Callout>
+
+<Section icon={Wrench} title="How Customer Jobs Work in Mechanic Legends">
+
+Customer jobs are the backbone of your garage in Mechanic Legends. A customer arrives with a problem — a knocking engine, worn brakes, or a mystery rattle — and your job is to get their vehicle back in working order for a payout. Each order tells you broadly what needs attention, but as you progress, the game gives you less hand-holding and expects you to run your own diagnosis.
+
+The basic loop follows four stages:
+
+| Stage | What Happens | Key Action |
+|---|---|---|
+| 1. Accept | Pick an order from the jobs board | Confirm the vehicle enters your garage |
+| 2. Diagnose | Inspect the car status screen | Identify and track faulty parts |
+| 3. Repair | Disassemble, replace, reassemble | Install new parts correctly |
+| 4. Deliver | Finalize the order | Receive cash, XP, and reputation |
+
+<Callout type="tip" title="Track Every Fault">
+Before touching a single bolt, open the car status screen and flag each faulty part. Tracking highlights broken components in blue during the repair view, so you never waste time hunting for the last hidden fault before finishing a job.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Job Types and What They Pay">
+
+Not all customer jobs are equal. Early orders are simple swaps; later jobs stack multiple systems and demand careful part ordering. Understanding the categories helps you choose work that matches your skill level and wallet.
+
+| Job Type | Difficulty | Typical Work | Profit Potential |
+|---|---|---|---|
+| Brake service | Easy | Pads, discs, calipers | Low-Medium |
+| Fluid & filter changes | Easy | Oil, air filter, plugs | Low |
+| Suspension work | Medium | Springs, shocks, bushings | Medium |
+| Engine repairs | Hard | Gaskets, timing, internals | High |
+| Gearbox jobs | Hard | Full teardown and rebuild | High |
+| Mystery faults | Variable | Requires real diagnosis | Medium-High |
+
+<CardGrid cols={3}>
+  <Card title="Beginner Jobs">
+    - **Brakes and fluids**
+    - Fast turnaround
+    - Cheap parts inventory
+    - Great for early XP
+  </Card>
+  <Card title="Mid-Tier Jobs">
+    - **Suspension and steering**
+    - Multiple parts per order
+    - Moderate part costs
+    - Steady profit growth
+  </Card>
+  <Card title="Expert Jobs">
+    - **Engine and gearbox rebuilds**
+    - Long repair chains
+    - Highest payouts
+    - Requires skill point investment
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Beware Mystery Faults">
+Some later customer jobs do not list every problem upfront. If the customer only reports "loose steering" or "strange noise," run a full inspection first — missing a hidden fault means the order cannot be completed until you find it.
+</Callout>
+
+</Section>
+
+<Section icon={ListChecks} title="Step-by-Step: Completing a Customer Job">
+
+Follow this workflow every time and jobs become second nature.
+
+<Steps>
+  <Step num="1" title="Accept the Right Order">
+    Open the orders menu and review each job's overview. Early in your run, choose orders with short, clearly listed fault lists to learn the mechanics without burning cash on expensive mistakes.
+  </Step>
+  <Step num="2" title="Move the Car Onto the Lift">
+    Highlight the vehicle, open the interaction menu, and send it to the car lifter. Getting the car onto the ramp gives you full access to inspect the underside and track every faulty part.
+  </Step>
+  <Step num="3" title="Track Faults and Disassemble">
+    Flag each broken component on the status screen. Faulty parts glow blue in repair view; removable parts highlight green. Disassemble in layers — you often must remove a wheel or panel before reaching the target part.
+  </Step>
+  <Step num="4" title="Order and Install Parts">
+    Use your computer to buy replacements, searching by part name to skip scrolling. Add every needed part to your notes list while inspecting so you buy everything in one shopping trip, then switch to the assembly mode and install.
+  </Step>
+  <Step num="5" title="Finish and Collect">
+    Confirm every tracked fault shows completed, review the running cost total and bonuses, then finish the order. The car leaves automatically and your reward lands.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Assembly Mode Reminder">
+Every time you walk away from a vehicle and return, the interaction menu defaults back to disassembly. Before holding the action button, double-check you are in part-mount mode so you install instead of stripping parts you just replaced.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Maximizing Profit Per Job">
+
+Earning more from customer jobs is about efficiency, not volume alone. Small habits compound into serious garage income.
+
+| Profit Tactic | How It Helps | Impact |
+|---|---|---|
+| Batch part purchases | Fewer shopping trips, less downtime | ★★★★ |
+| Sell removed parts | Old components still fetch scrap value | ★★ |
+| Skill point: shop discount | 5%+ off every part you buy | ★★★★ |
+| Skill point: faster examination | Quicker diagnosis on every order | ★★★★ |
+| Expand part inventory | Common parts on hand = instant repairs | ★★★ |
+
+**Recommended early skill picks:**
+
+- **Faster parts examination** — speeds up every single job for the rest of the game.
+- **Shop discount** — directly increases your margin on every order.
+- **Inventory expansion** — keep high-turnover items like brake discs and oil filters stocked.
+
+<Callout type="warning" title="Do Not Sell Parts You Still Need">
+Broken parts serve as a visual reference when ordering replacements, and reselling a part you were supposed to reinstall costs you full retail to buy back. Only clear old components after the order is finished.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Daily Job Routine Checklist">
+
+Run this checklist every play session to keep your garage humming and your income scaling.
+
+<Checklist
+  id="daily-job-routine"
+  title="Session Routine:"
+  items={[
+    "Accept 2-3 customer jobs suited to your skill level",
+    "Inspect and track all faults before disassembling",
+    "Batch-order every replacement part in one trip",
+    "Complete all tracked repairs and finish orders",
+    "Sell leftover scrap parts and restock common inventory",
+    "Spend new skill points on discounts and speed"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What are customer jobs in Mechanic Legends?",
+    answer: "Customer jobs are repair orders placed by in-game customers. You accept an order, diagnose the vehicle's faults, buy replacement parts, complete the repair, and hand the car back for cash, XP, and reputation."
+  },
+  {
+    question: "Why can't I finish a customer job?",
+    answer: "The most common cause is an untracked or hidden fault. Reopen the car status screen and compare the fault list against your completed repairs. Later jobs may require extra diagnosis steps beyond the initial list."
+  },
+  {
+    question: "Should I sell the old parts I remove?",
+    answer: "Yes, but only after the order is complete. Old parts sell for very little, yet they act as a useful visual reference when ordering replacements, and selling a part you still need means rebuying it at full price."
+  },
+  {
+    question: "Which customer jobs are best for beginners?",
+    answer: "Start with brake services, fluid changes, and single-component swaps. These jobs have short fault lists, cheap parts, and quick turnaround, making them ideal for learning the repair loop while building capital."
+  }
+]} />
+
+</Section>

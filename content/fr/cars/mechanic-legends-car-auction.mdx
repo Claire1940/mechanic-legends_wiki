@@ -1,0 +1,178 @@
+import { Map, Trophy, Target, Shield, Sparkles, Coins } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Enchères de voitures dans Mechanic Legends : Guide de revente et de profit",
+  description: "Découvrez comment fonctionnent les enchères de voitures dans Mechanic Legends. Comparez la revente aux enchères, les achats à la casse et les réparations pour maximiser vos profits en jeu.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Car+Auction+Guide",
+  date: "2026-10-30",
+  author: "Équipe Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guide rapide">
+- **L'enchère de voitures dans Mechanic Legends** est votre meilleure source de revenus passifs pendant que les réparations sont en temps de recharge.
+- **La revente aux enchères** se combine parfaitement avec les achats à la casse : achetez, réparez, puis vendez avec une marge.
+- **Les temps de recharge des missions** durent environ 3 minutes — remplissez cette fenêtre avec l'activité des enchères.
+- **Auto Enchère + Auto Vente** vous permet de gagner de l'argent sans cliquer constamment.
+- **Combinez les sources de revenus** pour obtenir le profit total le plus élevé par heure.
+</Callout>
+
+<Section icon={Coins} title="Les bases des enchères de voitures dans Mechanic Legends">
+
+L'enchère de voitures est l'un des principaux systèmes de gains dans Mechanic Legends. Au lieu de dépendre uniquement des réparations pour les clients, vous pouvez acheter des véhicules aux enchères, les remettre en état et les revendre avec profit. Cela devient particulièrement utile car les missions clients s'épuisent et déclenchent un temps de recharge d'environ trois minutes, vous laissant inactif à moins d'avoir une autre source de revenus en marche.
+
+**Points forts de la vidéo :**
+- Auto Enchère et Auto Vente permettent de revendre des voitures automatiquement
+- La casse achète, répare et revend des voitures en boucle
+- L'enchère remplit la fenêtre de recharge de 3 minutes des missions avec un profit supplémentaire
+- Combiner les missions automatiques, l'enchère et la casse maximise le revenu horaire
+
+<YouTubeEmbed videoId="wHBH_wL6WCk" title="Mechanic Legends Script - Auto Customer - Auto Repair - Auto Auction - Working" />
+
+<Callout type="tip" title="Principe fondamental">
+L'enchère ne remplace pas les réparations — c'est un complément. Les joueurs qui font tourner les deux systèmes en même temps gagnent systématiquement plus que ceux qui ne font que des missions clients.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Comparaison des sources de revenus">
+
+Il existe plusieurs façons de gagner de l'argent dans Mechanic Legends, et chacune correspond à une situation différente. Le tableau ci-dessous montre comment l'enchère de voitures se positionne face aux autres méthodes.
+
+| Méthode | Vitesse | Effort | Meilleur cas d'utilisation |
+| --- | --- | --- | --- |
+| Missions de réparation clients | Rapide | Moyen | Revenu principal quand des missions sont disponibles |
+| Réparation auto | Moyenne | Faible | Gains en arrière-plan en multitâche |
+| Reventes aux enchères | Moyenne | Faible | Combler la recharge de 3 minutes des missions |
+| Achats à la casse | Lente mais régulière | Faible | Voitures bon marché à réparer et revendre |
+| Conduite auto | Lente | Très faible | Revenu passif au goutte-à-goutte |
+
+<CardGrid cols={3}>
+  <Card title="Missions de réparation d'abord">
+    - **Meilleure paie par tâche**
+    - Limité par la disponibilité des missions
+    - Recharge de 3 minutes quand la file est vide
+  </Card>
+  <Card title="Enchère + Casse">
+    - **Comble chaque temps de recharge**
+    - Acheter bas, réparer, vendre haut
+    - Évolue avec votre vitesse de réparation
+  </Card>
+  <Card title="Combo complet">
+    - **Missions + Enchère + Casse**
+    - Profit maximum par heure
+    - Nécessite le moins de temps d'inactivité
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Meilleur combo">
+Faites tourner ensemble les missions clients automatiques, l'enchère automatique avec la vente automatique et les achats à la casse. C'est la configuration la plus rentable car aucune minute de jeu n'est perdue pendant les recharges.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Flux de travail de revente aux enchères étape par étape">
+
+Suivez ce flux de travail à chaque session pour maintenir votre argent circulant même quand les missions de réparation se raréfient.
+
+<Steps>
+  <Step num="1" title="Faites le plein de missions">
+    Commencez par les missions de réparation clients, car elles paient le plus vite. Continuez jusqu'à ce que la file atteigne zéro et que la recharge commence.
+  </Step>
+  <Step num="2" title="Passez à l'enchère">
+    Pendant la recharge d'environ 3 minutes, rendez-vous à l'enchère. Cherchez des voitures sous-évaluées que vous pouvez acheter en dessous de leur prix de revente une fois réparées.
+  </Step>
+  <Step num="3" title="Réparez et revendez">
+    Réparez chaque voiture achetée avant de la vendre. La marge entre le prix d'enchère et le prix de vente après réparation est votre profit, donc la qualité de la réparation compte.
+  </Step>
+  <Step num="4" title="Ajoutez la casse">
+    Entre les enchères, revendez des voitures de la casse. Elles sont bon marché à acquérir et, après réparation, se vendent encore avec une bonne marge.
+  </Step>
+  <Step num="5" title="Retour aux missions">
+    Une fois la recharge terminée, revenez aux missions clients et répétez le cycle. Cette boucle garde toutes les sources de revenus actives.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Évitez cette erreur">
+Ne vendez pas de voitures non réparées. La marge de revente après réparation est tout l'intérêt de la revente aux enchères — sauter les réparations détruit votre profit.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Paramètres d'automatisation et d'efficacité">
+
+Les joueurs expérimentés utilisent les fonctionnalités d'automatisation pour faire tourner le combo complet avec un minimum d'actions. Les paramètres ci-dessous reflètent la configuration couramment utilisée pour le farming en mode AFK.
+
+| Paramètre | Objectif | Recommandation |
+| --- | --- | --- |
+| Rendu désactivé | Réduit les lags pendant les longues sessions | Activer pour le farming AFK |
+| Limite à 30 FPS | Réduit l'utilisation des ressources | Activer avec le rendu désactivé |
+| Missions clients auto | Accomplit les réparations automatiquement | Garder activé en permanence |
+| Auto Enchère + Auto Vente | Revend les voitures d'enchère sans intervention | Activer pendant les recharges |
+| Achat à la casse | Achète, répare, revend les voitures de casse | Activer comme troisième flux |
+| Conduite auto | Conduit des voitures pour de l'argent passif | Revenu optionnel au goutte-à-goutte |
+
+<Callout type="info" title="Note de performance">
+Désactiver le rendu et limiter le jeu à 30 FPS réduit nettement la charge système pendant les longues sessions de farming, ce qui aide l'automatisation à fonctionner de manière plus fiable.
+</Callout>
+
+<Checklist
+  id="auction-session-goals"
+  title="Liste de contrôle de session :"
+  items={[
+    "Terminer toutes les missions de réparation clients disponibles",
+    "Remplir chaque fenêtre de recharge avec des reventes aux enchères",
+    "Réparer toutes les voitures avant de les revendre",
+    "Faire tourner la casse comme flux de secours",
+    "Noter votre profit par heure et ajuster"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Attentes de profit et pièges">
+
+Les profits des enchères dépendent de deux facteurs : le prix d'achat et la vitesse de réparation. Les nouveaux joueurs paient souvent trop cher les voitures aux enchères, ne laissant aucune marge après réparations. Fixez-vous un plafond d'achat personnel — si le prix d'enchère d'une voiture est proche de sa valeur de vente une fois réparée, laissez-la et vérifiez plutôt la casse.
+
+| Piège | Conséquence | Solution |
+| --- | --- | --- |
+| Surenchérir aux enchères | Aucune marge de profit | Comparer les prix avant d'enchérir |
+| Vendre des voitures non réparées | Valeur de réparation perdue | Toujours réparer d'abord |
+| Rester inactif pendant les recharges | Temps de gain perdu | Faire des enchères ou de la casse |
+| Ignorer la casse | Manquer d'inventaire bon marché | Vérifier la casse entre les enchères |
+
+<Callout type="tip" title="Suivez vos marges">
+Gardez en tête le prix de revente de chaque type de voiture une fois réparé. Connaître ces chiffres vous permet de repérer instantanément les lots sous-évalués aux enchères.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Qu'est-ce que l'enchère de voitures dans Mechanic Legends ?",
+    answer: "L'enchère de voitures est une place de marché en jeu où vous pouvez acheter des véhicules, les réparer et les revendre avec profit. Elle fonctionne mieux comme source de revenus secondaire pendant que les missions de réparation clients sont en recharge."
+  },
+  {
+    question: "Quand dois-je utiliser l'enchère plutôt que les réparations ?",
+    answer: "Utilisez l'enchère chaque fois que la file de missions clients est vide. Les missions ont une recharge d'environ trois minutes, et la revente aux enchères permet de continuer à gagner de l'argent pendant cette pause."
+  },
+  {
+    question: "La casse est-elle meilleure que l'enchère ?",
+    answer: "Elles se complètent. Les voitures de la casse sont généralement moins chères à acquérir, tandis que les voitures d'enchère peuvent offrir des marges plus élevées. Faire tourner les deux avec les missions de réparation produit le profit global le plus élevé."
+  },
+  {
+    question: "Dois-je réparer les voitures avant de les vendre aux enchères ?",
+    answer: "Oui. Le profit de la revente vient de la différence entre le prix d'achat et la valeur de revente après réparation. Vendre des voitures non réparées élimine la majeure partie de cette marge."
+  }
+]} />
+
+</Section>

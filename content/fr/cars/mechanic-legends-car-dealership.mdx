@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench, DollarSign } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guide de la concession automobile : Revendez les voitures de la casse pour un profit",
+  description: "Découvrez comment fonctionne la concession automobile de Mechanic Legends : achetez des voitures à la casse, réparez les moteurs, évitez la surchauffe et revendez les véhicules pour un profit maximum.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Car+Dealership+Guide",
+  date: "2026-10-30",
+  author: "Équipe Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Concession automobile de Mechanic Legends** : Vendez les voitures rénovées à Roberto au port contre de l'argent.
+- **Boucle de jeu principale** : Achetez des voitures à la casse à bas prix, réparez les pièces du moteur, revendez avec profit.
+- **Danger de surchauffe** : Les voitures sans radiateur explosent à **160 degrés**.
+- **Règle de budget** : Suivez les coûts des pièces et de la peinture avant de vendre, sinon vous risquez de perdre de l'argent.
+- **Prix clés** : Voitures à la casse ~5 000 ; radiateur 20 000 ; moteur neuf 9 000 ; peinture ~9 000.
+</Callout>
+
+<Section icon={Map} title="Comment fonctionne la boucle de la concession automobile">
+
+Le système de concession automobile de Mechanic Legends transforme votre personnage en entreprise de voitures d'occasion solo. Vous commencez à la casse, achetez des voitures abandonnées pour environ 5 000 dollars, les remorquez jusqu'à votre garage, réparez chaque composant mécanique, puis conduisez le véhicule terminé jusqu'au port où Roberto l'achète. Votre marge bénéficiaire dépend entièrement du prix auquel vous avez acheté la voiture et du nombre de pièces de rechange dont elle a besoin.
+
+**Points forts de la vidéo :**
+- Achat d'une Corsa à la casse pour 5 000 et réparation complète de son moteur
+- Pourquoi un radiateur manquant fait grimper la température au-delà de 160 degrés et provoque des explosions
+- Réparation des pièces de moteur usées à 50 %, des batteries et des injecteurs sur la machine de l'atelier
+- Vente de la voiture terminée à Roberto au port pour 9 600 dollars
+- Peinture d'une Peugeot 206 et installation d'un radiateur pour protéger l'investissement
+
+<YouTubeEmbed videoId="FEV1n_7qUj4" title="Je suis devenu mécanicien pendant 1 jour pour réparer des voitures abandonnées dans Mechanic Legends" />
+
+La concession elle-même est simple : conduisez la voiture jusqu'au port, parlez à Roberto, et acceptez ou refusez son offre. La compétence réside dans l'économie avant d'y arriver.
+
+| Étape | Lieu | Action |
+| --- | --- | --- |
+| 1 | Casses | Inspectez les voitures, achetez-en une en bon état (~5 000) |
+| 2 | Votre garage | Démontez et réparez toutes les pièces du moteur et la batterie |
+| 3 | Magasin de pièces | Achetez les pièces manquantes si le budget le permet |
+| 4 | Port | Vendez à Roberto au prix qu'il propose |
+
+<Callout type="tip" title="Inspectez avant d'acheter">
+Vérifiez si la voiture a un bloc moteur, un radiateur, et sa température de fonctionnement avant l'achat. Une voiture pas chère sans radiateur à 20 000 peut anéantir toute votre marge.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Réparer les voitures : pièces, machine et température">
+
+Chaque composant mécanique dans Mechanic Legends a un pourcentage d'état. Les pièces usées à moitié fonctionnent mal — une voiture avec un moteur à 50 % atteint à peine 70 km/h. Utilisez la machine de réparation dans votre garage pour restaurer les pièces à 100 %, puis réinstallez-les une par une.
+
+| Composant | État de base (typique) | Réparable ? | Remarques |
+| --- | --- | --- | --- |
+| Bloc moteur | 50 % | Oui (ou acheter neuf, 9 000) | Peut s'enflammer et être détruit |
+| Batterie | 50 % | Oui, via la machine de charge | Peu coûteuse à restaurer |
+| Radiateur | Manquant | Non, il faut l'acheter (20 000) | Maintient la température proche de 90 degrés |
+| Injecteurs / buses | Variable | Certains oui | Testez avant de démonter |
+| Huile | Bas | Achetez un remplissage (coûteux) | Affecte la santé du moteur |
+
+<Steps>
+  <Step num="1" title="Ouvrez le capot et démontez les pièces">
+    Utilisez votre clé pour retirer le moteur, la batterie et les injecteurs. Disposez chaque pièce pour ne rien perdre sous les autres composants.
+  </Step>
+  <Step num="2" title="Réparez chaque pièce">
+    Déplacez chaque pièce vers la machine de réparation. Chaque cycle restaure un composant à 100 %. Chargez la batterie sur son chargeur dédié.
+  </Step>
+  <Step num="3" title="Remontez avec soin">
+    Réinstallez tout et vérifiez bien le sol pour détecter les pièces oubliées. Un bloc moteur manquant signifie que la voiture ne démarrera pas du tout.
+  </Step>
+  <Step num="4" title="Surveillez la température">
+    Gardez un œil sur la jauge. Sans radiateur, la voiture dépasse rapidement 130 degrés et explose à 160.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Les incendies de moteur sont réels">
+Si la température atteint 160 degrés, le moteur prend feu. Agissez vite : rentrez à votre garage, ouvrez le capot et démontez les pièces en feu. Si le bloc moteur brûle, il disparaît et vous devez en acheter un tout neuf pour 9 000 dollars.
+</Callout>
+
+</Section>
+
+<Section icon={DollarSign} title="Économie de la concession : quand vendre et quand garder">
+
+La plus grande erreur des nouveaux mécaniciens est d'ignorer les coûts totaux. Une voiture à la casse à 5 000 plus 9 000 de peinture et 9 000 de moteur totalisent 23 000 — si Roberto ne propose que 14 000, vendre signifie une perte.
+
+| Poste de coût | Prix (dollars) | Nécessaire ? |
+| --- | --- | --- |
+| Voiture à la casse | ~5 000 | Oui |
+| Peinture complète | ~9 000 | Facultatif, augmente la valeur |
+| Moteur 4 cylindres neuf | 9 000 | Seulement si le bloc est détruit |
+| Radiateur | 20 000 | Fortement recommandé |
+| Remplissage d'huile moteur | ~10 000 | Facultatif |
+| Bloc moteur V8 | 35 000 | Amélioration de luxe |
+| Turbo / admission | ~100 000 | Réglage de fin de jeu |
+
+<Callout type="info" title="La règle garder-ou-vendre">
+Avant de conduire jusqu'au port, additionnez votre achat plus toutes les pièces et la peinture. Si l'offre probable de Roberto est inférieure à ce total, gardez la voiture dans votre collection de garage et ne vendez que les reventes propres et peu coûteuses.
+</Callout>
+
+En pratique, une simple restauration mécanique sans radiateur ni peinture est la revente la plus rentable : achetez à 5 000, réparez tout vous-même, et vendez autour de 9 600. Les voitures très personnalisées comme une Peugeot 206 repeinte coûtent souvent plus cher à préparer que ce qu'elles rapportent.
+
+</Section>
+
+<Section icon={Sparkles} title="Personnalisation et améliorations">
+
+Au-delà des réparations, la ville offre plusieurs endroits de personnalisation à connaître :
+
+<CardGrid cols={3}>
+  <Card title="Atelier de peinture">
+    - Repeinture complète pour ~**9 000 dollars**
+    - Mélangez les couleurs (gris, vert, bleu)
+    - Rend une voiture rouillée comme neuve
+  </Card>
+  <Card title="Néons">
+    - Options vert, violet, rose, rouge
+    - Coûte jusqu'à **10 000 dollars**
+    - Purement cosmétique
+  </Card>
+  <Card title="Améliorations moteur">
+    - Blocs 4 cylindres, **V6** et **V8**
+    - Le bloc V8 coûte 35 000
+    - Turbo / admission jusqu'à 100 000
+  </Card>
+</CardGrid>
+
+Le réglage de la suspension est gratuit en pièces — vous pouvez abaisser l'arrière de la voiture dans votre garage pour un look plus sportif. Rappelez-vous simplement que les améliorations esthétiques se remboursent rarement à la concession ; considérez-les comme des dépenses de style personnel.
+
+<Callout type="tip" title="D'abord le radiateur, ensuite le style">
+Installez un radiateur avant tout travail cosmétique. Un radiateur à 20 000 protège des moteurs qui valent bien plus, et une voiture qui explose en pleine route détruit tout votre investissement en peinture et en pièces.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de contrôle de rentabilité pour chaque revente">
+
+<Checklist
+  id="dealership-flip"
+  title="Avant de vendre à Roberto :"
+  items={[
+    "Toutes les pièces du moteur réparées à 100 %",
+    "Batterie chargée et installée",
+    "Température stable autour de 90 degrés",
+    "Aucune pièce oubliée sur le sol du garage",
+    "Coûts totaux calculés par rapport à l'offre attendue"
+  ]}
+}
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Où vendre les voitures dans Mechanic Legends ?",
+    answer: "Conduisez votre voiture terminée jusqu'à la zone du port où les conteneurs sont empilés et parlez à Roberto. Il propose un prix basé sur l'état de la voiture, et vous pouvez accepter ou refuser son offre."
+  },
+  {
+    question: "Pourquoi ma voiture explose-t-elle sans arrêt ?",
+    answer: "Les voitures sans radiateur surchauffent rapidement. Une fois que la jauge de température atteint 160 degrés, le moteur prend feu et peut être détruit. Achetez un radiateur pour 20 000 dollars pour maintenir la température proche de 90 degrés."
+  },
+  {
+    question: "Vaut-il la peine de peindre une voiture avant de la vendre ?",
+    answer: "Habituellement non. Une peinture complète coûte environ 9 000 dollars, et les marchands proposent souvent moins que votre investissement total. Peignez les voitures que vous prévoyez de garder dans votre collection personnelle."
+  },
+  {
+    question: "Que se passe-t-il si mon bloc moteur brûle ?",
+    answer: "Le bloc détruit disparaît de la voiture. Vous devez vous rendre au magasin de pièces et acheter un remplacement — un moteur 4 cylindres neuf coûte 9 000 dollars, tandis que les blocs V6 et V8 coûtent nettement plus cher."
+  }
+]} />
+
+</Section>

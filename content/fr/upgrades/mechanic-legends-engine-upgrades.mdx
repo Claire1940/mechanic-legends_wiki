@@ -1,0 +1,188 @@
+import { Map, Wrench, Target, Trophy, Gauge, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Améliorations du moteur dans Mechanic Legends : Guide du réglage et des pièces",
+  description: "Découvrez comment fonctionnent les améliorations du moteur dans Mechanic Legends : dépose des composants, pièces de course, équilibre du réglage et meilleur ordre d'amélioration pour le drag racing et le drift.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/ea580c/fff?text=Engine+Upgrades+Guide",
+  date: "2026-10-30",
+  author: "Équipe Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guide rapide">
+- Les **améliorations du moteur dans Mechanic Legends** se font pièce par pièce à l'atelier, et non en un seul achat.
+- **Réparer d'abord, améliorer ensuite** : un moteur endommagé compromet chaque pièce de performance que vous installez.
+- **Adaptez les pièces à l'activité** : le drag racing favorise l'accélération, le drift privilégie une tenue de route prévisible.
+- **Testez après chaque modification** pour savoir exactement quelle amélioration a fait progresser votre configuration.
+- **Les configurations complètes surpassent les pièces isolées** : les composants de course fonctionnent mieux en package coordonné.
+</Callout>
+
+<Section icon={Wrench} title="Comment fonctionnent les améliorations du moteur dans Mechanic Legends">
+
+Mechanic Legends traite le travail du moteur comme un processus d'atelier concret. Vous inspectez le véhicule, démontez le composant existant, installez un remplaçant, et répétez l'opération jusqu'à ce que le moteur soit restauré ou amélioré. Chaque caractéristique de performance de votre voiture — accélération, vitesse maximale et comportement en course — dépend des pièces que vous choisissez et de la façon dont elles travaillent ensemble.
+
+Le système d'atelier distingue deux tâches différentes que de nombreux nouveaux joueurs confondent :
+
+| Tâche | Objectif | Quand la faire |
+| --- | --- | --- |
+| Réparation du moteur | Restaurer les composants endommagés ou manquants | Avant toute amélioration de performance |
+| Amélioration du moteur | Remplacer les pièces d'origine par des composants plus performants | Une fois le véhicule pleinement fonctionnel |
+| Pièces de course | Spécialiser la voiture pour le drag, le drift ou la compétition | Quand les revenus sont stables |
+
+<Callout type="warning" title="Réparez avant d'améliorer">
+Installer des composants de course sur un moteur endommagé, c'est gaspiller de l'argent. Un véhicule en mauvais état réduit l'efficacité et complique les premières activités. Restaurez d'abord toutes les fonctionnalités, puis investissez dans la performance.
+</Callout>
+
+Vous pouvez vérifier les systèmes de jeu actuels sur la [page officielle du jeu Roblox](https://www.roblox.com/games/9265443535/Car-Mechanic-Simulator), où le développeur décrit le démontage du moteur, le réglage et les fonctionnalités de course sur les plus de 50 véhicules disponibles.
+
+</Section>
+
+<Section icon={Gauge} title="Ordre des améliorations : déroulement de l'atelier étape par étape">
+
+Suivez cette séquence d'atelier pour tout véhicule que vous prévoyez d'améliorer. L'ordre compte — sauter l'inspection entraîne des remplacements de pièces inutiles, et sauter les tests vous laisse deviner quelle amélioration a réellement aidé.
+
+<Steps>
+  <Step num="1" title="Inspecter avant de changer les pièces">
+    Amenez le véhicule à l'atelier et passez en revue les composants du moteur et du véhicule disponibles. Identifiez les pièces endommagées, manquantes ou moins performantes avant de toucher à quoi que ce soit. Cette référence de base rend chaque comparaison ultérieure significative.
+  </Step>
+  <Step num="2" title="Démonter et remplacer les composants du moteur">
+    Sélectionnez le composant à entretenir, retirez la pièce existante via l'interaction d'atelier, puis installez le remplaçant. Travaillez composant par composant jusqu'à restauration complète du moteur.
+  </Step>
+  <Step num="3" title="Installer des pièces orientées course">
+    Le moteur étant en bonne santé, installez des pièces de performance adaptées à votre activité. Priorisez les améliorations du moteur pour la vitesse en ligne droite et l'accélération, et évitez de sacrifier trop de contrôle sur les parcours avec des virages.
+  </Step>
+  <Step num="4" title="Équilibrer vitesse, accélération et tenue de route">
+    Réglez la configuration selon l'environnement : axée vitesse pour les longues lignes droites, axée accélération pour les départs et les relances répétées, axée tenue de route pour le drift et les virages.
+  </Step>
+  <Step num="5" title="Tester et affiner">
+    Emmenez la voiture sur la route après chaque modification majeure. Testez la réponse au départ, l'accélération et la stabilité de la direction. Changez un groupe de pièces à la fois afin que l'effet de chaque ajustement reste lisible.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Astuce de pro : une modification à la fois">
+Si vous changez l'admission, l'échappement et les pneus en même temps et que la voiture semble pire, vous ne pouvez pas savoir quelle pièce en est la cause. Regroupez les changements liés, testez, puis ajustez — cette habitude transforme l'essai-erreur en méthode de réglage fiable.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Configurations de réglage selon le type d'activité">
+
+Aucune voie d'amélioration ne gagne partout. La bonne configuration du moteur et du réglage dépend de votre conduite réelle.
+
+| Configuration | Priorité | Idéal pour | Compromis |
+| --- | --- | --- | --- |
+| Axée vitesse | Vitesse maximale, puissance soutenue | Longues lignes droites, drag racing | Départs et virages plus faibles |
+| Axée accélération | Réponse au départ, départs rapides | Départs en drag, parcours avec arrêts fréquents | Vitesse de pointe réduite |
+| Axée tenue de route | Direction prévisible, contrôle | Drift, virages techniques | Vitesse de pointe réduite |
+| Équilibrée | Répartition homogène de tous les attributs | Exploration, routes mixtes, travail de taxi | Aucune force vraiment marquante |
+
+<CardGrid cols={2}>
+  <Card title="Configuration Drag Racing">
+    - **Performance du moteur et accélération en priorité**
+    - Plate-forme stable qui reste droite au départ
+    - Compromis minimal sur la tenue de route — le parcours compte peu de virages
+    - Testez la réponse au départ de façon répétée avant de courir
+  </Card>
+  <Card title="Configuration Drift">
+    - **Tenue de route prévisible plutôt que vitesse maximale**
+    - Réponse nette à la direction et à l'accélérateur
+    - Contrôle de rattrapage quand l'arrière décroche
+    - Entrez dans les virages avec suffisamment de vitesse pour tenir le glissement
+  </Card>
+  <Card title="Configuration véhicule de travail">
+    - **Durabilité et fiabilité avant tout**
+    - Tenue de route pour les livraisons et trajets de taxi répétés
+    - Moins d'interruptions de réparation entre les missions
+    - Un contrôle confortable prime sur la vitesse brute
+  </Card>
+  <Card title="Configuration course multijoueur">
+    - **Accélération et tenue de route équilibrées**
+    - Testée sous pression avant de compétitionner
+    - Freinage anticipé et sorties nettes autour des autres joueurs
+    - Adaptez la configuration après avoir observé le format de course
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Construisez pour le parcours, pas pour la fiche de stats">
+Un véhicule rapide n'est pas toujours le plus rapide sur chaque parcours. Adaptez votre direction d'amélioration à l'environnement de conduite et à votre propre capacité à contrôler la voiture.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Priorité des améliorations selon l'étape de progression">
+
+Les améliorations du moteur rivalisent avec les achats de véhicules, les réparations et les revenus des missions pour votre argent. Dépensez dans l'ordre qui maintient l'économie de votre garage en santé.
+
+| Étape | Priorité d'amélioration | Raison |
+| --- | --- | --- |
+| Début de partie | État, tenue de route de base, accélération de base | La fiabilité compte plus que la performance maximale |
+| Milieu de partie | Durabilité, performance de trajet, pièces de moteur ciblées | Soutient les livraisons, le travail de taxi et des revenus réguliers |
+| Milieu-fin de partie | Accélération, vitesse maximale, composants de course | Le potentiel de course se débloque une fois les revenus stables |
+| Fin de partie | Spécialisation par véhicule | Chaque voiture reçoit un rôle défini dans votre collection |
+
+<Callout type="warning" title="N'épuisez pas votre budget">
+N'achetez des pièces de performance qu'après avoir établi une source de revenus stable. Le potentiel de course est plus utile quand le véhicule peut encore être réparé et amélioré sans vider le budget de votre garage.
+</Callout>
+
+<Checklist
+  id="engine-upgrade-goals"
+  title="Jalons d'amélioration du moteur :"
+  items={[
+    "Réparer entièrement un véhicule de départ avant de l'améliorer",
+    "Effectuer un test routier de référence et noter les points faibles",
+    "Installer une première configuration de course complète sur une voiture dédiée",
+    "Construire une voiture distincte axée tenue de route pour le drift",
+    "Retester toutes les configurations existantes après chaque mise à jour du jeu"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Erreurs courantes d'amélioration du moteur">
+
+La plupart des regrets de réglage dans Mechanic Legends proviennent d'une poignée d'erreurs répétées. Évitez-les et votre argent ira beaucoup plus loin.
+
+| Erreur | Conséquence | Solution |
+| --- | --- | --- |
+| Améliorer avant de réparer | Efficacité réduite, pièces gaspillées | Restaurer d'abord l'état |
+| Remplacements de pièces isolés | Résultats confus et incohérents | Planifier des configurations complètes |
+| Vitesse maximale sur chaque configuration | Incontrôlable dans les virages | Adapter les pièces au parcours |
+| Dépenser tout le solde disponible | Plus de fonds pour les réparations | Garder une réserve de réparation |
+| Sauter les tests routiers | Effet inconnu de chaque amélioration | Tester après chaque groupe de changements |
+| Ignorer les mises à jour | Les anciennes configurations peuvent perdre leur équilibre | Retester les configurations après les patchs |
+
+<Callout type="info" title="Les mises à jour changent l'équilibre">
+Les fonctionnalités d'atelier et de réglage peuvent changer entre les versions. À chaque mise à jour, passez en revue vos véhicules existants et retestez leurs configurations de course précédentes avant de supposer qu'une configuration est toujours optimale. Consultez la [page officielle du jeu Roblox](https://www.roblox.com/games/9265443535/Car-Mechanic-Simulator) pour les dernières annonces du développeur.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Comment fonctionnent les améliorations du moteur dans Mechanic Legends ?",
+    answer: "Le travail du moteur se fait composant par composant à l'atelier. Vous inspectez le véhicule, retirez la pièce sélectionnée via l'interaction d'atelier, installez un remplaçant, et continuez jusqu'à ce que le moteur soit restauré ou amélioré. Les pièces de course s'installent de la même manière une fois le moteur de base fonctionnel."
+  },
+  {
+    question: "Dois-je réparer ou améliorer mon moteur en premier ?",
+    answer: "Réparez toujours en premier. Un véhicule endommagé réduit l'efficacité et complique les premières activités, et les pièces de performance ne peuvent pas compenser un mauvais état. Restaurez toutes les fonctionnalités, puis investissez dans les améliorations."
+  },
+  {
+    question: "Quelle est la meilleure configuration de moteur pour le drag racing ?",
+    answer: "Priorisez la performance du moteur et l'accélération, utilisez un véhicule stable qui reste droit pendant le départ, et évitez les compromis sur la tenue de route puisque les parcours de drag comptent peu de virages. Testez la réponse au départ de façon répétée avant d'entrer en course."
+  },
+  {
+    question: "Les méta-configurations du moteur changent-elles après les mises à jour ?",
+    answer: "Oui. Les mises à jour peuvent modifier les pièces, le réglage et l'équilibre entre accélération, vitesse et tenue de route. Après chaque mise à jour, refaites le déroulement de base de l'atelier et retestez vos configurations de course existantes avant de vous y fier."
+  }
+]} />
+
+</Section>

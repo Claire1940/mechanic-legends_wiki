@@ -1,0 +1,169 @@
+import { Map, Wrench, Target, Trophy, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mechanic Legends Reparar Piezas de Carrocería: Guía de Restauración Paso a Paso",
+  description: "Aprende a reparar y restaurar piezas de carrocería en Mechanic Legends, desde retirar paneles hasta diagnosticar daños y pedir repuestos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b45309/fff?text=Body+Parts+Repair+Guide",
+  date: "2026-10-30",
+  author: "Equipo de Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Repara las piezas de carrocería** inspeccionando cada panel en la vista del garaje antes de pedir repuestos.
+- **Diagnostica primero**: Usa el modo de examen para identificar óxido, abolladuras y paneles faltantes.
+- **Pide con inteligencia**: Compra repuestos solo después de confirmar el componente dañado exacto.
+- **El orden de restauración importa**: Corrige los sistemas mecánicos antes de terminar la carrocería para mayor eficiencia.
+- **Comprobación final**: Haz una prueba de carretera tras cada restauración para confirmar la calidad de la reparación.
+</Callout>
+
+<Section icon={Map} title="Comprender la Reparación de Piezas de Carrocería en Mechanic Legends">
+
+Mechanic Legends es un juego de simulación de restauración de coches y talleres. Una parte fundamental de cada proyecto es aprender a **reparar piezas de carrocería**: las puertas, aletas, parachoques, capós y chasis que definen tanto el aspecto del coche como su valor de venta. A diferencia de los componentes del motor, las piezas de carrocería siguen un modelo de daño visible, lo que las convierte en uno de los sistemas más intuitivos de dominar.
+
+La mayoría de los proyectos de restauración llegan a tu garaje en mal estado. Algunos paneles están abollados, algunos están oxidados por completo y otros faltan por completo. El juego premia el diagnóstico cuidadoso: reemplazar una pieza que podrías haber reparado desperdicia dinero, mientras que ignorar daños ocultos reduce el precio final de venta.
+
+<CardGrid cols={3}>
+  <Card title="Daño Cosmético">
+    - **Abolladuras y arañazos**
+    - Reparables con herramientas de carrocería
+    - Bajo coste, solución rápida
+  </Card>
+  <Card title="Daño por Óxido">
+    - **Corrosión progresiva**
+    - A menudo requiere reemplazo
+    - Reduce la condición de la pieza rápidamente
+  </Card>
+  <Card title="Piezas Faltantes">
+    - **Paneles completos ausentes**
+    - Deben pedirse nuevos
+    - Mayor coste de reemplazo
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo Pro">
+Inspecciona siempre el coche en modo de examen antes de comprar nada. Un informe de daño completo evita gastos innecesarios en piezas que parecen estar bien por fuera pero esconden problemas estructurales.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Tipos de Daño y Condiciones de las Piezas de Carrocería">
+
+Cada panel de carrocería en Mechanic Legends tiene una calificación de condición que afecta al valor general del coche. Comprender las categorías de daño te ayuda a decidir entre reparar y reemplazar.
+
+| Pieza de Carrocería | Daño Común | Mejor Acción | Nivel de Coste |
+|---|---|---|---|
+| Capó | Abolladuras, parches de óxido | Reparar o reemplazar | Medio |
+| Puertas | Abolladuras, manillas faltantes | Reparar, reemplazar si están oxidadas | Medio |
+| Parachoques Delantero | Grietas, ausencia total | Reemplazar | Bajo-Medio |
+| Aletas | Óxido, abolladuras profundas | Reemplazar cuando hay óxido | Bajo |
+| Techo | Óxido superficial, abolladuras | Se prefiere reparar | Alto |
+| Tapa del Maletero | Abolladuras, problemas de alineación | Reparar | Medio |
+| Bastidor/Chasis | Óxido estructural | Reemplazar en el taller | Alto |
+
+**Explicación de las calificaciones de condición:**
+
+| Calificación | Efecto en el Valor | Solución Recomendada |
+|---|---|---|
+| Excelente | **Valor completo** | Ninguna necesaria |
+| Bueno | Pérdida menor | Solo detallado |
+| Desgastado | Pérdida notable | Reparación de panel |
+| Dañado | Pérdida importante | Reparar o reemplazar |
+| Roto | Penalización fuerte | Reemplazo completo |
+
+<Callout type="warning" title="Ten Cuidado">
+El óxido se extiende en los coches de proyecto almacenados durante partidas largas. No dejes una carrocería oxidada aparcada en tu garaje: desmonta y trata los paneles afectados pronto para proteger tu margen de beneficio.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Flujo de Trabajo de Reparación de Carrocería Paso a Paso">
+
+Sigue esta secuencia en cada proyecto de restauración para obtener el flujo de trabajo más eficiente. El orden importa: el trabajo mecánico a menudo requiere retirar primero los paneles de carrocería, así que planifica con antelación.
+
+<Steps>
+  <Step num="1" title="Examina el Vehículo">
+    Entra en el modo de examen e inspecciona cada panel de carrocería. Anota qué piezas están abolladas, oxidadas o faltantes, y elabora un informe de daño completo antes de tocar una sola herramienta.
+  </Step>
+  <Step num="2" title="Retira los Paneles Dañados">
+    Desatornilla y retira cualquier panel programado para reemplazo. Retirar las piezas de carrocería pronto también abre el acceso al compartimento del motor y a los componentes de la suspensión.
+  </Step>
+  <Step num="3" title="Repara o Pide Piezas">
+    Para los paneles reparables, usa herramientas de carrocería para arreglar abolladuras y tratar el óxido. Para las piezas rotas o faltantes, pide repuestos exactos que coincidan con el modelo del coche desde el catálogo de piezas.
+  </Step>
+  <Step num="4" title="Instala y Pinta">
+    Monta los paneles nuevos o reparados, luego aplica pintura y detallado. Igualar el color de la carrocería en todos los paneles maximiza el valor final de venta.
+  </Step>
+  <Step num="5" title="Prueba de Carretera y Venta">
+    Saca el coche restaurado a dar una vuelta de prueba para confirmar que todo está alineado y funciona, luego ponlo a la venta para obtener el máximo beneficio.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Recordatorio del Flujo de Trabajo">
+Completa todas las reparaciones mecánicas antes de la pintura final. Arreglar una fuga de motor después de pintar el compartimento arriesga arañar tu carrocería recién pintada.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Reparar vs. Reemplazar: Comparación de Costes">
+
+Saber cuándo reparar y cuándo reemplazar es la mayor palanca de beneficio en el trabajo de restauración de carrocerías.
+
+| Situación | Reparar | Reemplazar | Mejor Elección |
+|---|---|---|---|
+| Abolladura leve en puerta | Bajo coste | Coste mayor | **Reparar** |
+| Óxido profundo en aleta | Caro, temporal | Resultado limpio | **Reemplazar** |
+| Parachoques faltante | No es posible | Obligatorio | **Reemplazar** |
+| Pintura del capó desgastada | Repintado barato | Coste de pieza completa | **Reparar** |
+| Múltiples paneles dañados | Lleva mucho tiempo | Descuento por lote | **Reemplazar** (pedido al por mayor) |
+
+<Callout type="tip" title="Regla de Presupuesto">
+Si el coste de la reparación supera aproximadamente la mitad del precio de una pieza nueva, el reemplazo suele ser la mejor inversión, especialmente en los paneles exteriores donde la perfección visual determina el precio de venta.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Hitos de Restauración">
+
+<Checklist
+  id="body-repair-goals"
+  title="Hitos de Restauración de Carrocería:"
+  items={[
+    "Completa un informe de daño total en modo de examen",
+    "Repara al menos cinco paneles abollados con herramientas de carrocería",
+    "Pide e instala un kit de carrocería de reemplazo completo",
+    "Logra una pintura totalmente igualada en todos los paneles",
+    "Vende un coche restaurado con todas las piezas de carrocería en condición Excelente"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "¿Cómo reparo piezas de carrocería en Mechanic Legends?",
+    answer: "Usa el modo de examen para identificar los paneles dañados, luego aplica herramientas de reparación de carrocería para arreglar abolladuras y óxido superficial. Las piezas gravemente dañadas o faltantes deben pedirse como repuestos desde el catálogo de piezas e instalarse manualmente."
+  },
+  {
+    question: "¿Debo reparar o reemplazar un panel de carrocería oxidado?",
+    answer: "El óxido superficial normalmente puede tratarse y repararse, pero la corrosión profunda debilita la pieza y vuelve con el tiempo. Si los costes de reparación se acercan a la mitad del precio de un panel nuevo, el reemplazo es la mejor opción a largo plazo."
+  },
+  {
+    question: "¿La condición de la carrocería afecta al precio de venta?",
+    answer: "Sí. Cada pieza de carrocería tiene una calificación de condición que va desde Excelente hasta Roto, y cada calificación ajusta el valor general del coche. Una carrocería totalmente restaurada con pintura igualada maximiza tu beneficio en cada venta."
+  },
+  {
+    question: "¿En qué orden debo reparar las piezas de carrocería y las mecánicas?",
+    answer: "Retira primero los paneles de carrocería dañados para abrir el acceso al compartimento del motor y la suspensión, completa todas las reparaciones mecánicas, y termina con la instalación de paneles, la pintura y el detallado."
+  }
+]} />
+
+</Section>

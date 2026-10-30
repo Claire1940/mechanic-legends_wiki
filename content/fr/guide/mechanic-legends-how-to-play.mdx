@@ -1,0 +1,192 @@
+import { Map, Wrench, Trophy, Target, Coins, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mechanic Legends Comment jouer : Conseils débutants & Guide de l'argent",
+  description: "Apprenez à jouer à Mechanic Legends : achetez des voitures de casse, diagnostiquez les dégâts, réparez les pièces, repeignez et revendez les véhicules avec profit dans Roblox.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Mechanic+Legends+How+to+Play",
+  date: "2026-10-30",
+  author: "Équipe Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Mechanic Legends comment jouer** commence par la réparation et la revente de voitures pour faire du profit sur Roblox.
+- **Meilleur coup au départ** : vendez votre voiture de départ gratuite (~25 000) et rejoignez le groupe pour **5 000 d'argent bonus**.
+- **Boucle principale** : achetez des voitures de casse à bas prix, réparez les pièces endommagées, repeignez, puis vendez avec une plus-value.
+- **Vérifiez d'abord les coûts de réparation** : des réparations estimées au-dessus de ~3 000 effacent généralement votre marge bénéficiaire.
+- **Utilisez le démonte-pneus** : le tutoriel n'explique jamais la machine jante/pneu, mais elle débloque la personnalisation complète des roues.
+</Callout>
+
+<Section icon={Wrench} title="Mechanic Legends Comment jouer : Les bases">
+
+Mechanic Legends est un tycoon de réparation automobile sur Roblox où vous acceptez des missions clients, restaurez des trouvailles de casse et personnalisez des véhicules jusqu'à ce qu'ils brillent. La boucle de jeu principale est simple : acquérir une voiture, diagnostiquer ses dégâts, réparer chaque pièce, la rendre attrayante et la vendre plus cher que ce que vous avez dépensé. Maîtriser cette boucle fait la différence entre survivre péniblement et devenir riche rapidement.
+
+**Points forts de la vidéo :**
+- Présentation complète de la casse, du concessionnaire et des enchères comme sources de voitures
+- Démontage en direct montrant comment inspecter les batteries, radiateurs et collecteurs d'échappement
+- Démonstration du démonte-pneus et du montage de jantes non couverte par le tutoriel du jeu
+- Stratégie de vente de la voiture de départ et bonus d'argent pour l'adhésion au groupe expliqués
+
+<YouTubeEmbed videoId="xV5xg1tYKmE" title="Mechanic Legends Guide! (Codes, Get RICH FAST, Tips & Tricks) ROBLOX" />
+
+Il existe trois principales façons de gagner de l'argent, chacune adaptée à une étape différente de votre progression :
+
+| Méthode | Fonctionnement | Niveau de risque | Idéal pour |
+| --- | --- | --- | --- |
+| Missions clients | Réparer et modifier les voitures des clients, pousser les pièces à leur limite | Faible | Revenu stable en début de partie |
+| Revente de casse | Acheter des voitures endommagées à bas prix, rénover, revendre | Moyen | Constituer du capital |
+| Garage des enchères | Acheter un garage pour une voiture aléatoire, qui peut être une épave ou rare | Élevé | Les joueurs et l'argent de fin de partie |
+
+<Callout type="tip" title="Commencez par les missions clients">
+Les missions clients ne présentent aucun risque d'achat et vous apprennent toutes les mécaniques de réparation. Faites-les jusqu'à avoir assez de capital pour vous lancer sereinement dans la revente de casse.
+</Callout>
+
+</Section>
+
+<Section icon={Coins} title="Où trouver des voitures">
+
+Votre première grande décision dans Mechanic Legends est l'endroit où vous vous approvisionnez en véhicules. Chaque lieu de la carte a un objectif et un niveau de budget différents.
+
+<CardGrid cols={3}>
+  <Card title="Garage des enchères">
+    - **Chances de voiture aléatoire**
+    - Risque élevé, récompense élevée
+    - Tirages rares possibles
+    - Idéal avec de l'argent de côté
+  </Card>
+  <Card title="Concessionnaire">
+    - **Voitures neuves**
+    - Prix fixes et connus
+    - Parfait pour une voiture à garder
+    - Aucun dégât caché
+  </Card>
+  <Card title="Casse">
+    - **Stock le moins cher**
+    - Se renouvelle environ toutes les 12 minutes
+    - Affiche l'état et les estimations de réparation
+    - Cœur de la boucle de revente
+  </Card>
+</CardGrid>
+
+Avant d'acheter une voiture de casse, maintenez E pour l'inspecter. Le panneau d'interaction affiche les pièces endommagées, l'état général et le coût de réparation estimé. Comparez cette estimation à la valeur marchande de la voiture, car une voiture à 20 000 nécessitant seulement 1 000 de réparations est une bien meilleure affaire qu'une voiture à 22 000 nécessitant 3 300 de travaux.
+
+| Facteur d'inspection | Ce qu'il faut chercher | Signal vert | Signal rouge |
+| --- | --- | --- | --- |
+| Réparations estimées | Coût total des travaux | Moins de **1 000** | Plus de **3 000** |
+| Valeur marchande | Prix de vente après réparation | Bien au-dessus du coût + réparations | Marge mince ou négative |
+| Type de dégât | Quelles pièces sont cassées | Cosmétique ou pièce unique | Moteur ou composant majeur |
+| État indiqué | Statut global affiché | Usure légère | États « totalement ruiné » |
+
+<Callout type="warning" title="Faites le calcul avant d'acheter">
+Soustrayez toujours les réparations estimées de la valeur marchande avant d'acheter. Beaucoup de voitures de casse semblent bon marché mais atteignent tout juste l'équilibre, ou font même perdre de l'argent, après une restauration complète.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Étape par étape : Réparer et revendre une voiture">
+
+Une fois que vous possédez une voiture endommagée, le processus de restauration suit un schéma répétable. Conduisez-la jusqu'à votre garage, soulevez-la et passez en revue chaque composant endommagé avec votre clé à la main.
+
+<Steps>
+  <Step num="1" title="Diagnostiquer à la casse">
+    Maintenez E sur une voiture candidate pour voir les dégâts, l'état et les coûts de réparation estimés. N'achetez que des voitures avec une marge bénéficiaire saine.
+  </Step>
+  <Step num="2" title="Soulever et inspecter dans votre garage">
+    Conduisez la voiture dans votre garage, montez-la sur le pont élévateur et ouvrez le coffre. Passez la clé sur chaque pièce pour voir exactement ce qui doit être réparé, des batteries aux dégâts d'échangeur.
+  </Step>
+  <Step num="3" title="Réparer et polir chaque pièce">
+    Chargez ou remplacez la batterie, polissez les pièces endommagées comme le collecteur d'échappement pour les ramener à 100 %, et nettoyez à fond les composants quand l'option apparaît. Surveillez le voyant moteur, il devrait s'éteindre une fois les réparations terminées.
+  </Step>
+  <Step num="4" title="Repeindre et préparer">
+    Personne n'achète une voiture moche. Décollez l'ancienne peinture au poste de peinture et appliquez une couleur neuve. Cela coûte de l'argent au départ, mais c'est un investissement que vous récupérez à la vente.
+  </Step>
+  <Step num="5" title="Vendre avec profit">
+    Emmenez la voiture terminée au point de vente et encaissez. Réinvestissez le profit dans une meilleure trouvaille de casse et répétez la boucle.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Améliorations via la commande de pièces">
+Avant de vendre, consultez le menu de commande de pièces pour les options de modification et de réglage. Les reprogrammations et améliorations de performance poussent les voitures au-delà de leurs limites d'origine et peuvent augmenter leur attrait à la revente.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Pneus, jantes et lieux clés de la carte">
+
+La machine à pneus est la seule mécanique que le tutoriel passe entièrement sous silence, alors qu'elle débloque la personnalisation complète des roues. Voici comment elle fonctionne : levez la voiture avec le cric, retirez un pneu, placez-le sur le démonte-pneus et séparez le pneu de la jante. Vous pouvez ensuite acheter une nouvelle jante, monter le pneu dessus et remettre la roue assemblée directement sur la voiture. Combiner pneus et jantes est littéralement aussi simple une fois que vous connaissez la machine.
+
+Au-delà du garage, plusieurs lieux de la carte font tourner votre entreprise :
+
+| Lieu | Objectif | Astuce |
+| --- | --- | --- |
+| Station-service | Faire le plein des réservoirs vides | Entretien quasi gratuit, ne le négligez jamais |
+| Parts Direct | Acheter moteurs et composants | Utilisez le téléporteur pour voyager plus vite |
+| Itinéraire pneus du concessionnaire | Changer pneus et jantes | Nécessite le démonte-pneus |
+| Atelier de peinture | Décoller et repeindre les voitures | Coûte de l'argent, récupéré à la vente |
+| Point de vente | Écouler les voitures terminées | Comparez le prix et vos dépenses totales |
+
+<Callout type="info" title="Les moteurs puissants sont une voie d'amélioration">
+Parts Direct propose un large choix de moteurs. Installer un moteur plus puissant transforme une voiture de revente médiocre en une véritable machine rapide, et parfois en une gardienne qu'il vaut la peine de conserver.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Stratégie argent pour débutants et checklist">
+
+Les nouveaux joueurs devraient suivre une séquence précise pour maximiser leur argent de départ. D'abord, vendez votre voiture de départ pour environ 25 000 — elle n'est honnêtement pas très bonne, et l'argent est mieux dépensé ailleurs. Ensuite, rejoignez le groupe du jeu pour un bonus gratuit de 5 000. Enfin, enchaînez les missions clients tout en apprenant les mécaniques de réparation, puis passez à la revente de casse avec votre capital accumulé.
+
+| Étape | Action | Résultat attendu |
+| --- | --- | --- |
+| Minute 1 | Vendre la voiture de départ | **~25 000** d'argent de départ |
+| Minute 2 | Rejoindre le groupe | **+5 000** de bonus gratuit |
+| Début de partie | Missions clients | Revenu stable, entraînement |
+| Mi-partie | Reventes de casse | Profit croissant par voiture |
+| Fin de partie | Enchères + rares | Chance de tirer des voitures rares |
+
+<Checklist
+  id="mechanic-legends-startup"
+  title="Vos objectifs pour la première session :"
+  items={[
+    "Vendre la voiture de départ pour ~25 000 d'argent",
+    "Rejoindre le groupe et réclamer le bonus de 5 000",
+    "Terminer au moins trois missions de réparation clients",
+    "Acheter, restaurer entièrement et vendre une voiture de casse",
+    "Apprendre à utiliser le démonte-pneus et monter une jante personnalisée"
+  ]}
+/>
+
+<Callout type="tip" title="Gardez les meilleures">
+Certaines trouvailles se révèl être de véritables voitures rapides et amusantes. Si un véhicule restauré se conduit mieux que tout ce qui se trouve dans votre garage, le garder est un choix valable — profiter du jeu compte plus que de soutirer chaque dernière pièce.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Comment jouer à Mechanic Legends en tant que débutant ?",
+    answer: "Commencez par vendre votre voiture de départ gratuite pour environ 25 000, rejoignez le groupe pour un bonus de 5 000 et enchaînez les missions de réparation clients. Une fois à l'aise, passez à la revente de casse : achetez des voitures endommagées à bas prix, réparez tout, repeignez et vendez avec profit."
+  },
+  {
+    question: "Dois-je vendre ma voiture de départ dans Mechanic Legends ?",
+    answer: "Oui, pour la plupart des joueurs. La voiture de départ a des performances faibles, et son prix de vente d'environ 25 000 finance de bien meilleures trouvailles de casse ou une voiture de concessionnaire que vous voulez vraiment garder."
+  },
+  {
+    question: "Comment fonctionne le démonte-pneus ?",
+    answer: "Levez la voiture avec le cric, retirez un pneu, placez-le sur le démonte-pneus pour séparer le pneu de la jante, achetez une nouvelle jante si vous le souhaitez, montez le pneu dessus et fixez la roue assemblée sur la voiture. Le tutoriel du jeu ne l'enseigne pas, alors entraînez-vous manuellement."
+  },
+  {
+    question: "Pourquoi je gagne à peine de l'argent sur les voitures de casse ?",
+    answer: "Vous achetez probablement des voitures avec des coûts de réparation estimés élevés. Maintenez toujours E pour inspecter une voiture d'abord, et évitez tout ce dont les réparations dépassent environ 3 000 ou dont la valeur marchande ne laisse qu'une marge mince après les coûts."
+  }
+]} />
+
+</Section>

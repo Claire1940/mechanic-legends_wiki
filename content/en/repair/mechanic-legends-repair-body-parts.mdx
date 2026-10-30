@@ -1,0 +1,170 @@
+import
+：Map, Wrench, Target, Trophy, Shield, Sparkles
+: Callout from '@/components/mdx/Callout'
+: Card, CardGrid from '@/components/mdx/CardGrid'
+: Checklist from '@/components/mdx/Checklist'
+: FAQ from '@/components/mdx/FAQ'
+: Steps, Step from '@/components/mdx/Steps'
+: Section from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mechanic Legends Repair Body Parts: Step-by-Step Restoration Guide",
+  description: "Learn how to repair and restore body parts in Mechanic Legends, from removing panels to diagnosing damage and ordering replacements.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Body+Parts+Repair+Guide",
+  date: "2026-10-30",
+  author: "mechanic legends Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Repair body parts** by inspecting each panel in the garage view before ordering replacements.
+- **Diagnose first**: Use the examination mode to identify rust, dents, and missing panels.
+- **Order smart**: Buy replacement parts only after confirming the exact damaged component.
+- **Restore order matters**: Fix mechanical systems before finishing bodywork for efficiency.
+- **Final check**: Road test after every restoration to confirm the repair quality.
+</Callout>
+
+<Section icon={Map} title="Understanding Repair Body Parts in Mechanic Legends">
+
+Mechanic Legends is a car restoration and garage simulation game. A core part of every project is learning how to **repair body parts** — the doors, fenders, bumpers, hoods, and frames that define both a car's look and its sale value. Unlike engine components, body parts follow a visible damage model, making them one of the most intuitive systems to master.
+
+Most restoration projects arrive at your garage in rough condition. Some panels are dented, some are rusted through, and some are missing entirely. The game rewards careful diagnosis: replacing a part you could have repaired wastes money, while ignoring hidden damage reduces the final sale price.
+
+<CardGrid cols={3}>
+  <Card title="Cosmetic Damage">
+    - **Dents and scratches**
+    - Repairable with body tools
+    - Low cost, quick fix
+  </Card>
+  <Card title="Rust Damage">
+    - **Progressive corrosion**
+    - Often requires replacement
+    - Reduces part condition fast
+  </Card>
+  <Card title="Missing Parts">
+    - **Entire panels absent**
+    - Must be ordered new
+    - Highest replacement cost
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Pro Tip">
+Always inspect the car in examination mode before buying anything. A full damage report prevents wasted spending on parts that look fine on the surface but hide structural issues.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Body Part Damage Types and Conditions">
+
+Every body panel in Mechanic Legends has a condition rating that affects the car's overall value. Understanding the damage categories helps you decide between repairing and replacing.
+
+| Body Part | Common Damage | Best Action | Cost Level |
+|---|---|---|---|
+| Hood | Dents, rust patches | Repair or replace | Medium |
+| Doors | Dents, missing handles | Repair, replace if rusted | Medium |
+| Front Bumper | Cracks, full absence | Replace | Low-Medium |
+| Fenders | Rust, deep dents | Replace when rusted | Low |
+| Roof | Surface rust, dents | Repair preferred | High |
+| Trunk Lid | Dents, alignment issues | Repair | Medium |
+| Frame/Chassis | Structural rust | Replace at workshop | High |
+
+**Condition ratings explained:**
+
+| Rating | Effect on Value | Recommended Fix |
+|---|---|---|
+| Excellent | **Full value** | None needed |
+| Good | Minor loss | Detailing only |
+| Worn | Noticeable loss | Panel repair |
+| Damaged | Major loss | Repair or replace |
+| Broken | Heavy penalty | Full replacement |
+
+<Callout type="warning" title="Watch Out">
+Rust spreads on stored project cars in longer playthroughs. Don't leave a rusted body sitting in your garage — strip and treat affected panels early to protect your profit margin.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Body Repair Workflow">
+
+Follow this sequence on every restoration project for the most efficient workflow. The order matters: mechanical work often requires removing body panels first, so plan ahead.
+
+<Steps>
+  <Step num="1" title="Examine the Vehicle">
+    Enter examination mode and inspect every body panel. Note which parts are dented, rusted, or missing, and build a full damage report before touching a single tool.
+  </Step>
+  <Step num="2" title="Remove Damaged Panels">
+    Unbolt and remove any panels scheduled for replacement. Removing body parts early also opens access to engine bay and suspension components.
+  </Step>
+  <Step num="3" title="Repair or Order Parts">
+    For repairable panels, use body tools to fix dents and treat rust. For broken or missing parts, order exact replacements matching the car model from the parts catalog.
+  </Step>
+  <Step num="4" title="Install and Paint">
+    Mount the new or repaired panels, then apply paint and detailing. Matching the body color across all panels maximizes the final sale value.
+  </Step>
+  <Step num="5" title="Road Test and Sell">
+    Take the restored car for a test drive to confirm everything is aligned and functional, then list it for sale at maximum profit.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Workflow Reminder">
+Complete all mechanical repairs before final painting. Fixing an engine leak after painting the bay risks scratching your fresh bodywork.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Repair vs. Replace: Cost Comparison">
+
+Knowing when to repair versus when to replace is the single biggest profit lever in body restoration work.
+
+| Situation | Repair | Replace | Best Choice |
+|---|---|---|---|
+| Light dent on door | Low cost | Higher cost | **Repair** |
+| Deep rust on fender | Costly, temporary | Clean result | **Replace** |
+| Missing bumper | Not possible | Required | **Replace** |
+| Worn hood paint | Cheap repaint | Full part cost | **Repair** |
+| Multiple damaged panels | Time-consuming | Bundle discount | **Replace** (bulk order) |
+
+<Callout type="tip" title="Budget Rule">
+If a repair cost exceeds roughly half the price of a new part, replacement is usually the better investment — especially for exterior panels where visual perfection drives the sale price.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Restoration Milestones Checklist">
+
+<Checklist
+  id="body-repair-goals"
+  title="Body Restoration Milestones:"
+  items={[
+    "Complete a full damage report in examination mode",
+    "Repair at least five dented panels with body tools",
+    "Order and install a complete replacement body kit",
+    "Achieve a fully matched paint job across all panels",
+    "Sell a restored car with all body parts at Excellent condition"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I repair body parts in Mechanic Legends?",
+    answer: "Use examination mode to identify damaged panels, then apply body repair tools to fix dents and surface rust. Severely damaged or missing parts must be ordered as replacements from the parts catalog and installed manually."
+  },
+  {
+    question: "Should I repair or replace a rusted body panel?",
+    answer: "Surface rust can usually be treated and repaired, but deep corrosion weakens the part and returns over time. If repair costs approach half the price of a new panel, replacement is the better long-term choice."
+  },
+  {
+    question: "Does body condition affect the sale price?",
+    answer: "Yes. Every body part carries a condition rating from Excellent to Broken, and each rating adjusts the car's overall value. A fully restored body with matched paint maximizes your profit on every sale."
+  },
+  {
+    question: "What order should I repair body parts and mechanical parts?",
+    answer: "Remove damaged body panels first to open access to the engine bay and suspension, complete all mechanical repairs, then finish with panel installation, painting, and detailing."
+  }
+]} />
+
+</Section>

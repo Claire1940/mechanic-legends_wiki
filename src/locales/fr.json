@@ -1,1 +1,811 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Mechanic Legends Wiki - Voitures, Tuning & Codes",
+      "description": "Explorez le Wiki Mechanic Legends pour des builds de voitures, guides de tuning, astuces de réparation, pièces, courses, mises à jour, codes et aide au gameplay Roblox pour chaque projet de garage.",
+      "keywords": "Mechanic Legends, Roblox, voitures, tuning, réparations, pièces, courses, codes",
+      "ogTitle": "Mechanic Legends Wiki - Voitures, Tuning & Codes",
+      "ogDescription": "Explorez le Wiki Mechanic Legends pour des builds de voitures, guides de tuning, astuces de réparation, pièces, courses, mises à jour, codes et aide au gameplay Roblox pour chaque projet de garage.",
+      "twitterTitle": "Mechanic Legends Wiki - Voitures, Tuning & Codes",
+      "twitterDescription": "Explorez le Wiki Mechanic Legends pour des builds de voitures, guides de tuning, astuces de réparation, pièces, courses, mises à jour, codes et aide au gameplay Roblox pour chaque projet de garage."
+    }
+  },
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "money": "Argent",
+    "upgrades": "Améliorations",
+    "cars": "Voitures",
+    "repair": "Réparation",
+    "features": "Fonctionnalités"
+  },
+  "common": {
+    "home": "Accueil",
+    "more": "Plus",
+    "playNow": "Jouer sur Roblox",
+    "switchLanguage": "Changer de langue",
+    "switchTheme": "Changer de thème",
+    "lightMode": "Mode clair",
+    "darkMode": "Mode sombre",
+    "notFound": "Page introuvable",
+    "notFoundDescription": "La page que vous recherchez n'existe pas.",
+    "backToHome": "Retour à l'accueil",
+    "relatedArticles": "Articles liés",
+    "readMore": "Lire la suite",
+    "articlesComingSoon": "Articles à venir"
+  },
+  "hero": {
+    "badge": "Simulateur de réparation et de tuning de voitures Roblox",
+    "title": "Mechanic Legends Wiki",
+    "description": "Réparez, démontez, tuninguez et personnalisez des voitures dans Mechanic Legends. Explorez plus de 50 véhicules, des pièces moteur, des peintures, des réglages de stance, des courses de dragster, des missions de réparation et les dernières mises à jour Roblox.",
+    "keywords": "Mechanic Legends, Roblox, réparation de voitures, tuning de voitures, simulateur automobile, pièces moteur, drag racing, Mecánica Argentina",
+    "getFreeCodesCTA": "Obtenir des codes gratuits",
+    "playOnRobloxCTA": "Jouer sur Roblox",
+    "stats": {
+      "stat1": {
+        "value": "31.9M+",
+        "label": "Visites totales"
+      },
+      "stat2": {
+        "value": "50+",
+        "label": "Voitures disponibles"
+      },
+      "stat3": {
+        "value": "99 %",
+        "label": "Traduction en anglais"
+      },
+      "stat4": {
+        "value": "2026",
+        "label": "Dernière mise à jour connue"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Mechanic Legends",
+    "description": "Réparez, démontez, tuninguez et faites la course avec plus de 50 voitures dans Mechanic Legends, le simulateur de réparation et de tuning de voitures Roblox développé par Mechanic Devs."
+  },
+  "tools": {
+    "title": "Mechanic Legends",
+    "titleHighlight": "Ressources",
+    "subtitle": "Huit guides essentiels couvrant les codes, la progression, l'argent, les voitures, le tuning, les missions, les courses et les mises à jour dans Mechanic Legends",
+    "cards": [
+      {
+        "icon": "Ticket",
+        "title": "Codes Mechanic Legends",
+        "description": "Codes actifs, étapes de rédemption et correction des erreurs"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guide débutant Mechanic Legends",
+        "description": "Progression du garage à la route pour les nouveaux joueurs"
+      },
+      {
+        "icon": "Coins",
+        "title": "Guide pour gagner de l'argent dans Mechanic Legends",
+        "description": "Comparez réparations, missions, livraisons et courses"
+      },
+      {
+        "icon": "Car",
+        "title": "Guide des voitures et du concessionnaire Mechanic Legends",
+        "description": "Rôles des véhicules, prix et ordre d'achat"
+      },
+      {
+        "icon": "Wrench",
+        "title": "Guide de tuning et de pièces moteur Mechanic Legends",
+        "description": "Travail du moteur, pièces de course et réglages de tuning"
+      },
+      {
+        "icon": "Briefcase",
+        "title": "Guide des missions et réparations Mechanic Legends",
+        "description": "Réparations, livraisons et trajets de taxi"
+      },
+      {
+        "icon": "Flag",
+        "title": "Guide de drag race et de drift Mechanic Legends",
+        "description": "Préparation des courses, trajectoires et réglages"
+      },
+      {
+        "icon": "Megaphone",
+        "title": "Mises à jour et fonctionnalités de Mechanic Legends",
+        "description": "Nouvelles voitures, pièces et changements de version"
+      }
+    ]
+  },
+  "modules": {
+    "mechanicLegendsCodes": {
+      "title": "Codes Mechanic Legends",
+      "eyebrow": "Codes & Récompenses",
+      "subtitle": "Consultez les informations de rédemption disponibles, les récompenses et la bonne façon de saisir les codes dans Mechanic Legends.",
+      "intro": "Les codes de Mechanic Legends peuvent offrir des bonus utiles comme du Cash, des Spins ou d'autres récompenses en jeu. Ouvrez le jeu, localisez l'interface des codes, saisissez chaque code exactement tel qu'affiché et échangez-le avant son expiration.",
+      "items": [
+        {
+          "code": "Liste des codes actifs",
+          "status": "Vérifiez en jeu",
+          "reward": "Cash, Spins ou récompenses promotionnelles lorsqu'un code actif est disponible",
+          "details": "Saisissez les codes exactement tels que fournis, y compris les majuscules et les chiffres. Un code ne peut être échangé que lorsque le développeur l'a activé."
+        },
+        {
+          "code": "Étapes de rédemption",
+          "status": "Comment échanger",
+          "reward": "Applique la récompense associée à un code valide",
+          "details": "Lancez Mechanic Legends, entrez dans le garage ou l'interface principale, ouvrez l'option Codes ou code cadeau, tapez le code dans le champ de saisie et sélectionnez Échanger."
+        },
+        {
+          "code": "Guide des erreurs de code",
+          "status": "Dépannage",
+          "reward": "Aucune récompense n'est accordée tant que le code n'est pas accepté",
+          "details": "Les causes courantes incluent une promotion expirée, des majuscules incorrectes, des espaces superflus, un code déjà échangé sur le compte ou une saisie dans la mauvaise interface."
+        }
+      ]
+    },
+    "mechanicLegendsBeginnerGuide": {
+      "title": "Guide débutant Mechanic Legends",
+      "eyebrow": "Guide du nouveau joueur",
+      "subtitle": "Commencez fort dans Mechanic Legends : suivez une progression pratique du garage à la route couvrant les véhicules, les réparations, les améliorations, les missions et les activités.",
+      "intro": "Les nouveaux joueurs devraient d'abord apprendre l'interface du garage et les contrôles de base des véhicules avant de dépenser massivement en améliorations. Une progression régulière de réparations, de missions et d'améliorations bien choisies fournit les ressources nécessaires pour débloquer de meilleurs véhicules et des activités plus rentables.",
+      "steps": [
+        {
+          "title": "Entrez dans le garage et apprenez les contrôles",
+          "description": "Commencez dans le garage, examinez les points d'interaction disponibles et apprenez à vous déplacer entre le véhicule, la zone de réparation, le concessionnaire et les lieux d'activité.",
+          "focus": [
+            "Interaction avec le véhicule",
+            "Navigation dans le garage",
+            "Menus de réparation et d'amélioration"
+          ]
+        },
+        {
+          "title": "Choisissez un véhicule de départ abordable",
+          "description": "Achetez un véhicule adapté au budget de départ et garz suffisamment de Cash pour les réparations et les améliorations essentielles au lieu de dépenser tout votre solde immédiatement.",
+          "focus": [
+            "Prix d'achat",
+            "Budget de réparation restant",
+            "Utilisabilité quotidienne"
+          ]
+        },
+        {
+          "title": "Réparez le véhicule avant de l'améliorer",
+          "description": "Remettez le véhicule en état de marche avant d'investir dans des pièces de performance. Un véhicule endommagé peut réduire l'efficacité et rendre les premières activités plus difficiles à accomplir.",
+          "focus": [
+            "État du véhicule",
+            "Coût de réparation",
+            "Fonctionnalités de base"
+          ]
+        },
+        {
+          "title": "Accomplissez des travaux adaptés aux débutants",
+          "description": "Utilisez les missions, livraisons ou autres activités à faible risque disponibles pour accumuler du Cash. Concentrez-vous sur l'accomplissement régulier plutôt que sur des améliorations coûteuses pendant la première étape.",
+          "focus": [
+            "Accomplissement des missions",
+            "Efficacité des déplacements",
+            "Revenu stable"
+          ]
+        },
+        {
+          "title": "Améliorez pour les activités auxquelles vous jouez",
+          "description": "Améliorez la tenue de route, l'accélération, la durabilité ou d'autres attributs pertinents selon votre activité préférée. Évitez d'acheter des pièces qui n'améliorent pas votre trajet actuel.",
+          "focus": [
+            "Tenue de route",
+            "Accélération",
+            "Durabilité",
+            "Améliorations spécifiques à l'activité"
+          ]
+        },
+        {
+          "title": "Étendez-vous aux événements et aux meilleurs véhicules",
+          "description": "Une fois le véhicule réparé et le garage doté d'un flux de revenus stable, essayez les courses et d'autres activités, puis économisez pour des véhicules aux performances plus élevées ou à l'utilité plus large.",
+          "focus": [
+            "Participation aux événements",
+            "Progression des véhicules",
+            "Épargne à long terme"
+          ]
+        }
+      ]
+    },
+    "mechanicLegendsMoneyMaking": {
+      "title": "Guide pour gagner de l'argent dans Mechanic Legends",
+      "eyebrow": "Stratégies de Cash",
+      "subtitle": "Meilleurs moyens de gagner de l'argent : comparez les réparations, les missions, les livraisons, le travail de taxi et les courses pour choisir une voie de revenus à chaque étape de la progression.",
+      "intro": "La meilleure activité pour gagner de l'argent dépend du véhicule que vous possédez, du Cash disponible pour les réparations et de votre aisance à accomplir l'activité. Commencez par un travail régulier, réinvestissez de manière ciblée et passez à des activités plus rapides ou plus exigeantes à mesure que votre véhicule s'améliore.",
+      "items": [
+        {
+          "activity": "Réparer des véhicules endommagés",
+          "startupCost": "Faible à modéré",
+          "difficulty": "Faible",
+          "incomeSpeed": "Régulier",
+          "stage": "Début de partie",
+          "strategy": "Priorisez le travail de réparation lorsque vous avez besoin d'un revenu prévisible et que vous apprenez encore les systèmes du garage. Gardez les dépenses de réparation sous contrôle pour que l'activité reste rentable."
+        },
+        {
+          "activity": "Accomplir des missions standards",
+          "startupCost": "Faible",
+          "difficulty": "Faible à modérée",
+          "incomeSpeed": "Régulier",
+          "stage": "Début à milieu de partie",
+          "strategy": "Utilisez les missions régulières pour constituer une réserve de Cash stable avant d'acheter des véhicules coûteux ou des pièces de performance."
+        },
+        {
+          "activity": "Livrer des colis ou du fret",
+          "startupCost": "Faible",
+          "difficulty": "Modérée",
+          "incomeSpeed": "Rapide avec des itinéraires efficaces",
+          "stage": "Début à milieu de partie",
+          "strategy": "Choisissez des livraisons adaptées à l'état du véhicule et à sa capacité de déplacement. Un itinéraire efficace réduit les temps morts entre les récompenses."
+        },
+        {
+          "activity": "Accomplir des missions de taxi",
+          "startupCost": "Modéré",
+          "difficulty": "Modérée",
+          "incomeSpeed": "Constant",
+          "stage": "Milieu de partie",
+          "strategy": "Le travail de taxi devient plus pratique une fois que le véhicule est fiable et peut enchaîner les trajets sans interruptions fréquentes pour réparations."
+        },
+        {
+          "activity": "Participer à des courses",
+          "startupCost": "Modéré à élevé",
+          "difficulty": "Élevée",
+          "incomeSpeed": "Rapide en cas de succès",
+          "stage": "Milieu à fin de partie",
+          "strategy": "Faites des courses après avoir investi dans des améliorations de performance et de tenue de route adaptées. La course offre un meilleur potentiel, mais elle est moins prévisible lorsque le véhicule manque de puissance ou est difficile à contrôler."
+        }
+      ]
+    },
+    "mechanicLegendsCarsDealership": {
+      "title": "Guide des voitures et du concessionnaire de Mechanic Legends",
+      "eyebrow": "Véhicules & Concessionnaire",
+      "subtitle": "Choisissez la bonne voiture pour chaque activité : comprenez le rôle des véhicules, les achats au concessionnaire et comment associer les points forts d'une voiture aux réparations, livraisons, missions de taxi et courses.",
+      "intro": "Le choix d'un véhicule dans Mechanic Legends consiste à trouver un équilibre entre le coût d'achat, l'état actuel, les performances et l'usage prévu. Une collection pratique peut inclure un véhicule fiable pour tous les jours, un véhicule dédié au travail et une option plus rapide pour les activités compétitives.",
+      "items": [
+        {
+          "category": "Véhicules de départ et du quotidien",
+          "role": "Transport polyvalent",
+          "bestFor": [
+            "Progression au garage",
+            "Missions standard",
+            "Déplacements quotidiens"
+          ],
+          "buyingGuidance": "Choisissez un véhicule abordable qui laisse suffisamment de Cash pour les réparations et les améliorations de base. Au début, la fiabilité est plus précieuse que la performance maximale.",
+          "upgradePriority": [
+            "État",
+            "Tenue de route",
+            "Accélération de base"
+          ]
+        },
+        {
+          "category": "Véhicules de travail et de livraison",
+          "role": "Accomplissement de tâches répétées",
+          "bestFor": [
+            "Livraisons",
+            "Missions de taxi",
+            "Itinéraires plus longs"
+          ],
+          "buyingGuidance": "Privilégiez les véhicules qui restent fiables sur plusieurs trajets. Une configuration équilibrée réduit les temps d'arrêt et rend le travail récurrent plus régulier.",
+          "upgradePriority": [
+            "Durabilité",
+            "Tenue de route",
+            "Performances sur longue distance"
+          ]
+        },
+        {
+          "category": "Véhicules de performance et de course",
+          "role": "Conduite compétitive",
+          "bestFor": [
+            "Courses",
+            "Événements",
+            "Tracés à haute vitesse"
+          ],
+          "buyingGuidance": "Achetez un véhicule axé sur la performance une fois que vous disposez d'une source de revenus stable. Le potentiel en course est surtout utile si le véhicule peut être réparé et amélioré sans épuiser le budget du garage.",
+          "upgradePriority": [
+            "Accélération",
+            "Vitesse de pointe",
+            "Tenue de route"
+          ]
+        },
+        {
+          "category": "Véhicules de collection et de progression",
+          "role": "Expansion du garage à long terme",
+          "bestFor": [
+            "Collection de véhicules",
+            "Polyvalence des activités",
+            "Objectifs de fin de partie"
+          ],
+          "buyingGuidance": "Développez votre collection progressivement et assignez un rôle clair à chaque véhicule. Gardez des véhicules polyvalents pour le travail quotidien et réservez les véhicules spécialisés aux activités où ils excellent.",
+          "upgradePriority": [
+            "Spécialisation par rôle",
+            "Potentiel de performance",
+            "Coût d'entretien"
+          ]
+        }
+      ]
+    },
+    "mechanicLegendsTuningEngine": {
+      "title": "Guide du tuning et des pièces moteur de Mechanic Legends",
+      "eyebrow": "Systèmes de l'atelier",
+      "subtitle": "Réglez chaque véhicule selon votre façon de piloter : découvrez le flux de travail de l'atelier pour démonter les composants moteur, remplacer des pièces, installer des améliorations de course et accroître les performances du véhicule.",
+      "intro": "Les performances d'un véhicule dépendent des pièces que vous installez et de la façon dont vous équilibrez vitesse, accélération, tenue de route et contrôle. Utilisez l'atelier pour inspecter le véhicule, remplacer les composants usés ou moins performants, installer des pièces de course et construire une configuration adaptée à votre style de conduite.",
+      "steps": [
+        {
+          "title": "Inspectez le véhicule avant de changer les pièces",
+          "description": "Commencez par examiner le véhicule et identifier les zones qui nécessitent de l'attention. Une inspection complète permet de séparer les réparations des améliorations de performance et évite les remplacements de pièces inutiles.",
+          "actions": [
+            "Entrez dans l'atelier avec le véhicule que vous souhaitez améliorer.",
+            "Passez en revue les composants moteur et véhicule disponibles.",
+            "Identifiez les pièces endommagées, manquantes ou moins performantes avant de commencer l'amélioration."
+          ],
+          "performanceFocus": "Établit une base de comparaison pour les changements ultérieurs."
+        },
+        {
+          "title": "Démontez et remplacez les composants moteur",
+          "description": "Le travail sur le moteur se fait composant par composant. Retirez la pièce sélectionnée, installez un remplacement, et continuez jusqu'à ce que le moteur soit restauré ou amélioré.",
+          "actions": [
+            "Sélectionnez le composant moteur qui nécessite une intervention.",
+            "Retirez la pièce existante via l'interaction de l'atelier.",
+            "Installez le composant de remplacement et continuez à vérifier les pièces moteur restantes."
+          ],
+          "performanceFocus": "Des composants restaurés garantissent une accélération et une vitesse de pointe régulières."
+        },
+        {
+          "title": "Installez des pièces orientées course",
+          "description": "Une fois l'état de base du moteur rétabli, utilisez les composants de course disponibles pour orienter le véhicule vers la conduite compétitive.",
+          "actions": [
+            "Choisissez des pièces de performance adaptées au type de course visé.",
+            "Priorisez les améliorations moteur pour la vitesse en ligne droite et l'accélération.",
+            "Évitez de sacrifier trop de contrôle lorsque vous vous préparez à des tracés exigeant des virages."
+          ],
+          "performanceFocus": "Les pièces de performance sont plus efficaces lorsqu'elles sont choisies comme un ensemble cohérent plutôt que comme des améliorations isolées."
+        },
+        {
+          "title": "Équilibrez vitesse, accélération et tenue de route",
+          "description": "Un véhicule rapide n'est pas toujours le plus rapide sur tous les tracés. Adaptez l'orientation du réglage à l'environnement de conduite et à votre capacité à contrôler la voiture.",
+          "actions": [
+            "Utilisez une configuration axée sur la vitesse pour les longues lignes droites et le drag racing.",
+            "Utilisez une configuration axée sur l'accélération lorsque les départs rapides et les départs répétés comptent.",
+            "Utilisez une configuration axée sur la tenue de route pour le drift, les virages et les routes qui exigent des corrections fréquentes."
+          ],
+          "performanceFocus": "Les configurations équilibrées sont généralement plus faciles à contrôler pendant l'exploration et la conduite mixte."
+        },
+        {
+          "title": "Testez la configuration et affinez-la",
+          "description": "Emmenez le véhicule sur la route après chaque changement important. Les tests révèlent si l'amélioration se ressent vraiment dans votre conduite.",
+          "actions": [
+            "Testez la réponse au démarrage, l'accélération et la vitesse de pointe.",
+            "Vérifiez la stabilité de la direction et le contrôle dans les virages.",
+            "Ne modifiez qu'un groupe de pièces à la fois pour mieux comprendre l'effet de chaque ajustement."
+          ],
+          "performanceFocus": "Des tests répétés transforment les améliorations d'atelier en une configuration de course réellement efficace."
+        }
+      ]
+    },
+    "mechanicLegendsJobsRepair": {
+      "title": "Guide des métiers et réparations de Mechanic Legends",
+      "eyebrow": "Métiers et gains",
+      "subtitle": "Choisissez des métiers qui développent vos compétences et vos revenus : comprenez le flux de travail de base pour réparer des véhicules endommagés, effectuer des livraisons et mener des missions de taxi.",
+      "intro": "Les métiers offrent des moyens structurés de progresser tout en apprenant les systèmes du jeu. Les réparations développent la familiarité avec l'atelier, les livraisons misent sur des trajets réguliers, et le taxi récompense une conduite efficace entre les destinations. Commencez par des tâches accessibles, apprenez les interactions nécessaires, puis augmentez la difficulté à mesure que votre véhicule et votre confiance au volant s'améliorent.",
+      "items": [
+        {
+          "title": "Réparez des véhicules endommagés",
+          "summary": "Les métiers centrés sur l'atelier exigent de restaurer un véhicule endommagé en identifiant l'intervention requise et en menant le processus de réparation à bien.",
+          "workflow": [
+            "Acceptez ou sélectionnez la mission de réparation disponible.",
+            "Amenez le véhicule assigné dans la zone de l'atelier.",
+            "Inspectez les composants endommagés et effectuez les interactions de réparation requises.",
+            "Terminez la mission et récupérez la récompense une fois le véhicule restauré."
+          ],
+          "tips": [
+            "Lisez les exigences de réparation avant de retirer des pièces.",
+            "Travaillez méthodiquement sur le véhicule plutôt que de passer d'un composant à un autre sans lien.",
+            "Utilisez les missions de réparation pour apprendre les commandes de l'atelier avant d'investir massivement dans le tuning de performance."
+          ],
+          "risk": "Le principal risque est une réparation inachevée ou du temps passé sur des améliorations non requises pour la mission.",
+          "rating": "Recommandé comme premier type de métier"
+        },
+        {
+          "title": "Effectuez des livraisons",
+          "summary": "Les missions de livraison consistent à transporter le véhicule ou le chargement requis jusqu'à une destination en maintenant un itinéraire efficace.",
+          "workflow": [
+            "Sélectionnez une mission de livraison et consultez sa destination.",
+            "Préparez un véhicule stable et facile à contrôler.",
+            "Conduisez jusqu'à la destination en évitant les détours inutiles et les collisions.",
+            "Effectuez la remise et recevez la récompense de la mission."
+          ],
+          "tips": [
+            "Utilisez un véhicule contrôlable plutôt que de miser sur la seule vitesse.",
+            "Apprenez les routes et les itinéraires courants en répétant les trajets.",
+            "Évitez la conduite agressive lorsqu'une collision pourrait ralentir la livraison."
+          ],
+          "risk": "De mauvais choix d'itinéraire, des accidents et la perte de temps peuvent réduire l'efficacité de la course.",
+          "rating": "Recommandé après avoir appris les bases de la conduite"
+        },
+        {
+          "title": "Travaillez comme chauffeur de taxi",
+          "summary": "Le métier de taxi consiste à prendre en charge des passagers, à les conduire à la destination demandée et à effectuer le trajet de manière efficace.",
+          "workflow": [
+            "Acceptez la mission de taxi.",
+            "Localisez et prenez en charge le passager.",
+            "Conduisez le passager jusqu'à la destination demandée.",
+            "Effectuez le dépôt et récupérez la course ou la récompense de la mission."
+          ],
+          "tips": [
+            "Utilisez un véhicule à la tenue de route prévisible et à l'accélération régulière.",
+            "Anticipez vos virages et gardez l'itinéraire du passager aussi direct que possible.",
+            "Entraînez-vous à une conduite fluide pour réduire les retards dus aux accidents ou aux virages manqués."
+          ],
+          "risk": "Les longs détours, un véhicule difficile à contrôler et les collisions peuvent ralentir le trajet et le rendre moins rentable.",
+          "rating": "Recommandé après être à l'aise avec la navigation"
+        },
+        {
+          "title": "Progression suggérée pour les débutants",
+          "summary": "Une progression simple consiste à apprendre d'abord les réparations, puis à passer aux livraisons et au taxi une fois la conduite de base et la navigation maîtrisées.",
+          "workflow": [
+            "Commencez par les missions de réparation pour comprendre l'état des véhicules et les interactions de l'atelier.",
+            "Passez aux missions de livraison pour vous exercer à la conduite sur route et à la planification d'itinéraire.",
+            "Essayez les missions de taxi après avoir appris à contrôler le véhicule tout en suivant les destinations.",
+            "Revenez au type de métier le plus efficace lorsque vous économisez pour améliorer vos véhicules."
+          ],
+          "tips": [
+            "Utilisez les premières récompenses pour améliorer la fiabilité et le contrôle avant de rechercher la vitesse maximale.",
+            "Choisissez des métiers adaptés au véhicule que vous possédez actuellement.",
+            "Répétez le type de métier que vous pouvez accomplir de façon régulière plutôt que de miser sur des courses risquées."
+          ],
+          "risk": "Accepter des missions de transport difficiles avant de connaître l'itinéraire ou les commandes du véhicule peut réduire l'efficacité d'accomplissement.",
+          "rating": "Itinéraire recommandé dans l'ensemble"
+        }
+      ]
+    },
+    "mechanicLegendsDragRaceDrift": {
+      "title": "Guide Drag Race et Drift de Mechanic Legends",
+      "eyebrow": "Conduite et Compétition",
+      "subtitle": "Préparez la bonne voiture pour chaque course : comparez le drag racing, le drift, l'exploration routière et la compétition multijoueur avec des conseils pratiques de préparation et de conduite.",
+      "intro": "Chaque activité récompense des caractéristiques différentes. Le drag racing privilégie l'accélération et la vitesse en ligne droite, le drift demande des glisses contrôlées et une tenue de route prévisible, tandis que l'exploration et les événements multijoueur récompensent une configuration fiable sur des routes variées et face à des adversaires changeants.",
+      "items": [
+        {
+          "title": "Drag racing",
+          "description": "Les drag races misent tout sur le départ, l'accélération et la capacité à maintenir la vitesse sur un parcours majoritairement rectiligne.",
+          "bestSetup": [
+            "Priorisez les performances du moteur et l'accélération.",
+            "Utilisez un véhicule stable qui reste droit au moment du départ.",
+            "Réduisez les compromis inutiles sur la tenue de route quand le parcours comporte peu de virages."
+          ],
+          "drivingTips": [
+            "Préparez le véhicule avant d'entrer dans la course.",
+            "Accélérez en douceur et gardez des corrections minimes.",
+            "Exploitez l'espace en ligne droite disponible pour conserver votre élan."
+          ],
+          "idealFor": "Les joueurs qui préfèrent des compétitions courtes et directes et une performance maximale en ligne droite."
+        },
+        {
+          "title": "Drift",
+          "description": "Le drift repose sur le contrôle d'une glisse dans les virages tout en conservant sa trajectoire, son élan et la capacité de récupération.",
+          "bestSetup": [
+            "Choisissez une tenue de route prévisible plutôt qu'une vitesse de pointe maximale.",
+            "Utilisez un véhicule qui réagit clairement aux commandes de direction et d'accélérateur.",
+            "Évitez une configuration difficile à rattraper dès que l'arrière du véhicule part en glisse."
+          ],
+          "drivingTips": [
+            "Abordez les virages avec assez de vitesse pour amorcer la glisse sans perdre le contrôle.",
+            "Combinez direction et accélération pour maintenir l'angle de drift.",
+            "Corrigez progressivement et sortez du virage avec le véhicule orienté vers la prochaine section."
+          ],
+          "idealFor": "Les joueurs qui aiment la conduite technique, les glisses contrôlées et les défis centrés sur les virages."
+        },
+        {
+          "title": "Exploration routière",
+          "description": "L'exploration récompense un véhicule fiable, capable d'enchaîner routes variées, navigation et trajets répétés entre les activités.",
+          "bestSetup": [
+            "Misez sur un équilibre entre accélération et tenue de route.",
+            "Privilégiez fiabilité et contrôle lors de l'apprentissage de la carte ou des trajets entre missions.",
+            "Gardez suffisamment de vitesse pour voyager efficacement sans rendre chaque virage difficile."
+          ],
+          "drivingTips": [
+            "Apprenez les grandes routes et les virages en répétant vos trajets.",
+            "Freinez de manière contrôlée avant les virages plutôt que de compter sur des corrections de dernière seconde.",
+            "Considérez l'exploration comme un entraînement aux itinéraires avant de vous lancer en compétition."
+          ],
+          "idealFor": "Les joueurs qui veulent découvrir le monde du jeu et se familiariser avec les itinéraires."
+        },
+        {
+          "title": "Courses multijoueur",
+          "description": "La compétition multijoueur combine préparation du véhicule, lecture de course et capacité d'adaptation quand d'autres joueurs créent de la pression ou bloquent votre trajectoire idéale.",
+          "bestSetup": [
+            "Choisissez un véhicule adapté au format de course plutôt qu'une configuration universelle unique.",
+            "Équilibrez accélération et tenue de route quand le parcours mêle lignes droites et virages.",
+            "Testez la configuration avant de concourir pour connaître ses réactions sous pression."
+          ],
+          "drivingTips": [
+            "Choisissez une trajectoire propre et évitez les contacts inutiles.",
+            "Freinez tôt et sortez des virages de façon contrôlée pour rester régulier au milieu des autres joueurs.",
+            "Ajustez la configuration après avoir observé si la course favorise les départs, les virages ou la vitesse soutenue."
+          ],
+          "idealFor": "Les joueurs qui aiment la compétition directe et comparer leurs configurations avec d'autres pilotes."
+        }
+      ]
+    },
+    "mechanicLegendsUpdatesFeatures": {
+      "title": "Mises à jour et fonctionnalités de Mechanic Legends",
+      "eyebrow": "Aperçu des versions",
+      "subtitle": "Suivez les fonctionnalités qui font évoluer votre garage : utilisez cet aperçu pour organiser les informations de mise à jour, les ajouts de véhicules, les changements de fonctionnalités et les annonces des développeurs depuis les pages officielles du jeu.",
+      "intro": "Les mises à jour peuvent concerner les véhicules, les systèmes de l'atelier, les missions, les courses et l'expérience de conduite globale. Consultez la page officielle du jeu à l'arrivée d'une nouvelle version, puis comparez la description actuelle avec votre configuration précédente pour identifier les nouveaux contenus et ajuster votre routine au garage.",
+      "items": [
+        {
+          "category": "Ajouts de véhicules",
+          "whatToCheck": "Repérez les nouveaux véhicules disponibles ou les changements dans la sélection de véhicules.",
+          "playerImpact": "Un nouveau véhicule peut ouvrir des options supplémentaires pour le drag racing, le drift, l'exploration ou l'accomplissement des missions.",
+          "action": "Testez le véhicule à l'atelier et sur la route avant de remplacer une configuration éprouvée.",
+          "priority": "Élevée"
+        },
+        {
+          "category": "Atelier et réglages",
+          "whatToCheck": "Vérifiez les changements concernant le travail moteur, le remplacement de pièces, les composants de course ou les systèmes de performance du véhicule.",
+          "playerImpact": "Les modifications de pièces ou de réglages peuvent altérer l'équilibre entre accélération, vitesse et tenue de route.",
+          "action": "Réexaminez vos véhicules existants après une mise à jour et retestez leurs configurations de course précédentes.",
+          "priority": "Élevée"
+        },
+        {
+          "category": "Missions et récompenses",
+          "whatToCheck": "Passez en revue les changements apportés aux réparations, livraisons, activités de taxi et récompenses de missions.",
+          "playerImpact": "L'ordre des tâches et vos méthodes de gains préférées peuvent changer lorsque les exigences ou les récompenses des missions sont ajustées.",
+          "action": "Comparez le temps de complétion et la valeur des récompenses des missions disponibles avant de choisir un itinéraire de farm.",
+          "priority": "Moyenne"
+        },
+        {
+          "category": "Courses et activités de conduite",
+          "whatToCheck": "Cherchez de nouvelles options de course, des activités de drift, du contenu routier ou des changements multijoueur.",
+          "playerImpact": "Les nouvelles activités peuvent favoriser d'autres configurations de véhicules et techniques de conduite.",
+          "action": "Préparez à la fois une configuration axée sur la vitesse et une configuration équilibrée en tenue de route quand la mise à jour ajoute de nouveaux types de compétition.",
+          "priority": "Élevée"
+        },
+        {
+          "category": "Changements de gameplay et de systèmes",
+          "whatToCheck": "Examinez les changements apportés aux contrôles, à la progression, aux garages, aux interactions et aux systèmes de jeu généraux.",
+          "playerImpact": "De petits changements de système peuvent influencer la rapidité avec laquelle les joueurs acceptent les missions, réparent les véhicules ou accèdent aux activités.",
+          "action": "Répétez le flux de base atelier et missions après la mise à jour afin de vous familiariser avec les nouvelles interactions.",
+          "priority": "Moyenne"
+        },
+        {
+          "category": "Annonces des développeurs",
+          "whatToCheck": "Lisez la dernière description officielle et les annonces disponibles sur les pages du jeu.",
+          "playerImpact": "Les annonces offrent l'aperçu le plus clair de l'orientation d'une nouvelle version.",
+          "action": "Utilisez la page officielle du jeu comme point de départ pour identifier les fonctionnalités actuelles et les changements de version.",
+          "priority": "Élevée"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Questions",
+    "titleHighlight": "fréquentes",
+    "subtitle": "Tout ce que vous devez savoir sur Mechanic Legends",
+    "questions": [
+      {
+        "question": "Qu'est-ce que Mechanic Legends ?",
+        "answer": "Mechanic Legends est un simulateur gratuit de réparation et de tuning de voitures sur Roblox développé par Mechanic Devs. Vous réparez des véhicules endommagés, démontez des moteurs, installez des pièces de performance, accomplissez des missions et emmenez vos voitures modifiées dans des drag races et des événements de drift parmi plus de 50 véhicules."
+      },
+      {
+        "question": "Mechanic Legends est-il gratuit ?",
+        "answer": "Oui. Mechanic Legends est jouable gratuitement sur Roblox avec des achats optionnels en jeu, et il fonctionne sur PC, mobile, Xbox et PlayStation."
+      },
+      {
+        "question": "Comment utiliser les codes dans Mechanic Legends ?",
+        "answer": "Ouvrez Mechanic Legends, entrez dans le garage ou l'interface principale, trouvez l'option Codes, saisissez un code exactement tel qu'indiqué, puis sélectionnez Utiliser. Les codes peuvent expirer, utilisez-les donc dès que possible."
+      },
+      {
+        "question": "Comment gagner de l'argent rapidement dans Mechanic Legends ?",
+        "answer": "Commencez par des missions de réparation pour un Cash régulier, ajoutez les livraisons une fois les routes connues, puis passez au taxi et aux courses à mesure que votre véhicule s'améliore. Réinvestissez vos gains dans des pièces adaptées à l'activité que vous pratiquez le plus."
+      },
+      {
+        "question": "Quelle voiture acheter en premier dans Mechanic Legends ?",
+        "answer": "Choisissez un véhicule de départ abordable qui vous laisse du Cash pour les réparations, puis ajoutez un véhicule utilitaire pour les livraisons et une voiture de performance pour les courses à mesure que votre garage s'agrandit."
+      },
+      {
+        "question": "Mechanic Legends reçoit-il encore des mises à jour ?",
+        "answer": "Oui. Mechanic Legends reçoit des mises à jour avec de nouvelles voitures, pièces, fonctionnalités et changements d'équilibre. Consultez la section Mises à jour et fonctionnalités de ce wiki pour le dernier aperçu."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à bâtir votre légende de mécano ?",
+    "description": "Rejoignez la communauté Mechanic Legends sur Discord pour partager vos configurations de voitures, réglages, guides de réparation et les dernières actualités Roblox !",
+    "joinCommunity": "Rejoindre Discord",
+    "joinGame": "Jouer sur Roblox"
+  },
+  "footer": {
+    "title": "Mechanic Legends Wiki",
+    "description": "Votre ressource complète pour les voitures, réglages, guides de réparation, pièces, courses et codes de Mechanic Legends sur Roblox.",
+    "resources": "Ressources",
+    "community": "Communauté",
+    "legal": "Mentions légales",
+    "discord": "Discord",
+    "robloxGame": "Page du jeu Roblox",
+    "robloxGroup": "Groupe Mechanic Devs",
+    "youtube": "YouTube",
+    "about": "À propos",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Mechanic Legends Wiki. Non affilié à Roblox Corporation ni à Mechanic Devs.",
+    "disclaimer": "Mechanic Legends Wiki est un site indépendant créé par des fans et n'est affilié ni à Roblox Corporation ni à Mechanic Devs. Mechanic Legends et les ressources associées appartiennent à leurs propriétaires respectifs."
+  },
+  "pages": {
+    "codes": {
+      "title": "Codes",
+      "description": "Codes actifs de Mechanic Legends, étapes d'utilisation et solutions pour les codes qui ne fonctionnent pas.",
+      "metaTitle": "Codes Mechanic Legends (2026) - Récompenses gratuites",
+      "metaDescription": "Tous les codes fonctionnels de Mechanic Legends pour du Cash, des Spins et des récompenses gratuits. Découvrez comment utiliser les codes dans le simulateur de réparation de voitures Roblox et corriger les codes qui échouent.",
+      "categoryLabel": "Codes",
+      "whatIs": "Que sont les codes Mechanic Legends ?",
+      "whatIsDescription": "Les codes Mechanic Legends sont des codes promotionnels publiés par Mechanic Devs qui offrent aux joueurs du Cash gratuit, des Spins et autres bonus en jeu. Les codes sont limités dans le temps : cette page suit donc les dernières informations d'utilisation et les corrections d'erreurs.",
+      "why": "Pourquoi utiliser les codes ?",
+      "whySteps": [
+        {
+          "title": "Cash et Spins gratuits",
+          "description": "Les codes offrent des récompenses sans farm, donnant un coup de pouce à votre garage dès le départ."
+        },
+        {
+          "title": "Progression plus rapide",
+          "description": "Du Cash supplémentaire signifie des achats de véhicules et de pièces de performance plus tôt."
+        },
+        {
+          "title": "Aucun coût",
+          "description": "Utiliser un code ne prend que quelques secondes et ne coûte jamais de Robux ni d'argent réel."
+        }
+      ],
+      "featured": "Codes en vedette",
+      "all": "Tous les codes"
+    },
+    "guide": {
+      "title": "Guides",
+      "description": "Guides Mechanic Legends pour débutants et joueurs expérimentés : progression, astuces et meilleures stratégies.",
+      "metaTitle": "Guide Mechanic Legends - Astuces & Stratégies",
+      "metaDescription": "Guide complet de Mechanic Legends : comment jouer, progression pour débutants, astuces et conseils, et les meilleures stratégies pour le simulateur de tuning de voitures Roblox.",
+      "categoryLabel": "Guides",
+      "whatIs": "Qu'est-ce que le hub de guides Mechanic Legends ?",
+      "whatIsDescription": "Ce hub rassemble les guides essentiels de Mechanic Legends : progression du garage à la route pour les nouveaux joueurs, astuces pratiques et walkthroughs stratégiques couvrant les réparations, le tuning, les missions et les courses.",
+      "why": "Pourquoi suivre nos guides ?",
+      "whySteps": [
+        {
+          "title": "Progression structurée",
+          "description": "Des parcours étape par étape vous mènent de la première visite au garage aux courses compétitives."
+        },
+        {
+          "title": "Éviter le gaspillage de Cash",
+          "description": "Découvrez quels véhicules et améliorations comptent vraiment avant de dépenser."
+        },
+        {
+          "title": "Tous les niveaux",
+          "description": "Le contenu va des bases pour débutants aux stratégies de tuning avancées."
+        }
+      ],
+      "featured": "Guides en vedette",
+      "all": "Tous les guides"
+    },
+    "money": {
+      "title": "Argent",
+      "description": "Méthodes rapides pour gagner de l'argent dans Mechanic Legends : réparations, livraisons, travail de taxi et itinéraires de revenus en course.",
+      "metaTitle": "Guide Argent Mechanic Legends - Gagner du Cash rapidement",
+      "metaDescription": "Les meilleures façons de gagner de l'argent rapidement dans Mechanic Legends. Comparez les missions de réparation, livraisons, travail de taxi et courses pour trouver l'itinéraire de revenus le plus rentable pour votre garage.",
+      "categoryLabel": "Guides Argent",
+      "whatIs": "Comment fonctionne l'argent dans Mechanic Legends ?",
+      "whatIsDescription": "Le Cash dans Mechanic Legends provient des missions de réparation, des livraisons, du travail de taxi et des courses. Chaque activité a des coûts de démarrage, une difficulté et une vitesse de paiement différents : choisir le bon itinéraire selon votre véhicule actuel compte donc énormément.",
+      "why": "Pourquoi optimiser vos revenus ?",
+      "whySteps": [
+        {
+          "title": "Acheter des voitures plus tôt",
+          "description": "Un itinéraire de revenus plus rapide signifie des achats au concessionnaire plus précoces."
+        },
+        {
+          "title": "Financer les pièces de performance",
+          "description": "Le tuning et les améliorations moteur exigent une réserve de Cash stable."
+        },
+        {
+          "title": "Éviter le farm inutile",
+          "description": "Choisissez les activités avec le meilleur ratio récompenses/temps selon votre stade de jeu."
+        }
+      ],
+      "featured": "Guides Argent en vedette",
+      "all": "Tous les guides Argent"
+    },
+    "upgrades": {
+      "title": "Améliorations",
+      "description": "Meilleures améliorations dans Mechanic Legends : pièces moteur, tuning de performance, ECU et priorités d'amélioration.",
+      "metaTitle": "Améliorations Mechanic Legends - Meilleures pièces & tuning",
+      "metaDescription": "Meilleures améliorations dans Mechanic Legends : pièces moteur, tuning de performance, achat d'ECU et priorités d'amélioration pour l'accélération, la vitesse et la tenue de route de tous les véhicules.",
+      "categoryLabel": "Guides Améliorations",
+      "whatIs": "Que sont les améliorations dans Mechanic Legends ?",
+      "whatIsDescription": "Les améliorations couvrent les composants moteur, les pièces de performance, les unités ECU et les réglages de tuning qui modifient l'accélération, la vitesse maximale et la tenue de route. Choisir des améliorations adaptées à votre activité est plus rentable que d'acheter les pièces les plus chères.",
+      "why": "Pourquoi planifier vos améliorations ?",
+      "whySteps": [
+        {
+          "title": "Adaptez-vous à votre activité",
+          "description": "Drag racing, drift et missions récompensent chacune des configurations différentes."
+        },
+        {
+          "title": "Maîtrisez votre budget",
+          "description": "Des améliorations hiérarchisées évitent de gaspiller du Cash en potentiel inutilisé."
+        },
+        {
+          "title": "Testez avec méthode",
+          "description": "Ne modifiez qu'un groupe de pièces à la fois pour que chaque ajustement soit mesurable."
+        }
+      ],
+      "featured": "Guides Améliorations en vedette",
+      "all": "Tous les guides Améliorations"
+    },
+    "cars": {
+      "title": "Voitures",
+      "description": "Voitures de Mechanic Legends : meilleurs véhicules de départ, ordre d'achat au concessionnaire, enchères et options de personnalisation.",
+      "metaTitle": "Voitures Mechanic Legends - Meilleurs véhicules & ordre d'achat",
+      "metaDescription": "Chaque voiture de Mechanic Legends expliquée : la meilleure première voiture, l'ordre d'achat au concessionnaire, des conseils pour les enchères et la personnalisation des véhicules.",
+      "categoryLabel": "Guides Voitures",
+      "whatIs": "Quelles voitures trouve-t-on dans Mechanic Legends ?",
+      "whatIsDescription": "Mechanic Legends propose plus de 50 voitures réparties entre les rôles de départ, de travail, de performance et de collection. Chaque véhicule diffère par son prix, son état, son potentiel d'amélioration et les activités auxquelles il convient le mieux, des livraisons aux courses de drag.",
+      "why": "Pourquoi comparer les voitures avant d'acheter ?",
+      "whySteps": [
+        {
+          "title": "Protégez votre budget",
+          "description": "La bonne première voiture laisse du Cash pour les réparations et les pièces essentielles."
+        },
+        {
+          "title": "Associez le rôle à l'usage",
+          "description": "Les voitures de travail rapportent régulièrement ; les voitures de performance gagnent des courses."
+        },
+        {
+          "title": "Planifiez votre collection",
+          "description": "Les objectifs de garage à long terme exigent un ordre d'achat réfléchi."
+        }
+      ],
+      "featured": "Guides Voitures en vedette",
+      "all": "Tous les guides Voitures"
+    },
+    "repair": {
+      "title": "Réparation",
+      "description": "Réparation de voitures dans Mechanic Legends : fixation des pièces de carrosserie, composants moteur et gestion d'un atelier de réparation.",
+      "metaTitle": "Guide Réparation Mechanic Legends - Réparer voitures & carrosserie",
+      "metaDescription": "Comment réparer des voitures dans Mechanic Legends : réparation des pièces de carrosserie, remplacement des composants moteur, missions de réparation automatique et gestion de l'atelier client étape par étape.",
+      "categoryLabel": "Guides Réparation",
+      "whatIs": "Comment fonctionne la réparation dans Mechanic Legends ?",
+      "whatIsDescription": "La réparation est le cœur de Mechanic Legends : inspectez les véhicules endommagés, remplacez les pièces de carrosserie et les composants moteur dans l'atelier, et restaurez des voitures pour des clients ou pour votre propre garage. Les missions de réparation sont aussi la source de revenus la plus stable en début de partie.",
+      "why": "Pourquoi maîtriser les réparations en premier ?",
+      "whySteps": [
+        {
+          "title": "Revenus stables en début de partie",
+          "description": "Les missions de réparation paient régulièrement pendant que vous apprenez l'atelier."
+        },
+        {
+          "title": "Connaissance de l'atelier",
+          "description": "Les compétences en réparation servent directement pour le tuning et le remplacement de pièces."
+        },
+        {
+          "title": "Protégez votre flotte",
+          "description": "Garder vos propres voitures en bon état évite les malus de performance."
+        }
+      ],
+      "featured": "Guides Réparation en vedette",
+      "all": "Tous les guides Réparation"
+    },
+    "features": {
+      "title": "Fonctionnalités",
+      "description": "Fonctionnalités de Mechanic Legends : mode Final Lap, missions clients, atelier de réparation, pièces détachées et personnalisation.",
+      "metaTitle": "Fonctionnalités Mechanic Legends - Final Lap, missions & personnalisation",
+      "metaDescription": "Fonctionnalités de Mechanic Legends expliquées : mode Final Lap, missions clients, gestion de l'atelier de réparation, pièces détachées, personnalisation des véhicules et quels systèmes comptent le plus.",
+      "categoryLabel": "Guides Fonctionnalités",
+      "whatIs": "Quelles fonctionnalités propose Mechanic Legends ?",
+      "whatIsDescription": "Au-delà de la boucle de réparation principale, Mechanic Legends inclut les courses Final Lap, les missions clients, la gestion d'atelier de réparation, un vaste catalogue de pièces détachées et la personnalisation des véhicules. Comprendre chaque système vous aide à choisir où investir votre temps et votre Cash.",
+      "why": "Pourquoi apprendre chaque fonctionnalité ?",
+      "whySteps": [
+        {
+          "title": "Trouvez votre boucle de jeu",
+          "description": "Les fonctionnalités se combinent en différents styles de jeu, entre gains et courses."
+        },
+        {
+          "title": "Ne manquez aucune mise à jour",
+          "description": "Les nouvelles versions ajoutent des voitures, des pièces et des modes qui changent la stratégie."
+        },
+        {
+          "title": "Exploitez tout le simulateur",
+          "description": "La personnalisation et les systèmes de boutique récompensent une connaissance approfondie du jeu."
+        }
+      ],
+      "featured": "Guides Fonctionnalités en vedette",
+      "all": "Tous les guides Fonctionnalités"
+    }
+  }
+}

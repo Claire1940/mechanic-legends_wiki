@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench, DollarSign } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia da Concessionária: Revenda Carros de Ferro-velho com Lucro",
+  description: "Saiba como funciona a concessionária do Mechanic Legends: compre carros no ferro-velho, repare motores, evite o superaquecimento e revenda veículos com lucro máximo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/b45309/fff?text=Car+Dealership+Guide",
+  date: "2026-10-30",
+  author: "Equipe de Wiki do Mechanic Legends"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Concessionária do Mechanic Legends**: Venda carros reformados para Roberto no porto por dinheiro.
+- **Ciclo principal**: Compre carros baratos no ferro-velho, repare as peças do motor e revenda com lucro.
+- **Perigo de superaquecimento**: Carros sem radiador explodem a **160 graus**.
+- **Regra de orçamento**: Anote os custos de peças e pintura antes de vender, ou você pode perder dinheiro.
+- **Preços-chave**: Carros do ferro-velho ~5.000; radiador 20.000; motor novo 9.000; pintura ~9.000.
+</Callout>
+
+<Section icon={Map} title="Como Funciona o Ciclo da Concessionária">
+
+O sistema de concessionária do Mechanic Legends transforma você em um negócio de carros usados de uma pessoa só. Você começa no ferro-velho, compra carros abandonados por cerca de 5.000 dinheiros, reboca-os até a sua garagem, repara cada componente mecânico e, em seguida, leva o veículo pronto até o porto, onde Roberto o compra. Sua margem de lucro depende inteiramente de quão barato você consegue o carro e de quão poucas peças de reposição ele precisa.
+
+**Destaques do Vídeo:**
+- Comprando um Corsa de ferro-velho por 5.000 e reparando totalmente o motor
+- Por que um radiador ausente faz a temperatura passar de 160 graus e causa explosões
+- Reparando peças de motor meia-vida, baterias e injetores na máquina da oficina
+- Vendendo o carro pronto para Roberto no porto por 9.600 dinheiros
+- Pintando um Peugeot 206 e instalando um radiador para proteger o investimento
+
+<YouTubeEmbed videoId="FEV1n_7qUj4" title="Virei Mecânico por 1 Dia para Consertar Carros Abandonados em Mechanic Legends" />
+
+A concessionária em si é simples: leve o carro até o porto, fale com Roberto e aceite ou recuse a oferta dele. A habilidade está na economia antes de chegar lá.
+
+| Passo | Local | Ação |
+| --- | --- | --- |
+| 1 | Ferro-velho | Inspecione os carros, compre um em bom estado (~5.000) |
+| 2 | Sua garagem | Desmonte e repare todas as peças do motor e a bateria |
+| 3 | Loja de peças | Compre peças que faltam se o orçamento permitir |
+| 4 | Porto | Venda para Roberto pelo preço oferecido |
+
+<Callout type="tip" title="Inspecione Antes de Comprar">
+Verifique se o carro tem um bloco de motor, um radiador e quão quente ele fica antes de comprar. Um carro barato sem um radiador de 20.000 pode eliminar toda a sua margem.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Reparando Carros: Peças, Máquina e Temperatura">
+
+Cada componente mecânico no Mechanic Legends tem uma porcentagem de condição. Peças meia-vida têm desempenho ruim — um carro com motor a 50% mal consegue atingir 70 km/h. Use a máquina de reparo na sua garagem para restaurar as peças a 100% e, em seguida, reinstale-as uma a uma.
+
+| Componente | Condição Inicial (Típica) | Reparável? | Observações |
+| --- | --- | --- | --- |
+| Bloco do motor | 50% | Sim (ou compre novo, 9.000) | Pode pegar fogo e ser destruído |
+| Bateria | 50% | Sim, via máquina de carregamento | Barata de restaurar |
+| Radiador | Ausente | Não, precisa comprar (20.000) | Mantém a temperatura travada perto de 90 graus |
+| Injetores/bicos | Variável | Alguns sim | Teste antes de remover |
+| Óleo | Baixo | Compre reabastecimento (caro) | Afeta a saúde do motor |
+
+<Steps>
+  <Step num="1" title="Abra o Capô e Desmonte as Peças">
+    Use sua chave para remover o motor, a bateria e os injetores. Organize cada peça para que nada se perca sob outros componentes.
+  </Step>
+  <Step num="2" title="Repare Cada Peça">
+    Leve todas as peças até a máquina de reparo. Cada ciclo restaura um componente a 100%. Carregue a bateria em seu carregador dedicado.
+  </Step>
+  <Step num="3" title="Monte com Cuidado">
+    Reinstale tudo e verifique novamente o chão para garantir que não sobrou nenhuma peça. Um bloco de motor ausente significa que o carro não vai dar partida de jeito nenhum.
+  </Step>
+  <Step num="4" title="Monitore a Temperatura">
+    Fique de olho no medidor. Sem radiador, o carro passa de 130 graus rapidamente e explode a 160.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Incêndios no Motor São Reais">
+Se a temperatura atingir 160 graus, o motor pega fogo. Aja rápido: vá até a sua garagem, abra o capô e desmonte as peças em chamas. Se o bloco do motor queimar completamente, ele desaparece e você precisa comprar um novo por 9.000 dinheiros.
+</Callout>
+
+</Section>
+
+<Section icon={DollarSign} title="Economia da Concessionária: Quando Vender e Quando Manter">
+
+O maior erro dos mecânicos iniciantes é ignorar os custos totais. Um carro de ferro-velho de 5.000 mais 9.000 de pintura e um motor de 9.000 somam 23.000 — se Roberto oferecer apenas 14.000, vender significa prejuízo.
+
+| Item de Custo | Preço (Dinheiros) | Necessário? |
+| --- | --- | --- |
+| Carro do ferro-velho | ~5.000 | Sim |
+| Pintura completa | ~9.000 | Opcional, aumenta o valor |
+| Motor 4 cilindros novo | 9.000 | Somente se o bloco for destruído |
+| Radiador | 20.000 | Altamente recomendado |
+| Reabastecimento de óleo do motor | ~10.000 | Opcional |
+| Bloco de motor V8 | 35.000 | Melhoria de luxo |
+| Turbo/admissão | ~100.000 | Preparação de fim de jogo |
+
+<Callout type="info" title="A Regra de Manter ou Vender">
+Antes de dirigir até o porto, some o valor da compra mais todas as peças e a pintura. Se a provável oferta de Roberto estiver abaixo desse total, guarde o carro na sua coleção na garagem e venda apenas revendas limpas e de baixo custo.
+</Callout>
+
+Na prática, uma restauração mecânica simples, sem radiador e sem pintura, é a revenda mais lucrativa: compre por 5.000, repare tudo você mesmo e venda perto de 9.600. Carros muito personalizados, como um Peugeot 206 pintado, geralmente custam mais para montar do que o valor de venda.
+
+</Section>
+
+<Section icon={Sparkles} title="Personalização e Melhorias">
+
+Além dos reparos, a cidade oferece vários pontos de personalização que valem a pena conhecer:
+
+<CardGrid cols={3}>
+  <Card title="Oficina de Pintura">
+    - Pintura completa por ~**9.000 dinheiros**
+    - Misture cores (cinza, verde, azul)
+    - Faz um carro enferrujado parecer novo
+  </Card>
+  <Card title="Luzes de Neon">
+    - Opções verde, roxo, rosa e vermelho
+    - Custa até **10.000 dinheiros**
+    - Puramente estético
+  </Card>
+  <Card title="Melhorias de Motor">
+    - Blocos de 4 cilindros, **V6** e **V8**
+    - Bloco V8 custa 35.000
+    - Turbo/admissão até 100.000
+  </Card>
+</CardGrid>
+
+O ajuste de suspensão não tem custo de peças — você pode rebaixar a traseira do carro na sua garagem para uma aparência mais esportiva. Só lembre-se de que melhorias de aparência raramente se pagam na concessionária; trate-as como gastos de estilo pessoal.
+
+<Callout type="tip" title="Primeiro o Radiador, Depois o Estilo">
+Instale um radiador antes de qualquer trabalho estético. Um radiador de 20.000 protege motores que valem muito mais, e um carro que explode no meio de um trajeto destrói todo o seu investimento em pintura e peças.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Lucro para Cada Revenda">
+
+<Checklist
+  id="dealership-flip"
+  title="Antes de Vender para Roberto:"
+  items={[
+    "Todas as peças do motor reparadas a 100%",
+    "Bateria carregada e instalada",
+    "Temperatura estável perto de 90 graus",
+    "Nenhuma peça esquecida no chão da garagem",
+    "Custos totais calculados contra a oferta esperada"
+  ]}
+}
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Onde vendo carros no Mechanic Legends?",
+    answer: "Leve seu carro pronto até a área do porto onde os contêineres estão empilhados e fale com Roberto. Ele oferece um preço com base na condição do carro, e você pode aceitar ou recusar a oferta."
+  },
+  {
+    question: "Por que meu carro vive explodindo?",
+    answer: "Carros sem radiador superaquecem rapidamente. Quando o medidor de temperatura atinge 160 graus, o motor pega fogo e pode ser destruído. Compre um radiador por 20.000 dinheiros para travar a temperatura perto de 90 graus."
+  },
+  {
+    question: "Vale a pena pintar um carro antes de vender?",
+    answer: "Geralmente não. Uma pintura completa custa cerca de 9.000 dinheiros, e os compradores costumam oferecer menos do que o seu investimento total. Pinte os carros que você pretende manter na sua coleção pessoal."
+  },
+  {
+    question: "O que acontece se o bloco do motor queimar?",
+    answer: "O bloco destruído desaparece do carro. Você precisa visitar a loja de peças e comprar um substituto — um motor 4 cilindros novo custa 9.000 dinheiros, enquanto os blocos V6 e V8 custam consideravelmente mais."
+  }
+]} />
+
+</Section>

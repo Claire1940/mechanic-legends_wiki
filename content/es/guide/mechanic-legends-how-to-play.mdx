@@ -1,0 +1,192 @@
+import { Map, Wrench, Trophy, Target, Coins, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mechanic Legends Cómo Jugar: Consejos para Principiantes y Guía de Dinero",
+  description: "Aprende a jugar Mechanic Legends: compra coches de desguace, diagnostica daños, repara piezas, repinta y vende vehículos con beneficio en Roblox.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b45309/fff?text=Mechanic+Legends+How+to+Play",
+  date: "2026-10-30",
+  author: "Equipo de Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mechanic Legends cómo jugar** comienza con reparar y revender coches para obtener beneficio en Roblox.
+- **Mejor jugada inicial**: Vende tu coche inicial gratuito (~25,000) y únete al grupo para recibir **5,000 de dinero extra**.
+- **Ciclo central**: Compra coches baratos del desguace, repara las piezas dañadas, repinta y véndelos con margen de beneficio.
+- **Revisa primero los costes de reparación**: Las reparaciones estimadas por encima de ~3,000 normalmente eliminan tu margen de beneficio.
+- **Usa el separador de neumáticos**: El tutorial nunca explica la máquina de llantas y neumáticos, pero desbloquea la personalización completa de las ruedas.
+</Callout>
+
+<Section icon={Wrench} title="Mechanic Legends Cómo Jugar: Lo Básico">
+
+Mechanic Legends es un tycoon de reparación de coches en Roblox donde aceptas trabajos de clientes, restauras hallazgos del desguace y personalizas vehículos hasta que brillen. El ciclo de juego principal es simple: consigue un coche, diagnostica sus daños, repara cada pieza, haz que luzca bien y véndelo por más de lo que gastaste. Dominar ese ciclo es la diferencia entre sobrevivir a duras penas y hacerte rico rápido.
+
+**Lo Destacado del Vídeo:**
+- Recorrido completo de las fuentes de coches: subasta, concesionario y desguace
+- Desmontaje en vivo que muestra cómo inspeccionar baterías, radiadores y colectores de escape
+- Demostración del separador de neumáticos y montaje de llantas que no cubre el tutorial del juego
+- Estrategia de venta del coche inicial y explicación del bono por unirse al grupo
+
+<YouTubeEmbed videoId="xV5xg1tYKmE" title="Mechanic Legends Guide! (Codes, Get RICH FAST, Tips & Tricks) ROBLOX" />
+
+Hay tres formas principales de ganar dinero, y cada una se adapta a una etapa distinta de progresión:
+
+| Método | Cómo Funciona | Nivel de Riesgo | Ideal Para |
+| --- | --- | --- | --- |
+| Trabajos de clientes | Repara y modifica coches de clientes, lleva las piezas al límite | Bajo | Ingresos estables al inicio |
+| Reventa de desguace | Compra coches dañados baratos, recondiciónalos, revéndelos | Medio | Acumular capital |
+| Garaje de subasta | Compra un garaje por un coche aleatorio, puede ser chatarra o raro | Alto | Apostadores y dinero de fase final |
+
+<Callout type="tip" title="Empieza con los Trabajos de Clientes">
+Los trabajos de clientes no tienen riesgo de compra y te enseñan todas las mecánicas de reparación. Hazlos hasta tener suficiente capital para empezar a revender coches de desguace con comodidad.
+</Callout>
+
+</Section>
+
+<Section icon={Coins} title="Dónde Conseguir Coches">
+
+Tu primera gran decisión en Mechanic Legends es de dónde obtener los vehículos. Cada ubicación del mapa tiene un propósito y nivel de presupuesto diferente.
+
+<CardGrid cols={3}>
+  <Card title="Garaje de Subasta">
+    - **Probabilidades de coche aleatorio**
+    - Alto riesgo, alta recompensa
+    - Posibles hallazgos raros
+    - Mejor con dinero de sobra
+  </Card>
+  <Card title="Concesionario">
+    - **Coches nuevos de fábrica**
+    - Precios fijos y conocidos
+    - Genial para un coche para quedarte
+    - Sin daños ocultos
+  </Card>
+  <Card title="Desguace">
+    - **Stock más barato**
+    - Se renueva aproximadamente cada 12 minutos
+    - Muestra condición y estimaciones de reparación
+    - Núcleo del ciclo de reventa
+  </Card>
+</CardGrid>
+
+Antes de comprar cualquier coche del desguace, mantén pulsado E para inspeccionarlo. El panel de interacción muestra las piezas dañadas, la condición general y el coste estimado de reparación. Compara esa estimación con el valor de mercado del coche, porque un coche de 20,000 que solo necesita 1,000 en reparaciones es una compra mucho mejor que uno de 22,000 que necesita 3,300 en arreglos.
+
+| Factor de Inspección | Qué Buscar | Señal Verde | Señal de Alarma |
+| --- | --- | --- | --- |
+| Reparaciones estimadas | Coste total del arreglo | Menos de **1,000** | Más de **3,000** |
+| Valor de mercado | Precio de venta tras reparación | Muy por encima de coste + reparaciones | Margen escaso o negativo |
+| Tipo de daño | Qué piezas están rotas | Cosmético o una sola pieza | Motor o componente mayor |
+| Etiqueta de condición | Estado general listado | Desgaste menor | Estados "absolutamente arruinado" |
+
+<Callout type="warning" title="Haz los Cálculos Antes de Comprar">
+Resta siempre las reparaciones estimadas del valor de mercado antes de comprar. Muchos coches de desguace parecen baratos pero apenas alcanzan el punto de equilibrio, o incluso pierden dinero, tras una restauración completa.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Paso a Paso: Reparar y Revender un Coche">
+
+Una vez que tienes un coche dañado, el flujo de restauración sigue un patrón repetible. Llévalo a tu garaje, súbelo al elevador y trabaja en cada componente dañado con tu llave inglesa en mano.
+
+<Steps>
+  <Step num="1" title="Diagnostica en el desguace">
+    Mantén pulsado E sobre un coche candidato para ver el daño, la condición y los costes de reparación estimados. Compra solo coches con un margen de beneficio sano.
+  </Step>
+  <Step num="2" title="Eleva e inspecciona en tu garaje">
+    Lleva el coche a tu garaje, súbelo al elevador y abre el maletero. Pasa la llave inglesa sobre cada pieza para ver exactamente qué necesita reparación, desde baterías hasta daños en el intercooler.
+  </Step>
+  <Step num="3" title="Repara y pule cada pieza">
+    Carga o reemplaza la batería, pule las piezas dañadas como el colector de escape hasta el 100% y limpia a fondo los componentes cuando aparezca la opción. Vigila la luz del motor, debería apagarse cuando las reparaciones estén completas.
+  </Step>
+  <Step num="4" title="Repinta y detallado">
+    Nadie compra un coche feo. Retira la pintura vieja en la estación de pintura y aplica un color nuevo. Esto cuesta dinero por adelantado, pero es una inversión que recuperas en la venta.
+  </Step>
+  <Step num="5" title="Vende con beneficio">
+    Lleva el coche terminado al punto de venta y cobra. Reinvierte el beneficio en un mejor hallazgo del desguace y repite el ciclo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Mejoras por Pedido de Piezas">
+Antes de vender, revisa el menú de pedidos de piezas para ver opciones de modificaciones y ajustes. Los remapeos y mejoras de rendimiento llevan los coches más allá de sus límites de fábrica y pueden aumentar su atractivo de reventa.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Neumáticos, Llantas y Ubicaciones Clave del Mapa">
+
+La máquina de neumáticos es la única mecánica que el tutorial omite por completo, y sin embargo desbloquea la personalización total de las ruedas. Así funciona: levanta el coche con el gato, quita un neumático, colócalo en el separador y separa el neumático de la llanta. Luego puedes comprar una llanta nueva, montar el neumático en ella y colocar la rueda ensamblada directamente de vuelta en el coche. Combinar neumáticos y llantas es literalmente así de simple una vez que conoces la máquina.
+
+Más allá del garaje, varias ubicaciones del mapa mantienen tu negocio en marcha:
+
+| Ubicación | Propósito | Consejo |
+| --- | --- | --- |
+| Gasolinera | Repostar tanques vacíos | Mantenimiento casi gratis, nunca lo saltes |
+| Parts Direct | Comprar motores y componentes | Usa el teletransportador para viajar más rápido |
+| Ruta de neumáticos del concesionario | Cambiar neumáticos y llantas | Requiere la máquina separadora |
+| Taller de pintura | Retirar pintura y repintar coches | Cuesta dinero, se recupera en la venta |
+| Punto de venta | Deshacerse de coches terminados | Compara precio vs. tu gasto total |
+
+<Callout type="info" title="Los Motores Potentes Son una Vía de Mejora">
+Parts Direct tiene en stock una amplia gama de motores. Instalar un motor más potente transforma un coche de reventa mediocre en una máquina genuinamente rápida, y a veces en un coche que vale la pena conservar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estrategia de Dinero para Principiantes y Lista de Tareas">
+
+Los jugadores nuevos deberían seguir una secuencia específica para maximizar el dinero inicial. Primero, vende tu coche inicial por unos 25,000; siendo sinceros, no es muy bueno, y el dinero se aprovecha mejor en otra parte. Segundo, únete al grupo del juego para recibir un bono gratis de 5,000. Tercero, haz trabajos de clientes mientras aprendes las mecánicas de reparación, y luego pasa a la reventa de desguace con tu capital acumulado.
+
+| Etapa | Acción | Resultado Esperado |
+| --- | --- | --- |
+| Minuto 1 | Vender coche inicial | **~25,000** de dinero inicial |
+| Minuto 2 | Unirse al grupo | **+5,000** de bono gratis |
+| Inicio del juego | Trabajos de clientes | Ingresos estables, práctica de habilidades |
+| Medio juego | Revisiones de desguace | Beneficio compuesto por coche |
+| Final del juego | Subasta + rarezas | Posibilidad de obtener coches raros |
+
+<Checklist
+  id="mechanic-legends-startup"
+  title="Objetivos de tu Primera Sesión:"
+  items={[
+    "Vender el coche inicial por ~25,000 de dinero",
+    "Unirse al grupo y reclamar el bono de 5,000",
+    "Completar al menos tres trabajos de reparación de clientes",
+    "Comprar, restaurar por completo y vender un coche del desguace",
+    "Aprender a usar el separador de neumáticos y montar una llanta personalizada"
+  ]}
+/>
+
+<Callout type="tip" title="Quédate con los Buenos">
+Algunas revisiones resultan ser coches genuinamente rápidos y divertidos. Si un vehículo restaurado conduce mejor que cualquier otro en tu garaje, quedártelo es una opción válida; disfrutar del juego importa más que exprimir cada última moneda.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo juego a Mechanic Legends como principiante?",
+    answer: "Empieza vendiendo tu coche inicial gratuito por unos 25,000, únete al grupo para recibir un bono de 5,000 y realiza trabajos de reparación de clientes. Cuando te sientas cómodo, pasa a la reventa de desguace: compra coches dañados baratos, repara todo, repinta y vende con beneficio."
+  },
+  {
+    question: "¿Debo vender mi coche inicial en Mechanic Legends?",
+    answer: "Sí, para la mayoría de jugadores. El coche inicial tiene un rendimiento débil, y el precio de venta de aproximadamente 25,000 financia mucho mejores hallazgos de desguace o un coche de concesionario que realmente quieras conservar."
+  },
+  {
+    question: "¿Cómo funciona el separador de neumáticos?",
+    answer: "Levanta el coche con el gato, quita un neumático, colócalo en el separador para separar el neumático de la llanta, compra una llanta nueva si quieres, monta el neumático en ella y coloca la rueda ensamblada de vuelta en el coche. El tutorial del juego no enseña esto, así que practícalo manualmente."
+  },
+  {
+    question: "¿Por qué apenas gano beneficio con los coches de desguace?",
+    answer: "Probablemente estás comprando coches con costes de reparación estimados altos. Mantén siempre pulsado E para inspeccionar un coche primero, y evita cualquier cosa donde las reparaciones superen aproximadamente 3,000 o donde el valor de mercado deje solo un margen muy fino tras los costes."
+  }
+]} />
+
+</Section>

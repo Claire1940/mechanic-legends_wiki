@@ -1,0 +1,175 @@
+import { Map, Wrench, Cog, Gauge, Trophy, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pièces de voitures Mechanic Legends : Types, utilisations et guide d'amélioration",
+  description: "Découvrez comment fonctionnent les pièces de voitures dans Mechanic Legends : composants moteur, améliorations de course, pneus, suspension et meilleures priorités de réglage pour chaque configuration.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1c1917/f97316?text=Car+Parts+Guide",
+  date: "2026-10-30",
+  author: "Équipe Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Les pièces de voitures Mechanic Legends** couvrent les composants moteur, les améliorations de course, les pneus, les roues et la suspension
+- **Le travail moteur** se fait composant par composant : retirer une pièce, installer le remplacement, répéter
+- **Les pièces de performance** fonctionnent mieux en tant que configuration complète, et non en améliorations isolées
+- **Adaptez les pièces à votre activité** : le drag racing, le drift, les livraisons et l'exploration favorisent des configurations différentes
+- **Testez après chaque changement** pour savoir exactement quelle pièce a amélioré votre véhicule
+</Callout>
+
+<Section icon={Cog} title="Aperçu des pièces : rôle de chaque catégorie">
+
+Les pièces de voitures dans Mechanic Legends se divisent en catégories distinctes, et chacune affecte votre véhicule différemment. Les composants moteur déterminent l'accélération et la vitesse maximale, la suspension et les roues influencent la tenue de route, et les pièces orientées course poussent la voiture vers une conduite compétitive. Comprendre le rôle de chaque catégorie est la première étape pour construire un véhicule adapté à votre style de jeu.
+
+Le jeu propose **plus de 50 véhicules** avec désassemblage complet du moteur, remplacement de pièces, réglage et systèmes de personnalisation, vous offrant une liberté étendue pour mélanger et associer des composants dans votre garage.
+
+| Catégorie de pièce | Effet principal | Idéal pour | Priorité |
+| --- | --- | --- | --- |
+| Composants moteur | Accélération, vitesse maximale | Drag racing, améliorations générales | ★★★★★ |
+| Pièces de course | Performance compétitive | Courses, événements | ★★★★★ |
+| Suspension | Tenue de route, hauteur de caisse, posture | Drift, virages | ★★★★ |
+| Roues et pneus | Adhérence, contrôle, apparence | Toutes les activités | ★★★★ |
+| Carrosserie et peinture | Personnalisation visuelle | Configurations stylées, collection | ★★★ |
+
+<Callout type="tip" title="Commencez par l'inspection">
+Avant de changer une pièce, inspectez le véhicule et identifiez les composants endommagés, manquants ou moins performants. Une inspection complète sépare le travail de réparation des améliorations de performance et évite les changements de pièces inutiles.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Pièces moteur : processus de démontage et de remplacement">
+
+Le travail moteur dans Mechanic Legends se gère composant par composant. Vous sélectionnez la pièce moteur qui nécessite un entretien, la retirez via l'interaction de l'atelier, installez le remplacement, puis continuez à vérifier les composants restants jusqu'à ce que le moteur soit restauré ou amélioré.
+
+<Steps>
+  <Step num="1" title="Amenez le véhicule dans l'atelier">
+    Entrez dans la zone de l'atelier avec le véhicule que vous souhaitez améliorer et ouvrez les menus du moteur et des composants du véhicule.
+  </Step>
+  <Step num="2" title="Inspectez chaque composant du moteur">
+    Identifiez les pièces endommagées, manquantes ou moins performantes avant de toucher à quoi que ce soit. Cette référence de base rend les comparaisons ultérieures significatives.
+  </Step>
+  <Step num="3" title="Retirez le composant sélectionné">
+    Choisissez la pièce moteur nécessitant un entretien et utilisez l'interaction de l'atelier pour la retirer.
+  </Step>
+  <Step num="4" title="Installez la pièce de remplacement">
+    Montez le nouveau composant, puis continuez à vérifier les pièces moteur restantes une par une.
+  </Step>
+  <Step num="5" title="Testez et affinez">
+    Prenez la route et testez la réponse au démarrage, l'accélération et la vitesse maximale. Changez un groupe de pièces à la fois pour que chaque ajustement soit facile à comprendre.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Erreur courante">
+Travaillez sur le véhicule de manière systématique au lieu de passer d'un composant sans rapport à un autre. Sauter d'une pièce à l'autre dans le moteur fait perdre du temps et rend difficile de déterminer quelle pièce a résolu le problème.
+</Callout>
+
+</Section>
+
+<Section icon={Gauge} title="Pièces de course : adapter les améliorations au type de course">
+
+Les pièces orientées course sont plus efficaces lorsqu'elles sont sélectionnées en tant que configuration complète plutôt qu'en améliorations isolées. Une configuration drag, une configuration drift et une configuration de course multijoueur demandent chacune des choses différentes à vos composants.
+
+<CardGrid cols={3}>
+  <Card title="Configuration Drag Racing">
+    - **Priorité aux performances moteur et à l'accélération**
+    - Véhicule stable qui reste droit au départ
+    - Peu de compromis de tenue de route sur les circuits rectilignes
+  </Card>
+  <Card title="Configuration Drift">
+    - **Tenue de route prévisible plutôt que vitesse maximale**
+    - Réponse claire à la direction et à l'accélérateur
+    - Configuration qui se récupère facilement quand l'arrière décroche
+  </Card>
+  <Card title="Configuration Équilibrée">
+    - **Accélération et tenue de route équilibrées**
+    - Fiable pour l'exploration et les routes mixtes
+    - Plus facile à contrôler pendant les missions et les déplacements
+  </Card>
+</CardGrid>
+
+| Orientation de la configuration | Pièces clés | Force | Faiblesse |
+| --- | --- | --- | --- |
+| Axée vitesse | Améliorations moteur, composants de course | Longues lignes droites, drag racing | Faible dans les virages |
+| Axée accélération | Pièces orientées démarrage | Départs rapides, départs répétés | Vitesse maximale réduite |
+| Axée tenue de route | Suspension, pneus, roues | Drift, virages, routes nécessitant beaucoup de corrections | Plus lente sur les lignes droites |
+
+<Callout type="success" title="Conseil de configuration">
+Pour les courses multijoueur, préparez à la fois une configuration axée vitesse et une configuration équilibrée axée tenue de route. Les parcours mélangent lignes droites et virages, et tester les deux configurations avant la compétition vous indique laquelle réagit mieux sous pression.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Pièces et argent : améliorer avec un budget limité">
+
+Les pièces coûtent de l'argent (Cash), et les erreurs de dépenses au début ralentissent votre progression. Réparez le véhicule jusqu'à un état utilisable avant d'investir dans des pièces de performance, et consacrez vos premiers gains à la fiabilité et au contrôle plutôt qu'à la vitesse maximale.
+
+| Étape | Priorité de dépense en pièces | Focus recommandé |
+| --- | --- | --- |
+| Début de partie | État, fonctionnalité de base | Travaux de réparation, missions standards |
+| Début-milieu de partie | Tenue de route, accélération de base | Livraisons, missions de taxi |
+| Milieu de partie | Durabilité, performance de trajet | Véhicules de travail fiables |
+| Milieu-fin de partie | Accélération, vitesse maximale | Courses et événements |
+
+<Callout type="tip" title="Règle de réinvestissement">
+Utilisez les premières récompenses pour améliorer la fiabilité et le contrôle avant de rechercher la vitesse maximale. Un véhicule fiable gagne de manière constante ; une configuration de course sous-dimensionnée perd plus qu'elle ne gagne.
+</Callout>
+
+<Checklist
+  id="parts-upgrade-goals"
+  title="Liste de contrôle d'amélioration des pièces :"
+  items={[
+    "Inspecter tous les composants du moteur avant toute amélioration",
+    "Réparer le véhicule jusqu'à un état de fonctionnement complet",
+    "Adapter les pièces de course à votre activité principale",
+    "Tester le démarrage, l'accélération et la tenue de route après chaque changement",
+    "Garder suffisamment d'argent (Cash) en réserve pour les réparations"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ sur la sélection des pièces">
+
+<FAQ items={[
+  {
+    question: "Quelles sont les principales catégories de pièces de voiture dans Mechanic Legends ?",
+    answer: "Les pièces de voitures Mechanic Legends comprennent les composants moteur, les pièces de performance orientées course, la suspension, les roues et pneus, ainsi que les éléments de personnalisation de carrosserie ou de peinture. Chaque catégorie affecte un aspect différent de l'accélération, de la vitesse maximale, de la tenue de route ou de l'apparence."
+  },
+  {
+    question: "Faut-il d'abord réparer ou améliorer les pièces ?",
+    answer: "Restaurez toujours le véhicule à un état utilisable en premier. Un véhicule endommagé réduit l'efficacité, complique les premières missions et gaspille l'argent dépensé pour des pièces de performance qui ne peuvent pas fonctionner correctement."
+  },
+  {
+    question: "Quelles pièces comptent le plus pour le drag racing ?",
+    answer: "Les performances moteur et les pièces d'accélération sont la priorité absolue, ainsi qu'une configuration stable qui garde la voiture droite pendant le départ. Les compromis de tenue de route comptent moins sur des circuits majoritairement rectilignes."
+  },
+  {
+    question: "Comment savoir si une amélioration de pièces a réellement fonctionné ?",
+    answer: "Changez un groupe de pièces à la fois et testez le véhicule sur la route après chaque changement. Comparez la réponse au démarrage, l'accélération, la vitesse maximale et la stabilité de la direction par rapport à votre référence d'inspection."
+  }
+]} />
+
+</Section>
+
+<Section icon={Map} title="Où suivre les nouvelles pièces et mises à jour">
+
+Les mises à jour peuvent modifier le fonctionnement des pièces, ajouter de nouveaux composants et déplacer l'équilibre entre accélération, vitesse et tenue de route. Quand une nouvelle version apparaît, consultez la [page officielle du jeu Roblox](https://www.roblox.com/games/9265443535/Car-Mechanic-Simulator), comparez la description actuelle avec votre configuration précédente et retestez vos configurations de course établies.
+
+| Domaine de mise à jour | À vérifier | Impact sur les joueurs |
+| --- | --- | --- |
+| Nouvelles pièces et fonctionnalités de réglage | Travail moteur, remplacement de pièces, composants de course | L'équilibre entre vitesse, accélération et tenue de route peut changer |
+| Ajouts de véhicules | Véhicules nouvellement disponibles | Nouvelles options pour la course, le drift ou les missions |
+| Missions et récompenses | Récompenses de réparation, livraison, taxi | Votre meilleure route de farm peut changer |
+| Activités de course | Nouveaux types de course, contenu drift | D'autres configurations peuvent devenir optimales |
+
+<Callout type="warning" title="Retestez après les mises à jour">
+Examinez vos véhicules existants après chaque mise à jour. Les changements de pièces et de réglage peuvent silencieusement modifier les performances d'une ancienne configuration, alors répétez le flux de base d'atelier et de test sur route avant votre prochaine course.
+</Callout>
+
+</Section>

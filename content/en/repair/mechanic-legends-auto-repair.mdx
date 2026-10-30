@@ -1,0 +1,185 @@
+import { Map, Wrench, Trophy, Target, Shield, DollarSign } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mechanic Legends Auto Repair: Workflow Tips & Money Guide",
+  description: "Learn how the Mechanic Legends auto repair system works: customer jobs, junkyard flips, auctions, and the best ways to maximize your cash per hour.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Auto+Repair+Guide",
+  date: "2026-10-30",
+  author: "mechanic legends Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Auto repair** is the core loop: take customer jobs, fix broken cars, and collect payment.
+- **Job cooldowns** occur when only a few customer jobs remain, leaving you waiting for refreshes.
+- **Junkyard flipping** — buy wrecks, repair them, and resell to fill downtime between jobs.
+- **Auto auction selling** pairs well with repairs to convert restored cars into fast cash.
+- **Play fair**: third-party scripts risk account bans under Roblox's Terms of Service.
+</Callout>
+
+<Section icon={Wrench} title="How Auto Repair Works in Mechanic Legends">
+
+In Mechanic Legends, the **auto repair** system is your main engine for earning money. Customers arrive with damaged vehicles, and each job walks you through diagnosing and fixing the problems. Once the repair is complete, you hand the car back and collect your fee. Repeat this loop and your income scales with speed and efficiency.
+
+The community has produced detailed showcases of the repair workflow, including how jobs chain together and where downtime appears:
+
+**Video Highlights:**
+- Customer jobs can be run back-to-back in a continuous loop
+- Repair jobs occasionally run out, triggering a roughly **3-minute cooldown**
+- Auction selling and junkyard flipping fill the cooldown gaps
+- Test drives generate extra income by driving customer vehicles
+
+<YouTubeEmbed videoId="wHBH_wL6WCk" title="Mechanic Legends Script - Auto Customer - Auto Repair - Auto Auction - Working" />
+
+<Callout type="warning" title="About Third-Party Scripts">
+The video above demonstrates a script that automates repair jobs. Using external executors or automation scripts violates Roblox's Terms of Service and can result in permanent account bans. This guide covers the same money-making strategies as they function through **legitimate play**.
+</Callout>
+
+| Repair Income Source | What You Do | Cash Potential | Downtime Risk |
+|---|---|---|---|
+| Customer repair jobs | Fix customer cars to completion | **High**, steady | Cooldown when queue empties |
+| Junkyard flipping | Buy wrecks, repair, resell | Medium-High | None, always available |
+| Auto auction selling | List repaired cars at auction | Medium | Depends on buyer demand |
+| Test drives | Drive vehicles for pay | Low-Medium | None |
+
+</Section>
+
+<Section icon={DollarSign} title="Maximizing Cash: Filling the Cooldown Gap">
+
+The biggest inefficiency in Mechanic Legends auto repair is idle time. When customer jobs run out and the queue refreshes, players who sit and wait lose money. The fix is to layer income streams so something is always producing.
+
+<CardGrid cols={3}>
+  <Card title="Repair-First Loop">
+    - Prioritize **customer jobs** whenever available
+    - Highest cash per minute
+    - Turnaround is fast once you know the repair steps
+  </Card>
+  <Card title="Junkyard Flipping">
+    - Buy damaged cars cheap from the junkyard
+    - **Repair and resell** for profit margin
+    - Perfect filler during job cooldowns
+  </Card>
+  <Card title="Auction Combo">
+    - List flipped cars on the **auction house**
+    - Sells run in the background
+    - Stacks with junkyard flips for double income
+  </Card>
+</CardGrid>
+
+The optimal rotation looks like this: run every available customer job first. When the queue hits zero, immediately switch to junkyard purchases and repairs, then queue auction sales. By the time your flips are listed, new customer jobs have typically refreshed, and you loop back.
+
+| Time Block | Activity | Estimated Outcome |
+|---|---|---|
+| 0-10 min | Complete all customer repair jobs | **Primary income** earned |
+| 10-13 min | Job cooldown: junkyard purchases | Wrecks acquired at low cost |
+| 13-20 min | Repair flips, list on auction | Cars converted to listings |
+| 20+ min | New jobs refresh, resume loop | Income compounds per cycle |
+
+<Callout type="tip" title="Efficiency Tip">
+Even short test drives between jobs add up. If a customer vehicle is drivable, take it for a quick spin — driving generates passive cash while you wait on the next repair.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Repair Workflow">
+
+Follow this sequence for every customer job to keep your completion time as low as possible. Speed is the single biggest factor in your hourly earnings.
+
+<Steps>
+  <Step num="1" title="Accept the Customer Job">
+    Open the jobs menu and claim the next available customer repair. Prioritize jobs with higher payouts if multiple are queued.
+  </Step>
+  <Step num="2" title="Diagnose the Vehicle">
+    Walk around the car and identify every damaged component. Missing parts early means redoing steps later.
+  </Step>
+  <Step num="3" title="Complete All Repairs">
+    Work through each damaged part methodically. Full completion is required — partial repairs don't pay out.
+  </Step>
+  <Step num="4" title="Return the Car and Collect">
+    Deliver the finished vehicle and accept payment, then immediately claim the next job in the queue.
+  </Step>
+  <Step num="5" title="Fill Cooldowns with Flips">
+    When jobs run dry, buy junkyard wrecks, repair them, and sell at auction until new jobs refresh.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Habit Building">
+Players who memorize the repair order for common damage patterns complete jobs noticeably faster. After a dozen repetitions, the workflow becomes muscle memory.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Repair Skill Progression Checklist">
+
+Track your development as a mechanic with these milestones. Each one unlocks better earning potential in the repair loop.
+
+<Checklist
+  id="repair-progression"
+  title="Auto Repair Milestones:"
+  items={[
+    "Complete first 10 customer repair jobs",
+    "Learn full repair sequence for all common damage types",
+    "Complete first junkyard flip purchase",
+    "Successfully sell a repaired car at auction",
+    "Build a full loop: jobs, flips, and auction sales with zero idle time"
+  ]}
+/>
+
+| Milestone | Unlocks | Difficulty |
+|---|---|---|
+| First 10 jobs completed | Faster diagnosis through practice | ★☆☆☆☆ |
+| First junkyard flip | Background income stream | ★★☆☆☆ |
+| Auction sale completed | Passive selling channel | ★★☆☆☆ |
+| Full rotation mastered | **Maximum cash per hour** | ★★★★☆ |
+
+<Callout type="info" title="Know Your Limits">
+Income rates vary with server population and job availability. Treat posted earnings figures as ballpark estimates rather than guarantees — your results depend on how efficiently you chain the loop.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fair Play and Account Safety">
+
+<Callout type="warning" title="Script Risks">
+Automation scripts for Mechanic Legends auto repair exist, but using them requires executors that breach Roblox's Terms of Service. Consequences can include permanent account termination and loss of all purchased items. Everything in this guide is achievable through normal play.
+</Callout>
+
+The legitimate path may be slower per hour, but it carries zero risk to your account and your progress is permanent. Consider these comparisons:
+
+| Approach | Ban Risk | Progress Retained | Long-Term Value |
+|---|---|---|---|
+| Manual repair loop | **None** | Permanent | High |
+| Junkyard flipping | **None** | Permanent | High |
+| Third-party automation | Severe | May be wiped | Very low |
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What is auto repair in Mechanic Legends?",
+    answer: "Auto repair is the core gameplay loop where you accept customer jobs, fix damaged vehicles part by part, and return them for payment. Completing jobs fully is required to earn the payout."
+  },
+  {
+    question: "Why do customer repair jobs stop appearing?",
+    answer: "The job queue periodically runs dry and enters a cooldown of roughly 3 minutes. Use that window for junkyard flips, auction sales, or test drives to keep earning instead of waiting idle."
+  },
+  {
+    question: "What is the best way to make money with repairs?",
+    answer: "Layer your income: run all available customer jobs first, then fill cooldowns with junkyard purchases you repair and sell at auction. This stacking approach maximizes cash per hour in Mechanic Legends auto repair."
+  },
+  {
+    question: "Are repair automation scripts safe to use?",
+    answer: "No. Scripts require executors that violate Roblox's Terms of Service, and using them risks a permanent ban. All the strategies in this guide work through legitimate gameplay."
+  }
+]} />
+
+</Section>

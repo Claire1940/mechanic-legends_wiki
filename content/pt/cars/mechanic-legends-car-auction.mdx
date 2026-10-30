@@ -1,0 +1,178 @@
+import { Map, Trophy, Target, Shield, Sparkles, Coins } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Leilão de Carros em Mechanic Legends: Estratégia de Revenda e Guia de Lucro",
+  description: "Aprenda como funciona o leilão de carros em Mechanic Legends. Compare a revenda em leilão, compras no ferro-velho e trabalhos de reparo para maximizar seu lucro no jogo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/b45309/fff?text=Car+Auction+Guide",
+  date: "2026-10-30",
+  author: "Equipe da Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **leilão de carros de Mechanic Legends** é sua principal fonte de renda passiva enquanto os trabalhos de reparo estão em recarga.
+- A **revenda em leilão** combina melhor com compras no ferro-velho: compre, repare e venda com margem de lucro.
+- As **recargas de trabalhos** duram cerca de 3 minutos — preencha essa janela com atividades no leilão.
+- **Leilão Automático + Venda Automática** permite continuar lucrando sem clicar constantemente.
+- **Combine fontes de renda** para obter o maior lucro total por hora.
+</Callout>
+
+<Section icon={Coins} title="Noções Básicas do Leilão de Carros em Mechanic Legends">
+
+O leilão de carros é um dos principais sistemas de ganho de dinheiro em Mechanic Legends. Em vez de depender apenas dos trabalhos de reparo dos clientes, você pode comprar veículos em leilão, consertá-los e revendê-los com lucro. Isso se torna especialmente valioso porque os trabalhos de clientes se esgotam e acionam uma recarga de aproximadamente três minutos, deixando você ocioso, a menos que tenha outra fonte de renda funcionando.
+
+**Destaques do Vídeo:**
+- Leilão Automático e Venda Automática permitem revender carros automaticamente
+- A revenda no ferro-velho compra, repara e revende carros em um ciclo
+- O leilão preenche a janela de recarga de 3 minutos dos trabalhos com lucro extra
+- Combinar trabalhos automáticos, leilão e ferro-velho maximiza a renda por hora
+
+<YouTubeEmbed videoId="wHBH_wL6WCk" title="Mechanic Legends Script - Auto Customer - Auto Repair - Auto Auction - Working" />
+
+<Callout type="tip" title="Princípio Fundamental">
+O leilão não substitui os trabalhos de reparo — é um complemento. Jogadores que executam ambos os sistemas ao mesmo tempo ganham consistentemente mais do que aqueles que apenas fazem trabalhos de clientes.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Comparação das Fontes de Renda">
+
+Existem várias formas de ganhar dinheiro em Mechanic Legends, e cada uma se encaixa em uma situação diferente. A tabela abaixo mostra como o leilão de carros se compara aos outros métodos.
+
+| Método | Velocidade | Esforço | Melhor Caso de Uso |
+| --- | --- | --- | --- |
+| Trabalhos de Reparo de Clientes | Rápida | Médio | Renda principal quando há trabalhos disponíveis |
+| Reparo Automático | Média | Baixo | Ganho em segundo plano enquanto multitarefas |
+| Revendas em Leilão de Carros | Média | Baixo | Preencher a recarga de 3 minutos dos trabalhos |
+| Revendas no Ferro-Velho | Lenta, mas constante | Baixo | Carros baratos para reparar e revender |
+| Direção Automática | Lenta | Muito baixo | Renda passiva de gotejamento |
+
+<CardGrid cols={3}>
+  <Card title="Trabalhos de Reparo Primeiro">
+    - **Maior pagamento por tarefa**
+    - Limitado pela disponibilidade de trabalhos
+    - Recarga de 3 minutos quando a fila esvazia
+  </Card>
+  <Card title="Leilão + Ferro-Velho">
+    - **Preenche todas as pausas de recarga**
+    - Compre barato, repare, venda caro
+    - Escala com sua velocidade de reparo
+  </Card>
+  <Card title="Combo Completo">
+    - **Trabalhos + Leilão + Ferro-Velho**
+    - Lucro máximo por hora
+    - Exige o menor tempo ocioso
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Melhor Combo">
+Execute trabalhos automáticos de clientes, leilão automático com venda automática e revendas no ferro-velho juntos. Esta é a configuração de maior lucro porque nenhum minuto de jogo é desperdiçado durante as recargas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Fluxo de Trabalho de Revenda em Leilão Passo a Passo">
+
+Siga este fluxo de trabalho em cada sessão para manter o dinheiro fluindo mesmo quando os trabalhos de reparo escasseiam.
+
+<Steps>
+  <Step num="1" title="Acumule Trabalhos">
+    Comece com os trabalhos de reparo de clientes, pois pagam mais rápido. Continue trabalhando até a fila chegar a zero e a recarga começar.
+  </Step>
+  <Step num="2" title="Mude para o Leilão">
+    Durante a recarga de aproximadamente 3 minutos, vá ao leilão. Procure carros subvalorizados que você possa comprar abaixo do preço de revenda reparado.
+  </Step>
+  <Step num="3" title="Repare e Revenda">
+    Conserte todo carro comprado antes de vender. A margem entre o preço do leilão e o preço de venda reparado é o seu lucro, então a qualidade do reparo importa.
+  </Step>
+  <Step num="4" title="Adicione Revendas no Ferro-Velho">
+    Entre os leilões, revenda carros do ferro-velho. Eles são baratos de adquirir e, após os reparos, ainda são vendidos com uma boa margem.
+  </Step>
+  <Step num="5" title="Volte aos Trabalhos">
+    Assim que a recarga terminar, volte aos trabalhos de clientes e repita o ciclo. Esse loop mantém todas as fontes de renda ativas.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Evite Este Erro">
+Não venda carros sem reparar. A margem de revenda após o reparo é todo o objetivo da revenda em leilão — pular os reparos destrói seu lucro.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Configurações de Automação e Eficiência">
+
+Jogadores experientes usam recursos de automação para executar o combo completo com o mínimo de esforço. As configurações abaixo refletem a configuração comumente usada para farm estilo AFK.
+
+| Configuração | Objetivo | Recomendação |
+| --- | --- | --- |
+| Renderização Desligada | Reduz travamentos em sessões longas | Ativar para farm AFK |
+| Limite de 30 FPS | Diminui o uso de recursos | Ativar junto com a renderização desligada |
+| Trabalhos Automáticos de Clientes | Conclui reparos automaticamente | Manter sempre ativado |
+| Leilão Automático + Venda Automática | Revende carros de leilão sem esforço | Ativar durante as recargas |
+| Revenda no Ferro-Velho | Compra, repara e revende carros velhos | Ativar como terceira fonte |
+| Direção Automática | Dirige carros para dinheiro passivo | Renda passiva opcional |
+
+<Callout type="info" title="Nota de Desempenho">
+Desligar a renderização e limitar o jogo a 30 FPS reduz visivelmente a carga do sistema durante sessões longas de farm, o que ajuda a automação a funcionar de forma mais confiável.
+</Callout>
+
+<Checklist
+  id="auction-session-goals"
+  title="Checklist da Sessão:"
+  items={[
+    "Concluir todos os trabalhos de reparo de clientes disponíveis",
+    "Preencher todas as janelas de recarga com revendas em leilão",
+    "Reparar todos os carros antes de revender",
+    "Executar revendas no ferro-velho como fonte reserva",
+    "Registrar seu lucro por hora e ajustar"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Expectativas de Lucro e Armadilhas">
+
+Os lucros do leilão escalam com dois fatores: o quão barato você compra e o quão rápido você repara. Jogadores novos costumam pagar caro demais por carros de leilão, sem deixar margem após os reparos. Defina um teto pessoal de compra — se o preço de leilão de um carro está próximo do seu valor de venda reparado, pule e verifique o ferro-velho.
+
+| Armadilha | Consequência | Solução |
+| --- | --- | --- |
+| Dar lances altos demais no leilão | Sem margem de lucro | Comparar preços antes de dar lances |
+| Vender carros sem reparo | Perda do valor do reparo | Sempre reparar primeiro |
+| Ficar ocioso durante recargas | Tempo de ganho desperdiçado | Executar leilão ou revendas no ferro-velho |
+| Ignorar o ferro-velho | Perder inventário barato | Verificar o ferro-velho entre os leilões |
+
+<Callout type="tip" title="Acompanhe Suas Margens">
+Mantenha uma nota mental simples de quanto cada tipo de carro vende depois de reparado. Conhecer esses números permite identificar lotes de leilão com preço abaixo do valor instantaneamente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "O que é o leilão de carros em Mechanic Legends?",
+    answer: "O leilão de carros é um mercado dentro do jogo onde você pode comprar veículos, repará-los e revendê-los com lucro. Funciona melhor como uma fonte de renda secundária enquanto os trabalhos de reparo de clientes estão em recarga."
+  },
+  {
+    question: "Quando devo usar o leilão de carros em vez dos trabalhos de reparo?",
+    answer: "Use o leilão sempre que a fila de trabalhos de clientes esvaziar. Os trabalhos têm uma recarga de aproximadamente três minutos, e a revenda em leilão mantém o dinheiro entrando durante esse intervalo."
+  },
+  {
+    question: "Revender no ferro-velho é melhor do que revender no leilão?",
+    answer: "Eles se complementam. Os carros do ferro-velho geralmente são mais baratos de adquirir, enquanto os carros de leilão podem oferecer margens maiores. Executar ambos junto com os trabalhos de reparo produz o maior lucro geral."
+  },
+  {
+    question: "Devo reparar os carros antes de vendê-los no leilão?",
+    answer: "Sim. O lucro da revenda vem da diferença entre o preço de compra e o valor de revenda reparado. Vender carros sem reparo elimina a maior parte dessa margem."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,177 @@
+import { Map, Target, Trophy, Wrench, Sparkles, ListChecks } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Trabajos de Clientes en Mechanic Legends: Guía y Consejos de Ganancias",
+  description: "Aprende cómo funcionan los trabajos de clientes en Mechanic Legends: acepta pedidos, diagnostica averías, compra piezas, completa reparaciones y maximiza las ganancias de tu taller.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b45309/fff?text=Customer+Jobs+Guide",
+  date: "2026-10-30",
+  author: "Equipo de Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los **trabajos de clientes** son el bucle de ingresos principal en Mechanic Legends — aceptar, diagnosticar, reparar, entregar.
+- **Primero el diagnóstico**: inspecciona el vehículo y marca las piezas defectuosas antes de comprar cualquier cosa.
+- **La selección de pedidos importa**: al principio, elige trabajos simples (frenos, fluidos, bujías) para acumular dinero rápido.
+- Los **puntos de habilidad** aceleran el examen de piezas y reducen los precios de la tienda, aumentando la ganancia por trabajo.
+- **Completa cada trabajo**: los pedidos finalizados otorgan dinero, XP y desbloqueos de reputación del taller.
+</Callout>
+
+<Section icon={Wrench} title="Cómo Funcionan los Trabajos de Clientes en Mechanic Legends">
+
+Los trabajos de clientes son la columna vertebral de tu taller en Mechanic Legends. Un cliente llega con un problema — un motor que golpea, frenos desgastados o un traqueteo misterioso — y tu tarea es devolver su vehículo a estado funcional a cambio de un pago. Cada pedido te indica de forma general qué necesita atención, pero a medida que avanzas, el juego te guía menos y espera que realices tu propio diagnóstico.
+
+El bucle básico consta de cuatro etapas:
+
+| Etapa | Qué Sucede | Acción Clave |
+|---|---|---|
+| 1. Aceptar | Elige un pedido del tablero de trabajos | Confirma que el vehículo entra a tu taller |
+| 2. Diagnosticar | Inspecciona la pantalla de estado del coche | Identifica y marca las piezas defectuosas |
+| 3. Reparar | Desmontar, reemplazar, volver a montar | Instala las piezas nuevas correctamente |
+| 4. Entregar | Finaliza el pedido | Recibe dinero, XP y reputación |
+
+<Callout type="tip" title="Marca Cada Avería">
+Antes de tocar un solo tornillo, abre la pantalla de estado del coche y marca cada pieza defectuosa. El seguimiento resalta los componentes dañados en azul durante la vista de reparación, así nunca pierdes tiempo buscando la última avería oculta antes de terminar un trabajo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tipos de Trabajos y lo que Pagan">
+
+No todos los trabajos de clientes son iguales. Los primeros pedidos son reemplazos simples; los trabajos posteriores combinan múltiples sistemas y exigen un pedido de piezas cuidadoso. Entender las categorías te ayuda a elegir trabajos acordes a tu nivel de habilidad y a tu bolsillo.
+
+| Tipo de Trabajo | Dificultad | Trabajo Típico | Potencial de Ganancia |
+|---|---|---|---|
+| Servicio de frenos | Fácil | Pastillas, discos, pinzas | Bajo-Medio |
+| Cambios de fluidos y filtros | Fácil | Aceite, filtro de aire, bujías | Bajo |
+| Trabajo de suspensión | Medio | Resortes, amortiguadores, bujes | Medio |
+| Reparaciones de motor | Difícil | Empaques, distribución, internos | Alto |
+| Trabajos de caja de cambios | Difícil | Desmontaje y reconstrucción completa | Alto |
+| Averías misteriosas | Variable | Requieren diagnóstico real | Medio-Alto |
+
+<CardGrid cols={3}>
+  <Card title="Trabajos para Principiantes">
+    - **Frenos y fluidos**
+    - Entrega rápida
+    - Inventario de piezas barato
+    - Ideal para XP temprano
+  </Card>
+  <Card title="Trabajos de Nivel Medio">
+    - **Suspensión y dirección**
+    - Múltiples piezas por pedido
+    - Costos de piezas moderados
+    - Crecimiento constante de ganancias
+  </Card>
+  <Card title="Trabajos de Experto">
+    - **Reconstrucciones de motor y caja de cambios**
+    - Cadenas de reparación largas
+    - Los pagos más altos
+    - Requieren inversión de puntos de habilidad
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Cuidado con las Averías Misteriosas">
+Algunos trabajos de clientes posteriores no listan todos los problemas de antemano. Si el cliente solo reporta "dirección floja" o "ruido extraño", realiza primero una inspección completa — pasar por alto una avería oculta significa que el pedido no podrá completarse hasta que la encuentres.
+</Callout>
+
+</Section>
+
+<Section icon={ListChecks} title="Paso a Paso: Completar un Trabajo de Cliente">
+
+Sigue este flujo de trabajo cada vez y los trabajos se volverán algo natural.
+
+<Steps>
+  <Step num="1" title="Acepta el Pedido Adecuado">
+    Abre el menú de pedidos y revisa el resumen de cada trabajo. Al inicio de tu partida, elige pedidos con listas de averías cortas y claramente detalladas para aprender las mecánicas sin gastar dinero en errores costosos.
+  </Step>
+  <Step num="2" title="Sube el Coche al Elevador">
+    Resalta el vehículo, abre el menú de interacción y envíalo al elevador de coches. Colocar el coche en la rampa te da acceso total para inspeccionar la parte inferior y marcar cada pieza defectuosa.
+  </Step>
+  <Step num="3" title="Marca las Averías y Desmonta">
+    Marca cada componente dañado en la pantalla de estado. Las piezas defectuosas brillan en azul en la vista de reparación; las piezas desmontables se resaltan en verde. Desmonta por capas — a menudo debes quitar una rueda o panel antes de llegar a la pieza objetivo.
+  </Step>
+  <Step num="4" title="Pide e Instala las Piezas">
+    Usa tu ordenador para comprar repuestos, buscando por nombre de pieza para evitar el desplazamiento. Añade cada pieza necesaria a tu lista de notas mientras inspeccionas para comprarlo todo en un solo viaje de compras, luego cambia al modo de montaje e instala.
+  </Step>
+  <Step num="5" title="Finaliza y Cobra">
+    Confirma que cada avería marcada figure como completada, revisa el total de costos acumulado y las bonificaciones, y luego finaliza el pedido. El coche se marcha automáticamente y tu recompensa llega.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Recordatorio del Modo de Montaje">
+Cada vez que te alejas de un vehículo y vuelves, el menú de interacción vuelve por defecto al desmontaje. Antes de mantener presionado el botón de acción, verifica que estés en el modo de montaje de piezas para instalar en lugar de desmontar piezas que acabas de reemplazar.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Maximizando la Ganancia por Trabajo">
+
+Ganar más con los trabajos de clientes se trata de eficiencia, no solo de volumen. Los pequeños hábitos se acumulan en ingresos serios para tu taller.
+
+| Táctica de Ganancia | Cómo Ayuda | Impacto |
+|---|---|---|
+| Compras de piezas por lotes | Menos viajes de compras, menos tiempo muerto | ★★★★ |
+| Vender piezas retiradas | Los componentes viejos aún obtienen valor de chatarra | ★★ |
+| Punto de habilidad: descuento en tienda | 5%+ de descuento en cada pieza que compres | ★★★★ |
+| Punto de habilidad: examen más rápido | Diagnóstico más rápido en cada pedido | ★★★★ |
+| Ampliar el inventario de piezas | Piezas comunes a mano = reparaciones instantáneas | ★★★ |
+
+**Selecciones de habilidad recomendadas al inicio:**
+
+- **Examen de piezas más rápido** — acelera cada trabajo durante el resto del juego.
+- **Descuento en tienda** — aumenta directamente tu margen en cada pedido.
+- **Ampliación de inventario** — mantén en existencia artículos de alta rotación como discos de freno y filtros de aceite.
+
+<Callout type="warning" title="No Vendas Piezas que Aún Necesitas">
+Las piezas rotas sirven como referencia visual al pedir repuestos, y revender una pieza que debías reinstalar te cuesta el precio completo de retail para comprarla de nuevo. Solo deshazte de los componentes viejos después de que el pedido esté terminado.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Rutina Diaria de Trabajos">
+
+Ejecuta esta checklist en cada sesión de juego para mantener tu taller en marcha y tus ingresos en aumento.
+
+<Checklist
+  id="daily-job-routine"
+  title="Rutina de Sesión:"
+  items={[
+    "Acepta 2-3 trabajos de clientes acordes a tu nivel de habilidad",
+    "Inspecciona y marca todas las averías antes de desmontar",
+    "Pide todas las piezas de repuesto por lotes en un solo viaje",
+    "Completa todas las reparaciones marcadas y finaliza los pedidos",
+    "Vende las piezas de chatarra sobrantes y reabastece el inventario común",
+    "Gasta los nuevos puntos de habilidad en descuentos y velocidad"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué son los trabajos de clientes en Mechanic Legends?",
+    answer: "Los trabajos de clientes son pedidos de reparación realizados por clientes del juego. Aceptas un pedido, diagnosticas las averías del vehículo, compras piezas de repuesto, completas la reparación y devuelves el coche a cambio de dinero, XP y reputación."
+  },
+  {
+    question: "¿Por qué no puedo terminar un trabajo de cliente?",
+    answer: "La causa más común es una avería sin marcar u oculta. Vuelve a abrir la pantalla de estado del coche y compara la lista de averías con tus reparaciones completadas. Los trabajos posteriores pueden requerir pasos de diagnóstico adicionales más allá de la lista inicial."
+  },
+  {
+    question: "¿Debo vender las piezas viejas que retiro?",
+    answer: "Sí, pero solo después de completar el pedido. Las piezas viejas se venden por muy poco, pero sirven como referencia visual útil al pedir repuestos, y vender una pieza que aún necesitas significa recomprarla a precio completo."
+  },
+  {
+    question: "¿Qué trabajos de clientes son mejores para principiantes?",
+    answer: "Empieza con servicios de frenos, cambios de fluidos y reemplazos de un solo componente. Estos trabajos tienen listas de averías cortas, piezas baratas y entregas rápidas, lo que los hace ideales para aprender el bucle de reparación mientras acumulas capital."
+  }
+]} />
+
+</Section>

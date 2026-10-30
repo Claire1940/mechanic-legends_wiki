@@ -1,0 +1,186 @@
+import { Map, Wrench, Flame, DollarSign, Zap, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Car Upgrades: Turbos, Engines & Profit Guide",
+  description: "Learn how car upgrades work in Mechanic Legends: turbines, V6 engine swaps, radiators, temperature management, and profitable car flipping strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Car+Upgrades+Guide",
+  date: "2026-10-30",
+  author: "mechanic legends Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Car upgrades** in Mechanic Legends include turbines, engine swaps, radiators, and suspension tweaks
+- **Turbine costs 100,000 coins** and boosts acceleration but may not raise top speed alone
+- **Radiators (20,000 coins)** are mandatory for safe driving; cars overheat and explode at 160°
+- **Engine swaps reset parts**: swapping a 4-cylinder for a V6 wipes your installed upgrades
+- **Flipping junkyard cars** is the fastest way to fund your dream build
+</Callout>
+
+<Section icon={Wrench} title="Car Upgrades Overview: What You Can Modify">
+
+Car upgrades are the heart of progression in Mechanic Legends. Every vehicle you pull from the junkyard can be disassembled, repaired, repainted, and performance-tuned in your personal garage. The upgrade path determines whether a car stays a slow beater or becomes a street rocket.
+
+**Video Highlights:**
+- Working toward a 100,000-coin turbine for a rescued Pojo 206
+- Junkyard cars commonly lack radiators and overheat dangerously
+- Engine condition rises from 50% to 92% after full repairs
+- A turbine improved acceleration but top speed stayed at 196 km/h
+- Swapping to a V6 engine removed all previously installed parts
+
+<YouTubeEmbed videoId="QwSXLQ4MqOE" title="I UPGRADED MY CAR TO MAKE IT SUPER FAST IN ROBLOX!! (Mechanic Legends)" />
+
+The core upgrade categories break down as follows:
+
+| Upgrade | Approx. Cost | Effect | Priority |
+| --- | --- | --- | --- |
+| Engine repair | Varies | Restores power, raises engine condition % | ★★★★★ |
+| Battery charge | Low | Required to start the car | ★★★★★ |
+| Radiator | 20,000 coins | Prevents overheating and explosion | ★★★★★ |
+| Turbine/turbo | 100,000 coins | Much stronger acceleration | ★★★★ |
+| Engine swap (V6) | High | More power, resets installed parts | ★★★ |
+| Paint/bodywork | 10,000 coins | Cosmetic only, rarely adds resale value | ★★ |
+| Suspension lowering | Low | Cosmetic stance change | ★ |
+
+<Callout type="warning" title="Overheating Kills Builds">
+Cars without a radiator climb past 120° within moments of hard acceleration. At **160° the engine catches fire and the car explodes**, destroying every coin you invested. Drive gently and monitor the temperature gauge at all times.
+</Callout>
+
+</Section>
+
+<Section icon={DollarSign} title="Funding Your Upgrades: The Car Flipping Loop">
+
+Performance parts are expensive, and the turbine alone costs 100,000 coins. The proven money-making loop is buying wrecked junkyard cars, restoring their engines, and reselling them to the dealer.
+
+The economics observed from real flips:
+
+| Car | Purchase Cost | Extra Costs | Sale Price | Profit |
+| --- | --- | --- | --- | --- |
+| Corsa (engine only) | 5,000 | Battery + repairs | 9,600 | **+4,600** |
+| Gol (painted pink) | 5,000 | 10,000 paint + repairs | 14,600 | **-400** |
+| Third car (engine only) | 5,000 | Battery + repairs | 34,000 | **+29,000** |
+
+The numbers tell a clear story: expensive cosmetic work frequently eats your margin, while certain models command surprisingly high resale prices based purely on engine condition.
+
+<Callout type="tip" title="Skip the Paint Shop">
+Paint jobs cost 10,000 coins and added almost nothing to resale value in testing. Focus your budget on engine condition and battery work, then sell. Let the buyer worry about aesthetics.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Engine-Only Flips">
+  - **Best profit-to-cost ratio**
+  - Repair cylinder head and battery
+  - Resale often doubles your spend
+  </Card>
+  <Card title="Full Restorations">
+  - Highest sale ceiling
+  - Requires 15,000+ coins input
+  - Risky: profit margins shrink
+  </Card>
+  <Card title="Dream Build Savings">
+  - Bank profits toward the turbine
+  - Target 100,000 coins
+  - Avoid spending on cosmetics
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step: Build a Fast Car from Junk">
+
+<Steps>
+  <Step num="1" title="Hunt the Junkyard">
+  Browse the yard for a cheap chassis. Corsa and Gol models run about 5,000 coins. Check engine condition before buying; 50% life means repairs are needed.
+  </Step>
+  <Step num="2" title="Drive Home Carefully">
+  Most junkyard cars lack radiators. Keep speeds low, avoid long uphill pulls, and watch the temperature. Anything approaching 140° means lift off the throttle immediately.
+  </Step>
+  <Step num="3" title="Strip and Repair">
+  Remove all engine parts and the battery. Charge the battery, grind the cylinder head, and repair each component to push engine condition toward 90%+.
+  </Step>
+  <Step num="4" title="Reassemble and Test">
+  Reinstall everything, close the hood, and take a gentle test drive. A fully repaired engine reaches 80-100 km/h quickly without extreme temperature spikes.
+  </Step>
+  <Step num="5" title="Sell and Reinvest">
+  Deliver the car to the dealer. Reinvest profits into either more flips or the 100,000-coin turbine for your personal keeper car.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Dealer Prices Vary by Model">
+Identical 5,000-coin purchases sold for wildly different amounts: 9,600 for one car and 34,000 for another. The dealer appears to favor certain models, so experiment to find which cars command premiums on your server.
+</Callout>
+
+</Section>
+
+<Section icon={Flame} title="Temperature Management: The 160° Rule">
+
+Overheating is the single biggest threat to any build in Mechanic Legends. Every risky drive is a gamble with your total investment.
+
+| Temperature Range | Status | Recommended Action |
+| --- | --- | --- |
+| 90° and below | Safe | Normal driving |
+| 100-130° | Warning | Ease off throttle, avoid hills |
+| 130-155° | Critical | Stop and let it cool |
+| 160° | **Explosion** | Car catches fire, total loss |
+
+Without a radiator, even moderate acceleration sends temps soaring. Installing one costs 20,000 coins, which is only worthwhile on keeper cars you plan to drive hard, not on flips you are selling immediately.
+
+<Callout type="warning" title="Uphill Acceleration Is a Trap">
+Climbing hills at full throttle without a radiator spikes temperature faster than flat-road driving. If you must climb a bridge or incline, feather the throttle and accept the slower speed.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Turbines and Engine Swaps: Costly Lessons">
+
+The turbine is the marquee performance upgrade, but its behavior surprises many players. In testing, a turbocharged 4-cylinder Pojo launched dramatically harder off the line, yet its top speed stayed at **196 km/h**, just short of the 200 mark.
+
+Swapping the engine is even more consequential. Replacing the 4-cylinder with a V6 **removed every part installed on the previous engine**, including the turbine, forcing a full repurchase of components. Budget accordingly before committing to an engine swap.
+
+<Checklist
+  id="turbo-build-goals"
+  title="Before Buying a Turbine:"
+  items={[
+    "Save 100,000 coins from car flips",
+    "Install a radiator (20,000 coins) first",
+    "Verify engine condition is above 90%",
+    "Accept that turbine boosts acceleration, not top speed",
+    "Never swap engines after installing a turbine unless you can rebuy parts"
+  ]}
+/>
+
+<Callout type="success" title="Smart Upgrade Order">
+Radiator first, engine repairs second, turbine last. This order protects your investment at every stage and prevents the heartbreak of watching an overheated, turbocharged car explode before you ever enjoy it.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Do car upgrades like turbines increase top speed in Mechanic Legends?",
+    answer: "Not necessarily. In testing, a turbine dramatically improved acceleration and launch feel, but top speed remained at 196 km/h. Combining a turbine with a stronger engine like a V6 is the path to higher speeds."
+  },
+  {
+    question: "Why did my parts disappear after an engine swap?",
+    answer: "Swapping engines (for example, 4-cylinder to V6) removes all components installed on the old engine, including turbines and other upgrades. You must repurchase and reinstall everything for the new engine."
+  },
+  {
+    question: "Is installing a radiator worth 20,000 coins?",
+    answer: "Yes for keeper cars you plan to drive aggressively, since it prevents the 160° explosion. For junkyard flips you are selling quickly, skip it and let the buyer handle the cost."
+  },
+  {
+    question: "What is the fastest way to earn 100,000 coins for a turbine?",
+    answer: "Flip junkyard cars: buy cheap chassis around 5,000 coins, repair only the engine and battery, and sell to the dealer. Engine-only flips can net several thousand coins each, and certain models resell for far more."
+  }
+]} />
+
+</Section>

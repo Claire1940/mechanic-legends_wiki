@@ -10,7 +10,15 @@
       "twitterDescription": "Explore Mechanic Legends Wiki for car builds, tuning guides, repair tips, parts, races, updates, and Roblox gameplay help for every garage project."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "money": "Money",
+    "upgrades": "Upgrades",
+    "cars": "Cars",
+    "repair": "Repair",
+    "features": "Features"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -617,125 +625,187 @@
     "disclaimer": "Mechanic Legends Wiki is an independent fan-made website and is not affiliated with Roblox Corporation or Mechanic Devs. Mechanic Legends and related assets belong to their respective owners."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
-      },
-      "featured": "Featured & Essential",
+    "codes": {
+      "title": "Codes",
+      "description": "Active Mechanic Legends codes, redemption steps, and fixes for codes that fail to redeem.",
+      "metaTitle": "Mechanic Legends Codes (2026) - Free Rewards",
+      "metaDescription": "All working Mechanic Legends codes for free Cash, Spins, and rewards. Learn how to redeem codes in the Roblox car repair simulator and fix failed codes.",
+      "categoryLabel": "Codes",
+      "whatIs": "What Are Mechanic Legends Codes?",
+      "whatIsDescription": "Mechanic Legends codes are promotional codes released by Mechanic Devs that reward players with free Cash, Spins, and other in-game bonuses. Codes are time-limited, so this page tracks the latest redemption information and error fixes.",
+      "why": "Why Redeem Codes?",
+      "whySteps": [
+        {
+          "title": "Free Cash and Spins",
+          "description": "Codes grant rewards without grinding, giving your garage an early boost."
+        },
+        {
+          "title": "Faster Progression",
+          "description": "Extra Cash means earlier vehicle purchases and performance parts."
+        },
+        {
+          "title": "Zero Cost",
+          "description": "Redeeming a code takes seconds and never costs Robux or real money."
+        }
+      ],
+      "featured": "Featured Codes",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Guides",
+      "description": "Mechanic Legends guides for beginners and experienced players: progression, tips, and best strategies.",
+      "metaTitle": "Mechanic Legends Guide - Tips & Strategies",
+      "metaDescription": "Complete Mechanic Legends guide covering how to play, beginner progression, tips and tricks, and the best strategies for the Roblox car tuning simulator.",
+      "categoryLabel": "Guides",
+      "whatIs": "What Is the Mechanic Legends Guide Hub?",
+      "whatIsDescription": "This hub collects the essential Mechanic Legends guides: garage-to-road progression for new players, practical tips and tricks, and strategy walkthroughs covering repairs, tuning, jobs, and races.",
+      "why": "Why Follow Our Guides?",
+      "whySteps": [
+        {
+          "title": "Structured Progression",
+          "description": "Step-based paths take you from first garage visit to competitive races."
+        },
+        {
+          "title": "Avoid Wasted Cash",
+          "description": "Learn which vehicles and upgrades matter before you spend."
+        },
+        {
+          "title": "All Skill Levels",
+          "description": "Content ranges from first-time basics to advanced tuning strategy."
+        }
+      ],
+      "featured": "Featured Guides",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+    "money": {
+      "title": "Money",
+      "description": "Fast ways to make money in Mechanic Legends: repairs, deliveries, taxi work, and racing income routes.",
+      "metaTitle": "Mechanic Legends Money Guide - Earn Cash Fast",
+      "metaDescription": "Best ways to make money fast in Mechanic Legends. Compare repair jobs, deliveries, taxi work, and races to find the highest income route for your garage.",
+      "categoryLabel": "Money Guides",
+      "whatIs": "How Does Money Work in Mechanic Legends?",
+      "whatIsDescription": "Cash in Mechanic Legends comes from repair jobs, deliveries, taxi work, and races. Each activity has different startup costs, difficulty, and payout speed, so picking the right route for your current vehicle matters.",
+      "why": "Why Optimize Your Income?",
+      "whySteps": [
+        {
+          "title": "Buy Cars Sooner",
+          "description": "A faster income route means earlier dealership purchases."
+        },
+        {
+          "title": "Fund Performance Parts",
+          "description": "Tuning and engine upgrades require a steady Cash reserve."
+        },
+        {
+          "title": "Skip the Grind",
+          "description": "Choose activities with the best reward-to-time ratio for your stage."
+        }
+      ],
+      "featured": "Featured Money Guides",
+      "all": "All Money Guides"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
+    "upgrades": {
+      "title": "Upgrades",
+      "description": "Best upgrades in Mechanic Legends: engine parts, performance tuning, ECU, and upgrade priorities.",
+      "metaTitle": "Mechanic Legends Upgrades - Best Parts & Tuning",
+      "metaDescription": "Best upgrades in Mechanic Legends: engine parts, performance tuning, ECU buying, and upgrade priorities for acceleration, speed, and handling on all vehicles.",
+      "categoryLabel": "Upgrade Guides",
+      "whatIs": "What Are Upgrades in Mechanic Legends?",
+      "whatIsDescription": "Upgrades cover engine components, performance parts, ECU units, and tuning setups that change acceleration, top speed, and handling. Choosing upgrades that match your activity is more valuable than buying the most expensive parts.",
+      "why": "Why Plan Your Upgrades?",
+      "whySteps": [
+        {
+          "title": "Match Your Activity",
+          "description": "Drag racing, drifting, and jobs each reward different setups."
+        },
+        {
+          "title": "Control Your Budget",
+          "description": "Prioritized upgrades avoid wasting Cash on unused potential."
+        },
+        {
+          "title": "Test With Intent",
+          "description": "Change one part group at a time so every adjustment is measurable."
+        }
+      ],
+      "featured": "Featured Upgrade Guides",
+      "all": "All Upgrade Guides"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
+    "cars": {
+      "title": "Cars",
+      "description": "Mechanic Legends cars: best starters, dealership buying order, auctions, and customization options.",
+      "metaTitle": "Mechanic Legends Cars - Best Vehicles & Buying Order",
+      "metaDescription": "Every Mechanic Legends car explained: the best first car, dealership buying order, auction tips, and vehicle customization.",
+      "categoryLabel": "Car Guides",
+      "whatIs": "What Cars Are in Mechanic Legends?",
+      "whatIsDescription": "Mechanic Legends features 50+ cars across starter, work, performance, and collection roles. Each vehicle differs in price, condition, upgrade potential, and the activities it suits best, from deliveries to drag races.",
+      "why": "Why Compare Cars Before Buying?",
+      "whySteps": [
+        {
+          "title": "Protect Your Budget",
+          "description": "The right first car leaves Cash for repairs and essential parts."
+        },
+        {
+          "title": "Match Role to Use",
+          "description": "Work cars earn steadily; performance cars win races."
+        },
+        {
+          "title": "Plan Your Collection",
+          "description": "Long-term garage goals need deliberate purchase order."
+        }
+      ],
+      "featured": "Featured Car Guides",
+      "all": "All Car Guides"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
+    "repair": {
+      "title": "Repair",
+      "description": "Car repair in Mechanic Legends: fixing body parts, engine components, and running a repair shop.",
+      "metaTitle": "Mechanic Legends Repair Guide - Fix Cars & Body Parts",
+      "metaDescription": "How to repair cars in Mechanic Legends: body part fixes, engine component replacement, auto repair jobs, and customer repair shop workflows step by step.",
+      "categoryLabel": "Repair Guides",
+      "whatIs": "How Does Repair Work in Mechanic Legends?",
+      "whatIsDescription": "Repairing is the core loop of Mechanic Legends: inspect damaged vehicles, replace body parts and engine components in the workshop, and restore cars for customers or your own garage. Repair jobs are also the steadiest early income source.",
+      "why": "Why Master Repairs First?",
+      "whySteps": [
+        {
+          "title": "Steady Early Income",
+          "description": "Repair jobs pay consistently while you learn the workshop."
+        },
+        {
+          "title": "Workshop Familiarity",
+          "description": "Repair skills transfer directly to tuning and part swaps."
+        },
+        {
+          "title": "Protect Your Fleet",
+          "description": "Keeping your own cars repaired avoids performance penalties."
+        }
+      ],
+      "featured": "Featured Repair Guides",
+      "all": "All Repair Guides"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+    "features": {
+      "title": "Features",
+      "description": "Mechanic Legends features: Final Lap mode, customer jobs, repair shop, car parts, and customization.",
+      "metaTitle": "Mechanic Legends Features - Final Lap, Jobs & Customization",
+      "metaDescription": "Mechanic Legends features explained: Final Lap mode, customer jobs, repair shop management, car parts, vehicle customization, and which systems matter most.",
+      "categoryLabel": "Feature Guides",
+      "whatIs": "What Features Does Mechanic Legends Have?",
+      "whatIsDescription": "Beyond the core repair loop, Mechanic Legends includes Final Lap racing, customer jobs, repair shop management, a deep car parts catalog, and vehicle customization. Understanding each system helps you pick where to invest time and Cash.",
+      "why": "Why Learn Every Feature?",
+      "whySteps": [
+        {
+          "title": "Find Your Loop",
+          "description": "Features combine into different earning and racing playstyles."
+        },
+        {
+          "title": "Catch Every Update",
+          "description": "New versions add cars, parts, and modes that change strategy."
+        },
+        {
+          "title": "Use the Full Simulator",
+          "description": "Customization and shop systems reward deeper game knowledge."
+        }
+      ],
+      "featured": "Featured Features Guides",
+      "all": "All Features Guides"
     }
   }
 }

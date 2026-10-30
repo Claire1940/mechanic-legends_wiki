@@ -1,0 +1,169 @@
+import { Map, Wrench, Target, Trophy, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mechanic Legends Reparo de Peças de Carroceria: Guia de Restauração Passo a Passo",
+  description: "Aprenda a reparar e restaurar peças de carroceria no Mechanic Legends, desde a remoção de painéis até o diagnóstico de danos e o pedido de peças de reposição.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/b45309/fff?text=Body+Parts+Repair+Guide",
+  date: "2026-10-30",
+  author: "Equipe de Wiki do Mechanic Legends"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Repare peças de carroceria** inspecionando cada painel na visualização da garagem antes de pedir peças de reposição.
+- **Diagnostique primeiro**: Use o modo de exame para identificar ferrugem, amassados e painéis faltando.
+- **Peça com inteligência**: Compre peças de reposição somente após confirmar o componente danificado exato.
+- **A ordem de restauração importa**: Conserte os sistemas mecânicos antes de finalizar a funilaria para maior eficiência.
+- **Verificação final**: Faça um teste de estrada após cada restauração para confirmar a qualidade do reparo.
+</Callout>
+
+<Section icon={Map} title="Entendendo o Reparo de Peças de Carroceria no Mechanic Legends">
+
+Mechanic Legends é um jogo de simulação de restauração de carros e garagem. Uma parte essencial de cada projeto é aprender a **reparar peças de carroceria** — as portas, para-lamas, parachoque dianteiro, capôs e chassis que definem tanto a aparência do carro quanto seu valor de venda. Diferente dos componentes do motor, as peças de carroceria seguem um modelo de dano visível, tornando-as um dos sistemas mais intuitivos de dominar.
+
+A maioria dos projetos de restauração chega à sua garagem em más condições. Alguns painéis estão amassados, outros estão perfurados por ferrugem e alguns estão completamente faltando. O jogo recompensa o diagnóstico cuidadoso: substituir uma peça que você poderia ter reparado desperdiça dinheiro, enquanto ignorar danos ocultos reduz o preço final de venda.
+
+<CardGrid cols={3}>
+  <Card title="Dano Cosmético">
+    - **Amassados e arranhões**
+    - Reparável com ferramentas de funilaria
+    - Baixo custo, correção rápida
+  </Card>
+  <Card title="Dano por Ferrugem">
+    - **Corrosão progressiva**
+    - Muitas vezes exige substituição
+    - Reduz a condição da peça rapidamente
+  </Card>
+  <Card title="Peças Faltando">
+    - **Painéis inteiros ausentes**
+    - Devem ser pedidos novos
+    - Maior custo de substituição
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica Profissional">
+Sempre inspecione o carro no modo de exame antes de comprar qualquer coisa. Um relatório completo de danos evita gastos desnecessários com peças que parecem boas na superfície, mas escondem problemas estruturais.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Tipos de Dano e Condições das Peças de Carroceria">
+
+Cada painel de carroceria no Mechanic Legends tem uma classificação de condição que afeta o valor geral do carro. Entender as categorias de dano ajuda você a decidir entre reparar e substituir.
+
+| Peça de Carroceria | Dano Comum | Melhor Ação | Nível de Custo |
+|---|---|---|---|
+| Capô | Amassados, manchas de ferrugem | Reparar ou substituir | Médio |
+| Portas | Amassados, maçanetas faltando | Reparar, substituir se com ferrugem | Médio |
+| Parachoque Dianteiro | Trincas, ausência total | Substituir | Baixo-Médio |
+| Para-lamas | Ferrugem, amassados profundos | Substituir quando com ferrugem | Baixo |
+| Teto | Ferrugem superficial, amassados | Reparo preferido | Alto |
+| Tampa do Porta-malas | Amassados, problemas de alinhamento | Reparar | Médio |
+| Chassi | Ferrugem estrutural | Substituir na oficina | Alto |
+
+**Classificações de condição explicadas:**
+
+| Classificação | Efeito no Valor | Correção Recomendada |
+|---|---|---|
+| Excelente | **Valor total** | Nenhuma necessária |
+| Bom | Perda leve | Apenas polimento |
+| Desgastado | Perda perceptível | Reparo de painel |
+| Danificado | Perda grande | Reparar ou substituir |
+| Quebrado | Penalidade pesada | Substituição completa |
+
+<Callout type="warning" title="Atenção">
+A ferrugem se espalha em carros de projeto armazenados em partidas mais longas. Não deixe uma carroceria com ferrugem parada na sua garagem — remova e trate os painéis afetados cedo para proteger sua margem de lucro.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Fluxo de Trabalho de Reparo de Carroceria Passo a Passo">
+
+Siga esta sequência em cada projeto de restauração para o fluxo de trabalho mais eficiente. A ordem importa: o trabalho mecânico muitas vezes exige remover painéis de carroceria primeiro, então planeje com antecedência.
+
+<Steps>
+  <Step num="1" title="Examine o Veículo">
+    Entre no modo de exame e inspecione cada painel de carroceria. Anote quais peças estão amassadas, com ferrugem ou faltando, e monte um relatório completo de danos antes de tocar em qualquer ferramenta.
+  </Step>
+  <Step num="2" title="Remova os Painéis Danificados">
+    Desparafuse e remova qualquer painel programado para substituição. Remover peças de carroceria cedo também abre acesso aos componentes do compartimento do motor e da suspensão.
+  </Step>
+  <Step num="3" title="Repare ou Peça as Peças">
+    Para painéis reparáveis, use ferramentas de funilaria para corrigir amassados e tratar a ferrugem. Para peças quebradas ou faltando, peça reposições exatas compatíveis com o modelo do carro no catálogo de peças.
+  </Step>
+  <Step num="4" title="Instale e Pinte">
+    Monte os painéis novos ou reparados e, em seguida, aplique pintura e acabamento. Combinar a cor da carroceria em todos os painéis maximiza o valor final de venda.
+  </Step>
+  <Step num="5" title="Teste de Estrada e Venda">
+    Leve o carro restaurado para um test drive para confirmar que tudo está alinhado e funcionando, depois anuncie-o à venda com lucro máximo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Lembrete de Fluxo de Trabalho">
+Complete todos os reparos mecânicos antes da pintura final. Consertar um vazamento de motor depois de pintar o compartimento arrisca riscar sua funilaria recém-feita.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Reparar vs. Substituir: Comparação de Custos">
+
+Saber quando reparar versus quando substituir é a maior alavanca de lucro no trabalho de restauração de carroceria.
+
+| Situação | Reparar | Substituir | Melhor Escolha |
+|---|---|---|---|
+| Amassado leve na porta | Custo baixo | Custo maior | **Reparar** |
+| Ferrugem profunda no para-lama | Caro, temporário | Resultado limpo | **Substituir** |
+| Parachoque faltando | Não é possível | Necessário | **Substituir** |
+| Pintura do capô desgastada | Repintura barata | Custo da peça completa | **Reparar** |
+| Múltiplos painéis danificados | Demorado | Desconto em pacote | **Substituir** (pedido em volume) |
+
+<Callout type="tip" title="Regra de Orçamento">
+Se o custo do reparo ultrapassa aproximadamente metade do preço de uma peça nova, a substituição geralmente é o melhor investimento — especialmente para painéis exteriores, onde a perfeição visual impulsiona o preço de venda.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Marcos de Restauração">
+
+<Checklist
+  id="body-repair-goals"
+  title="Marcos de Restauração de Carroceria:"
+  items={[
+    "Complete um relatório completo de danos no modo de exame",
+    "Repare pelo menos cinco painéis amassados com ferramentas de funilaria",
+    "Peça e instale um kit completo de carroceria de reposição",
+    "Alcance uma pintura totalmente combinada em todos os painéis",
+    "Venda um carro restaurado com todas as peças de carroceria em condição Excelente"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Como faço para reparar peças de carroceria no Mechanic Legends?",
+    answer: "Use o modo de exame para identificar painéis danificados e, em seguida, aplique ferramentas de reparo de carroceria para corrigir amassados e ferrugem superficial. Peças severamente danificadas ou faltando devem ser pedidas como reposição no catálogo de peças e instaladas manualmente."
+  },
+  {
+    question: "Devo reparar ou substituir um painel de carroceria com ferrugem?",
+    answer: "A ferrugem superficial geralmente pode ser tratada e reparada, mas a corrosão profunda enfraquece a peça e retorna com o tempo. Se os custos de reparo se aproximam da metade do preço de um painel novo, a substituição é a melhor escolha a longo prazo."
+  },
+  {
+    question: "A condição da carroceria afeta o preço de venda?",
+    answer: "Sim. Cada peça de carroceria tem uma classificação de condição que vai de Excelente a Quebrado, e cada classificação ajusta o valor geral do carro. Uma carroceria totalmente restaurada com pintura combinada maximiza seu lucro em cada venda."
+  },
+  {
+    question: "Em que ordem devo reparar peças de carroceria e peças mecânicas?",
+    answer: "Remova primeiro os painéis de carroceria danificados para abrir acesso ao compartimento do motor e à suspensão, complete todos os reparos mecânicos e, por fim, finalize com a instalação dos painéis, pintura e acabamento."
+  }
+]} />
+
+</Section>

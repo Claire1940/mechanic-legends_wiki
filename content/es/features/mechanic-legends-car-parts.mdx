@@ -1,0 +1,175 @@
+import { Map, Wrench, Cog, Gauge, Trophy, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Piezas de Coche en Mechanic Legends: Tipos, Usos y Guía de Mejoras",
+  description: "Aprende cómo funcionan las piezas de coche en Mechanic Legends: componentes de motor, mejoras de carreras, neumáticos, suspensión y las mejores prioridades de ajuste para cada configuración.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1c1917/f97316?text=Car+Parts+Guide",
+  date: "2026-10-30",
+  author: "Equipo de Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Las **piezas de coche de Mechanic Legends** incluyen componentes de motor, mejoras de carreras, neumáticos, ruedas y suspensión
+- El **trabajo de motor** se realiza componente por componente: retira una pieza, instala el reemplazo, repite
+- Las **piezas de rendimiento** funcionan mejor como una configuración completa, no como mejoras aisladas
+- **Combina las piezas con tu actividad**: las carreras de aceleración, el drift, las entregas y la exploración favorecen configuraciones distintas
+- **Prueba después de cada cambio** para saber exactamente qué pieza mejoró tu vehículo
+</Callout>
+
+<Section icon={Cog} title="Descripción General de las Piezas: Qué Hace Cada Categoría">
+
+Las piezas de coche de Mechanic Legends se dividen en categorías distintas, y cada una afecta a tu vehículo de manera diferente. Los componentes del motor determinan la aceleración y la velocidad máxima, la suspensión y las ruedas moldean el manejo, y las piezas orientadas a las carreras impulsan el coche hacia una conducción competitiva. Comprender el papel de cada categoría es el primer paso para construir un vehículo que se adapte a tu estilo de juego.
+
+El juego presenta **más de 50 vehículos** con desmontaje completo del motor, reemplazo de piezas, sistemas de ajuste y personalización, lo que te da una amplia libertad para mezclar y combinar componentes en tu garaje.
+
+| Categoría de Pieza | Efecto Principal | Ideal Para | Prioridad |
+| --- | --- | --- | --- |
+| Componentes del motor | Aceleración, velocidad máxima | Carreras de aceleración, mejoras generales | ★★★★★ |
+| Piezas de carreras | Rendimiento competitivo | Carreras, eventos | ★★★★★ |
+| Suspensión | Manejo, altura de marcha, postura | Drift, curvas | ★★★★ |
+| Ruedas y neumáticos | Agarre, control, apariencia | Todas las actividades | ★★★★ |
+| Carrocería y pintura | Personalización visual | Configuraciones de estilo, colección | ★★★ |
+
+<Callout type="tip" title="Comienza con la Inspección">
+Antes de cambiar cualquier pieza, inspecciona el vehículo e identifica los componentes dañados, faltantes o de menor rendimiento. Una inspección completa separa el trabajo de reparación de las mejoras de rendimiento y evita cambios de piezas innecesarios.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Piezas del Motor: Flujo de Trabajo de Desmontaje y Reemplazo">
+
+El trabajo del motor en Mechanic Legends se maneja componente por componente. Seleccionas la pieza del motor que necesita servicio, la retiras mediante la interacción del taller e instalas el reemplazo, luego continúas revisando los componentes restantes hasta que el motor esté restaurado o mejorado.
+
+<Steps>
+  <Step num="1" title="Lleva el vehículo al taller">
+    Entra al área del taller con el vehículo que deseas mejorar y abre los menús de motor y componentes del vehículo.
+  </Step>
+  <Step num="2" title="Inspecciona cada componente del motor">
+    Identifica las piezas dañadas, faltantes o de menor rendimiento antes de tocar nada. Esta línea base hace que las comparaciones posteriores sean significativas.
+  </Step>
+  <Step num="3" title="Retira el componente seleccionado">
+    Elige la pieza del motor que necesita servicio y usa la interacción del taller para retirarla.
+  </Step>
+  <Step num="4" title="Instala la pieza de reemplazo">
+    Coloca el nuevo componente y luego continúa revisando las piezas restantes del motor una por una.
+  </Step>
+  <Step num="5" title="Prueba y refina">
+    Saca el coche a la carretera y prueba la respuesta de arranque, la aceleración y la velocidad máxima. Cambia un grupo de piezas a la vez para que cada ajuste sea fácil de entender.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Error Común">
+Trabaja en el vehículo de manera sistemática en lugar de saltar entre componentes no relacionados. Saltar de un lado a otro en el motor pierde tiempo y dificulta saber qué pieza resolvió el problema.
+</Callout>
+
+</Section>
+
+<Section icon={Gauge} title="Piezas de Carreras: Combinando Mejoras con el Tipo de Carrera">
+
+Las piezas de coche orientadas a las carreras son más efectivas cuando se seleccionan como una configuración completa en lugar de mejoras aisladas. Una configuración de aceleración, una de drift y una de carreras multijugador exigen cosas distintas de tus componentes.
+
+<CardGrid cols={3}>
+  <Card title="Configuración de Aceleración">
+    - **Prioriza el rendimiento del motor y la aceleración**
+    - Vehículo estable que se mantiene recto al arrancar
+    - Pocas concesiones de manejo en circuitos rectos
+  </Card>
+  <Card title="Configuración de Drift">
+    - **Manejo predecible sobre la velocidad máxima**
+    - Respuesta clara a la dirección y el acelerador
+    - Configuración que se recupera fácilmente cuando la parte trasera se desliza
+  </Card>
+  <Card title="Configuración Equilibrada">
+    - **Aceleración y manejo equilibrados**
+    - Confiabilidad para exploración y carreteras mixtas
+    - Más fácil de controlar durante trabajos y viajes
+  </Card>
+</CardGrid>
+
+| Enfoque de Configuración | Piezas Clave | Fortaleza | Debilidad |
+| --- | --- | --- | --- |
+| Enfoque en velocidad | Mejoras de motor, componentes de carreras | Rectas largas, carreras de aceleración | Débil en curvas |
+| Enfoque en aceleración | Piezas orientadas al arranque | Arranques rápidos, salidas repetidas | Menor velocidad máxima |
+| Enfoque en manejo | Suspensión, neumáticos, ruedas | Drift, curvas, carreteras con muchas correcciones | Más lento en rectas |
+
+<Callout type="success" title="Consejo de Configuración">
+Para las carreras multijugador, prepara tanto una configuración enfocada en velocidad como una equilibrada en manejo. Las rutas combinan rectas y curvas, y probar ambas configuraciones antes de competir te dice cuál reacciona mejor bajo presión.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Piezas y Dinero: Mejorar con un Presupuesto Limitado">
+
+Las piezas cuestan Dinero, y los errores de gasto al principio ralentizan tu progreso. Repara el vehículo hasta una condición utilizable antes de invertir en piezas de rendimiento, y destina tus primeras ganancias a la fiabilidad y el control en lugar de la velocidad máxima.
+
+| Etapa | Prioridad de Gasto en Piezas | Enfoque Recomendado |
+| --- | --- | --- |
+| Inicio del juego | Condición, funcionalidad básica | Trabajos de reparación, trabajos estándar |
+| Inicio-medio del juego | Manejo, aceleración básica | Entregas, tareas de taxi |
+| Medio del juego | Durabilidad, rendimiento de viaje | Vehículos de trabajo fiables |
+| Medio-final del juego | Aceleración, velocidad máxima | Carreras y eventos |
+
+<Callout type="tip" title="Regla de Reinversión">
+Usa las recompensas iniciales para mejorar la fiabilidad y el control antes de perseguir la velocidad máxima. Un vehículo confiable genera ganancias constantes; una configuración de carreras con poca potencia pierde más de lo que gana.
+</Callout>
+
+<Checklist
+  id="parts-upgrade-goals"
+  title="Lista de Verificación de Mejoras de Piezas:"
+  items={[
+    "Inspecciona todos los componentes del motor antes de cualquier mejora",
+    "Repara el vehículo hasta una condición de funcionamiento completa",
+    "Combina las piezas de carreras con tu actividad principal",
+    "Prueba el arranque, la aceleración y el manejo después de cada cambio",
+    "Reserva suficiente Dinero para reparaciones"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes sobre Selección de Piezas">
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son las principales categorías de piezas de coche en Mechanic Legends?",
+    answer: "Las piezas de coche de Mechanic Legends incluyen componentes de motor, piezas de rendimiento orientadas a carreras, suspensión, ruedas y neumáticos, y artículos de personalización de carrocería o pintura. Cada categoría afecta un aspecto diferente de la aceleración, la velocidad máxima, el manejo o la apariencia."
+  },
+  {
+    question: "¿Debo reparar o mejorar las piezas primero?",
+    answer: "Siempre restaura el vehículo a una condición utilizable primero. Un vehículo dañado reduce la eficiencia, dificulta los trabajos iniciales y desperdicia el dinero gastado en piezas de rendimiento que no pueden funcionar correctamente."
+  },
+  {
+    question: "¿Qué piezas son más importantes para las carreras de aceleración?",
+    answer: "Las piezas de rendimiento del motor y de aceleración son la máxima prioridad, junto con una configuración estable que mantenga el coche apuntando recto durante el arranque. Las concesiones de manejo importan menos en circuitos mayormente rectos."
+  },
+  {
+    question: "¿Cómo sé si una mejora de piezas realmente funcionó?",
+    answer: "Cambia un grupo de piezas a la vez y prueba el vehículo en la carretera después de cada cambio. Compara la respuesta de arranque, la aceleración, la velocidad máxima y la estabilidad de la dirección con tu línea base de inspección."
+  }
+]} />
+
+</Section>
+
+<Section icon={Map} title="Dónde Seguir Nuevas Piezas y Actualizaciones">
+
+Las actualizaciones pueden cambiar cómo funcionan las piezas, añadir nuevos componentes y alterar el equilibrio entre aceleración, velocidad y manejo. Cuando aparezca una nueva versión, revisa la [página oficial del juego en Roblox](https://www.roblox.com/games/9265443535/Car-Mechanic-Simulator), compara la descripción actual con tu configuración anterior y vuelve a probar las configuraciones de carrera establecidas.
+
+| Área de Actualización | Qué Revisar | Impacto en el Jugador |
+| --- | --- | --- |
+| Nuevas piezas y funciones de ajuste | Trabajo de motor, reemplazo de piezas, componentes de carreras | El equilibrio entre velocidad, aceleración y manejo puede cambiar |
+| Adiciones de vehículos | Vehículos recién disponibles | Nuevas opciones para carreras, drift o trabajos |
+| Trabajos y recompensas | Recompensas de reparación, entrega y taxi | Tu mejor ruta de farmeo puede cambiar |
+| Actividades de carreras | Nuevos tipos de carrera, contenido de drift | Diferentes configuraciones pueden volverse óptimas |
+
+<Callout type="warning" title="Vuelve a Probar Después de las Actualizaciones">
+Revisa tus vehículos existentes después de cualquier actualización. Los cambios en las piezas y el ajuste pueden alterar silenciosamente el rendimiento de una configuración antigua, así que repite el flujo básico de taller y prueba en carretera antes de tu próxima carrera.
+</Callout>
+
+</Section>

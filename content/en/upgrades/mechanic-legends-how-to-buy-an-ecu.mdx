@@ -1,0 +1,161 @@
+import { Map, Wrench, Target, Trophy, ShoppingCart, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mechanic Legends How to Buy an ECU: Step-by-Step Guide",
+  description: "Learn how to buy an ECU in Mechanic Legends, where to find the parts store, engine compatibility tips, and how to install it correctly.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Buy+an+ECU+Guide",
+  date: "2026-10-30",
+  author: "mechanic legends Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **How to buy an ECU**: Visit the auto parts store, browse the engine electronics section, and match the part to your engine code.
+- **Compatibility matters**: Always read the part description before clicking buy, ECUs are engine-specific.
+- **Installation**: Open the engine bay, remove the old unit, install the new ECU, and verify the engine runs.
+- **Cost control**: Keep at least $500 in reserve so a wrong purchase does not bankrupt you.
+- **Resale note**: Replacing a broken ECU is usually worth it, a running engine dramatically raises sell price.
+</Callout>
+
+<Section icon={Map} title="Where the ECU Fits in Mechanic Legends">
+
+In Mechanic Legends, your core gameplay loop is buying junk cars from the junkyard, repairing them, and flipping them for profit. The ECU (Engine Control Unit) is one of the electronic components that can fail on a junk car, preventing the engine from running properly. Understanding how to buy an ECU is essential because a car with a dead ECU will not start, and Alfredo, the buyer, pays far less for non-running vehicles.
+
+The parts supply chain in the game runs through the auto parts store (the large shop stocked with fluids, engine parts, and consumables). Everything you need for a repair — from coolant and engine oil to spark plug wires and electronics — is purchased there with in-game cash.
+
+<Callout type="warning" title="Read Before You Buy">
+Every purchase button in the parts store is final. Players have accidentally spent huge sums on the wrong component by clicking without reading the part description first. Always confirm the engine code matches before buying an ECU.
+</Callout>
+
+</Section>
+
+<Section icon={ShoppingCart} title="Step-by-Step: How to Buy an ECU">
+
+Follow this sequence every time you need a replacement ECU for a repair project. The process mirrors buying any engine part in Mechanic Legends.
+
+<Steps>
+  <Step num="1" title="Diagnose the Fault">
+    Open the engine bay at a mechanic shop and inspect the components. Identify whether the ECU is missing, worn, or damaged. Checking part condition first tells you exactly what to shop for.
+  </Step>
+  <Step num="2" title="Check Your Engine Code">
+    Note your engine family (for example, the S50 series for an E36 M3-style build). Parts in the store are organized by engine series, and buying the wrong series wastes money.
+  </Step>
+  <Step num="3" title="Travel to the Parts Store">
+    Walk or drive to the auto parts store. If driving a car with an overheating engine, keep the temperature under 120°C, or shut the engine off and coast to avoid destroying it.
+  </Step>
+  <Step num="4" title="Find the Correct Section and Read the Label">
+    Locate the section matching your engine family and read the item description carefully. Confirm it lists your engine code and the price fits your budget before clicking buy.
+  </Step>
+  <Step num="5" title="Collect and Install">
+    Purchased parts spawn at the pickup area (except fluids like oil and coolant, which are dispensed separately). Carry the ECU back to your car, install it, and start the engine to verify the repair.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Budget Rule">
+Never spend your last dollar on parts. Keep a cash buffer of at least $500 after any parts run. If you drain your account, the weekly emergency stipend is your only lifeline until it resets.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="ECU Purchase Costs and Considerations">
+
+Pricing in Mechanic Legends scales with the engine family. Generic four-cylinder parts are cheap, while performance engine components cost significantly more. The table below summarizes what to keep in mind before each ECU purchase.
+
+| Factor | What to Check | Why It Matters |
+| --- | --- | --- |
+| Engine code | Match part label to engine family | Wrong part cannot be installed and wastes cash |
+| Part condition | Compare new vs. current wear | New parts help engines run "perfect" |
+| Budget buffer | Keep $500+ after purchase | Prevents bankruptcy mid-project |
+| Resale impact | Running engine raises sell price | Broken ECU tanks Alfredo's offer |
+| Upgrade value | Performance parts vs. stock | Upgrades generally do not raise resale value |
+
+<CardGrid cols={3}>
+  <Card title="Budget Junker Builds">
+    - Generic engine parts
+    - Low upfront cost
+    - Best for early flipping
+  </Card>
+  <Card title="Performance Engines">
+    - Engine-specific components
+    - Higher part prices
+    - Suited for personal cars
+  </Card>
+  <Card title="Repair Flips">
+    - Only buy what is broken
+    - Stock parts are enough
+    - Maximize profit margin
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Profit Insight">
+High-value junkyard cars sell for the biggest margins. If a cheap ECU restore brings an expensive car back to life, the repair cost is almost always recovered many times over at sale.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Installation Tips and Common Mistakes">
+
+Installing the ECU is straightforward, but the surrounding repair workflow is where players lose money. These practices keep your repair smooth:
+
+- **Clean parts first**: Blocks, heads, and exhaust manifolds go in the machine grinder; most other components go in the sink. Cleaned parts return to 0% wear.
+- **Replace wear items**: New spark plug wires and related electrical components help push the engine toward a "perfect" running condition.
+- **Watch the temperature gauge**: Above roughly 120°C, shut the car off immediately. Overheating can destroy the engine and erase your investment.
+- **Skip the gas for flips**: If a car is only being repaired and sold, do not fill the tank. Fuel is expensive and adds nothing to the resale price.
+- **Do not lose parts**: Carrying loose components between locations risks dropping them. Install parts promptly rather than stacking them on roofs or workbenches.
+
+<Callout type="warning" title="Blown Engine Math">
+If a project engine explodes, weigh the replacement cost against simply selling the car as-is. Alfredo accepts incomplete cars, and a new engine block often costs more than the car's remaining value.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="ECU Shopping Checklist">
+
+Run through this checklist on every repair before you leave the parts store:
+
+<Checklist
+  id="ecu-shopping"
+  title="Before You Leave the Store:"
+  items={[
+    "Confirmed ECU matches the engine code",
+    "Read the price and description before buying",
+    "Purchased coolant and engine oil if fluids are low",
+    "Kept at least $500 cash reserve",
+    "Picked up all spawned parts at the collection point"
+  ]}
+/>
+
+</Section>
+
+<Section icon={HelpCircle} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Can I buy an ECU from the dealership instead?",
+    answer: "No. The dealership sells whole cars, not individual components. All parts purchases, including the ECU, happen at the auto parts store organized by engine family."
+  },
+  {
+    question: "Do I need an ECU for every junkyard car?",
+    answer: "Only if the original unit is missing, broken, or excessively worn. Inspect the engine bay first and buy only what is actually damaged to protect your profit margin."
+  },
+  {
+    question: "Will upgrading the ECU increase my resale price?",
+    answer: "Upgrades generally do not improve resale value in Mechanic Legends. For flip builds, stock replacement parts are the most cost-effective choice. Save performance parts for personal vehicles."
+  },
+  {
+    question: "What happens if I buy the wrong ECU?",
+    answer: "Purchases are final, so the cash is spent. An incompatible part cannot be installed on the wrong engine. Always read the label and match the engine code before clicking buy."
+  },
+  {
+    question: "How do I get money back if I go broke buying parts?",
+    answer: "The emergency money system provides a stipend of $3,000 each week if your account runs dry. Plan purchases carefully so you never have to rely on it."
+  }
+]} />
+
+</Section>

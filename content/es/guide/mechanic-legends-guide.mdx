@@ -1,0 +1,184 @@
+import { Map, Wrench, DollarSign, Trophy, Target, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Mechanic Legends: Dinero, Coches y Reparaciones",
+  description: "Domina Mechanic Legends con esta guía: compra coches del desguace, repáralos y véndelos con ganancia, ajusta motores y elige la mejor estrategia inicial.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b45309/fff?text=Mechanic+Legends+Guide",
+  date: "2026-10-30",
+  author: "Equipo de Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El ciclo central de la **guía de Mechanic Legends**: compra coches dañados baratos, repáralos y véndelos con ganancia.
+- **Mejor jugada inicial**: vende tu coche inicial gratuito por **25,000 en efectivo** y compra mejores hallazgos en el desguace.
+- **Regla de ganancia**: siempre compara el precio de compra con el **costo estimado de reparación** antes de comprar.
+- **Ubicaciones clave**: Desguace, Subasta de Garajes, Concesionario, Parts Direct, Gasolinera y Tienda de Pintura.
+- **Bono gratuito**: únete al grupo de Roblox del juego para obtener **5,000 en efectivo gratis**.
+</Callout>
+
+<Section icon={Wrench} title="Ciclo de Juego Principal: Cómo Funciona Mechanic Legends">
+
+Mechanic Legends es un tycoon de Roblox sobre reventa de coches donde aceptas trabajos de clientes, reparas y modificas coches, y coleccionas vehículos raros. La jugabilidad central gira en torno a llevar los coches al límite hasta que necesiten reparaciones, para luego restaurarlos y revenderlos o añadirlos a tu colección personal.
+
+**Lo Destacado del Video:**
+- Recorrido completo de compras en el desguace y restauración de coches
+- Cómo inspeccionar el daño con la herramienta de llave antes de comprar
+- Montaje de neumáticos y cambio de llantas con la máquina divisora
+- Estrategia del coche inicial y bonos de efectivo gratis explicados
+
+<YouTubeEmbed videoId="xV5xg1tYKmE" title="Mechanic Legends Guide! (Codes, Get RICH FAST, Tips & Tricks) ROBLOX" />
+
+Hay tres formas principales de ganar dinero, y cada una se adapta a un estilo de juego distinto:
+
+| Método | Cómo Funciona | Potencial de Ganancia | Nivel de Riesgo |
+|---|---|---|---|
+| Trabajos de Clientes | Acepta trabajos de reparación, arregla coches de clientes | Ingresos estables y fiables | Bajo |
+| Reventa de Coches | Compra coches de desguace, repara y revende | Alto en buenos hallazgos | Medio |
+| Subasta de Garajes | Compra un garaje para obtener un coche aleatorio | Varía muchísimo | Alto (estilo apuesta) |
+
+<Callout type="tip" title="Empieza con los Trabajos de Clientes">
+Si eres completamente nuevo, haz primero trabajos de reparación para clientes. Generan tu reserva de efectivo con bajo riesgo antes de que empieces a arriesgar en la subasta o en inversiones del desguace.
+</Callout>
+
+</Section>
+
+<Section icon={DollarSign} title="Cómo Ganar Dinero Rápido">
+
+El dinero es la columna vertebral de todo en Mechanic Legends. Ya sea que quieras coleccionables raros o un coche personal ajustado, primero necesitas capital.
+
+<CardGrid cols={3}>
+  <Card title="Subasta de Garajes">
+  - **Obtienes coches aleatorios**
+  - Puede ser pésimo o extremadamente raro
+  - Estilo apuesta, alta variabilidad
+  - Solo recomendable con efectivo de sobra
+  </Card>
+  <Card title="Reventa en el Desguace">
+  - **Mejor método de ganancia**
+  - El stock se renueva aproximadamente cada 12 minutos
+  - Inspecciona la condición antes de comprar
+  - Compara el costo de reparación con el valor de mercado
+  </Card>
+  <Card title="Concesionario">
+  - **Coches completamente nuevos**
+  - Precios fijos, sin daños
+  - Ideal para un coche personal de conserva
+  - Menor margen de ganancia para reventa
+  </Card>
+</CardGrid>
+
+El desguace es donde se gana el dinero de verdad. Al interactuar con un coche del desguace (mantén E), puedes ver sus piezas dañadas, la condición general, el estimado de reparación y el valor de mercado. La matemática es simple:
+
+| Escenario | Precio de Compra | Reparaciones Est. | Ganancia Potencial | Veredicto |
+|---|---|---|---|---|
+| Chatarra sobrevalorada | 22,000 | 3,300 | Muy ajustada | Omitir |
+| Hallazgo económico | 6,000 | 1,000 | Margen saludable | **Comprar** |
+| Venta del coche inicial | Gratis | N/A | +25,000 | **Vender de inmediato** |
+
+<Callout type="warning" title="Revisa Primero el Estimado de Reparación">
+Nunca compres un coche del desguace sin verificar el costo estimado de reparación. Un precio de compra barato no significa nada si las reparaciones consumen todo el margen. Un coche con reparación de 1,000 monedas a menudo supera a un deslumbrante desecho de 20,000 monedas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Paso a Paso: Reparar y Revender un Coche">
+
+El flujo de trabajo completo de restauración lleva un coche desde chatarra hasta condición de sala de exposición. Sigue estos pasos en orden para el retorno más rápido:
+
+<Steps>
+  <Step num="1" title="Compra en el Desguace">
+    Interactúa con un coche (mantén E), revisa las piezas dañadas, la condición y el estimado de reparación. Elige coches con costos de reparación bajos en relación con su valor de mercado, y luego llévalo a tu garaje.
+  </Step>
+  <Step num="2" title="Eleva e Inspecciona">
+    Pon el coche en el elevador y abre el maletero. Saca tu llave para resaltar cada componente dañado — batería, radiador, intercooler, colector de escape y más.
+  </Step>
+  <Step num="3" title="Repara y Pule las Piezas">
+    Carga o cambia la batería, pule las piezas dañadas hasta el 100% y reinstala todo. Pasa el cursor sobre cada pieza para confirmar si necesita reemplazo o solo limpieza.
+  </Step>
+  <Step num="4" title="Maneja Neumáticos y Llantas">
+    Usa la máquina divisora: quita un neumático, divídelo, cambia la llanta si lo deseas, luego vuelve a montarlo e instalarlo. Este proceso no se cubre en el tutorial, así que practícalo una vez con un coche barato.
+  </Step>
+  <Step num="5" title="Pinta y Vende">
+    Despinta y repinta el coche — nadie compra un coche feo. Cuesta dinero por adelantado, pero la recuperación del valor de reventa lo convierte en una inversión, no en un gasto. Luego véndelo con ganancia.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Luz del Motor Apagada Significa Listo">
+Una vez completadas las reparaciones, la luz del motor se apaga — esa es tu señal de que el coche está mecánicamente en buen estado y listo para pintura y reventa.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ubicaciones Clave que Debes Conocer">
+
+El mapa de Mechanic Legends contiene varias paradas esenciales. Saber dónde está cada una te ahorra mucho tiempo en cada reventa.
+
+| Ubicación | Función | Notas |
+|---|---|---|
+| Desguace | Comprar coches dañados | El stock se renueva aproximadamente cada 12 minutos |
+| Concesionario | Comprar coches nuevos | Precios fijos, condición impecable |
+| Subasta de Garajes | Obtención de coches aleatorios | Alto riesgo, alta recompensa |
+| Parts Direct | Comprar motores y piezas | Teletransportador disponible para viaje rápido |
+| Gasolinera | Repostar coches | Esencial cuando los coches se quedan sin combustible |
+| Tienda de Pintura | Repintar vehículos | Cuesta dinero pero aumenta el atractivo de reventa |
+| Dealer Route | Cambios de neumáticos y llantas | Usa las máquinas divisora y montadora |
+
+<Callout type="tip" title="Usa el Teletransportador">
+El teletransportador cerca de Parts Direct te permite cruzar el mapa rápidamente. Úsalo cada vez que necesites mejoras de motor o piezas durante una reparación, en lugar de conducir por toda la ciudad.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejoras, Ajustes y Coches Raros">
+
+Más allá de la reventa, Mechanic Legends te permite personalizar y coleccionar. El menú de Pedidos de Piezas ofrece modificaciones y opciones de ajuste, con remapeos supuestamente en camino para que los coches suenen mejor y vayan más rápido. Instalar un motor potente de Parts Direct transforma un coche económico en un auténtico deportivo.
+
+<Checklist
+  id="ml-goals"
+  title="Objetivos de Progresión:"
+  items={[
+    "Vende tu coche inicial por 25,000 en efectivo",
+    "Únete al grupo de Roblox para 5,000 en efectivo gratis",
+    "Completa tu primera reventa completa del desguace",
+    "Domina la máquina divisora de neumáticos",
+    "Instala un motor de alto rendimiento",
+    "Encuentra y restaura un coche coleccionable raro"
+  ]}
+/>
+
+<Callout type="info" title="Conserva los Buenos">
+Algunos hallazgos del desguace se conducen tan bien que venderlos se siente como una pérdida. Es completamente válido conservar una restauración genuinamente rápida como tu coche personal y revender hallazgos más baratos en su lugar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Debo vender mi coche inicial en Mechanic Legends?",
+    answer: "Sí. El coche inicial gratuito tiene un rendimiento débil, y venderlo te da 25,000 en efectivo de inmediato — suficiente para comprar un mejor hallazgo del desguace y aún tener fondos para reparaciones. Reinvierte ese dinero en un coche que realmente quieras conservar."
+  },
+  {
+    question: "¿Con qué frecuencia se reabastece el desguace?",
+    answer: "El inventario del desguace se renueva aproximadamente cada 12 minutos, introduciendo un nuevo lote de coches dañados. Vuelve a revisar en cada renovación y busca estimados de reparación bajos en relación con el valor de mercado."
+  },
+  {
+    question: "¿Vale la pena la Subasta de Garajes?",
+    answer: "Es esencialmente una apuesta — puedes obtener un coche pésimo o uno extremadamente raro. Solo gasta allí cuando tengas un flujo de efectivo estable gracias a los trabajos de clientes y la reventa en el desguace. Los jugadores nuevos deberían evitarla al principio."
+  },
+  {
+    question: "¿Dónde reparo neumáticos y cambio llantas?",
+    answer: "Dirígete a la zona de Dealer Route. Eleva el coche, quita el neumático, colócalo en la divisora, cambia la llanta si lo deseas, vuelve a montar el neumático y reinstala el conjunto. El tutorial no enseña esto, así que vale la pena practicarlo una vez."
+  }
+]} />
+
+</Section>

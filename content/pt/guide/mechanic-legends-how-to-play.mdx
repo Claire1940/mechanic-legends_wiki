@@ -1,0 +1,192 @@
+import { Map, Wrench, Trophy, Target, Coins, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mechanic Legends Como Jogar: Dicas para Iniciantes e Guia de Dinheiro",
+  description: "Aprenda a jogar Mechanic Legends: compre carros de ferro-velho, diagnostique danos, repare peças, repinte e revenda veículos com lucro no Roblox.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/b45309/fff?text=Mechanic+Legends+How+to+Play",
+  date: "2026-10-30",
+  author: "Equipe do Wiki Mechanic Legends"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mechanic Legends como jogar** começa com consertar e revender carros com lucro no Roblox.
+- **Melhor jogada inicial**: Venda seu carro inicial gratuito (~25.000) e entre no grupo para receber **5.000 de dinheiro bônus**.
+- **Ciclo principal**: Compre carros baratos no ferro-velho, repare as peças danificadas, repinte e venda com margem de lucro.
+- **Verifique os custos de reparo primeiro**: Reparos estimados acima de ~3.000 geralmente eliminam sua margem de lucro.
+- **Use a máquina de separação de pneus**: O tutorial nunca explica a máquina de rodas/pneus, mas ela desbloqueia a personalização completa das rodas.
+</Callout>
+
+<Section icon={Wrench} title="Mechanic Legends Como Jogar: O Básico">
+
+Mechanic Legends é um tycoon de reparo de carros no Roblox onde você aceita trabalhos de clientes, restaura achados de ferro-velho e personaliza veículos até deixá-los brilhando. O ciclo de gameplay principal é simples: adquira um carro, diagnostique os danos, repare cada peça, deixe-o bonito e venda por mais do que gastou. Dominar esse ciclo é a diferença entre se virar e enriquecer rápido.
+
+**Destaques do Vídeo:**
+- Passo a passo completo das fontes de carros: leilão, concessionária e ferro-velho
+- Desmontagem ao vivo mostrando como inspecionar baterias, radiadores e coletores de escapamento
+- Demonstração da máquina de separação de pneus e montagem de rodas, não coberta pelo tutorial do jogo
+- Estratégia de venda do carro inicial e explicação do bônus de dinheiro por entrar no grupo
+
+<YouTubeEmbed videoId="xV5xg1tYKmE" title="Mechanic Legends Guide! (Codes, Get RICH FAST, Tips & Tricks) ROBLOX" />
+
+Existem três maneiras principais de ganhar dinheiro, e cada uma serve para uma fase diferente de progressão:
+
+| Método | Como Funciona | Nível de Risco | Ideal Para |
+| --- | --- | --- | --- |
+| Trabalhos de clientes | Repare e modifique carros de clientes, leve as peças ao limite | Baixo | Renda inicial estável |
+| Revenda de ferro-velho | Compre carros danificados baratos, recondicione, revenda | Médio | Acumular capital |
+| Garagem de leilão | Compre uma garagem por um carro aleatório, pode ser sucata ou raro | Alto | Apostadores e dinheiro de fim de jogo |
+
+<Callout type="tip" title="Comece com Trabalhos de Clientes">
+Trabalhos de clientes não têm risco de compra e ensinam todas as mecânicas de reparo. Faça-os até ter capital suficiente para começar a revenda de ferro-velho com conforto.
+</Callout>
+
+</Section>
+
+<Section icon={Coins} title="Onde Conseguir Carros">
+
+Sua primeira grande decisão em Mechanic Legends é onde obter os veículos. Cada local do mapa serve para um propósito e nível de orçamento diferente.
+
+<CardGrid cols={3}>
+  <Card title="Garagem de Leilão">
+    - **Chances de carro aleatório**
+    - Risco alto, recompensa alta
+    - Possíveis pulls raros
+    - Melhor com dinheiro sobrando
+  </Card>
+  <Card title="Concessionária">
+    - **Carros zero quilômetro**
+    - Preços fixos e conhecidos
+    - Ótimo para um carro para guardar
+    - Sem danos ocultos
+  </Card>
+  <Card title="Ferro-velho">
+    - **Estoque mais barato**
+    - Atualiza aproximadamente a cada 12 minutos
+    - Mostra condição e estimativas de reparo
+    - Núcleo do ciclo de revenda
+  </Card>
+</CardGrid>
+
+Antes de comprar qualquer carro do ferro-velho, segure E para inspecioná-lo. O painel de interação mostra as peças danificadas, a condição geral e o custo estimado de reparo. Compare essa estimativa com o valor de mercado do carro, porque um carro de 20.000 que precisa de apenas 1.000 em reparos é uma compra muito melhor do que um de 22.000 que precisa de 3.300 em consertos.
+
+| Fator de Inspeção | O Que Procurar | Sinal Verde | Sinal Vermelho |
+| --- | --- | --- | --- |
+| Reparos estimados | Custo total do conserto | Abaixo de **1.000** | Acima de **3.000** |
+| Valor de mercado | Preço de venda pós-reparo | Bem acima do custo + reparos | Margem fina ou negativa |
+| Tipo de dano | Quais peças estão quebradas | Cosmético ou peça única | Motor ou componente principal |
+| Rótulo de condição | Status geral listado | Desgaste leve | Estados "completamente destruído" |
+
+<Callout type="warning" title="Faça as Contas Antes de Comprar">
+Sempre subtraia os reparos estimados do valor de mercado antes de comprar. Muitos carros de ferro-velho parecem baratos, mas mal empatam, ou até dão prejuízo, após uma restauração completa.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Passo a Passo: Reparando e Revendendo um Carro">
+
+Assim que você tem um carro danificado, o fluxo de restauração segue um padrão repetível. Leve-o até sua garagem, coloque no elevador e trabalhe em cada componente danificado com sua chave de roda em mãos.
+
+<Steps>
+  <Step num="1" title="Diagnostique no ferro-velho">
+    Segure E em um carro candidato para ver os danos, a condição e os custos estimados de reparo. Compre apenas carros com uma margem de lucro saudável.
+  </Step>
+  <Step num="2" title="Levante e inspecione em sua garagem">
+    Leve o carro para sua garagem, levante-o no elevador e abra o porta-malas. Passe a chave de roda sobre cada peça para ver exatamente o que precisa ser consertado, de baterias a danos no intercooler.
+  </Step>
+  <Step num="3" title="Repare e pola cada peça">
+    Carregue ou troque a bateria, pole as peças danificadas como o coletor de escapamento de volta a 100% e faça a limpeza profunda dos componentes quando a opção aparecer. Fique de olho na luz do motor, ela deve apagar quando os reparos estiverem completos.
+  </Step>
+  <Step num="4" title="Repinte e faça o acabamento">
+    Ninguém compra um carro feio. Remova a pintura antiga na estação de pintura e aplique uma cor nova. Isso custa dinheiro adiantado, mas é um investimento que você recupera na venda.
+  </Step>
+  <Step num="5" title="Venda com lucro">
+    Leve o carro pronto até o ponto de venda e receba o dinheiro. Reinvista o lucro em um achado melhor no ferro-velho e repita o ciclo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Melhorias no Pedido de Peças">
+Antes de vender, confira o menu de pedido de peças para opções de modificações e ajustes. Remapeamentos e melhorias de desempenho levam os carros além dos limites de fábrica e podem aumentar o apelo de revenda.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Pneus, Rodas e Locais-Chave do Mapa">
+
+A máquina de pneus é a única mecânica que o tutorial ignora completamente, mas ela desbloqueia a personalização total das rodas. Veja como funciona: levante o carro com o macaco, retire um pneu, coloque-o na máquina de separação e separe o pneu da roda. Depois você pode comprar uma roda nova, montar o pneu nela e colocar a roda montada direto de volta no carro. Misturar e combinar pneus e rodas é simples assim quando você conhece a máquina.
+
+Além da garagem, vários locais do mapa mantêm seu negócio funcionando:
+
+| Local | Propósito | Dica |
+| --- | --- | --- |
+| Posto de gasolina | Reabastecer tanques vazios | Manutenção quase gratuita, nunca pule |
+| Parts Direct | Comprar motores e componentes | Use o teletransporte para viajar mais rápido |
+| Rota de pneus do dealer | Trocar pneus e rodas | Requer a máquina de separação |
+| Loja de pintura | Remover pintura e repintar carros | Custa dinheiro, recuperado na venda |
+| Ponto de venda | Despachar carros prontos | Compare o preço vs. seu gasto total |
+
+<Callout type="info" title="Motores Potentes São um Caminho de Melhoria">
+A Parts Direct estoca uma ampla variedade de motores. Trocar por um motor mais potente transforma um carro de revenda medíocre em uma máquina genuinamente rápida, e às vezes em um exemplar que vale a pena guardar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estratégia de Dinheiro para Iniciantes e Checklist">
+
+Jogadores novos devem seguir uma sequência específica para maximizar o dinheiro inicial. Primeiro, venda seu carro inicial por cerca de 25.000 — ele, sinceramente, não é muito bom, e o dinheiro é melhor gasto em outro lugar. Segundo, entre no grupo do jogo para um bônus gratuito de 5.000. Terceiro, faça trabalhos de clientes enquanto aprende as mecânicas de reparo, e depois passe para a revenda de ferro-velho com o capital acumulado.
+
+| Fase | Ação | Resultado Esperado |
+| --- | --- | --- |
+| Minuto 1 | Vender o carro inicial | **~25.000** de dinheiro inicial |
+| Minuto 2 | Entrar no grupo | **+5.000** de bônus grátis |
+| Início do jogo | Trabalhos de clientes | Renda estável, prática de habilidade |
+| Meio do jogo | Revendas de ferro-velho | Lucro composto por carro |
+| Fim do jogo | Leilão + raros | Chance de pulls de carros raros |
+
+<Checklist
+  id="mechanic-legends-startup"
+  title="Metas da Sua Primeira Sessão:"
+  items={[
+    "Venda o carro inicial por ~25.000 em dinheiro",
+    "Entre no grupo e receba o bônus de 5.000",
+    "Complete pelo menos três trabalhos de reparo de clientes",
+    "Compre, restaure completamente e venda um carro do ferro-velho",
+    "Aprenda a usar a máquina de separação de pneus e monte uma roda personalizada"
+  ]}
+/>
+
+<Callout type="tip" title="Fique com os Bons">
+Algumas revendas acabam sendo carros genuinamente rápidos e divertidos. Se um veículo restaurado dirige melhor que qualquer outro na sua garagem, ficá-lo é uma escolha válida — aproveitar o jogo importa mais do que espremer cada última moeda.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Como jogar Mechanic Legends sendo iniciante?",
+    answer: "Comece vendendo seu carro inicial gratuito por cerca de 25.000, entre no grupo para um bônus de 5.000 e faça trabalhos de reparo de clientes. Quando estiver confortável, passe para a revenda de ferro-velho: compre carros danificados baratos, repare tudo, repinte e venda com lucro."
+  },
+  {
+    question: "Devo vender meu carro inicial em Mechanic Legends?",
+    answer: "Sim, para a maioria dos jogadores. O carro inicial tem desempenho fraco, e o preço de venda de aproximadamente 25.000 financia achados muito melhores no ferro-velho ou um carro de concessionária que você realmente queira guardar."
+  },
+  {
+    question: "Como funciona a máquina de separação de pneus?",
+    answer: "Levante o carro com o macaco, retire um pneu, coloque-o na máquina para separar o pneu da roda, compre uma roda nova se quiser, monte o pneu nela e prenda a roda montada de volta no carro. O tutorial do jogo não ensina isso, então pratique manualmente."
+  },
+  {
+    question: "Por que estou mal tendo lucro com carros do ferro-velho?",
+    answer: "Você provavelmente está comprando carros com custos de reparo estimados altos. Sempre segure E para inspecionar o carro primeiro e evite qualquer um em que os reparos passem de aproximadamente 3.000 ou em que o valor de mercado deixe apenas uma margem fina após os custos."
+  }
+]} />
+
+</Section>

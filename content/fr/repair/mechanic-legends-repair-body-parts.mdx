@@ -1,0 +1,169 @@
+import { Map, Wrench, Target, Trophy, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mechanic Legends Réparer les pièces de carrosserie : Guide de restauration étape par étape",
+  description: "Apprenez à réparer et restaurer les pièces de carrosserie dans Mechanic Legends, du démontage des panneaux au diagnostic des dégâts et à la commande de pièces de rechange.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Body+Parts+Repair+Guide",
+  date: "2026-10-30",
+  author: "Équipe Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Réparez les pièces de carrosserie** en inspectant chaque panneau dans la vue garage avant de commander des pièces de rechange.
+- **Diagnostiquez d'abord** : utilisez le mode examen pour identifier la rouille, les bosses et les panneaux manquants.
+- **Commandez intelligemment** : n'achetez des pièces de rechange qu'après avoir confirmé le composant endommagé exact.
+- **L'ordre de restauration compte** : réparez les systèmes mécaniques avant de terminer la carrosserie pour plus d'efficacité.
+- **Vérification finale** : faites un essai routier après chaque restauration pour confirmer la qualité de la réparation.
+</Callout>
+
+<Section icon={Map} title="Comprendre la réparation des pièces de carrosserie dans Mechanic Legends">
+
+Mechanic Legends est un jeu de simulation de restauration de voitures et de garage. Une partie essentielle de chaque projet consiste à apprendre à **réparer les pièces de carrosserie** — les portes, les ailes, les pare-chocs, les capots et les châssis qui définissent à la fois l'apparence d'une voiture et sa valeur de vente. Contrairement aux composants du moteur, les pièces de carrosserie suivent un modèle de dégâts visible, ce qui en fait l'un des systèmes les plus intuitifs à maîtriser.
+
+La plupart des projets de restauration arrivent à votre garage en mauvais état. Certains panneaux sont bosselés, d'autres rongés par la rouille, et d'autres manquent entièrement. Le jeu récompense un diagnostic minutieux : remplacer une pièce que vous auriez pu réparer gaspille de l'argent, tandis qu'ignorer des dégâts cachés réduit le prix de vente final.
+
+<CardGrid cols={3}>
+  <Card title="Dégâts cosmétiques">
+    - **Bosses et rayures**
+    - Réparables avec les outils de carrosserie
+    - Coût faible, correction rapide
+  </Card>
+  <Card title="Dégâts dus à la rouille">
+    - **Corrosion progressive**
+    - Nécessite souvent un remplacement
+    - Dégrade rapidement l'état de la pièce
+  </Card>
+  <Card title="Pièces manquantes">
+    - **Panneaux entièrement absents**
+    - Doivent être commandés neufs
+    - Coût de remplacement le plus élevé
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Astuce de pro">
+Inspectez toujours la voiture en mode examen avant d'acheter quoi que ce soit. Un rapport de dégâts complet évite les dépenses inutiles sur des pièces qui semblent en bon état en surface mais cachent des problèmes structurels.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Types de dégâts et états des pièces de carrosserie">
+
+Chaque panneau de carrosserie dans Mechanic Legends possède une note d'état qui affecte la valeur globale de la voiture. Comprendre les catégories de dégâts vous aide à choisir entre réparer et remplacer.
+
+| Pièce de carrosserie | Dégâts courants | Meilleure action | Niveau de coût |
+|---|---|---|---|
+| Capot | Bosses, taches de rouille | Réparer ou remplacer | Moyen |
+| Portes | Bosses, poignées manquantes | Réparer, remplacer si rouillées | Moyen |
+| Pare-chocs avant | Fissures, absence totale | Remplacer | Faible-Moyen |
+| Ailes | Rouille, bosses profondes | Remplacer en cas de rouille | Faible |
+| Toit | Rouille superficielle, bosses | Réparation préférée | Élevé |
+| Coffre | Bosses, problèmes d'alignement | Réparer | Moyen |
+| Châssis | Rouille structurelle | Remplacer à l'atelier | Élevé |
+
+**Explication des notes d'état :**
+
+| Note | Effet sur la valeur | Correction recommandée |
+|---|---|---|
+| Excellent | **Valeur totale** | Aucune nécessaire |
+| Bon | Perte mineure | Detailing uniquement |
+| Usé | Perte notable | Réparation du panneau |
+| Endommagé | Perte majeure | Réparer ou remplacer |
+| Cassé | Forte pénalité | Remplacement complet |
+
+<Callout type="warning" title="Attention">
+La rouille se propage sur les voitures stockées lors des parties longues. Ne laissez pas une carrosserie rouillée stagner dans votre garage — démontez et traitez les panneaux affectés tôt pour protéger votre marge bénéficiaire.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Processus de réparation de carrosserie étape par étape">
+
+Suivez cette séquence sur chaque projet de restauration pour un flux de travail optimal. L'ordre compte : les travaux mécaniques exigent souvent de retirer d'abord les panneaux de carrosserie, alors planifiez à l'avance.
+
+<Steps>
+  <Step num="1" title="Examiner le véhicule">
+    Entrez en mode examen et inspectez chaque panneau de carrosserie. Notez quelles pièces sont bosselées, rouillées ou manquantes, et établissez un rapport de dégâts complet avant de toucher au moindre outil.
+  </Step>
+  <Step num="2" title="Retirer les panneaux endommagés">
+    Dévissez et retirez tous les panneaux destinés au remplacement. Retirer les pièces de carrosserie tôt facilite aussi l'accès au compartiment moteur et aux composants de suspension.
+  </Step>
+  <Step num="3" title="Réparer ou commander des pièces">
+    Pour les panneaux réparables, utilisez les outils de carrosserie pour corriger les bosses et traiter la rouille. Pour les pièces cassées ou manquantes, commandez des rechanges exacts correspondant au modèle de voiture dans le catalogue de pièces.
+  </Step>
+  <Step num="4" title="Installer et peindre">
+    Montez les panneaux neufs ou réparés, puis appliquez la peinture et le detailing. Une couleur de carrosserie harmonisée sur tous les panneaux maximise la valeur de vente finale.
+  </Step>
+  <Step num="5" title="Essai routier et vente">
+    Emmenez la voiture restaurée pour un essai afin de confirmer que tout est aligné et fonctionnel, puis mettez-la en vente pour un profit maximal.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Rappel de flux de travail">
+Terminez toutes les réparations mécaniques avant la peinture finale. Réparer une fuite de moteur après avoir peint le compartiment risque de rayer votre carrosserie toute neuve.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Réparer ou remplacer : comparaison des coûts">
+
+Savoir quand réparer plutôt que remplacer est le levier de profit le plus important dans les travaux de restauration de carrosserie.
+
+| Situation | Réparation | Remplacement | Meilleur choix |
+|---|---|---|---|
+| Légère bosse sur une porte | Coût faible | Coût plus élevé | **Réparer** |
+| Rouille profonde sur une aile | Coûteux, temporaire | Résultat propre | **Remplacer** |
+| Pare-chocs manquant | Impossible | Nécessaire | **Remplacer** |
+| Peinture de capot usée | Repeinte peu coûteuse | Coût de la pièce complète | **Réparer** |
+| Plusieurs panneaux endommagés | Chronophage | Remise sur commande groupée | **Remplacer** (commande en gros) |
+
+<Callout type="tip" title="Règle budgétaire">
+Si le coût d'une réparation dépasse environ la moitié du prix d'une pièce neuve, le remplacement est généralement le meilleur investissement — surtout pour les panneaux extérieurs où la perfection visuelle fait le prix de vente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste des étapes clés de la restauration">
+
+<Checklist
+  id="body-repair-goals"
+  title="Étapes clés de la restauration de carrosserie :"
+  items={[
+    "Établir un rapport de dégâts complet en mode examen",
+    "Réparer au moins cinq panneaux bosselés avec les outils de carrosserie",
+    "Commander et installer un kit de carrosserie de remplacement complet",
+    "Obtenir une peinture parfaitement harmonisée sur tous les panneaux",
+    "Vendre une voiture restaurée avec toutes les pièces de carrosserie en état Excellent"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Comment réparer les pièces de carrosserie dans Mechanic Legends ?",
+    answer: "Utilisez le mode examen pour identifier les panneaux endommagés, puis appliquez les outils de réparation de carrosserie pour corriger les bosses et la rouille superficielle. Les pièces gravement endommagées ou manquantes doivent être commandées en remplacement dans le catalogue de pièces et installées manuellement."
+  },
+  {
+    question: "Faut-il réparer ou remplacer un panneau de carrosserie rouillé ?",
+    answer: "La rouille superficielle peut généralement être traitée et réparée, mais la corrosion profonde fragilise la pièce et revient avec le temps. Si le coût de la réparation approche la moitié du prix d'un panneau neuf, le remplacement est le meilleur choix à long terme."
+  },
+  {
+    question: "L'état de la carrosserie affecte-t-il le prix de vente ?",
+    answer: "Oui. Chaque pièce de carrosserie porte une note d'état allant d'Excellent à Cassé, et chaque note ajuste la valeur globale de la voiture. Une carrosserie entièrement restaurée avec une peinture harmonisée maximise votre profit à chaque vente."
+  },
+  {
+    question: "Dans quel ordre faut-il réparer les pièces de carrosserie et les pièces mécaniques ?",
+    answer: "Retirez d'abord les panneaux de carrosserie endommagés pour accéder au compartiment moteur et à la suspension, terminez toutes les réparations mécaniques, puis finissez par l'installation des panneaux, la peinture et le detailing."
+  }
+]} />
+
+</Section>

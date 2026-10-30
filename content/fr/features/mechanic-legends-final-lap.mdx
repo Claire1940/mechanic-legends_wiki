@@ -1,0 +1,155 @@
+import { Map, Trophy, Target, Flag, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mechanic Legends Final Lap : Résumé de l'histoire et courses clés",
+  description: "Un résumé fan de l'arc Mechanic Legends Final Lap : le retour de Joe Blackwood, le duel sur la route de montagne et la Velocity Rookie Cup.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Final+Lap+Recap",
+  date: "2026-10-30",
+  author: "Équipe Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Mechanic Legends Final Lap** raconte le retour de Joe Blackwood, de simple homme à tout faire de garage à entraîneur en chef.
+- **Identité cachée** : Joe est fortement suggéré comme étant la légende disparue John Blackwood.
+- **Arc clé** : le duel en trois manches sur la route de montagne contre les Flying Riders.
+- **Grande récompense** : Grace, Ryan et Daniel balayent le podium de la Velocity Rookie Cup.
+- **Meilleur moment** : la course record de Joe sur simulateur contre l'équipe Cauldron.
+</Callout>
+
+<Section icon={Map} title="Aperçu de l'histoire Final Lap">
+
+L'arc **Mechanic Legends Final Lap** transforme un atelier de réparation tranquille en centre du monde de la course. Joe, un mécanicien qui a passé cinq ans à faire des courses pour la famille Langford, est propulsé sous les projecteurs lorsque les Flying Riders, la troisième équipe professionnelle du pays, complotent pour s'emparer de la route de montagne privée de la station via une escroquerie de réparation montée de toutes pièces.
+
+Quand la négociation échoue, le conflit se règle de la seule façon que connaissent les pilotes : un duel au meilleur des trois manches sur la montagne elle-même. La conduite impossible de Joe — des passages de bouteilles à fond, un parcours d'œufs impeccable sur trois roues et un dépassement au dernier tour face au pilote national Chris Ryder — révèle que ce « dégraisseur » n'a rien d'ordinaire.
+
+<CardGrid cols={3}>
+  <Card title="Manche 1 : Les bouteilles">
+    - **Compétence testée** : maîtrise et contrôle de la voiture
+    - Chris Ryder marque **23/16 touches**
+    - Joe l'emporte avec un passage parfait **en dérapage total**
+  </Card>
+  <Card title="Manche 2 : Les œufs">
+    - **Compétence testée** : précision et mémoire
+    - 20 œufs, sans en écraser un seul
+    - Joe réussit **sur trois roues** sans la moindre fissure
+  </Card>
+  <Card title="Manche 3 : La vitesse">
+    - **Finale en tête-à-tête** sur la route de montagne
+    - Joe bat Chris d'environ **10 secondes**
+    - La route est sauvée pour les Langford
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Pourquoi le Final Lap compte">
+Le dernier tour est le tournant de l'arc : il offre à Grace une chance de passer professionnelle, expose les politiques douteuses des Flying Riders et ramène Joe vers la course après cinq ans de silence.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Personnages clés et motivations">
+
+| Personnage | Rôle | Détail clé |
+| --- | --- | --- |
+| Joe Blackwood | Mécanicien / légende cachée | Suggéré comme étant **John Blackwood**, retraité après un accident tragique |
+| Grace Langford | Débutante prometteuse | Élève dévouée du style de conduite de John Blackwood |
+| Chris Ryder | Chef des Flying Riders | Classé **28e** au niveau national ; propose un contrat à Joe, puis un chemin à Grace |
+| Alan | « Dieu de la vitesse » | Quintuple champion obsédé par l'idée d'affronter Joe à nouveau |
+| Daniel | Pilote local | Gagne au Ridge Circuit ; sort de la route à la manche 3 par excès de confiance |
+| Marcus | Tricheur de l'équipe Cauldron | Banni pour dopage ; triche lors du match sur simulateur |
+
+<Callout type="warning" title="Pas qu'une simple rivalité">
+L'obsession d'Alan n'est pas de l'ego — il a été témoin de la première course de John Blackwood et a bâti toute sa carrière à la poursuite de ce rival, seulement pour que John disparaisse avant qu'ils puissent s'affronter.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="La tragédie derrière la retraite">
+
+Le refus de Joe de courir à nouveau remonte à un accident dévastateur : il courait contre son petit frère lorsque celui-ci a forcé trop fort dans un virage, a fait une sortie de route et a trouvé la mort dans la collision. Joe s'en veut et a totalement quitté le sport, ne revenant que pour honorer le rêve de son frère de remporter le trophée Serial.
+
+C'est pourquoi Joe entraîne au lieu de compétitionner. Il obtient trois places de recommandation d'Alan, entraîne les frères et sœurs Langford et Daniel sur des cartes de simulateur, et accepte le poste d'entraîneur en chef de la nouvelle équipe nationale d'Alan — le même rôle pour lequel les Flying Riders se sont moqués de lui.
+
+<Steps>
+  <Step num="1" title="Le duel de la montagne">
+    Joe défend la route de la station à travers trois manches aux défis croissants.
+  </Step>
+  <Step num="2" title="Le coup des recommandations">
+    Joe entre dans le club d'Alan et en ressort avec **trois places pour la Velocity Cup**.
+  </Step>
+  <Step num="3" title="La guerre du simulateur">
+    Face à la triche de Cauldron, Joe bat le record virtuel de John Blackwood.
+  </Step>
+  <Step num="4" title="La Rookie Cup">
+    Grace prend **la première place** ; Ryan et Daniel terminent deuxième et troisième.
+  </Step>
+</Steps>
+
+<Callout type="success" title="La révélation">
+Après la victoire des débutants, Joe admet enfin son passé — le style de conduite, la manœuvre signature du virage en Z et le nom qui correspond au champion disparu le confirment : Joe Blackwood est John Blackwood.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Théories de fans et points de discussion">
+
+<CardGrid cols={2}>
+  <Card title="Joe = John Blackwood">
+    - Même technique signature du **virage en Z**
+    - Grace remarque tôt la similitude des noms
+    - Alan le traite comme un rival à son niveau
+  </Card>
+  <Card title="Pourquoi Alan a besoin de Joe">
+    - Chaque titre sonne creux sans avoir battu John
+    - Il a assisté à la course de début de John dans sa jeunesse
+    - Veut que la rivalité pour le trophée Serial se règle sur la piste
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Indices pour une suite">
+L'« intérêt professionnel » de Marcus, la scène internationale du Serial Rally et la demi-promesse de Joe d'affronter un jour Alan préparent tous le prochain arc.
+</Callout>
+
+</Section>
+
+<Section icon={Flag} title="Checklist et FAQ">
+
+<Checklist
+  id="final-lap-milestones"
+  title="Étapes clés de l'arc Final Lap :"
+  items={[
+    "Défi des bouteilles remporté par le run de dérapage de Joe",
+    "Parcours de précision des œufs réussi sur trois roues",
+    "Finale de montagne gagnée contre Chris Ryder",
+    "Trois recommandations pour la Velocity Cup obtenues d'Alan",
+    "Triplé sur le podium de la Rookie Cup par l'équipe du garage",
+    "Identité de Joe comme John Blackwood révélée"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "De quoi parle Mechanic Legends Final Lap ?",
+    answer: "C'est l'arc narratif où la légende cachée Joe Blackwood défend la route de montagne d'une station familiale contre les Flying Riders, puis entraîne trois débutants vers un balayage du podium de la Velocity Rookie Cup."
+  },
+  {
+    question: "Joe Blackwood est-il vraiment John Blackwood ?",
+    answer: "Oui. Son virage en Z signature, son rythme record sur simulateur et son propre aveu après la Rookie Cup confirment qu'il est le champion disparu il y a cinq ans à la suite de l'accident mortel de son frère."
+  },
+  {
+    question: "Pourquoi les Flying Riders voulaient-ils la route de montagne ?",
+    answer: "L'escroquerie de réparation montée et la demande de compensation de 10 millions étaient un piège. L'équipe voulait un accès exclusif à la route de montagne privée de la station pour s'entraîner."
+  },
+  {
+    question: "Comment l'arc se termine-t-il ?",
+    answer: "Grace, Ryan et Daniel remportent les trois premières places de la Velocity Rookie Cup, déclinent l'offre des Flying Riders et rejoignent la nouvelle équipe nationale d'Alan avec Joe comme entraîneur en chef."
+  }
+]} />
+
+</Section>

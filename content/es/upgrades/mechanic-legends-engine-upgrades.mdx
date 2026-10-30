@@ -1,0 +1,188 @@
+import { Map, Wrench, Target, Trophy, Gauge, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mejoras de Motor en Mechanic Legends: Guía de Afinación y Configuración de Piezas",
+  description: "Aprende cómo funcionan las mejoras de motor en Mechanic Legends: retirada de componentes, piezas de carreras, equilibrio de afinación y el mejor orden de mejora para carreras de aceleración y drifting.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/ea580c/fff?text=Engine+Upgrades+Guide",
+  date: "2026-10-30",
+  author: "Equipo de Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Las **mejoras de motor en Mechanic Legends** se manejan pieza por pieza en el taller, no como una única compra.
+- **Primero reparar, después mejorar**: un motor dañado sabotea cada pieza de rendimiento que instales.
+- **Adapta las piezas a la actividad**: las carreras de aceleración favorecen la aceleración, el drifting favorece un manejo predecible.
+- **Prueba después de cada cambio** para saber exactamente qué mejora benefició a tu configuración.
+- **Las configuraciones completas superan a las piezas aisladas**: los componentes de carreras funcionan mejor como un paquete coordinado.
+</Callout>
+
+<Section icon={Wrench} title="Cómo Funcionan las Mejoras de Motor en Mechanic Legends">
+
+Mechanic Legends trata el trabajo del motor como un proceso práctico de taller. Inspeccionas el vehículo, retiras el componente existente, instalas un reemplazo y repites hasta que el motor esté restaurado o mejorado. Cada característica de rendimiento de tu coche — la aceleración, la velocidad máxima y cómo se comporta en las carreras — está moldeada por las piezas que eliges y por cómo trabajan juntas.
+
+El sistema de taller separa dos tareas diferentes que muchos jugadores nuevos confunden:
+
+| Tarea | Objetivo | Cuándo Hacerlo |
+| --- | --- | --- |
+| Reparación de motor | Restaurar componentes dañados o faltantes | Antes de cualquier mejora de rendimiento |
+| Mejora de motor | Reemplazar piezas de serie por componentes de mayor rendimiento | Después de que el vehículo esté totalmente funcional |
+| Piezas de carreras | Especializar el coche hacia drag, drift o competición | Cuando los ingresos sean estables |
+
+<Callout type="warning" title="Repara Antes de Mejorar">
+Instalar componentes de carreras en un motor dañado es desperdiciar dinero. Un vehículo en mal estado reduce la eficiencia y dificulta completar las actividades tempranas. Restaura primero la funcionalidad completa y luego invierte en rendimiento.
+</Callout>
+
+Puedes confirmar los sistemas de juego actuales en la [página oficial del juego en Roblox](https://www.roblox.com/games/9265443535/Car-Mechanic-Simulator), donde el desarrollador describe las funciones de desmontaje de motor, afinación y carreras a lo largo del catálogo de más de 50 vehículos.
+
+</Section>
+
+<Section icon={Gauge} title="Orden de Mejora del Motor: Flujo de Taller Paso a Paso">
+
+Sigue esta secuencia de taller para cualquier vehículo que planees mejorar. El orden importa — saltarte la inspección conduce a cambios de piezas innecesarios, y saltarte las pruebas te deja adivinando qué mejora realmente ayudó.
+
+<Steps>
+  <Step num="1" title="Inspecciona Antes de Cambiar Piezas">
+    Lleva el vehículo al taller y revisa los componentes de motor y vehículo disponibles. Identifica las piezas dañadas, faltantes o de menor rendimiento antes de tocar nada. Esta línea base hace que cada comparación posterior sea significativa.
+  </Step>
+  <Step num="2" title="Retira y Reemplaza Componentes del Motor">
+    Selecciona el componente que necesita servicio, retira la pieza existente mediante la interacción del taller e instala el reemplazo. Trabaja componente por componente a lo largo del motor hasta que esté completamente restaurado.
+  </Step>
+  <Step num="3" title="Instala Piezas Orientadas a Carreras">
+    Con el motor en buen estado, instala piezas de rendimiento que se ajusten a tu actividad prevista. Prioriza las mejoras de motor para velocidad en línea recta y aceleración, y evita sacrificar demasiado el control en rutas con curvas.
+  </Step>
+  <Step num="4" title="Equilibra Velocidad, Aceleración y Manejo">
+    Afiná la configuración según el entorno: orientada a la velocidad para rectas largas, orientada a la aceleración para salidas y arranques repetidos, orientada al manejo para drifting y curvas.
+  </Step>
+  <Step num="5" title="Prueba y Refina">
+    Saca el coche a la carretera después de cada cambio importante. Prueba la respuesta de arranque, la aceleración y la estabilidad de la dirección. Cambia un grupo de piezas a la vez para que el efecto de cada ajuste siga siendo legible.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo Profesional: Un Cambio a la Vez">
+Si cambias la admisión, el escape y los neumáticos simultáneamente y el coche se siente peor, no puedes saber qué pieza lo causó. Agrupa cambios relacionados, prueba y luego ajusta — este hábito convierte el ensayo y error en un método de afinación fiable.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Configuraciones de Afinación por Tipo de Actividad">
+
+Ninguna ruta de mejora gana en todas partes. La configuración correcta de motor y afinación depende de lo que realmente conduces.
+
+| Configuración | Prioridad | Mejor Para | Contrapartida |
+| --- | --- | --- | --- |
+| Orientada a velocidad | Velocidad máxima, potencia sostenida | Rectas largas, carreras de aceleración | Salidas y toma de curvas más débiles |
+| Orientada a aceleración | Respuesta de arranque, salidas rápidas | Lanzamientos de drag, rutas con paradas frecuentes | Menor velocidad punta |
+| Orientada a manejo | Dirección predecible, control | Drifting, curvas técnicas | Velocidad máxima reducida |
+| Equilibrada | Distribución uniforme de todos los atributos | Exploración, carreteras mixtas, trabajo de taxi | Ninguna fortaleza destacada |
+
+<CardGrid cols={2}>
+  <Card title="Configuración para Carreras de Aceleración">
+    - **Rendimiento del motor y aceleración primero**
+    - Plataforma estable que se mantiene recta en la salida
+    - Mínimo compromiso de manejo — la ruta tiene pocas curvas
+    - Prueba la respuesta de arranque repetidamente antes de competir
+  </Card>
+  <Card title="Configuración para Drift">
+    - **Manejo predecible por encima de la velocidad máxima**
+    - Respuesta clara a la dirección y al acelerador
+    - Control de recuperación cuando la parte trasera se desliza
+    - Entra en las curvas con suficiente velocidad para mantener el derrape
+  </Card>
+  <Card title="Configuración para Vehículo de Trabajo">
+    - **Durabilidad y fiabilidad primero**
+    - Manejo para viajes repetidos de entrega y taxi
+    - Menos interrupciones de reparación entre trabajos
+    - El control cómodo supera a la velocidad pura
+  </Card>
+  <Card title="Configuración para Carreras Multijugador">
+    - **Aceleración y manejo equilibrados**
+    - Probada bajo presión antes de competir
+    - Frenada temprana y salidas limpias alrededor de otros jugadores
+    - Adapta la configuración tras observar el formato de carrera
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Construye para la Ruta, No para la Hoja de Estadísticas">
+Un vehículo rápido no siempre es el más rápido en cada ruta. Adapta la dirección de tus mejoras al entorno de conducción y a tu propia capacidad para controlar el coche.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Prioridad de Mejora según la Etapa de Progreso">
+
+Las mejoras de motor compiten con las compras de vehículos, las reparaciones y los ingresos de trabajos por tu dinero. Gasta en el orden que mantenga sana la economía de tu garaje.
+
+| Etapa | Prioridad de Mejora | Razón |
+| --- | --- | --- |
+| Inicio del juego | Estado, manejo básico, aceleración básica | La fiabilidad importa más que el rendimiento máximo |
+| Medio juego | Durabilidad, rendimiento de viaje, piezas de motor específicas | Apoya las entregas, el trabajo de taxi y unos ingresos constantes |
+| Medio-final del juego | Aceleración, velocidad máxima, componentes de carreras | El potencial de carreras se desbloquea cuando los ingresos son estables |
+| Final del juego | Especialización de rol por vehículo | Cada coche obtiene un propósito definido en tu colección |
+
+<Callout type="warning" title="No Agotes tu Presupuesto">
+Compra piezas de rendimiento solo después de establecer una fuente de ingresos estable. El potencial de carreras es más útil cuando el vehículo todavía puede repararse y mejorarse sin vaciar el presupuesto de tu garaje.
+</Callout>
+
+<Checklist
+  id="engine-upgrade-goals"
+  title="Hitos de Mejora del Motor:"
+  items={[
+    "Repara completamente un vehículo inicial antes de mejorarlo",
+    "Completa una prueba de carretera de referencia y anota los puntos débiles",
+    "Instala una primera configuración completa de carreras en un coche dedicado",
+    "Construye un coche aparte orientado al manejo para drifting",
+    "Vuelve a probar todas las configuraciones existentes después de cada actualización"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Errores Comunes en las Mejoras de Motor">
+
+La mayoría de los arrepentimientos de afinación en Mechanic Legends provienen de un puñado de errores repetidos. Evítalos y tu dinero rendirá mucho más.
+
+| Error | Consecuencia | Solución |
+| --- | --- | --- |
+| Mejorar antes de reparar | Eficiencia reducida, piezas desperdiciadas | Restaura primero el estado |
+| Cambios de piezas aislados | Resultados confusos e inconsistentes | Planifica configuraciones completas |
+| Velocidad máxima en cada build | Incontrolable en las curvas | Adapta las piezas a la ruta |
+| Gastar todo el saldo de dinero | Sin fondos para reparaciones | Mantén una reserva de reparación |
+| Omitir pruebas de carretera | Efecto desconocido de cada mejora | Prueba después de cada grupo de cambios |
+| Ignorar las actualizaciones | Las configuraciones antiguas pueden desequilibrarse | Vuelve a probar las builds tras los parches |
+
+<Callout type="info" title="Las Actualizaciones Cambian el Equilibrio">
+Las funciones de taller y afinación pueden cambiar entre versiones. Cuando llegue una actualización, revisa tus vehículos existentes y vuelve a probar sus configuraciones de carrera anteriores antes de asumir que una build sigue siendo óptima. Consulta la [página oficial del juego en Roblox](https://www.roblox.com/games/9265443535/Car-Mechanic-Simulator) para los últimos anuncios del desarrollador.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo funcionan las mejoras de motor en Mechanic Legends?",
+    answer: "El trabajo del motor se maneja componente por componente en el taller. Inspeccionas el vehículo, retiras la pieza seleccionada mediante la interacción del taller, instalas un reemplazo y continúas hasta que el motor esté restaurado o mejorado. Las piezas de carreras se instalan de la misma manera después de que el motor base sea funcional."
+  },
+  {
+    question: "¿Debo reparar o mejorar primero mi motor?",
+    answer: "Repara siempre primero. Un vehículo dañado reduce la eficiencia y dificulta las actividades tempranas, y las piezas de rendimiento no pueden compensar un mal estado. Restaura la funcionalidad completa y luego invierte en mejoras."
+  },
+  {
+    question: "¿Cuál es la mejor configuración de motor para carreras de aceleración?",
+    answer: "Prioriza el rendimiento del motor y la aceleración, usa un vehículo estable que se mantenga recto durante la salida y evita comprometer el manejo, ya que las rutas de drag contienen pocas curvas. Prueba la respuesta de arranque repetidamente antes de entrar en una carrera."
+  },
+  {
+    question: "¿Las builds meta de mejora de motor cambian tras las actualizaciones?",
+    answer: "Sí. Las actualizaciones pueden alterar las piezas, la afinación y el equilibrio entre aceleración, velocidad y manejo. Después de cualquier actualización, repite el flujo básico de taller y vuelve a probar tus configuraciones de carrera existentes antes de confiar en ellas."
+  }
+]} />
+
+</Section>

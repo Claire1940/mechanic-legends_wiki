@@ -1,0 +1,186 @@
+import { Map, Wrench, Flame, DollarSign, Zap, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mejoras de Coches: Turbos, Motores y Guía de Ganancias",
+  description: "Aprende cómo funcionan las mejoras de coches en Mechanic Legends: turbinas, cambios de motor V6, radiadores, gestión de temperatura y estrategias rentables de reventa de coches.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b45309/fff?text=Car+Upgrades+Guide",
+  date: "2026-10-30",
+  author: "Equipo de Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Las **mejoras de coches** en Mechanic Legends incluyen turbinas, cambios de motor, radiadores y ajustes de suspensión
+- La **turbina cuesta 100,000 monedas** y mejora la aceleración, pero por sí sola puede no aumentar la velocidad máxima
+- Los **radiadores (20,000 monedas)** son obligatorios para conducir con seguridad; los coches se sobrecalientan y explotan a los 160°
+- **Los cambios de motor reinician las piezas**: reemplazar un 4 cilindros por un V6 borra todas tus mejoras instaladas
+- **Reventa de coches del desguace** es la forma más rápida de financiar tu construcción soñada
+</Callout>
+
+<Section icon={Wrench} title="Resumen de Mejoras de Coches: Qué Puedes Modificar">
+
+Las mejoras de coches son el corazón del progreso en Mechanic Legends. Cada vehículo que rescates del desguace puede desmontarse, repararse, repintarse y ajustarse en rendimiento en tu garaje personal. El camino de mejoras determina si un coche sigue siendo un cacharro lento o se convierte en un cohete callejero.
+
+**Lo Destacado del Video:**
+- Trabajando para conseguir una turbina de 100,000 monedas para un Pojo 206 rescatado
+- Los coches del desguace suelen carecer de radiadores y se sobrecalientan peligrosamente
+- La condición del motor sube del 50% al 92% tras reparaciones completas
+- Una turbina mejoró la aceleración, pero la velocidad máxima se mantuvo en 196 km/h
+- Cambiar a un motor V6 eliminó todas las piezas instaladas previamente
+
+<YouTubeEmbed videoId="QwSXLQ4MqOE" title="I UPGRADED MY CAR TO MAKE IT SUPER FAST IN ROBLOX!! (Mechanic Legends)" />
+
+Las categorías principales de mejoras se desglosan de la siguiente manera:
+
+| Mejora | Costo Aprox. | Efecto | Prioridad |
+| --- | --- | --- | --- |
+| Reparación de motor | Variable | Restaura potencia, aumenta el % de condición del motor | ★★★★★ |
+| Carga de batería | Bajo | Necesaria para arrancar el coche | ★★★★★ |
+| Radiador | 20,000 monedas | Previene el sobrecalentamiento y explosión | ★★★★★ |
+| Turbina/turbo | 100,000 monedas | Aceleración mucho más potente | ★★★★ |
+| Cambio de motor (V6) | Alto | Más potencia, reinicia las piezas instaladas | ★★★ |
+| Pintura/chapa | 10,000 monedas | Solo cosmético, rara vez añade valor de reventa | ★★ |
+| Bajar suspensión | Bajo | Cambio cosmético de estancia | ★ |
+
+<Callout type="warning" title="El Sobrecalentamiento Destruye Construcciones">
+Los coches sin radiador superan los 120° en cuestión de momentos con aceleración fuerte. A los **160° el motor se incendia y el coche explota**, destruyendo cada moneda que invertiste. Conduce con suavidad y vigila el indicador de temperatura en todo momento.
+</Callout>
+
+</Section>
+
+<Section icon={DollarSign} title="Financiando tus Mejoras: El Ciclo de Reventa de Coches">
+
+Las piezas de rendimiento son caras, y la turbina por sí sola cuesta 100,000 monedas. El ciclo probado para ganar dinero es comprar coches destrozados del desguace, restaurar sus motores y revenderlos al concesionario.
+
+La economía observada en ventas reales:
+
+| Coche | Costo de Compra | Costos Extra | Precio de Venta | Ganancia |
+| --- | --- | --- | --- | --- |
+| Corsa (solo motor) | 5,000 | Batería + reparaciones | 9,600 | **+4,600** |
+| Gol (pintado de rosa) | 5,000 | 10,000 pintura + reparaciones | 14,600 | **-400** |
+| Tercer coche (solo motor) | 5,000 | Batería + reparaciones | 34,000 | **+29,000** |
+
+Los números cuentan una historia clara: el trabajo cosmético costoso frecuentemente devora tu margen, mientras que ciertos modelos alcanzan precios de reventa sorprendentemente altos basándose únicamente en la condición del motor.
+
+<Callout type="tip" title="Sáltate el Taller de Pintura">
+Los trabajos de pintura cuestan 10,000 monedas y en las pruebas no añadieron casi nada al valor de reventa. Enfoca tu presupuesto en la condición del motor y el trabajo de batería, y luego vende. Deja que el comprador se preocupe por la estética.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Reventas Solo Motor">
+  - **Mejor relación ganancia-costo**
+  - Repara la culata y la batería
+  - La reventa a menudo duplica tu gasto
+  </Card>
+  <Card title="Restauraciones Completas">
+  - Techo de venta más alto
+  - Requiere una inversión de más de 15,000 monedas
+  - Arriesgado: los márgenes se reducen
+  </Card>
+  <Card title="Ahorro para la Construcción Soñada">
+  - Guarda las ganancias para la turbina
+  - Objetivo: 100,000 monedas
+  - Evita gastar en cosméticos
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Paso a Paso: Construye un Coche Rápido desde Chatarra">
+
+<Steps>
+  <Step num="1" title="Busca en el Desguace">
+  Explora el desguace en busca de un chasis barato. Los modelos Corsa y Gol cuestan unas 5,000 monedas. Revisa la condición del motor antes de comprar; un 50% de vida significa que se necesitan reparaciones.
+  </Step>
+  <Step num="2" title="Conduce a Casa con Cuidado">
+  La mayoría de los coches del desguace carecen de radiador. Mantén velocidades bajas, evita subidas largas y vigila la temperatura. Cualquier cosa que se acerque a los 140° significa que levantes el pie del acelerador inmediatamente.
+  </Step>
+  <Step num="3" title="Desmonta y Repara">
+  Retira todas las piezas del motor y la batería. Carga la batería, rectifica la culata y repara cada componente para llevar la condición del motor hacia el 90%+.
+  </Step>
+  <Step num="4" title="Reensambla y Prueba">
+  Reinstala todo, cierra el capó y haz una prueba de conducción suave. Un motor completamente reparado alcanza los 80-100 km/h rápidamente sin picos extremos de temperatura.
+  </Step>
+  <Step num="5" title="Vende y Reinvierte">
+  Entrega el coche al concesionario. Reinvierte las ganancias en más ventas o en la turbina de 100,000 monedas para tu coche personal.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Los Precios del Concesionario Varían según el Modelo">
+Compras idénticas de 5,000 monedas se vendieron por montos muy diferentes: 9,600 por un coche y 34,000 por otro. El concesionario parece favorecer ciertos modelos, así que experimenta para descubrir qué coches alcanzan primas en tu servidor.
+</Callout>
+
+</Section>
+
+<Section icon={Flame} title="Gestión de Temperatura: La Regla de los 160°">
+
+El sobrecalentamiento es la mayor amenaza para cualquier construcción en Mechanic Legends. Cada conducción arriesgada es una apuesta con tu inversión total.
+
+| Rango de Temperatura | Estado | Acción Recomendada |
+| --- | --- | --- |
+| 90° o menos | Seguro | Conducción normal |
+| 100-130° | Advertencia | Suelta el acelerador, evita colinas |
+| 130-155° | Crítico | Detente y deja que se enfríe |
+| 160° | **Explosión** | El coche se incendia, pérdida total |
+
+Sin radiador, incluso una aceleración moderada dispara las temperaturas. Instalar uno cuesta 20,000 monedas, lo cual solo vale la pena en coches que planeas conducir intensamente, no en ventas rápidas que vas a revender de inmediato.
+
+<Callout type="warning" title="Acelerar en Subida es una Trampa">
+Subir colinas a fondo sin radiador eleva la temperatura más rápido que conducir en terreno plano. Si tienes que subir un puente o pendiente, modera el acelerador y acepta la velocidad más lenta.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Turbinas y Cambios de Motor: Lecciones Costosas">
+
+La turbina es la mejora de rendimiento estrella, pero su comportamiento sorprende a muchos jugadores. En las pruebas, un Pojo de 4 cilindros con turbo arrancaba dramáticamente más fuerte, pero su velocidad máxima se mantuvo en **196 km/h**, justo por debajo de la marca de 200.
+
+Cambiar el motor es aún más trascendental. Reemplazar el 4 cilindros por un V6 **eliminó todas las piezas instaladas en el motor anterior**, incluyendo la turbina, obligando a recomprar todos los componentes. Presupuesta en consecuencia antes de comprometerte con un cambio de motor.
+
+<Checklist
+  id="turbo-build-goals"
+  title="Antes de Comprar una Turbina:"
+  items={[
+    "Ahorra 100,000 monedas con ventas de coches",
+    "Instala primero un radiador (20,000 monedas)",
+    "Verifica que la condición del motor supere el 90%",
+    "Acepta que la turbina mejora la aceleración, no la velocidad máxima",
+    "Nunca cambies el motor después de instalar una turbina a menos que puedas recomprar las piezas"
+  ]}
+/>
+
+<Callout type="success" title="Orden de Mejoras Inteligente">
+Primero el radiador, segundo las reparaciones del motor, y la turbina al final. Este orden protege tu inversión en cada etapa y evita la desilusión de ver un coche sobrecalentado y turboalimentado explotar antes de que puedas disfrutarlo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Las mejoras de coche como las turbinas aumentan la velocidad máxima en Mechanic Legends?",
+    answer: "No necesariamente. En las pruebas, una turbina mejoró dramáticamente la aceleración y la sensación de arranque, pero la velocidad máxima se mantuvo en 196 km/h. Combinar una turbina con un motor más potente como un V6 es el camino hacia mayores velocidades."
+  },
+  {
+    question: "¿Por qué desaparecieron mis piezas después de un cambio de motor?",
+    answer: "Cambiar el motor (por ejemplo, de 4 cilindros a V6) elimina todos los componentes instalados en el motor anterior, incluyendo turbinas y otras mejoras. Debes recomprar y reinstalar todo para el nuevo motor."
+  },
+  {
+    question: "¿Vale la pena instalar un radiador por 20,000 monedas?",
+    answer: "Sí, para coches que planeas conducir agresivamente, ya que previene la explosión a los 160°. Para ventas rápidas del desguace que vas a revender pronto, omítelo y deja que el comprador cubra el costo."
+  },
+  {
+    question: "¿Cuál es la forma más rápida de ganar 100,000 monedas para una turbina?",
+    answer: "Revende coches del desguace: compra chasis baratos por unas 5,000 monedas, repara solo el motor y la batería, y vende al concesionario. Las ventas de solo motor pueden generar varios miles de monedas cada una, y ciertos modelos se revenden por mucho más."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,177 @@
+import { Map, Target, Trophy, Wrench, Sparkles, ListChecks } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Missions clients dans Mechanic Legends : Guide complet et astuces de gains",
+  description: "Découvrez comment fonctionnent les missions clients dans Mechanic Legends : acceptez les commandes, diagnostiquez les pannes, achetez des pièces, terminez les réparations et maximisez les profits de votre garage.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Customer+Jobs+Guide",
+  date: "2026-10-30",
+  author: "Équipe Wiki de Mechanic Legends"
+}
+
+<Callout type="info" title="Guide rapide">
+- Les **missions clients** sont le cœur de la boucle de revenus dans Mechanic Legends — accepter, diagnostiquer, réparer, livrer.
+- **Le diagnostic d'abord** : inspectez le véhicule et suivez les pièces défectueuses avant tout achat.
+- **Le choix des commandes compte** : au début, privilégiez les missions simples (freins, liquides, bougies) pour accumuler de l'argent rapidement.
+- Les **points de compétence** accélèrent l'examen des pièces et réduisent les prix du magasin, augmentant le profit par mission.
+- **Terminez chaque mission** : les commandes accomplies rapportent de l'argent, de l'XP et des déblocages de réputation pour le garage.
+</Callout>
+
+<Section icon={Wrench} title="Comment fonctionnent les missions clients dans Mechanic Legends">
+
+Les missions clients sont la colonne vertébrale de votre garage dans Mechanic Legends. Un client arrive avec un problème — un moteur qui cogne, des freins usés ou un cliquetis mystérieux — et votre travail consiste à remettre son véhicule en état de marche contre un paiement. Chaque commande vous indique globalement ce qui nécessite attention, mais au fur et à mesure de votre progression, le jeu vous guide de moins en moins et s'attend à ce que vous effectuiez votre propre diagnostic.
+
+La boucle de base se déroule en quatre étapes :
+
+| Étape | Ce qui se passe | Action clé |
+|---|---|---|
+| 1. Accepter | Choisir une commande sur le tableau des missions | Confirmer l'entrée du véhicule dans votre garage |
+| 2. Diagnostiquer | Inspecter l'écran d'état de la voiture | Identifier et suivre les pièces défectueuses |
+| 3. Réparer | Démonter, remplacer, remonter | Installer correctement les nouvelles pièces |
+| 4. Livrer | Finaliser la commande | Recevoir argent, XP et réputation |
+
+<Callout type="tip" title="Suivez chaque panne">
+Avant de toucher au moindre boulon, ouvrez l'écran d'état de la voiture et marquez chaque pièce défectueuse. Le suivi met en évidence les composants cassés en bleu dans la vue de réparation, pour ne jamais perdre de temps à chercher la dernière panne cachée avant de terminer une mission.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Types de missions et leur rémunération">
+
+Toutes les missions clients ne se valent pas. Les premières commandes sont des remplacements simples ; les missions plus tardives combinent plusieurs systèmes et exigent une commande de pièces minutieuse. Comprendre les catégories vous aide à choisir du travail adapté à votre niveau de compétence et à votre portefeuille.
+
+| Type de mission | Difficulté | Travaux typiques | Potentiel de profit |
+|---|---|---|---|
+| Service de freins | Facile | Plaquettes, disques, étriers | Faible-Moyen |
+| Vidanges et filtres | Facile | Huile, filtre à air, bougies | Faible |
+| Travail de suspension | Moyen | Ressorts, amortisseurs, silentblocs | Moyen |
+| Réparations moteur | Difficile | Joints, distribution, internes | Élevé |
+| Missions boîte de vitesses | Difficile | Démontage complet et reconstruction | Élevé |
+| Pannes mystères | Variable | Nécessite un vrai diagnostic | Moyen-Élevé |
+
+<CardGrid cols={3}>
+  <Card title="Missions débutantes">
+    - **Freins et liquides**
+    - Réalisation rapide
+    - Stock de pièces bon marché
+    - Idéal pour l'XP au début
+  </Card>
+  <Card title="Missions intermédiaires">
+    - **Suspension et direction**
+    - Plusieurs pièces par commande
+    - Coûts de pièces modérés
+    - Croissance régulière des profits
+  </Card>
+  <Card title="Missions expertes">
+    - **Reconstructions moteur et boîte**
+    - Longues chaînes de réparation
+    - Paiements les plus élevés
+    - Nécessite un investissement en points de compétence
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Méfiez-vous des pannes mystères">
+Certaines missions clients plus avancées ne listent pas chaque problème à l'avance. Si le client signale seulement une « direction molle » ou un « bruit étrange », effectuez d'abord une inspection complète — une panne cachée non détectée empêche la commande d'être terminée tant que vous ne l'avez pas trouvée.
+</Callout>
+
+</Section>
+
+<Section icon={ListChecks} title="Étape par étape : terminer une mission client">
+
+Suivez ce flux de travail à chaque fois et les missions deviendront une seconde nature.
+
+<Steps>
+  <Step num="1" title="Accepter la bonne commande">
+    Ouvrez le menu des commandes et examinez l'aperçu de chaque mission. Au début de votre partie, choisissez des commandes avec des listes de pannes courtes et clairement indiquées pour apprendre les mécaniques sans gaspiller d'argent en erreurs coûteuses.
+  </Step>
+  <Step num="2" title="Monter la voiture sur le pont élévateur">
+    Sélectionnez le véhicule, ouvrez le menu d'interaction et envoyez-le sur le pont élévateur. Mettre la voiture sur la rampe vous donne un accès complet pour inspecter le dessous et suivre chaque pièce défectueuse.
+  </Step>
+  <Step num="3" title="Suivre les pannes et démonter">
+    Marquez chaque composant cassé sur l'écran d'état. Les pièces défectueuses brillent en bleu dans la vue de réparation ; les pièces amovibles sont surlignées en vert. Démontez par couches — il faut souvent retirer une roue ou un panneau avant d'accéder à la pièce visée.
+  </Step>
+  <Step num="4" title="Commander et installer les pièces">
+    Utilisez votre ordinateur pour acheter les pièces de rechange, en cherchant par nom de pièce pour éviter de faire défiler. Ajoutez chaque pièce nécessaire à votre liste de notes pendant l'inspection afin de tout acheter en une seule session de shopping, puis passez en mode montage et installez.
+  </Step>
+  <Step num="5" title="Terminer et encaisser">
+    Confirmez que chaque panne suivie est indiquée comme terminée, vérifiez le total des coûts et les bonus, puis finalisez la commande. La voiture repart automatiquement et votre récompense arrive.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Rappel sur le mode montage">
+Chaque fois que vous vous éloignez d'un véhicule et revenez, le menu d'interaction revient par défaut au démontage. Avant de maintenir le bouton d'action, vérifiez bien que vous êtes en mode montage afin d'installer au lieu de retirer les pièces que vous venez de remplacer.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Maximiser le profit par mission">
+
+Gagner plus avec les missions clients est une question d'efficacité, pas seulement de volume. De petites habitudes se transforment en revenus sérieux pour le garage.
+
+| Tactique de profit | En quoi cela aide | Impact |
+|---|---|---|
+| Achats groupés de pièces | Moins de courses, moins de temps mort | ★★★★ |
+| Vente des pièces retirées | Les vieux composants ont encore une valeur de ferraille | ★★ |
+| Point de compétence : remise magasin | 5 %+ de réduction sur chaque pièce achetée | ★★★★ |
+| Point de compétence : examen plus rapide | Diagnostic plus rapide sur chaque commande | ★★★★ |
+| Élargir le stock de pièces | Pièces courantes sous la main = réparations instantanées | ★★★ |
+
+**Choix de compétences recommandés en début de partie :**
+
+- **Examen des pièces plus rapide** — accélère absolument toutes les missions pour le reste du jeu.
+- **Remise magasin** — augmente directement votre marge sur chaque commande.
+- **Extension d'inventaire** — gardez en stock les articles à rotation rapide comme les disques de frein et les filtres à huile.
+
+<Callout type="warning" title="Ne vendez pas les pièces encore nécessaires">
+Les pièces cassées servent de référence visuelle lors de la commande des pièces de rechange, et revendre une pièce que vous deviez remonter vous coûte le prix plein tarif pour la racheter. Ne vous débarrassez des vieux composants qu'après la fin de la commande.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de routine quotidienne des missions">
+
+Suivez cette checklist à chaque session de jeu pour garder votre garage au top et faire grimper vos revenus.
+
+<Checklist
+  id="daily-job-routine"
+  title="Routine de session :"
+  items={[
+    "Accepter 2-3 missions clients adaptées à votre niveau",
+    "Inspecter et suivre toutes les pannes avant de démonter",
+    "Commander toutes les pièces de rechange en une seule fois",
+    "Terminer toutes les réparations suivies et finaliser les commandes",
+    "Vendre les pièces de ferraille restantes et renouveler le stock courant",
+    "Dépenser les nouveaux points de compétence en remises et vitesse"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Qu'est-ce que les missions clients dans Mechanic Legends ?",
+    answer: "Les missions clients sont des ordres de réparation passés par des clients dans le jeu. Vous acceptez une commande, diagnostiquez les pannes du véhicule, achetez des pièces de rechange, terminez la réparation et rendez la voiture contre de l'argent, de l'XP et de la réputation."
+  },
+  {
+    question: "Pourquoi ne puis-je pas terminer une mission client ?",
+    answer: "La cause la plus fréquente est une panne non suivie ou cachée. Rouvrez l'écran d'état de la voiture et comparez la liste des pannes avec vos réparations terminées. Les missions avancées peuvent nécessiter des étapes de diagnostic supplémentaires au-delà de la liste initiale."
+  },
+  {
+    question: "Dois-je vendre les vieilles pièces que je retire ?",
+    answer: "Oui, mais seulement après la fin de la commande. Les vieilles pièces se vendent très peu cher, mais elles servent de référence visuelle utile pour commander les pièces de rechange, et vendre une pièce encore nécessaire signifie la racheter au prix plein."
+  },
+  {
+    question: "Quelles missions clients conviennent le mieux aux débutants ?",
+    answer: "Commencez par les services de freins, les vidanges et les remplacements de composants uniques. Ces missions ont des listes de pannes courtes, des pièces bon marché et une réalisation rapide, ce qui les rend idéales pour apprendre la boucle de réparation tout en constituant du capital."
+  }
+]} />
+
+</Section>
