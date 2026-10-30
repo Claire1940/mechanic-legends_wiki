@@ -634,20 +634,14 @@
       "whatIs": "What Are Mechanic Legends Codes?",
       "whatIsDescription": "Mechanic Legends codes are promotional codes released by Mechanic Devs that reward players with free Cash, Spins, and other in-game bonuses. Codes are time-limited, so this page tracks the latest redemption information and error fixes.",
       "why": "Why Redeem Codes?",
-      "whySteps": [
-        {
-          "title": "Free Cash and Spins",
-          "description": "Codes grant rewards without grinding, giving your garage an early boost."
-        },
-        {
-          "title": "Faster Progression",
-          "description": "Extra Cash means earlier vehicle purchases and performance parts."
-        },
-        {
-          "title": "Zero Cost",
-          "description": "Redeeming a code takes seconds and never costs Robux or real money."
-        }
-      ],
+      "whySteps": {
+        "step1Title": "Free Cash and Spins",
+        "step1Description": "Codes grant rewards without grinding, giving your garage an early boost.",
+        "step2Title": "Faster Progression",
+        "step2Description": "Extra Cash means earlier vehicle purchases and performance parts.",
+        "step3Title": "Zero Cost",
+        "step3Description": "Redeeming a code takes seconds and never costs Robux or real money."
+      },
       "featured": "Featured Codes",
       "all": "All Codes"
     },
@@ -660,20 +654,14 @@
       "whatIs": "What Is the Mechanic Legends Guide Hub?",
       "whatIsDescription": "This hub collects the essential Mechanic Legends guides: garage-to-road progression for new players, practical tips and tricks, and strategy walkthroughs covering repairs, tuning, jobs, and races.",
       "why": "Why Follow Our Guides?",
-      "whySteps": [
-        {
-          "title": "Structured Progression",
-          "description": "Step-based paths take you from first garage visit to competitive races."
-        },
-        {
-          "title": "Avoid Wasted Cash",
-          "description": "Learn which vehicles and upgrades matter before you spend."
-        },
-        {
-          "title": "All Skill Levels",
-          "description": "Content ranges from first-time basics to advanced tuning strategy."
-        }
-      ],
+      "whySteps": {
+        "step1Title": "Structured Progression",
+        "step1Description": "Step-based paths take you from first garage visit to competitive races.",
+        "step2Title": "Avoid Wasted Cash",
+        "step2Description": "Learn which vehicles and upgrades matter before you spend.",
+        "step3Title": "All Skill Levels",
+        "step3Description": "Content ranges from first-time basics to advanced tuning strategy."
+      },
       "featured": "Featured Guides",
       "all": "All Guides"
     },
@@ -686,20 +674,14 @@
       "whatIs": "How Does Money Work in Mechanic Legends?",
       "whatIsDescription": "Cash in Mechanic Legends comes from repair jobs, deliveries, taxi work, and races. Each activity has different startup costs, difficulty, and payout speed, so picking the right route for your current vehicle matters.",
       "why": "Why Optimize Your Income?",
-      "whySteps": [
-        {
-          "title": "Buy Cars Sooner",
-          "description": "A faster income route means earlier dealership purchases."
-        },
-        {
-          "title": "Fund Performance Parts",
-          "description": "Tuning and engine upgrades require a steady Cash reserve."
-        },
-        {
-          "title": "Skip the Grind",
-          "description": "Choose activities with the best reward-to-time ratio for your stage."
-        }
-      ],
+      "whySteps": {
+        "step1Title": "Buy Cars Sooner",
+        "step1Description": "A faster income route means earlier dealership purchases.",
+        "step2Title": "Fund Performance Parts",
+        "step2Description": "Tuning and engine upgrades require a steady Cash reserve.",
+        "step3Title": "Skip the Grind",
+        "step3Description": "Choose activities with the best reward-to-time ratio for your stage."
+      },
       "featured": "Featured Money Guides",
       "all": "All Money Guides"
     },
@@ -712,20 +694,14 @@
       "whatIs": "What Are Upgrades in Mechanic Legends?",
       "whatIsDescription": "Upgrades cover engine components, performance parts, ECU units, and tuning setups that change acceleration, top speed, and handling. Choosing upgrades that match your activity is more valuable than buying the most expensive parts.",
       "why": "Why Plan Your Upgrades?",
-      "whySteps": [
-        {
-          "title": "Match Your Activity",
-          "description": "Drag racing, drifting, and jobs each reward different setups."
-        },
-        {
-          "title": "Control Your Budget",
-          "description": "Prioritized upgrades avoid wasting Cash on unused potential."
-        },
-        {
-          "title": "Test With Intent",
-          "description": "Change one part group at a time so every adjustment is measurable."
-        }
-      ],
+      "whySteps": {
+        "step1Title": "Match Your Activity",
+        "step1Description": "Drag racing, drifting, and jobs each reward different setups.",
+        "step2Title": "Control Your Budget",
+        "step2Description": "Prioritized upgrades avoid wasting Cash on unused potential.",
+        "step3Title": "Test With Intent",
+        "step3Description": "Change one part group at a time so every adjustment is measurable."
+      },
       "featured": "Featured Upgrade Guides",
       "all": "All Upgrade Guides"
     },
@@ -738,20 +714,14 @@
       "whatIs": "What Cars Are in Mechanic Legends?",
       "whatIsDescription": "Mechanic Legends features 50+ cars across starter, work, performance, and collection roles. Each vehicle differs in price, condition, upgrade potential, and the activities it suits best, from deliveries to drag races.",
       "why": "Why Compare Cars Before Buying?",
-      "whySteps": [
-        {
-          "title": "Protect Your Budget",
-          "description": "The right first car leaves Cash for repairs and essential parts."
-        },
-        {
-          "title": "Match Role to Use",
-          "description": "Work cars earn steadily; performance cars win races."
-        },
-        {
-          "title": "Plan Your Collection",
-          "description": "Long-term garage goals need deliberate purchase order."
-        }
-      ],
+      "whySteps": {
+        "step1Title": "Protect Your Budget",
+        "step1Description": "The right first car leaves Cash for repairs and essential parts.",
+        "step2Title": "Match Role to Use",
+        "step2Description": "Work cars earn steadily; performance cars win races.",
+        "step3Title": "Plan Your Collection",
+        "step3Description": "Long-term garage goals need deliberate purchase order."
+      },
       "featured": "Featured Car Guides",
       "all": "All Car Guides"
     },
@@ -764,20 +734,14 @@
       "whatIs": "How Does Repair Work in Mechanic Legends?",
       "whatIsDescription": "Repairing is the core loop of Mechanic Legends: inspect damaged vehicles, replace body parts and engine components in the workshop, and restore cars for customers or your own garage. Repair jobs are also the steadiest early income source.",
       "why": "Why Master Repairs First?",
-      "whySteps": [
-        {
-          "title": "Steady Early Income",
-          "description": "Repair jobs pay consistently while you learn the workshop."
-        },
-        {
-          "title": "Workshop Familiarity",
-          "description": "Repair skills transfer directly to tuning and part swaps."
-        },
-        {
-          "title": "Protect Your Fleet",
-          "description": "Keeping your own cars repaired avoids performance penalties."
-        }
-      ],
+      "whySteps": {
+        "step1Title": "Steady Early Income",
+        "step1Description": "Repair jobs pay consistently while you learn the workshop.",
+        "step2Title": "Workshop Familiarity",
+        "step2Description": "Repair skills transfer directly to tuning and part swaps.",
+        "step3Title": "Protect Your Fleet",
+        "step3Description": "Keeping your own cars repaired avoids performance penalties."
+      },
       "featured": "Featured Repair Guides",
       "all": "All Repair Guides"
     },
@@ -790,20 +754,14 @@
       "whatIs": "What Features Does Mechanic Legends Have?",
       "whatIsDescription": "Beyond the core repair loop, Mechanic Legends includes Final Lap racing, customer jobs, repair shop management, a deep car parts catalog, and vehicle customization. Understanding each system helps you pick where to invest time and Cash.",
       "why": "Why Learn Every Feature?",
-      "whySteps": [
-        {
-          "title": "Find Your Loop",
-          "description": "Features combine into different earning and racing playstyles."
-        },
-        {
-          "title": "Catch Every Update",
-          "description": "New versions add cars, parts, and modes that change strategy."
-        },
-        {
-          "title": "Use the Full Simulator",
-          "description": "Customization and shop systems reward deeper game knowledge."
-        }
-      ],
+      "whySteps": {
+        "step1Title": "Find Your Loop",
+        "step1Description": "Features combine into different earning and racing playstyles.",
+        "step2Title": "Catch Every Update",
+        "step2Description": "New versions add cars, parts, and modes that change strategy.",
+        "step3Title": "Use the Full Simulator",
+        "step3Description": "Customization and shop systems reward deeper game knowledge."
+      },
       "featured": "Featured Features Guides",
       "all": "All Features Guides"
     }

@@ -634,20 +634,14 @@
       "whatIs": "O Que São os Codes do Mechanic Legends?",
       "whatIsDescription": "Os codes do Mechanic Legends são códigos promocionais lançados pela Mechanic Devs que recompensam os jogadores com Cash, Spins e outros bônus no jogo. Os codes têm duração limitada, então esta página acompanha as informações mais recentes de resgate e correções de erros.",
       "why": "Por Que Resgatar Codes?",
-      "whySteps": [
-        {
-          "title": "Cash e Spins Grátis",
-          "description": "Os codes concedem recompensas sem precisar farmar, dando um impulso inicial à sua garagem."
-        },
-        {
-          "title": "Progressão Mais Rápida",
-          "description": "Cash extra significa comprar veículos e peças de desempenho mais cedo."
-        },
-        {
-          "title": "Custo Zero",
-          "description": "Resgatar um code leva segundos e nunca custa Robux nem dinheiro real."
-        }
-      ],
+      "whySteps": {
+        "step1Title": "Cash e Spins Grátis",
+        "step1Description": "Os codes concedem recompensas sem precisar farmar, dando um impulso inicial à sua garagem.",
+        "step2Title": "Progressão Mais Rápida",
+        "step2Description": "Cash extra significa comprar veículos e peças de desempenho mais cedo.",
+        "step3Title": "Custo Zero",
+        "step3Description": "Resgatar um code leva segundos e nunca custa Robux nem dinheiro real."
+      },
       "featured": "Codes em Destaque",
       "all": "Todos os Codes"
     },
@@ -660,20 +654,14 @@
       "whatIs": "O Que É o Hub de Guias do Mechanic Legends?",
       "whatIsDescription": "Este hub reúne os guias essenciais do Mechanic Legends: progressão da garagem à pista para novos jogadores, dicas e truques práticos, e análises de estratégias cobrindo reparos, tuning, trabalhos e corridas.",
       "why": "Por Que Seguir Nossos Guias?",
-      "whySteps": [
-        {
-          "title": "Progressão Estruturada",
-          "description": "Caminhos passo a passo que levam você da primeira visita à garagem até corridas competitivas."
-        },
-        {
-          "title": "Evite Gastar Cash à Tola",
-          "description": "Saiba quais veículos e upgrades valem a pena antes de gastar."
-        },
-        {
-          "title": "Todos os Níveis de Habilidade",
-          "description": "O conteúdo vai do básico para iniciantes até estratégias avançadas de tuning."
-        }
-      ],
+      "whySteps": {
+        "step1Title": "Progressão Estruturada",
+        "step1Description": "Caminhos passo a passo que levam você da primeira visita à garagem até corridas competitivas.",
+        "step2Title": "Evite Gastar Cash à Tola",
+        "step2Description": "Saiba quais veículos e upgrades valem a pena antes de gastar.",
+        "step3Title": "Todos os Níveis de Habilidade",
+        "step3Description": "O conteúdo vai do básico para iniciantes até estratégias avançadas de tuning."
+      },
       "featured": "Guias em Destaque",
       "all": "Todos os Guias"
     },
@@ -686,20 +674,14 @@
       "whatIs": "Como Funciona o Dinheiro no Mechanic Legends?",
       "whatIsDescription": "O Cash no Mechanic Legends vem de trabalhos de reparo, entregas, trabalho de táxi e corridas. Cada atividade tem custos iniciais, dificuldade e velocidade de pagamento diferentes, então escolher a rota certa para o seu veículo atual faz diferença.",
       "why": "Por Que Otimizar Sua Renda?",
-      "whySteps": [
-        {
-          "title": "Compre Carros Mais Cedo",
-          "description": "Uma rota de renda mais rápida significa compras na concessionária mais cedo."
-        },
-        {
-          "title": "Financie Peças de Desempenho",
-          "description": "Tuning e upgrades de motor exigem uma reserva estável de Cash."
-        },
-        {
-          "title": "Pule o Grind",
-          "description": "Escolha atividades com a melhor relação recompensa-tempo para o seu estágio."
-        }
-      ],
+      "whySteps": {
+        "step1Title": "Compre Carros Mais Cedo",
+        "step1Description": "Uma rota de renda mais rápida significa compras na concessionária mais cedo.",
+        "step2Title": "Financie Peças de Desempenho",
+        "step2Description": "Tuning e upgrades de motor exigem uma reserva estável de Cash.",
+        "step3Title": "Pule o Grind",
+        "step3Description": "Escolha atividades com a melhor relação recompensa-tempo para o seu estágio."
+      },
       "featured": "Guias de Dinheiro em Destaque",
       "all": "Todos os Guias de Dinheiro"
     },
@@ -712,20 +694,14 @@
       "whatIs": "O Que São Upgrades no Mechanic Legends?",
       "whatIsDescription": "Os upgrades incluem componentes de motor, peças de desempenho, unidades de ECU e configurações de tuning que alteram aceleração, velocidade máxima e dirigibilidade. Escolher upgrades adequados à sua atividade vale mais do que comprar as peças mais caras.",
       "why": "Por Que Planejar Seus Upgrades?",
-      "whySteps": [
-        {
-          "title": "Combine Com a Sua Atividade",
-          "description": "Corridas de arrancada, drift e trabalhos premiam configurações diferentes."
-        },
-        {
-          "title": "Controle Seu Orçamento",
-          "description": "Upgrades priorizados evitam desperdiçar Cash em potencial não usado."
-        },
-        {
-          "title": "Teste com Intenção",
-          "description": "Mude um grupo de peças por vez para que cada ajuste seja mensurável."
-        }
-      ],
+      "whySteps": {
+        "step1Title": "Combine Com a Sua Atividade",
+        "step1Description": "Corridas de arrancada, drift e trabalhos premiam configurações diferentes.",
+        "step2Title": "Controle Seu Orçamento",
+        "step2Description": "Upgrades priorizados evitam desperdiçar Cash em potencial não usado.",
+        "step3Title": "Teste com Intenção",
+        "step3Description": "Mude um grupo de peças por vez para que cada ajuste seja mensurável."
+      },
       "featured": "Guias de Upgrades em Destaque",
       "all": "Todos os Guias de Upgrades"
     },
@@ -738,20 +714,14 @@
       "whatIs": "Quais Carros Existem no Mechanic Legends?",
       "whatIsDescription": "O Mechanic Legends conta com mais de 50 carros divididos em papéis de iniciação, trabalho, desempenho e coleção. Cada veículo difere em preço, condição, potencial de upgrade e nas atividades em que se sai melhor, de entregas a corridas de arrancada.",
       "why": "Por Que Comparar Carros Antes de Comprar?",
-      "whySteps": [
-        {
-          "title": "Proteja Seu Orçamento",
-          "description": "O carro inicial certo deixa Cash para reparos e peças essenciais."
-        },
-        {
-          "title": "Alinhe o Papel ao Uso",
-          "description": "Carros de trabalho geram renda estável; carros de desempenho vencem corridas."
-        },
-        {
-          "title": "Planeje Sua Coleção",
-          "description": "Metas de garagem de longo prazo exigem uma ordem de compra deliberada."
-        }
-      ],
+      "whySteps": {
+        "step1Title": "Proteja Seu Orçamento",
+        "step1Description": "O carro inicial certo deixa Cash para reparos e peças essenciais.",
+        "step2Title": "Alinhe o Papel ao Uso",
+        "step2Description": "Carros de trabalho geram renda estável; carros de desempenho vencem corridas.",
+        "step3Title": "Planeje Sua Coleção",
+        "step3Description": "Metas de garagem de longo prazo exigem uma ordem de compra deliberada."
+      },
       "featured": "Guias de Carros em Destaque",
       "all": "Todos os Guias de Carros"
     },
@@ -764,20 +734,14 @@
       "whatIs": "Como Funciona a Reparação em Mechanic Legends?",
       "whatIsDescription": "Reparar é o ciclo central de Mechanic Legends: inspecione veículos danificados, substitua peças de carroçaria e componentes de motor na oficina e restaure carros para clientes ou para a sua própria garagem. Os trabalhos de reparação são também a fonte de rendimento inicial mais estável.",
       "why": "Porquê Dominar as Reparações Primeiro?",
-      "whySteps": [
-        {
-          "title": "Rendimento Inicial Estável",
-          "description": "Os trabalhos de reparação pagam de forma consistente enquanto aprende a lidar com a oficina."
-        },
-        {
-          "title": "Familiaridade com a Oficina",
-          "description": "As habilidades de reparação transferem-se diretamente para o tuning e a troca de peças."
-        },
-        {
-          "title": "Proteja a Sua Frota",
-          "description": "Manter os seus próprios carros reparados evita penalizações de desempenho."
-        }
-      ],
+      "whySteps": {
+        "step1Title": "Rendimento Inicial Estável",
+        "step1Description": "Os trabalhos de reparação pagam de forma consistente enquanto aprende a lidar com a oficina.",
+        "step2Title": "Familiaridade com a Oficina",
+        "step2Description": "As habilidades de reparação transferem-se diretamente para o tuning e a troca de peças.",
+        "step3Title": "Proteja a Sua Frota",
+        "step3Description": "Manter os seus próprios carros reparados evita penalizações de desempenho."
+      },
       "featured": "Guias de Reparação em Destaque",
       "all": "Todos os Guias de Reparação"
     },
@@ -790,20 +754,14 @@
       "whatIs": "Que Funcionalidades Tem Mechanic Legends?",
       "whatIsDescription": "Para além do ciclo central de reparação, Mechanic Legends inclui corridas Final Lap, trabalhos de clientes, gestão de oficina de reparações, um extenso catálogo de peças de carros e personalização de veículos. Compreender cada sistema ajuda-o a decidir onde investir tempo e Cash.",
       "why": "Porquê Aprender Todas as Funcionalidades?",
-      "whySteps": [
-        {
-          "title": "Encontre o Seu Ciclo de Jogo",
-          "description": "As funcionalidades combinam-se em diferentes estilos de jogo para ganhar dinheiro e correr."
-        },
-        {
-          "title": "Acompanhe Cada Atualização",
-          "description": "Novas versões adicionam carros, peças e modos que mudam a estratégia."
-        },
-        {
-          "title": "Aproveite o Simulador Completo",
-          "description": "A personalização e os sistemas da oficina recompensam um conhecimento mais profundo do jogo."
-        }
-      ],
+      "whySteps": {
+        "step1Title": "Encontre o Seu Ciclo de Jogo",
+        "step1Description": "As funcionalidades combinam-se em diferentes estilos de jogo para ganhar dinheiro e correr.",
+        "step2Title": "Acompanhe Cada Atualização",
+        "step2Description": "Novas versões adicionam carros, peças e modos que mudam a estratégia.",
+        "step3Title": "Aproveite o Simulador Completo",
+        "step3Description": "A personalização e os sistemas da oficina recompensam um conhecimento mais profundo do jogo."
+      },
       "featured": "Guias de Funcionalidades em Destaque",
       "all": "Todos os Guias de Funcionalidades"
     }
