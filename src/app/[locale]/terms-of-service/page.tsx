@@ -156,7 +156,7 @@ export default function TermsOfService() {
             <ul>
               <li><strong>Accuracy:</strong> We strive to provide accurate information, but we do not guarantee that all content is current, complete, or error-free. Game updates may render information outdated.</li>
               <li><strong>Availability:</strong> We do not guarantee that the Website will be available at all times or free from interruptions, errors, or technical issues.</li>
-              <li><strong>Third-Party Content:</strong> We are not responsible for the accuracy or reliability of information obtained from third-party sources.</li>
+              <li><strong>Third-Party Content:</strong> We are not responsible for the accuracy or completeness of information obtained from third-party sources.</li>
               <li><strong>Demo Availability:</strong> Roblox game availability and updates may change without notice. We are not responsible for demo access or game changes.</li>
             </ul>
             <p>

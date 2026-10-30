@@ -95,7 +95,7 @@ export default function About() {
               and powerful tools</strong> that help them succeed in the game. We strive to:
             </p>
             <ul>
-              <li><strong>Provide reliable information:</strong> Keep our content updated with the latest game changes, new items, and balance updates</li>
+              <li><strong>Provide accurate information:</strong> Keep our content updated with the latest game changes, new items, and balance updates</li>
               <li><strong>Build useful tools:</strong> Develop guides, crafting calculators, and planners that help players make informed decisions</li>
               <li><strong>Foster community:</strong> Create a welcoming space where players can learn, share strategies, and grow together</li>
               <li><strong>Stay accessible:</strong> Keep all resources free and easy to use for players of all skill levels</li>

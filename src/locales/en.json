@@ -53,696 +53,511 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Mechanic Legends Gameplay",
+    "description": "Repair, dismantle, tune and race 50+ cars in Mechanic Legends, the Roblox car repair and tuning simulator by Mechanic Devs."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Mechanic Legends",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Eight core guides covering codes, progression, money, cars, tuning, jobs, racing, and updates in Mechanic Legends",
     "cards": [
       {
+        "icon": "Ticket",
+        "title": "Mechanic Legends Codes",
+        "description": "Active codes, redemption steps, and error fixes"
+      },
+      {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "Mechanic Legends Beginner Guide",
+        "description": "Garage-to-road progression for new players"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Coins",
+        "title": "Mechanic Legends Money Making Guide",
+        "description": "Compare repairs, jobs, deliveries, and races"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Car",
+        "title": "Mechanic Legends Cars and Dealership Guide",
+        "description": "Vehicle roles, prices, and buying order"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Wrench",
+        "title": "Mechanic Legends Tuning and Engine Parts Guide",
+        "description": "Engine work, racing parts, and tuning setups"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Briefcase",
+        "title": "Mechanic Legends Jobs and Repair Guide",
+        "description": "Repair, delivery, and taxi workflows"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "Flag",
+        "title": "Mechanic Legends Drag Race and Drift Guide",
+        "description": "Race prep, driving lines, and setups"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Megaphone",
+        "title": "Mechanic Legends Updates and Features",
+        "description": "New cars, parts, and version changes"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
-        {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "mechanicLegendsCodes": {
+      "title": "Mechanic Legends Codes",
+      "eyebrow": "Codes & Rewards",
+      "subtitle": "Check available redemption information, rewards, and the correct way to enter codes in Mechanic Legends.",
+      "intro": "Mechanic Legends codes can provide useful bonuses such as Cash, Spins, or other in-game rewards. Open the game, locate the code interface, enter each code exactly as displayed, and redeem it before the code expires.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "code": "Active code list",
+          "status": "Check in-game",
+          "reward": "Cash, Spins, or promotional rewards when an active code is available",
+          "details": "Enter codes exactly as provided, including capitalization and numbers. A code can only be redeemed when the developer has enabled it."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "code": "Redemption steps",
+          "status": "How to redeem",
+          "reward": "Applies the reward attached to a valid code",
+          "details": "Launch Mechanic Legends, enter the garage or main interface, open the Codes or gift-code option, type the code into the input field, and select Redeem."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "code": "Code error guide",
+          "status": "Troubleshooting",
+          "reward": "No reward is granted until the code is accepted",
+          "details": "Common causes include an expired promotion, incorrect capitalization, extra spaces, a code already redeemed on the account, or entering the code in the wrong interface."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "mechanicLegendsBeginnerGuide": {
+      "title": "Mechanic Legends Beginner Guide",
+      "eyebrow": "New Player Guide",
+      "subtitle": "Start Strong in Mechanic Legends: follow a practical garage-to-road progression covering vehicles, repairs, upgrades, jobs, and activities.",
+      "intro": "New players should first learn the garage interface and basic vehicle controls before spending heavily on upgrades. A steady progression of repairs, jobs, and carefully chosen improvements provides the resources needed to unlock better vehicles and more profitable activities.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Enter the garage and learn the controls",
+          "description": "Start in the garage, inspect the available interaction points, and learn how to move between the vehicle, repair area, dealership, and activity locations.",
+          "focus": [
+            "Vehicle interaction",
+            "Garage navigation",
+            "Repair and upgrade menus"
+          ]
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Choose an affordable starter vehicle",
+          "description": "Purchase a vehicle that fits the starting budget and keep enough Cash available for repairs and essential improvements instead of spending the entire balance immediately.",
+          "focus": [
+            "Purchase price",
+            "Remaining repair budget",
+            "Everyday usability"
+          ]
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Repair the vehicle before upgrading it",
+          "description": "Restore the vehicle to a usable condition before investing in performance parts. A damaged vehicle can reduce efficiency and make early activities harder to complete.",
+          "focus": [
+            "Vehicle condition",
+            "Repair cost",
+            "Basic functionality"
+          ]
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Complete beginner-friendly work",
+          "description": "Use available jobs, deliveries, or other low-risk activities to build Cash. Focus on consistent completion rather than expensive upgrades during the first stage.",
+          "focus": [
+            "Job completion",
+            "Travel efficiency",
+            "Steady income"
+          ]
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Upgrade for the activities you play",
+          "description": "Improve handling, acceleration, durability, or other relevant attributes according to your preferred activity. Avoid buying parts that do not improve your current route.",
+          "focus": [
+            "Handling",
+            "Acceleration",
+            "Durability",
+            "Activity-specific upgrades"
+          ]
+        },
+        {
+          "title": "Expand into events and better vehicles",
+          "description": "Once the vehicle is repaired and the garage has a stable income flow, try racing and other activities, then save toward vehicles with stronger performance or broader utility.",
+          "focus": [
+            "Event participation",
+            "Vehicle progression",
+            "Long-term savings"
+          ]
+        }
+      ]
+    },
+    "mechanicLegendsMoneyMaking": {
+      "title": "Mechanic Legends Money Making Guide",
+      "eyebrow": "Cash Strategies",
+      "subtitle": "Best Ways to Make Money: compare repairs, jobs, deliveries, taxi work, and racing to choose an income route for every stage of progression.",
+      "intro": "The best money-making activity depends on the vehicle you own, the amount of Cash available for repairs, and how confidently you can complete the activity. Start with steady work, reinvest selectively, and move into faster or more demanding activities as your vehicle improves.",
+      "items": [
+        {
+          "activity": "Repair damaged vehicles",
+          "startupCost": "Low to moderate",
+          "difficulty": "Low",
+          "incomeSpeed": "Steady",
+          "stage": "Early game",
+          "strategy": "Prioritize repair work when you need predictable income and are still learning the garage systems. Keep repair expenses under control so the activity remains profitable."
+        },
+        {
+          "activity": "Complete standard jobs",
+          "startupCost": "Low",
+          "difficulty": "Low to moderate",
+          "incomeSpeed": "Steady",
+          "stage": "Early to mid game",
+          "strategy": "Use regular jobs to build a steady Cash reserve before purchasing expensive vehicles or performance parts."
+        },
+        {
+          "activity": "Deliver packages or cargo",
+          "startupCost": "Low",
+          "difficulty": "Moderate",
+          "incomeSpeed": "Fast when routes are efficient",
+          "stage": "Early to mid game",
+          "strategy": "Choose deliveries that fit the vehicle's condition and travel ability. Efficient routing reduces downtime between rewards."
+        },
+        {
+          "activity": "Complete taxi tasks",
+          "startupCost": "Moderate",
+          "difficulty": "Moderate",
+          "incomeSpeed": "Consistent",
+          "stage": "Mid game",
+          "strategy": "Taxi work becomes more practical after the vehicle is dependable and can handle repeated trips without frequent repair interruptions."
+        },
+        {
+          "activity": "Participate in races",
+          "startupCost": "Moderate to high",
+          "difficulty": "High",
+          "incomeSpeed": "Fast when successful",
+          "stage": "Mid to late game",
+          "strategy": "Race after investing in suitable performance and handling improvements. Racing offers stronger upside but is less predictable when the vehicle is underpowered or difficult to control."
+        }
+      ]
+    },
+    "mechanicLegendsCarsDealership": {
+      "title": "Mechanic Legends Cars and Dealership Guide",
+      "eyebrow": "Vehicles & Dealership",
+      "subtitle": "Choose the Right Car for Every Activity: understand vehicle roles, dealership purchases, and how to match a car's strengths to repairs, deliveries, taxi work, and racing.",
+      "intro": "Vehicle selection in Mechanic Legends is about balancing purchase cost, current condition, performance, and intended use. A practical collection can include a steady everyday vehicle, a work-focused vehicle, and a faster option for competitive activities.",
+      "items": [
+        {
+          "category": "Starter and everyday vehicles",
+          "role": "General-purpose transportation",
+          "bestFor": [
+            "Garage progression",
+            "Standard jobs",
+            "Routine travel"
+          ],
+          "buyingGuidance": "Choose an affordable vehicle that leaves enough Cash for repairs and basic upgrades. Dependability is more valuable than peak performance during the opening stage.",
+          "upgradePriority": [
+            "Condition",
+            "Handling",
+            "Basic acceleration"
+          ]
+        },
+        {
+          "category": "Work and delivery vehicles",
+          "role": "Repeated task completion",
+          "bestFor": [
+            "Deliveries",
+            "Taxi tasks",
+            "Longer travel routes"
+          ],
+          "buyingGuidance": "Favor vehicles that remain dependable over multiple trips. A balanced setup reduces downtime and makes recurring work more consistent.",
+          "upgradePriority": [
+            "Durability",
+            "Handling",
+            "Travel performance"
+          ]
+        },
+        {
+          "category": "Performance and racing vehicles",
+          "role": "Competitive driving",
+          "bestFor": [
+            "Races",
+            "Events",
+            "High-speed routes"
+          ],
+          "buyingGuidance": "Purchase a performance-focused vehicle after establishing a stable income source. Racing potential is most useful when the vehicle can be repaired and upgraded without exhausting the garage budget.",
+          "upgradePriority": [
+            "Acceleration",
+            "Top speed",
+            "Handling"
+          ]
+        },
+        {
+          "category": "Collection and progression vehicles",
+          "role": "Long-term garage expansion",
+          "bestFor": [
+            "Vehicle collecting",
+            "Activity flexibility",
+            "Late-game goals"
+          ],
+          "buyingGuidance": "Expand the collection gradually and assign each vehicle a clear purpose. Keep versatile vehicles for everyday work and reserve specialized vehicles for activities where they perform best.",
+          "upgradePriority": [
+            "Role specialization",
+            "Performance potential",
+            "Maintenance cost"
+          ]
+        }
+      ]
+    },
+    "mechanicLegendsTuningEngine": {
+      "title": "Mechanic Legends Tuning and Engine Parts Guide",
+      "eyebrow": "Workshop Systems",
+      "subtitle": "Tune Every Vehicle for the Way You Race: learn the core workshop flow for removing engine components, replacing parts, installing racing upgrades, and improving vehicle performance.",
+      "intro": "Vehicle performance is shaped by the parts you install and the way you balance speed, acceleration, handling, and control. Use the workshop to inspect the vehicle, replace worn or lower-performing components, install racing parts, and build a setup that matches your preferred driving style.",
+      "steps": [
+        {
+          "title": "Inspect the vehicle before changing parts",
+          "description": "Start by checking the vehicle and identifying the areas that need attention. A complete inspection helps separate repair work from performance upgrades and prevents unnecessary part changes.",
+          "actions": [
+            "Enter the workshop with the vehicle you want to improve.",
+            "Review the available engine and vehicle components.",
+            "Identify damaged, missing, or lower-performance parts before beginning the upgrade."
+          ],
+          "performanceFocus": "Establishes a baseline for comparing later changes."
+        },
+        {
+          "title": "Remove and replace engine components",
+          "description": "Engine work is handled component by component. Remove the selected part, install a replacement, and continue until the engine is restored or upgraded.",
+          "actions": [
+            "Select the engine component that requires service.",
+            "Remove the existing part through the workshop interaction.",
+            "Install the replacement component and continue checking the remaining engine parts."
+          ],
+          "performanceFocus": "Restored components support consistent acceleration and top-speed performance."
+        },
+        {
+          "title": "Install racing-oriented parts",
+          "description": "After the basic engine condition is addressed, use available racing components to focus the vehicle toward competitive driving.",
+          "actions": [
+            "Choose performance parts that support the intended race type.",
+            "Prioritize engine upgrades for straight-line speed and acceleration.",
+            "Avoid sacrificing too much control when preparing for routes that require turning."
+          ],
+          "performanceFocus": "Performance parts are most effective when selected as a complete setup rather than as isolated upgrades."
+        },
+        {
+          "title": "Balance speed, acceleration, and handling",
+          "description": "A fast vehicle is not always the quickest vehicle on every route. Match the tuning direction to the driving environment and your ability to control the car.",
+          "actions": [
+            "Use a speed-focused setup for long straight sections and drag racing.",
+            "Use an acceleration-focused setup when quick launches and repeated starts matter.",
+            "Use a handling-focused setup for drifting, corners, and roads that require frequent correction."
+          ],
+          "performanceFocus": "Balanced builds are generally easier to control during exploration and mixed driving."
+        },
+        {
+          "title": "Test the setup and refine it",
+          "description": "Take the vehicle onto the road after each major change. Testing reveals whether the upgrade improves the way you actually drive.",
+          "actions": [
+            "Test launch response, acceleration, and top speed.",
+            "Check steering stability and control during turns.",
+            "Change one group of parts at a time so the effect of each adjustment is easier to understand."
+          ],
+          "performanceFocus": "Repeated testing turns workshop upgrades into a practical race setup."
+        }
+      ]
+    },
+    "mechanicLegendsJobsRepair": {
+      "title": "Mechanic Legends Jobs and Repair Guide",
+      "eyebrow": "Jobs and Earnings",
+      "subtitle": "Choose Jobs That Build Skill and Income: understand the basic workflow for repairing damaged vehicles, completing deliveries, and handling taxi work.",
+      "intro": "Jobs provide structured ways to earn progress while learning the game systems. Repair work develops workshop familiarity, delivery work emphasizes consistent travel, and taxi work rewards efficient driving between destinations. Start with manageable tasks, learn the required interactions, and increase the difficulty as your vehicle and driving confidence improve.",
+      "items": [
+        {
+          "title": "Repair damaged vehicles",
+          "summary": "Workshop-focused jobs require you to restore a damaged vehicle by identifying the required service and completing the repair process.",
+          "workflow": [
+            "Accept or select the available repair job.",
+            "Bring the assigned vehicle into the workshop area.",
+            "Inspect the damaged components and complete the required repair interactions.",
+            "Finish the job and collect the reward after the vehicle is restored."
+          ],
+          "tips": [
+            "Read the repair requirements before removing parts.",
+            "Work through the vehicle systematically instead of switching between unrelated components.",
+            "Use repair jobs to learn the workshop controls before investing heavily in performance tuning."
+          ],
+          "risk": "The main risk is incomplete repair work or spending time on upgrades that are not required for the job.",
+          "rating": "Recommended as a first job type"
+        },
+        {
+          "title": "Complete delivery work",
+          "summary": "Delivery jobs focus on transporting the required vehicle or cargo to a destination while maintaining an efficient route.",
+          "workflow": [
+            "Select a delivery assignment and review its destination.",
+            "Prepare a vehicle that is steady and easy to control.",
+            "Drive to the destination while avoiding unnecessary detours and collisions.",
+            "Complete the handoff and receive the job reward."
+          ],
+          "tips": [
+            "Use a controllable vehicle rather than choosing speed alone.",
+            "Learn the roads and common routes through repeated trips.",
+            "Avoid aggressive driving when a collision could slow down the delivery."
+          ],
+          "risk": "Poor route choices, crashes, and loss of time can reduce the efficiency of the run.",
+          "rating": "Recommended after learning basic driving"
+        },
+        {
+          "title": "Work as a taxi driver",
+          "summary": "Taxi work centers on picking up passengers, driving to the requested destination, and completing the trip efficiently.",
+          "workflow": [
+            "Accept the taxi assignment.",
+            "Locate and pick up the passenger.",
+            "Drive the passenger to the requested destination.",
+            "Complete the drop-off and collect the fare or job reward."
+          ],
+          "tips": [
+            "Use a vehicle with predictable handling and steady acceleration.",
+            "Plan turns early and keep the passenger route as direct as possible.",
+            "Practice smooth driving to reduce delays caused by crashes or missed turns."
+          ],
+          "risk": "Long detours, difficult vehicle control, and collisions can make the trip slower and less profitable.",
+          "rating": "Recommended after becoming comfortable with navigation"
+        },
+        {
+          "title": "Suggested beginner progression",
+          "summary": "A simple progression is to learn repairs first, then move into deliveries and taxi work once basic driving and navigation are familiar.",
+          "workflow": [
+            "Begin with repair jobs to understand vehicle condition and workshop interactions.",
+            "Move to delivery jobs to practice road travel and route planning.",
+            "Try taxi jobs after learning how to control the vehicle while following destinations.",
+            "Return to the most efficient job type when saving for vehicle improvements."
+          ],
+          "tips": [
+            "Use early rewards to improve dependability and control before chasing maximum speed.",
+            "Choose jobs that match the vehicle you currently own.",
+            "Repeat the job type you can complete consistently rather than relying on risky runs."
+          ],
+          "risk": "Taking difficult travel jobs before learning the route or vehicle controls can reduce completion efficiency.",
+          "rating": "Recommended overall route"
+        }
+      ]
+    },
+    "mechanicLegendsDragRaceDrift": {
+      "title": "Mechanic Legends Drag Race and Drift Guide",
+      "eyebrow": "Driving and Competition",
+      "subtitle": "Prepare the Right Car for Every Race: compare drag racing, drifting, road exploration, and multiplayer competition with practical preparation and driving advice.",
+      "intro": "Different activities reward different vehicle characteristics. Drag racing favors acceleration and straight-line speed, drifting requires controlled slides and predictable handling, while exploration and multiplayer events reward a setup that remains dependable across changing roads and opponents.",
+      "items": [
+        {
+          "title": "Drag racing",
+          "description": "Drag races emphasize launch response, acceleration, and the ability to maintain speed over a mostly straight course.",
+          "bestSetup": [
+            "Prioritize engine performance and acceleration.",
+            "Use a stable vehicle that can stay pointed straight during the launch.",
+            "Reduce unnecessary handling compromises when the route contains few turns."
+          ],
+          "drivingTips": [
+            "Prepare the vehicle before entering the race.",
+            "Accelerate smoothly and keep corrections small.",
+            "Use the available straight-line space to maintain momentum."
+          ],
+          "idealFor": "Players who prefer short, direct competitions and maximum straight-line performance."
+        },
+        {
+          "title": "Drifting",
+          "description": "Drifting is based on controlling a slide through turns while maintaining direction, momentum, and recovery control.",
+          "bestSetup": [
+            "Choose predictable handling over maximum top speed.",
+            "Use a vehicle that responds clearly to steering and throttle input.",
+            "Avoid a setup that becomes difficult to recover once the rear of the vehicle steps out."
+          ],
+          "drivingTips": [
+            "Enter corners with enough speed to initiate a slide without losing control.",
+            "Use steering and acceleration together to maintain the drift angle.",
+            "Correct gradually and exit the corner with the vehicle pointed toward the next section."
+          ],
+          "idealFor": "Players who enjoy technical driving, controlled slides, and corner-focused challenges."
+        },
+        {
+          "title": "Road exploration",
+          "description": "Exploration rewards a dependable vehicle that can handle varied roads, navigation, and repeated travel between activities.",
+          "bestSetup": [
+            "Use balanced acceleration and handling.",
+            "Choose dependability and control when learning the map or traveling between jobs.",
+            "Keep enough speed to travel efficiently without making every turn difficult."
+          ],
+          "drivingTips": [
+            "Learn major roads and turns through repeated trips.",
+            "Use controlled braking before corners instead of relying on last-second corrections.",
+            "Treat exploration as a way to practice routes before entering competitive events."
+          ],
+          "idealFor": "Players who want to discover the game world and build familiarity with travel routes."
+        },
+        {
+          "title": "Multiplayer races",
+          "description": "Multiplayer competition combines vehicle preparation, race awareness, and the ability to adapt when other players create pressure or block a preferred line.",
+          "bestSetup": [
+            "Select a vehicle that matches the race format rather than using one universal build.",
+            "Balance acceleration and handling when the route contains both straights and turns.",
+            "Test the setup before competing so you know how it reacts under pressure."
+          ],
+          "drivingTips": [
+            "Choose a clean racing line and avoid unnecessary contact.",
+            "Use early braking and controlled exits to remain consistent around other players.",
+            "Adapt the setup after observing whether the race favors launches, corners, or sustained speed."
+          ],
+          "idealFor": "Players who enjoy direct competition and comparing vehicle builds with other drivers."
+        }
+      ]
+    },
+    "mechanicLegendsUpdatesFeatures": {
+      "title": "Mechanic Legends Updates and Features",
+      "eyebrow": "Version Overview",
+      "subtitle": "Track the Features That Change Your Garage: use this overview to organize update information, vehicle additions, feature changes, and developer announcements from the official game pages.",
+      "intro": "Updates can affect vehicles, workshop systems, jobs, races, and the overall driving experience. Check the official game page when a new version appears, then compare the current description with your previous setup so you can identify new content and adjust your garage routine.",
+      "items": [
+        {
+          "category": "Vehicle additions",
+          "whatToCheck": "Look for newly available vehicles or changes to the vehicle selection.",
+          "playerImpact": "A new vehicle can create additional options for drag racing, drifting, exploration, or job completion.",
+          "action": "Test the vehicle in workshop and road activities before replacing an established build.",
+          "priority": "High"
+        },
+        {
+          "category": "Workshop and tuning features",
+          "whatToCheck": "Check for changes to engine work, part replacement, racing components, or vehicle performance systems.",
+          "playerImpact": "Changes to parts or tuning can alter the balance between acceleration, speed, and handling.",
+          "action": "Review existing vehicles after an update and retest their previous race setups.",
+          "priority": "High"
+        },
+        {
+          "category": "Jobs and rewards",
+          "whatToCheck": "Review changes to repair work, delivery tasks, taxi activities, and job rewards.",
+          "playerImpact": "Task order and preferred earning methods may change when job requirements or rewards are adjusted.",
+          "action": "Compare completion time and reward value across available jobs before choosing a farming route.",
+          "priority": "Medium"
+        },
+        {
+          "category": "Racing and driving activities",
+          "whatToCheck": "Look for new race options, drift activities, road content, or multiplayer changes.",
+          "playerImpact": "New activities may favor different vehicle setups and driving techniques.",
+          "action": "Prepare both a speed-focused build and a balanced handling build when the update adds new competition types.",
+          "priority": "High"
+        },
+        {
+          "category": "Gameplay and system changes",
+          "whatToCheck": "Review changes to controls, progression, garages, interaction flow, and general gameplay systems.",
+          "playerImpact": "Small system changes can affect how quickly players accept jobs, repair vehicles, or access activities.",
+          "action": "Repeat the basic workshop and job flow after updating so new interactions become familiar.",
+          "priority": "Medium"
+        },
+        {
+          "category": "Developer announcements",
+          "whatToCheck": "Read the latest official description and announcement text available on the game pages.",
+          "playerImpact": "Announcements provide the clearest overview of the intended focus of a new version.",
+          "action": "Use the official game page as the starting point for identifying current features and version changes.",
+          "priority": "High"
         }
       ]
     }
@@ -750,31 +565,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Mechanic Legends",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Mechanic Legends?",
+        "answer": "Mechanic Legends is a free Roblox car repair and tuning simulator by Mechanic Devs. You repair damaged vehicles, dismantle engines, install performance parts, complete jobs, and take modified cars to drag races and drift events across 50+ vehicles."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Is Mechanic Legends free to play?",
+        "answer": "Yes. Mechanic Legends is free to play on Roblox with optional in-game purchases, and it runs on PC, mobile, Xbox, and PlayStation."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How do I redeem codes in Mechanic Legends?",
+        "answer": "Open Mechanic Legends, enter the garage or main interface, find the Codes option, type a code exactly as shown, and select Redeem. Codes can expire, so redeem them as soon as possible."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How do I make money fast in Mechanic Legends?",
+        "answer": "Start with repair jobs for steady Cash, add deliveries once you know the roads, and move into taxi work and races as your vehicle improves. Reinvest earnings into parts that match the activity you play most."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Which car should I buy first in Mechanic Legends?",
+        "answer": "Pick an affordable starter vehicle that leaves Cash for repairs, then add a work vehicle for deliveries and a performance car for races as your garage grows."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Does Mechanic Legends keep getting updates?",
+        "answer": "Yes. Mechanic Legends receives updates with new cars, parts, features, and balance changes. Check the Updates and Features section on this wiki for the latest overview."
       }
     ]
   },

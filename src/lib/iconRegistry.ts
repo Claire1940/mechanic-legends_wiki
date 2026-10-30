@@ -28,6 +28,15 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // Mechanic Legends 主题图标
+  Ticket: LucideIcons.Ticket,
+  Coins: LucideIcons.Coins,
+  Car: LucideIcons.Car,
+  Wrench: LucideIcons.Wrench,
+  Briefcase: LucideIcons.Briefcase,
+  Flag: LucideIcons.Flag,
+  Megaphone: LucideIcons.Megaphone,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
