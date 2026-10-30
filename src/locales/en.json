@@ -1,20 +1,20 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Mechanic Legends Wiki - Cars, Tuning & Codes",
+      "description": "Explore Mechanic Legends Wiki for car builds, tuning guides, repair tips, parts, races, updates, codes, and Roblox gameplay help for every garage project.",
+      "keywords": "Mechanic Legends, Roblox, cars, tuning, repairs, parts, races, codes",
+      "ogTitle": "Mechanic Legends Wiki - Cars, Tuning & Codes",
+      "ogDescription": "Explore Mechanic Legends Wiki for car builds, tuning guides, repair tips, parts, races, updates, codes, and Roblox gameplay help for every garage project.",
+      "twitterTitle": "Mechanic Legends Wiki - Cars, Tuning & Codes",
+      "twitterDescription": "Explore Mechanic Legends Wiki for car builds, tuning guides, repair tips, parts, races, updates, and Roblox gameplay help for every garage project."
     }
   },
   "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -27,27 +27,28 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Roblox Car Repair & Tuning Simulator",
+    "title": "Mechanic Legends Wiki",
+    "description": "Repair, dismantle, tune and customize cars in Mechanic Legends. Explore 50+ vehicles, engine parts, paint jobs, stance setups, drag races, repair jobs and the latest Roblox updates.",
+    "keywords": "Mechanic Legends, Roblox, car repair, car tuning, car simulator, engine parts, drag racing, Mecánica Argentina",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "31.9M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "50+",
+        "label": "Cars Available"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "99%",
+        "label": "English Translation"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "2026",
+        "label": "Last Known Update"
       }
     }
   },
@@ -778,27 +779,27 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Build Your Mechanic Legend?",
+    "description": "Join the Mechanic Legends community on Discord for car builds, tuning setups, repair guides, and the latest Roblox updates!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Mechanic Legends Wiki",
+    "description": "Your complete resource hub for Mechanic Legends cars, tuning setups, repair guides, parts, races, and codes on Roblox.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "robloxGame": "Roblox Game Page",
+    "robloxGroup": "Mechanic Devs Group",
+    "youtube": "YouTube",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyright": "© 2026 Mechanic Legends Wiki. Not affiliated with Roblox Corporation or Mechanic Devs.",
+    "disclaimer": "Mechanic Legends Wiki is an independent fan-made website and is not affiliated with Roblox Corporation or Mechanic Devs. Mechanic Legends and related assets belong to their respective owners."
   },
   "pages": {
     "guides": {
